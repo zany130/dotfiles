@@ -1,0 +1,72 @@
+---
+runtime:
+  threads: ~
+manifest:
+  url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
+language: en-US
+theme: light
+roots:
+  - store: steam
+    path: /var/home/zany130/.local/share/Steam
+  - store: heroic
+    path: /var/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic
+  - store: lutris
+    path: /home/zany130/.config/lutris
+    database: ~
+redirects: []
+backup:
+  path: /home/zany130/ludusavi-backup
+  ignoredGames: []
+  filter:
+    excludeStoreScreenshots: false
+    cloud:
+      exclude: false
+      epic: false
+      gog: false
+      origin: false
+      steam: false
+      uplay: false
+    ignoredPaths: []
+    ignoredRegistry: []
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+  retention:
+    full: 1
+    differential: 0
+  format:
+    chosen: simple
+    zip:
+      compression: deflate
+    compression:
+      deflate:
+        level: 6
+      bzip2:
+        level: 6
+      zstd:
+        level: 10
+restore:
+  path: /home/zany130/ludusavi-backup
+  ignoredGames: []
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+scan:
+  showDeselectedGames: true
+  showUnchangedGames: true
+  showUnscannedGames: true
+cloud:
+  remote:
+    Custom:
+      id: Andres_pCloud
+  path: ludusavi-backup
+  synchronize: true
+apps:
+  rclone:
+    path: /run/user/1000/doc/7b4f3905/rclone
+    arguments: "--fast-list --ignore-checksum"
+customGames: []
