@@ -1,0 +1,7 @@
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
+
+# Added by ProtonUp-Qt on 15-07-2024 19:57:14
+if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi

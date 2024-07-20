@@ -1,0 +1,23 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = zany130
+	email = andresdortiz@gmail.com
+	signingkey = A14B4B0EDD568E77
+[commit]
+	gpgsign = true
+[safe]
+	directory = /opt/flutter
+[protocol "file"]
+	allow = always
+[init]
+	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential

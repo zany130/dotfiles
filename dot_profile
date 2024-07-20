@@ -1,0 +1,7 @@
+
+. "$HOME/.atuin/bin/env"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/zany130/.local/share/JetBrains/Toolbox/scripts"
+
