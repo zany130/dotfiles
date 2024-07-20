@@ -1,0 +1,92 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "Logitech Keyboard Device",
+                    "is_segment": false,
+                    "location": "",
+                    "name": "Logitech G512 RGB",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0A77307A3336",
+                    "vendor": "Logitech",
+                    "version": "",
+                    "zone_idx": 0
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "saturation": 255
+            },
+            "EffectClassName": "Bloom",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 79,
+            "Temperature": 0,
+            "Tint": 0
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw9",
+                    "name": "Corsair Commander Pro",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0E0500637329041A",
+                    "vendor": "Corsair",
+                    "version": "0.9.212",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw9",
+                    "name": "Corsair Commander Pro",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0E0500637329041A",
+                    "vendor": "Corsair",
+                    "version": "0.9.212",
+                    "zone_idx": 1
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "background": 0,
+                "bubbles_thickness": 10,
+                "max_bubbles": 10,
+                "max_expansion": 100,
+                "rarity": 50,
+                "speed_mult": 12
+            },
+            "EffectClassName": "Bubbles",
+            "FPS": 30,
+            "RandomColors": true,
+            "Slider2Val": 1,
+            "Speed": 1,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                4718847,
+                16711875,
+                16711922,
+                65302,
+                65310
+            ]
+        }
+    ],
+    "version": 2
+}

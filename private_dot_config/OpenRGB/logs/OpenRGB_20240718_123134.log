@@ -1,0 +1,51 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20240718_123134
+====================================================================================================
+
+1     |Info:    Found file: MyRGB.orp attempting to validate header
+1     |Info:    Valid v4 profile found for MyRGB
+1007  |Info:    ------------------------------------------------------
+1008  |Info:    |               Start device detection               |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    Initializing HID interfaces: Success
+1267  |Info:    ------------------------------------------------------
+1267  |Info:    |             Detecting I2C interfaces               |
+1267  |Info:    ------------------------------------------------------
+1314  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73DF Subsystem: 1458:2331
+1315  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1849:FFFF
+1315  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73DF Subsystem: 1458:2331
+1315  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1849:FFFF
+1315  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1315  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1315  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1458:2331
+1315  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73DF Subsystem: 1458:2331
+1318  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73DF Subsystem: 1458:2331
+1323  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1849:FFFF
+1323  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1323  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1323  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1458:2331
+1323  |Info:    ------------------------------------------------------
+1323  |Info:    |               Detecting I2C devices                |
+1323  |Info:    ------------------------------------------------------
+1413  |Info:    [ASRock X470 Taichi] Registering RGB controller
+2233  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2246  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2959  |Info:    ------------------------------------------------------
+2959  |Info:    |               Detecting I2C PCI devices            |
+2959  |Info:    ------------------------------------------------------
+2960  |Info:    ------------------------------------------------------
+2960  |Info:    |               Detecting HID devices                |
+2960  |Info:    ------------------------------------------------------
+3037  |Info:    [AMD Wraith Prism] Registering RGB controller
+3058  |Info:    [Corsair Commander Pro] Registering RGB controller
+3059  |Info:    [Logitech G512 RGB] Registering RGB controller
+3059  |Info:    ------------------------------------------------------
+3059  |Info:    |            Detecting libusb HID devices            |
+3059  |Info:    ------------------------------------------------------
+3065  |Info:    ------------------------------------------------------
+3065  |Info:    |              Detecting other devices               |
+3065  |Info:    ------------------------------------------------------
+3109  |Info:    ------------------------------------------------------
+3109  |Info:    |                Detection completed                 |
+3109  |Info:    ------------------------------------------------------
