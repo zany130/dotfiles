@@ -1,0 +1,15 @@
+file entropy:                    7.950836 (probably packed)
+fpu anti-disassembly:            no
+imagebase:                       normal
+entrypoint:                      normal
+DOS stub:                        normal
+TLS directory:                   not found
+timestamp:                       normal
+section count:                   3
+sections
+    section
+        .text:                           normal
+    section
+        .rsrc:                           normal
+    section
+        .reloc:                          small length

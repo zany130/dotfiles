@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kena Bridge of Spirits
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1954200
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/1954200.jpg
+Terminal=false
+Type=Application
+Categories=Game;

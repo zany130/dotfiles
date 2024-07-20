@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=reaper
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/.jpg
+Terminal=false
+Type=Application
+Categories=Game;

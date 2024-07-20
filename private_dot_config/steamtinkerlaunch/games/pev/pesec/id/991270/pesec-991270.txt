@@ -1,0 +1,24 @@
+ASLR:                            no
+DEP/NX:                          yes
+SEH:                             yes
+CFG:                             no
+Stack cookies (EXPERIMENTAL):    yes
+certificates
+    certificate
+        Length:                          11168 bytes
+        Revision:                        0x200 (2)
+        Type:                            0x2 (PKCS_SIGNED_DATA)
+        Signature:                       invalid
+        signers
+            signer
+                Issuer:                          Sectigo Public Code Signing Root R46
+            signer
+                Issuer:                          DigiCert Trusted Root G4
+            signer
+                Issuer:                          Sectigo Public Code Signing CA R36
+            signer
+                Issuer:                          PH3 GmbH
+            signer
+                Issuer:                          DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+            signer
+                Issuer:                          DigiCert Timestamp 2023

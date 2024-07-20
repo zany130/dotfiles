@@ -1,0 +1,20 @@
+ASLR:                            yes
+DEP/NX:                          yes
+SEH:                             yes
+CFG:                             no
+Stack cookies (EXPERIMENTAL):    yes
+certificates
+    certificate
+        Length:                          6080 bytes
+        Revision:                        0x200 (2)
+        Type:                            0x2 (PKCS_SIGNED_DATA)
+        Signature:                       invalid
+        signers
+            signer
+                Issuer:                          Symantec Time Stamping Services CA - G2
+            signer
+                Issuer:                          Symantec Time Stamping Services Signer - G4
+            signer
+                Issuer:                          KOEI TECMO GAMES CO., LTD.
+            signer
+                Issuer:                          Symantec Class 3 SHA256 Code Signing CA

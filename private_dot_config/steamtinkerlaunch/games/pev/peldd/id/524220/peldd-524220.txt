@@ -1,0 +1,14 @@
+Dependencies
+    KERNEL32.dll
+    USER32.dll
+    SHELL32.dll
+    d3d11.dll
+    dxgi.dll
+    steam_api64.dll
+    WINMM.dll
+    DINPUT8.dll
+    XINPUT1_3.dll
+    SETUPAPI.dll
+    GDI32.dll
+    ole32.dll
+    OLEAUT32.dll

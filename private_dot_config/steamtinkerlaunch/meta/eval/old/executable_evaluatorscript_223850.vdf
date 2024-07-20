@@ -1,0 +1,164 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"223850"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"0"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"Registry"
+			{
+				"HKEY_LOCAL_MACHINE\\SOFTWARE\\Futuremark\\3DMark"
+				{
+					"string"
+					{
+						"install_path"		"%INSTALLDIR%"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/mnt/GAMES/SteamLibrary/steamapps/common/3DMark"
+	}
+	"1"
+	{
+		"appid"		"223850"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"0"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"FmSysInfo"
+				{
+					"hasrunkey"		"HKEY_CURRENT_USER\\SOFTWARE\\Valve\\Steam\\Apps\\223850"
+					"process 1"		"%INSTALLDIR%\\SystemInfoSetupAssistant.exe"
+					"command 1"		"Futuremark_SystemInfo_5_71_1214.msi"
+					"MinimumHasRunValue"		"1214"
+				}
+			}
+		}
+		"linux_install_path"		"/mnt/GAMES/SteamLibrary/steamapps/common/3DMark"
+	}
+	"2"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 Update 4"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2012"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x86.exe"
+					"command 1"		"/quiet /norestart"
+					"nocleanup"		"1"
+				}
+				"x64 Update 4"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2012"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2012\\vcredist_x64.exe"
+					"command 1"		"/quiet /norestart"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/home/zany130/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"3"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 14.38.33135.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2022"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2022\\Microsoft Visual C++ 2022 x86.cmd"
+					"nocleanup"		"1"
+				}
+				"x64 14.38.33135.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2022"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2022\\Microsoft Visual C++ 2022 x64.cmd"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/home/zany130/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"4"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"dxsetup"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\DirectX\\Jun2010"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/zany130/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+	"5"
+	{
+		"appid"		"228980"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"1"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"4.5.2"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\4.5.2"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.5.2\\noop.cmd"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"ostype"		"Windows XP"
+					}
+				}
+				"4.5.2"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\4.5.2"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.5.2\\Microsoft .NET Framework 4.5.2.cmd"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/home/zany130/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+}

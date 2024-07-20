@@ -1,0 +1,761 @@
+DOS Header
+    Magic number:                    0x5a4d (MZ)
+    Bytes in last page:              144
+    Pages in file:                   3
+    Relocations:                     0
+    Size of header in paragraphs:    4
+    Minimum extra paragraphs:        0
+    Maximum extra paragraphs:        65535
+    Initial (relative) SS value:     0
+    Initial SP value:                0xb8
+    Initial IP value:                0
+    Initial (relative) CS value:     0
+    Address of relocation table:     0x40
+    Overlay number:                  0
+    OEM identifier:                  0
+    OEM information:                 0
+    PE header offset:                0x40
+COFF/File header
+    Machine:                         0x14c IMAGE_FILE_MACHINE_I386
+    Number of sections:              5
+    Date/time stamp:                 1666366326 (Fri, 21 Oct 2022 15:32:06 UTC)
+    Symbol Table offset:             0
+    Number of symbols:               0
+    Size of optional header:         0xe0
+    Characteristics:                 0x102
+    Characteristics names
+                                         IMAGE_FILE_EXECUTABLE_IMAGE
+                                         IMAGE_FILE_32BIT_MACHINE
+Optional/Image header
+    Magic number:                    0x10b (PE32)
+    Linker major version:            14
+    Linker minor version:            33
+    Size of .text section:           0x65a00
+    Size of .data section:           0x44000
+    Size of .bss section:            0
+    Entrypoint:                      0x3abbf
+    Address of .text section:        0x1000
+    Address of .data section:        0x67000
+    ImageBase:                       0x400000
+    Alignment of sections:           0x1000
+    Alignment factor:                0x200
+    Major version of required OS:    6
+    Minor version of required OS:    0
+    Major version of image:          0
+    Minor version of image:          0
+    Major version of subsystem:      6
+    Minor version of subsystem:      0
+    Size of image:                   0xac000
+    Size of headers:                 0x200
+    Checksum:                        0xad43f
+    Subsystem required:              0x2 (IMAGE_SUBSYSTEM_WINDOWS_GUI)
+    DLL characteristics:             0x8140
+    DLL characteristics names
+                                         IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE
+                                         IMAGE_DLLCHARACTERISTICS_NX_COMPAT
+                                         IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE
+    Size of stack to reserve:        0x100000
+    Size of stack to commit:         0x1000
+    Size of heap space to reserve:   0x100000
+    Size of heap space to commit:    0x1000
+Data directories
+    Directory
+        IMAGE_DIRECTORY_ENTRY_EXPORT:    0x7b840 (76 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_IMPORT:    0x7b88c (140 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_RESOURCE:  0x81000 (158200 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_SECURITY:  0xa7400 (9312 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_BASERELOC: 0xa8000 (15064 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_DEBUG:     0x79830 (84 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_TLS:       0x798c0 (24 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG: 0x79770 (64 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_IAT:       0x67000 (820 bytes)
+Imported functions
+    Library
+        Name:                            KERNEL32.dll
+        Functions
+            Function
+                Hint:                            651
+                Name:                            GetModuleFileNameW
+            Function
+                Hint:                            644
+                Name:                            GetLongPathNameW
+            Function
+                Hint:                            1526
+                Name:                            VirtualQuery
+            Function
+                Hint:                            995
+                Name:                            LoadLibraryExW
+            Function
+                Hint:                            561
+                Name:                            GetCurrentThreadId
+            Function
+                Hint:                            1517
+                Name:                            VerifyVersionInfoW
+            Function
+                Hint:                            1513
+                Name:                            VerSetConditionMask
+            Function
+                Hint:                            1428
+                Name:                            SetUnhandledExceptionFilter
+            Function
+                Hint:                            1576
+                Name:                            Wow64DisableWow64FsRedirection
+            Function
+                Hint:                            1580
+                Name:                            Wow64RevertWow64FsRedirection
+            Function
+                Hint:                            246
+                Name:                            CreateProcessW
+            Function
+                Hint:                            593
+                Name:                            GetExitCodeProcess
+            Function
+                Hint:                            655
+                Name:                            GetModuleHandleW
+            Function
+                Hint:                            993
+                Name:                            LoadLibraryA
+            Function
+                Hint:                            325
+                Name:                            EnterCriticalSection
+            Function
+                Hint:                            989
+                Name:                            LeaveCriticalSection
+            Function
+                Hint:                            893
+                Name:                            InitializeCriticalSectionAndSpinCount
+            Function
+                Hint:                            290
+                Name:                            DeleteCriticalSection
+            Function
+                Hint:                            1336
+                Name:                            SetEvent
+            Function
+                Hint:                            1256
+                Name:                            ResetEvent
+            Function
+                Hint:                            1536
+                Name:                            WaitForSingleObjectEx
+            Function
+                Hint:                            206
+                Name:                            CreateEventW
+            Function
+                Hint:                            933
+                Name:                            IsProcessorFeaturePresent
+            Function
+                Hint:                            925
+                Name:                            IsDebuggerPresent
+            Function
+                Hint:                            1493
+                Name:                            UnhandledExceptionFilter
+            Function
+                Hint:                            746
+                Name:                            GetStartupInfoW
+            Function
+                Hint:                            1133
+                Name:                            QueryPerformanceCounter
+            Function
+                Hint:                            771
+                Name:                            GetSystemTimeAsFileTime
+            Function
+                Hint:                            897
+                Name:                            InitializeSListHead
+            Function
+                Hint:                            377
+                Name:                            FatalAppExitA
+            Function
+                Hint:                            374
+                Name:                            ExpandEnvironmentStringsW
+            Function
+                Hint:                            1624
+                Name:                            lstrcmpW
+            Function
+                Hint:                            650
+                Name:                            GetModuleFileNameA
+            Function
+                Hint:                            652
+                Name:                            GetModuleHandleA
+            Function
+                Hint:                            762
+                Name:                            GetSystemDirectoryW
+            Function
+                Hint:                            1002
+                Name:                            LocalAlloc
+            Function
+                Hint:                            907
+                Name:                            InterlockedIncrement
+            Function
+                Hint:                            903
+                Name:                            InterlockedDecrement
+            Function
+                Hint:                            447
+                Name:                            FreeLibrary
+            Function
+                Hint:                            892
+                Name:                            InitializeCriticalSection
+            Function
+                Hint:                            876
+                Name:                            HeapSize
+            Function
+                Hint:                            812
+                Name:                            GetTimeZoneInformation
+            Function
+                Hint:                            1392
+                Name:                            SetStdHandle
+            Function
+                Hint:                            1079
+                Name:                            OutputDebugStringW
+            Function
+                Hint:                            717
+                Name:                            GetProcessHeap
+            Function
+                Hint:                            1334
+                Name:                            SetEnvironmentVariableW
+            Function
+                Hint:                            446
+                Name:                            FreeEnvironmentStringsW
+            Function
+                Hint:                            588
+                Name:                            GetEnvironmentStringsW
+            Function
+                Hint:                            491
+                Name:                            GetCommandLineW
+            Function
+                Hint:                            490
+                Name:                            GetCommandLineA
+            Function
+                Hint:                            687
+                Name:                            GetOEMCP
+            Function
+                Hint:                            454
+                Name:                            GetACP
+            Function
+                Hint:                            939
+                Name:                            IsValidCodePage
+            Function
+                Hint:                            874
+                Name:                            HeapReAlloc
+            Function
+                Hint:                            360
+                Name:                            EnumSystemLocalesW
+            Function
+                Hint:                            816
+                Name:                            GetUserDefaultLCID
+            Function
+                Hint:                            941
+                Name:                            IsValidLocale
+            Function
+                Hint:                            635
+                Name:                            GetLocaleInfoW
+            Function
+                Hint:                            977
+                Name:                            LCMapStringW
+            Function
+                Hint:                            170
+                Name:                            CompareStringW
+            Function
+                Hint:                            810
+                Name:                            GetTimeFormatW
+            Function
+                Hint:                            566
+                Name:                            GetDateFormatW
+            Function
+                Hint:                            1169
+                Name:                            ReadConsoleW
+            Function
+                Hint:                            609
+                Name:                            GetFileSizeEx
+            Function
+                Hint:                            1172
+                Name:                            ReadFile
+            Function
+                Hint:                            867
+                Name:                            HeapAlloc
+            Function
+                Hint:                            710
+                Name:                            GetProcAddress
+            Function
+                Hint:                            996
+                Name:                            LoadLibraryW
+            Function
+                Hint:                            556
+                Name:                            GetCurrentProcess
+            Function
+                Hint:                            1460
+                Name:                            TerminateProcess
+            Function
+                Hint:                            1100
+                Name:                            Process32Next
+            Function
+                Hint:                            557
+                Name:                            GetCurrentProcessId
+            Function
+                Hint:                            1098
+                Name:                            Process32First
+            Function
+                Hint:                            443
+                Name:                            FormatMessageW
+            Function
+                Hint:                            1007
+                Name:                            LocalFree
+            Function
+                Hint:                            631
+                Name:                            GetLastError
+            Function
+                Hint:                            269
+                Name:                            CreateToolhelp32Snapshot
+            Function
+                Hint:                            218
+                Name:                            CreateFileW
+            Function
+                Hint:                            1444
+                Name:                            Sleep
+            Function
+                Hint:                            1535
+                Name:                            WaitForSingleObject
+            Function
+                Hint:                            148
+                Name:                            CloseHandle
+            Function
+                Hint:                            1067
+                Name:                            OpenProcess
+            Function
+                Hint:                            1039
+                Name:                            MultiByteToWideChar
+            Function
+                Hint:                            528
+                Name:                            GetConsoleMode
+            Function
+                Hint:                            532
+                Name:                            GetConsoleOutputCP
+            Function
+                Hint:                            435
+                Name:                            FlushFileBuffers
+            Function
+                Hint:                            871
+                Name:                            HeapFree
+            Function
+                Hint:                            1593
+                Name:                            WriteConsoleW
+            Function
+                Hint:                            611
+                Name:                            GetFileType
+            Function
+                Hint:                            1594
+                Name:                            WriteFile
+            Function
+                Hint:                            748
+                Name:                            GetStdHandle
+            Function
+                Hint:                            370
+                Name:                            ExitProcess
+            Function
+                Hint:                            654
+                Name:                            GetModuleHandleExW
+            Function
+                Hint:                            448
+                Name:                            FreeLibraryAndExitThread
+            Function
+                Hint:                            905
+                Name:                            InterlockedExchangeAdd
+            Function
+                Hint:                            1574
+                Name:                            WideCharToMultiByte
+            Function
+                Hint:                            442
+                Name:                            FormatMessageA
+            Function
+                Hint:                            634
+                Name:                            GetLocaleInfoEx
+            Function
+                Hint:                            549
+                Name:                            GetCurrentDirectoryW
+            Function
+                Hint:                            201
+                Name:                            CreateDirectoryW
+            Function
+                Hint:                            393
+                Name:                            FindClose
+            Function
+                Hint:                            404
+                Name:                            FindFirstFileW
+            Function
+                Hint:                            399
+                Name:                            FindFirstFileExW
+            Function
+                Hint:                            416
+                Name:                            FindNextFileW
+            Function
+                Hint:                            602
+                Name:                            GetFileAttributesW
+            Function
+                Hint:                            599
+                Name:                            GetFileAttributesExW
+            Function
+                Hint:                            604
+                Name:                            GetFileInformationByHandle
+            Function
+                Hint:                            613
+                Name:                            GetFinalPathNameByHandleW
+            Function
+                Hint:                            622
+                Name:                            GetFullPathNameW
+            Function
+                Hint:                            1330
+                Name:                            SetEndOfFile
+            Function
+                Hint:                            1346
+                Name:                            SetFileInformationByHandle
+            Function
+                Hint:                            1349
+                Name:                            SetFilePointerEx
+            Function
+                Hint:                            36
+                Name:                            AreFileApisANSI
+            Function
+                Hint:                            188
+                Name:                            CopyFileW
+            Function
+                Hint:                            605
+                Name:                            GetFileInformationByHandleEx
+            Function
+                Hint:                            753
+                Name:                            GetStringTypeW
+            Function
+                Hint:                            898
+                Name:                            InitializeSRWLock
+            Function
+                Hint:                            1236
+                Name:                            ReleaseSRWLockExclusive
+            Function
+                Hint:                            0
+                Name:                            AcquireSRWLockExclusive
+            Function
+                Hint:                            894
+                Name:                            InitializeCriticalSectionEx
+            Function
+                Hint:                            1487
+                Name:                            TryEnterCriticalSection
+            Function
+                Hint:                            889
+                Name:                            InitializeConditionVariable
+            Function
+                Hint:                            1544
+                Name:                            WakeConditionVariable
+            Function
+                Hint:                            1543
+                Name:                            WakeAllConditionVariable
+            Function
+                Hint:                            1445
+                Name:                            SleepConditionVariableCS
+            Function
+                Hint:                            1446
+                Name:                            SleepConditionVariableSRW
+            Function
+                Hint:                            594
+                Name:                            GetExitCodeThread
+            Function
+                Hint:                            321
+                Name:                            EncodePointer
+            Function
+                Hint:                            283
+                Name:                            DecodePointer
+            Function
+                Hint:                            976
+                Name:                            LCMapStringEx
+            Function
+                Hint:                            168
+                Name:                            CompareStringEx
+            Function
+                Hint:                            469
+                Name:                            GetCPInfo
+            Function
+                Hint:                            1269
+                Name:                            RtlUnwind
+            Function
+                Hint:                            1155
+                Name:                            RaiseException
+            Function
+                Hint:                            1365
+                Name:                            SetLastError
+            Function
+                Hint:                            1478
+                Name:                            TlsAlloc
+            Function
+                Hint:                            1480
+                Name:                            TlsGetValue
+            Function
+                Hint:                            1481
+                Name:                            TlsSetValue
+            Function
+                Hint:                            1479
+                Name:                            TlsFree
+            Function
+                Hint:                            580
+                Name:                            GetDriveTypeW
+            Function
+                Hint:                            260
+                Name:                            CreateThread
+            Function
+                Hint:                            371
+                Name:                            ExitThread
+    Library
+        Name:                            USER32.dll
+        Functions
+            Function
+                Hint:                            502
+                Name:                            GetWindowThreadProcessId
+            Function
+                Hint:                            266
+                Name:                            EnumWindows
+            Function
+                Hint:                            303
+                Name:                            GetClassNameW
+            Function
+                Hint:                            487
+                Name:                            GetWindowLongW
+            Function
+                Hint:                            682
+                Name:                            PostMessageW
+            Function
+                Hint:                            177
+                Name:                            DestroyIcon
+            Function
+                Hint:                            189
+                Name:                            DispatchMessageW
+            Function
+                Hint:                            942
+                Name:                            TranslateMessage
+            Function
+                Hint:                            559
+                Name:                            IsDialogMessageW
+            Function
+                Hint:                            393
+                Name:                            GetMessageW
+            Function
+                Hint:                            601
+                Name:                            LoadImageW
+            Function
+                Hint:                            653
+                Name:                            MoveWindow
+            Function
+                Hint:                            106
+                Name:                            CreateDialogParamW
+            Function
+                Hint:                            242
+                Name:                            EndDialog
+            Function
+                Hint:                            276
+                Name:                            FindWindowW
+            Function
+                Hint:                            683
+                Name:                            PostQuitMessage
+            Function
+                Hint:                            181
+                Name:                            DestroyWindow
+            Function
+                Hint:                            910
+                Name:                            ShowWindow
+            Function
+                Hint:                            239
+                Name:                            EnableWindow
+            Function
+                Hint:                            593
+                Name:                            LoadBitmapW
+            Function
+                Hint:                            895
+                Name:                            SetWindowTextW
+            Function
+                Hint:                            890
+                Name:                            SetWindowPos
+            Function
+                Hint:                            455
+                Name:                            GetSystemMetrics
+            Function
+                Hint:                            888
+                Name:                            SetWindowLongW
+            Function
+                Hint:                            776
+                Name:                            ScreenToClient
+            Function
+                Hint:                            494
+                Name:                            GetWindowRect
+            Function
+                Hint:                            791
+                Name:                            SendMessageW
+            Function
+                Hint:                            305
+                Name:                            GetClientRect
+            Function
+                Hint:                            332
+                Name:                            GetDlgItem
+            Function
+                Hint:                            818
+                Name:                            SetDlgItemTextW
+            Function
+                Hint:                            647
+                Name:                            MessageBoxW
+            Function
+                Hint:                            1003
+                Name:                            wsprintfW
+            Function
+                Hint:                            580
+                Name:                            IsWindow
+            Function
+                Hint:                            275
+                Name:                            FindWindowExW
+    Library
+        Name:                            SHELL32.dll
+        Functions
+            Function
+                Hint:                            336
+                Name:                            SHGetFolderPathW
+            Function
+                Hint:                            431
+                Name:                            ShellExecuteExW
+    Library
+        Name:                            ADVAPI32.dll
+        Functions
+            Function
+                Hint:                            525
+                Name:                            OpenSCManagerW
+            Function
+                Hint:                            671
+                Name:                            RegSetValueExW
+            Function
+                Hint:                            612
+                Name:                            RegDeleteKeyValueW
+            Function
+                Hint:                            631
+                Name:                            RegGetValueW
+            Function
+                Hint:                            613
+                Name:                            RegDeleteKeyW
+            Function
+                Hint:                            101
+                Name:                            CloseServiceHandle
+            Function
+                Hint:                            236
+                Name:                            DeleteService
+            Function
+                Hint:                            582
+                Name:                            QueryServiceStatus
+            Function
+                Hint:                            106
+                Name:                            ControlService
+            Function
+                Hint:                            527
+                Name:                            OpenServiceW
+            Function
+                Hint:                            645
+                Name:                            RegOpenKeyW
+            Function
+                Hint:                            617
+                Name:                            RegDeleteValueW
+            Function
+                Hint:                            655
+                Name:                            RegQueryValueExW
+            Function
+                Hint:                            670
+                Name:                            RegSetValueExA
+            Function
+                Hint:                            641
+                Name:                            RegOpenKeyExA
+            Function
+                Hint:                            623
+                Name:                            RegEnumKeyExA
+            Function
+                Hint:                            649
+                Name:                            RegQueryInfoKeyW
+            Function
+                Hint:                            642
+                Name:                            RegOpenKeyExW
+            Function
+                Hint:                            593
+                Name:                            RegCloseKey
+    Library
+        Name:                            d3d11.dll
+        Functions
+            Function
+                Hint:                            6
+                Name:                            D3D11CreateDevice
+    Library
+        Name:                            COMCTL32.dll
+        Functions
+            Function
+                Ordinal:                         17
+Exported functions
+    Library
+        Name:                            launcher.exe
+        Functions
+            Function
+                Ordinal:                         1
+                Address:                         0x7db08
+                Name:                            NoHotPatch
+Sections
+    Section
+        Name:                            .text
+        Virtual Size:                    0x6598b (416139 bytes)
+        Virtual Address:                 0x1000
+        Size Of Raw Data:                0x65a00 (416256 bytes)
+        Pointer To Raw Data:             0x200
+        Number Of Relocations:           0
+        Characteristics:                 0x60000020
+        Characteristic Names
+                                             IMAGE_SCN_CNT_CODE
+                                             IMAGE_SCN_MEM_EXECUTE
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .rdata
+        Virtual Size:                    0x15b4c (88908 bytes)
+        Virtual Address:                 0x67000
+        Size Of Raw Data:                0x15c00 (89088 bytes)
+        Pointer To Raw Data:             0x65c00
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .data
+        Virtual Size:                    0x3c40 (15424 bytes)
+        Virtual Address:                 0x7d000
+        Size Of Raw Data:                0x1600 (5632 bytes)
+        Pointer To Raw Data:             0x7b800
+        Number Of Relocations:           0
+        Characteristics:                 0xc0000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+                                             IMAGE_SCN_MEM_WRITE
+    Section
+        Name:                            .rsrc
+        Virtual Size:                    0x269f8 (158200 bytes)
+        Virtual Address:                 0x81000
+        Size Of Raw Data:                0x26a00 (158208 bytes)
+        Pointer To Raw Data:             0x7ce00
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .reloc
+        Virtual Size:                    0x3ad8 (15064 bytes)
+        Virtual Address:                 0xa8000
+        Size Of Raw Data:                0x3c00 (15360 bytes)
+        Pointer To Raw Data:             0xa3800
+        Number Of Relocations:           0
+        Characteristics:                 0x42000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_DISCARDABLE
+                                             IMAGE_SCN_MEM_READ

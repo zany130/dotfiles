@@ -1,0 +1,27 @@
+file entropy:                    6.794298 (normal)
+fpu anti-disassembly:            no
+imagebase:                       normal
+entrypoint:                      normal
+DOS stub:                        normal
+TLS directory:                   not found
+timestamp:                       normal
+section count:                   9 (high)
+sections
+    section
+        .text:                           normal
+    section
+        .rdata:                          normal
+    section
+        .data:                           normal
+    section
+        .rodata:                         normal
+    section
+        .trace:                          normal
+    section
+        .data1:                          suspicious name, small length
+    section
+        _RDATA:                          suspicious name
+    section
+        .rsrc:                           normal
+    section
+        .reloc:                          normal
