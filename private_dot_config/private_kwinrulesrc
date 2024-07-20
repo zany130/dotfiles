@@ -1,0 +1,15 @@
+[46d8fb2d-0879-41aa-96ba-26470ea88276]
+above=true
+aboverule=2
+
+[General]
+count=2
+rules=da9f3b99-336b-455e-901f-bc88b2e0ef0f,1
+
+[da9f3b99-336b-455e-901f-bc88b2e0ef0f]
+Description=Fishbowl fix popups
+above=true
+aboverule=2
+types=952
+wmclass=steam_proton
+wmclassmatch=1
