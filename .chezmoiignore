@@ -32,7 +32,13 @@ key.txt.age
 .local/share/DisplayCAL/**
 .local/share/dolphin/kuserfeedback/**
 .local/share/feral-interactive/**
-.local/share/flatpak/**
+.local/share/flatpak/.**
+.local/share/flatpak/app/**
+.local/share/flatpak/appstream/** 
+.local/share/flatpak/db/**
+.local/share/flatpak/exports/** 
+.local/share/flatpak/repo/**
+.local/share/flatpak/runtime**
 .local/share/gvfs-metadata/**
 .local/share/gnome-boxes/**
 .local/share/com.vasilvestre.totkMM/**

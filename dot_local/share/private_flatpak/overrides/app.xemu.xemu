@@ -1,0 +1,3 @@
+[Context]
+filesystems=host;/home/zany130/Emulation/storage/xemu;
+shared=network;
