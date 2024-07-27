@@ -1,8 +1,8 @@
 [Unit]
 Description=headless apps to run in gamescope session
-After=gamescope-session-plus@.service
-Requires=gamescope-session-plus@.service
+After=openrgb.service
+Requires=openrgb.service
 
 [Service]
 Type=forking
-ExecStart=/home/zany130/Scripts/startGamescopeApps.sh
+ExecStart=/home/zany130/Scripts/startGamescopeAppsBazzite.sh

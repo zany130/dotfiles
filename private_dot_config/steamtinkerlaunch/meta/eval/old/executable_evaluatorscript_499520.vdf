@@ -33,7 +33,7 @@
 				}
 			}
 		}
-		"linux_install_path"		"/mnt/DATA/SteamLibrary/steamapps/common/The Turing Test"
+		"linux_install_path"		"/home/zany130/.local/share/Steam/steamapps/common/The Turing Test"
 	}
 	"1"
 	{
