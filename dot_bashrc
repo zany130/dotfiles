@@ -27,7 +27,7 @@ unset rc
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
-# Added by ProtonUp-Qt on 15-07-2024 19:57:14
-if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
-
 export PATH=$PATH:/home/zany130/.spicetify
+
+# Added by ProtonUp-Qt on 29-07-2024 19:29:10
+if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
