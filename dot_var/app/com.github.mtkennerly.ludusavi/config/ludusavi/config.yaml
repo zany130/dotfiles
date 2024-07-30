@@ -12,7 +12,7 @@ roots:
     path: /var/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic
   - store: lutris
     path: /home/zany130/.config/lutris
-    database: ~
+    database: /home/zany130/.local/share/lutris/pga.db
 redirects: []
 backup:
   path: /home/zany130/ludusavi-backup
@@ -49,11 +49,60 @@ backup:
         level: 10
 restore:
   path: /home/zany130/ludusavi-backup
-  ignoredGames: []
+  ignoredGames:
+    - 8-Bit Bayonetta
+    - A Hat in Time
+    - "AI: The Somnium Files - nirvanA Initiative"
+    - Attack on Titan 2
+    - Clannad
+    - Clannad Side Stories
+    - Dishonored
+    - Dolphin
+    - Edge of Eternity
+    - Figment
+    - "Hellblade: Senua's Sacrifice"
+    - Hogwarts Legacy
+    - If My Heart Had Wings
+    - Katamari Damacy Reroll
+    - "Kena: Bridge of Spirits"
+    - Left 4 Dead 2
+    - "Lucid9: Inciting Incident"
+    - Mad Father
+    - "Memory's Dogma CODE:01"
+    - Metro Exodus Enhanced Edition
+    - Moss
+    - "Naruto Shippuden: Ultimate Ninja Storm 4"
+    - "Naruto: Ultimate Ninja Storm"
+    - "NieR: Automata"
+    - Other EMU saves
+    - Pac-Man Museum Plus
+    - Ryujinx Saves
+    - Shadow of the Tomb Raider
+    - Sonic Frontiers
+    - "Star Ocean: The Last Hope 4K & Full HD Remaster"
+    - "Sunrider: Liberation Day"
+    - "Sunrider: Mask of Arcadius"
+    - Tales of Arise
+    - Tales of Symphonia
+    - "The Legend of Heroes: Trails from Zero"
+    - "The Legend of Heroes: Trails into Reverie"
+    - "The Legend of Heroes: Trails of Cold Steel"
+    - "The Legend of Heroes: Trails of Cold Steel II"
+    - "The Legend of Heroes: Trails of Cold Steel III"
+    - "The Legend of Heroes: Trails of Cold Steel IV"
+    - The Witcher
+    - "The Witcher 3: Wild Hunt"
+    - The Witness
+    - Thief
+    - Tomb Raider (2013)
+    - Valkyria Chronicles
+    - Yooka-Laylee
+    - Yuzu Saves
+    - "Zanki Zero: Last Beginning"
   toggledPaths: {}
   toggledRegistry: {}
   sort:
-    key: status
+    key: name
     reversed: false
 scan:
   showDeselectedGames: true
