@@ -4,7 +4,7 @@ runtime:
 manifest:
   url: "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml"
 language: en-US
-theme: light
+theme: dark
 roots:
   - store: steam
     path: /var/home/zany130/.local/share/Steam
@@ -26,7 +26,9 @@ backup:
       origin: false
       steam: false
       uplay: false
-    ignoredPaths: []
+    ignoredPaths:
+      - "**/steamtinkerlaunch/**"
+      - "**/SK_Res/"
     ignoredRegistry: []
   toggledPaths: {}
   toggledRegistry: {}
@@ -53,16 +55,20 @@ restore:
     - 8-Bit Bayonetta
     - A Hat in Time
     - "AI: The Somnium Files - nirvanA Initiative"
+    - "Anima: Gate of Memories"
     - Attack on Titan 2
     - Clannad
     - Clannad Side Stories
     - Dishonored
     - Dolphin
+    - Eden*
     - Edge of Eternity
+    - Fable Anniversary
     - Figment
     - "Hellblade: Senua's Sacrifice"
     - Hogwarts Legacy
     - If My Heart Had Wings
+    - Jet Set Radio
     - Katamari Damacy Reroll
     - "Kena: Bridge of Spirits"
     - Left 4 Dead 2
@@ -76,6 +82,7 @@ restore:
     - "NieR: Automata"
     - Other EMU saves
     - Pac-Man Museum Plus
+    - Persona 3 Reload
     - Ryujinx Saves
     - Shadow of the Tomb Raider
     - Sonic Frontiers
@@ -85,6 +92,9 @@ restore:
     - Tales of Arise
     - Tales of Symphonia
     - "The Legend of Heroes: Trails from Zero"
+    - "The Legend of Heroes: Trails in the Sky"
+    - "The Legend of Heroes: Trails in the Sky SC"
+    - "The Legend of Heroes: Trails in the Sky the 3rd"
     - "The Legend of Heroes: Trails into Reverie"
     - "The Legend of Heroes: Trails of Cold Steel"
     - "The Legend of Heroes: Trails of Cold Steel II"
@@ -99,7 +109,9 @@ restore:
     - Yooka-Laylee
     - Yuzu Saves
     - "Zanki Zero: Last Beginning"
-  toggledPaths: {}
+  toggledPaths:
+    Persona 3 Reload:
+      /var/home/zany130/.local/share/Steam: false
   toggledRegistry: {}
   sort:
     key: name
@@ -118,4 +130,39 @@ apps:
   rclone:
     path: /run/user/1000/doc/7b4f3905/rclone
     arguments: "--fast-list --ignore-checksum"
-customGames: []
+customGames:
+  - name: "The Legend of Heroes: Trails of Cold Steel III"
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/TrailsOfColdSteel3/ "
+      - "<base>/bin/x64/"
+    registry: []
+  - name: "The Legend of Heroes: Trails of Cold Steel IV"
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/TrailsOfColdSteel4/"
+      - "<base>/bin/Win64/"
+    registry: []
+  - name: Ryujinx Saves
+    files:
+      - ~/.config/Ryujinx/bis/system/save/
+      - ~/.config/Ryujinx/bis/user/save/
+    registry: []
+  - name: Other EMU saves
+    files:
+      - ~/Emulation/saves
+    registry: []
+  - name: "The Legend of Heroes: Trails into Reverie"
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/Falcom/"
+      - "<base>/bin/Win64/"
+    registry: []
+  - name: Persona 3 Reload
+    files:
+      - "<winAppData>/SEGA/P3R/Steam/<storeUserId>"
+      - "<winLocalAppData>/P3R/Saved/Config/WinGDK"
+      - "<winLocalAppData>/P3R/Saved/Config/WindowsNoEditor"
+      - "<winLocalAppData>/Packages/SEGAofAmericaInc.L0cb6b3aea_s751p9cej88mt/SystemAppData/wgs/<storeUserId>"
+      - "<base>/P3R/Binaries/Win64/"
+    registry: []
