@@ -1,0 +1,17 @@
+distro box apps
+
+gui-exported
+
+droidcam new
+droidcam old
+teamviewer
+scrcpy
+hplip
+obs-studio
+
+cli-exported
+
+bsdtar
+dosbox
+motivate
+senpai
