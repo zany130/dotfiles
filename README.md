@@ -14,7 +14,7 @@ For other install methods check [this link](https://www.chezmoi.io/install/)
 ## Download Dotfiles
 Download repository locally
 ```sh
-chezmoi init https://github.com/simoneruffini/dotfiles.git
+chezmoi init https://github.com/zany130/dotfiles.git
 ```
 ## Configure Chezmoi
 Create the configuration file for chezmoi:
