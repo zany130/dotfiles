@@ -1,3 +1,3 @@
 #!/bin/sh
 brew tap Homebrew/bundle
-brew bundle dump
+brew bundle dump -f
