@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=NieRAutomata
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/524220
-Icon=/home/zany130/.config/steamtinkerlaunch/games/header/524220.jpg
-Terminal=false
-Type=Application
-Categories=Game;

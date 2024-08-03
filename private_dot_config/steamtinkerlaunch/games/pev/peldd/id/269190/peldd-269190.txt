@@ -1,3 +1,0 @@
-Dependencies
-    UnityPlayer.dll
-    KERNEL32.dll
