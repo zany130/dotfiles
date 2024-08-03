@@ -294,10 +294,21 @@ _launch=Ctrl+Shift+Esc
 
 [services][org.kde.spectacle.desktop]
 RecordRegion=Meta+Shift+R
+RecordScreen=none
+RecordWindow=none
 _launch=Meta+Shift+S\tPrint
+
+[services][stopOBSReplay.sh.desktop]
+_launch=Meta+Ctrl+S
 
 [services][systemctl.desktop]
 _launch=Meta+F2
 
+[services][toggleMangoHud.sh.desktop]
+_launch=Ctrl+Shift+F12
+
+[services][toggleOBSStreaming.sh.desktop]
+_launch=Meta+Ctrl+B
+
 [services][ujust.desktop]
-_launch=Meta+Esc
+_launch=Meta+Shift+Esc

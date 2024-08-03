@@ -1,5 +1,6 @@
 **/*.src.ini
 key.txt.age
+Brewfile*
 .config/Mailspring/**
 .config/Microsoft/Microsoft Teams/Service Worker/**
 .config/heroic/tools/**
