@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=HatinTime
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/253230
-Icon=/home/zany130/.config/steamtinkerlaunch/games/header/253230.jpg
-Terminal=false
-Type=Application
-Categories=Game;

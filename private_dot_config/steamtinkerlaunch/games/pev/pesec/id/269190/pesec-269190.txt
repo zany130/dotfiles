@@ -1,4 +1,0 @@
-ASLR:                            yes
-DEP/NX:                          yes
-SEH:                             yes
-Stack cookies (EXPERIMENTAL):    yes

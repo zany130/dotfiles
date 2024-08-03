@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Protodroid DeLTA Demo
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/1756880
-Icon=/home/zany130/.config/steamtinkerlaunch/games/header/1756880.jpg
-Terminal=false
-Type=Application
-Categories=Game;

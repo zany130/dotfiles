@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=P3R
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/2161700
-Icon=/home/zany130/.config/steamtinkerlaunch/games/header/2161700.jpg
-Terminal=false
-Type=Application
-Categories=Game;
