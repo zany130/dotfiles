@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=vortex
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/31337
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/31337.jpg
+Terminal=false
+Type=Application
+Categories=Game;

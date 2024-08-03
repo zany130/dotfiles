@@ -1,0 +1,16 @@
+ASLR:                            no
+DEP/NX:                          yes
+SEH:                             yes
+CFG:                             no
+Stack cookies (EXPERIMENTAL):    yes
+certificates
+    certificate
+        Length:                          10688 bytes
+        Revision:                        0x200 (2)
+        Type:                            0x2 (PKCS_SIGNED_DATA)
+        Signature:                       invalid
+        signers
+            signer
+                Issuer:                          DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+            signer
+                Issuer:                          Sega of America, Inc.

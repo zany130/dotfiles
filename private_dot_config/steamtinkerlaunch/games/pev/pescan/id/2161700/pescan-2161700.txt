@@ -1,0 +1,47 @@
+file entropy:                    6.809457 (normal)
+fpu anti-disassembly:            yes
+imagebase:                       suspicious
+entrypoint:                      normal
+DOS stub:                        normal
+TLS directory:                   found - 1 function(s)
+timestamp:                       normal
+section count:                   19 (high)
+sections
+    section
+        .xtext:                          normal
+    section
+        .rsrc:                           normal
+    section
+        .xpdata:                         normal
+    section
+        .text:                           small length
+    section
+        .text1:                          suspicious name
+    section
+        .tls$:                           suspicious name, small length
+    section
+        .sdata:                          normal
+    section
+        .udata:                          normal
+    section
+        .srdata:                         small length
+    section
+        .debug:                          self-modifying
+    section
+        .ecode:                          normal
+    section
+        .00cfg:                          suspicious name, small length
+    section
+        .arch:                           small length
+    section
+        .rodata:                         small length, self-modifying
+    section
+        .data2:                          suspicious name, self-modifying
+    section
+        .xdata:                          small length, self-modifying
+    section
+        .bss:                            normal
+    section
+        .sxdata:                         normal
+    section
+        .impdata¬þ3:                     suspicious name

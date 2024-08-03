@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AoT2
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/601050
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/601050.jpg
+Terminal=false
+Type=Application
+Categories=Game;

@@ -1,0 +1,25 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"315810"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"0"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"font"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\MangaGamer\\Steam\\eden\\font"
+					"process 1"		"%INSTALLDIR%\\MerriweatherMG_FontInstaller.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/var/home/zany130/.local/share/Steam/steamapps/common/eden"
+	}
+}

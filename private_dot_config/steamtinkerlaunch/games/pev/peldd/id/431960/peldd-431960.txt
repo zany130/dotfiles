@@ -1,0 +1,7 @@
+Dependencies
+    KERNEL32.dll
+    USER32.dll
+    SHELL32.dll
+    ADVAPI32.dll
+    d3d11.dll
+    COMCTL32.dll

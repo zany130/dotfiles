@@ -1,0 +1,6 @@
+Dependencies
+    KERNEL32.dll
+    USER32.dll
+    ADVAPI32.dll
+    SHELL32.dll
+    SHLWAPI.dll

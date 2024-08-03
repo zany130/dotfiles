@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=The Legend of Heroes Trails of Cold Steel III
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/991270
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/991270.jpg
+Terminal=false
+Type=Application
+Categories=Game;

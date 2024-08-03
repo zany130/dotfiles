@@ -1,0 +1,5 @@
+ASLR:                            yes
+DEP/NX:                          yes
+SEH:                             yes
+CFG:                             no
+Stack cookies (EXPERIMENTAL):    yes

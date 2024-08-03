@@ -1,0 +1,560 @@
+DOS Header
+    Magic number:                    0x5a4d (MZ)
+    Bytes in last page:              144
+    Pages in file:                   3
+    Relocations:                     0
+    Size of header in paragraphs:    4
+    Minimum extra paragraphs:        0
+    Maximum extra paragraphs:        65535
+    Initial (relative) SS value:     0
+    Initial SP value:                0xb8
+    Initial IP value:                0
+    Initial (relative) CS value:     0
+    Address of relocation table:     0x40
+    Overlay number:                  0
+    OEM identifier:                  0
+    OEM information:                 0
+    PE header offset:                0xf0
+PE header
+    Signature:                       0x00004550 (PE)
+COFF/File header
+    Machine:                         0x8664 IMAGE_FILE_MACHINE_AMD64
+    Number of sections:              7
+    Date/time stamp:                 1707933696 (Wed, 14 Feb 2024 18:01:36 UTC)
+    Symbol Table offset:             0
+    Number of symbols:               0
+    Size of optional header:         0xf0
+    Characteristics:                 0x22
+    Characteristics names
+                                         IMAGE_FILE_EXECUTABLE_IMAGE
+                                         IMAGE_FILE_LARGE_ADDRESS_AWARE
+Optional/Image header
+    Magic number:                    0x20b (PE32+)
+    Linker major version:            14
+    Linker minor version:            39
+    Size of .text section:           0x16a00
+    Size of .data section:           0x21600
+    Size of .bss section:            0
+    Entrypoint:                      0x11360
+    Address of .text section:        0x1000
+    ImageBase:                       0x140000000
+    Alignment of sections:           0x1000
+    Alignment factor:                0x200
+    Major version of required OS:    6
+    Minor version of required OS:    0
+    Major version of image:          0
+    Minor version of image:          0
+    Major version of subsystem:      6
+    Minor version of subsystem:      0
+    Win32 version value:             0
+        Overwrite OS major version:      (default)
+        Overwrite OS minor version:      (default)
+        Overwrite OS build number:       (default)
+        Overwrite OS platform id:        (default)
+    Size of image:                   0x3d000
+    Size of headers:                 0x400
+    Checksum:                        0
+    Subsystem required:              0x2 (IMAGE_SUBSYSTEM_WINDOWS_GUI)
+    DLL characteristics:             0xc160
+    DLL characteristics names
+                                         IMAGE_DLLCHARACTERISTICS_HIGH_ENTROPY_VA
+                                         IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE
+                                         IMAGE_DLLCHARACTERISTICS_NX_COMPAT
+                                         IMAGE_DLLCHARACTERISTICS_GUARD_CF
+                                         IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE
+    Size of stack to reserve:        0x180000
+    Size of stack to commit:         0x1000
+    Size of heap space to reserve:   0x100000
+    Size of heap space to commit:    0x1000
+    Loader Flags:                    0
+    Loader Flags names
+Data directories
+    Directory
+        IMAGE_DIRECTORY_ENTRY_IMPORT:    0x20724 (260 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_RESOURCE:  0x28000 (84540 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_EXCEPTION: 0x24000 (5052 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_BASERELOC: 0x27000 (792 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_DEBUG:     0x1d330 (84 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_TLS:       0x1d500 (40 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG: 0x1d1f0 (320 bytes)
+    Directory
+        IMAGE_DIRECTORY_ENTRY_IAT:       0x18000 (1040 bytes)
+Imported functions
+    Library
+        Name:                            KERNEL32.dll
+        Functions
+            Function
+                Hint:                            453
+                Name:                            FreeLibrary
+            Function
+                Hint:                            998
+                Name:                            LoadLibraryExW
+            Function
+                Hint:                            1082
+                Name:                            OutputDebugStringW
+            Function
+                Hint:                            405
+                Name:                            FindFirstFileExW
+            Function
+                Hint:                            329
+                Name:                            EnterCriticalSection
+            Function
+                Hint:                            629
+                Name:                            GetFullPathNameW
+            Function
+                Hint:                            422
+                Name:                            FindNextFileW
+            Function
+                Hint:                            562
+                Name:                            GetCurrentProcess
+            Function
+                Hint:                            660
+                Name:                            GetModuleHandleExW
+            Function
+                Hint:                            657
+                Name:                            GetModuleFileNameW
+            Function
+                Hint:                            992
+                Name:                            LeaveCriticalSection
+            Function
+                Hint:                            597
+                Name:                            GetEnvironmentVariableW
+            Function
+                Hint:                            661
+                Name:                            GetModuleHandleW
+            Function
+                Hint:                            1042
+                Name:                            MultiByteToWideChar
+            Function
+                Hint:                            606
+                Name:                            GetFileAttributesExW
+            Function
+                Hint:                            996
+                Name:                            LoadLibraryA
+            Function
+                Hint:                            291
+                Name:                            DeleteCriticalSection
+            Function
+                Hint:                            1591
+                Name:                            WideCharToMultiByte
+            Function
+                Hint:                            948
+                Name:                            IsWow64Process
+            Function
+                Hint:                            1495
+                Name:                            TlsFree
+            Function
+                Hint:                            1497
+                Name:                            TlsSetValue
+            Function
+                Hint:                            1496
+                Name:                            TlsGetValue
+            Function
+                Hint:                            1494
+                Name:                            TlsAlloc
+            Function
+                Hint:                            902
+                Name:                            InitializeCriticalSectionAndSpinCount
+            Function
+                Hint:                            717
+                Name:                            GetProcAddress
+            Function
+                Hint:                            845
+                Name:                            GetWindowsDirectoryW
+            Function
+                Hint:                            432
+                Name:                            FindResourceW
+            Function
+                Hint:                            637
+                Name:                            GetLastError
+            Function
+                Hint:                            2
+                Name:                            ActivateActCtx
+            Function
+                Hint:                            399
+                Name:                            FindClose
+            Function
+                Hint:                            191
+                Name:                            CreateActCtxW
+            Function
+                Hint:                            1380
+                Name:                            SetLastError
+            Function
+                Hint:                            1159
+                Name:                            RaiseException
+            Function
+                Hint:                            1279
+                Name:                            RtlPcToFileHeader
+            Function
+                Hint:                            1283
+                Name:                            RtlUnwindEx
+            Function
+                Hint:                            906
+                Name:                            InitializeSListHead
+            Function
+                Hint:                            563
+                Name:                            GetCurrentProcessId
+            Function
+                Hint:                            928
+                Name:                            IsDebuggerPresent
+            Function
+                Hint:                            936
+                Name:                            IsProcessorFeaturePresent
+            Function
+                Hint:                            1476
+                Name:                            TerminateProcess
+            Function
+                Hint:                            1444
+                Name:                            SetUnhandledExceptionFilter
+            Function
+                Hint:                            1510
+                Name:                            UnhandledExceptionFilter
+            Function
+                Hint:                            1284
+                Name:                            RtlVirtualUnwind
+            Function
+                Hint:                            1277
+                Name:                            RtlLookupFunctionEntry
+            Function
+                Hint:                            1269
+                Name:                            RtlCaptureContext
+            Function
+                Hint:                            760
+                Name:                            GetStringTypeW
+            Function
+                Hint:                            1471
+                Name:                            SwitchToThread
+            Function
+                Hint:                            567
+                Name:                            GetCurrentThreadId
+            Function
+                Hint:                            903
+                Name:                            InitializeCriticalSectionEx
+            Function
+                Hint:                            325
+                Name:                            EncodePointer
+            Function
+                Hint:                            284
+                Name:                            DecodePointer
+            Function
+                Hint:                            979
+                Name:                            LCMapStringEx
+            Function
+                Hint:                            1136
+                Name:                            QueryPerformanceCounter
+            Function
+                Hint:                            778
+                Name:                            GetSystemTimeAsFileTime
+    Library
+        Name:                            USER32.dll
+        Functions
+            Function
+                Hint:                            651
+                Name:                            MessageBoxW
+    Library
+        Name:                            SHELL32.dll
+        Functions
+            Function
+                Hint:                            432
+                Name:                            ShellExecuteW
+    Library
+        Name:                            ADVAPI32.dll
+        Functions
+            Function
+                Hint:                            642
+                Name:                            RegOpenKeyExW
+            Function
+                Hint:                            631
+                Name:                            RegGetValueW
+            Function
+                Hint:                            237
+                Name:                            DeregisterEventSource
+            Function
+                Hint:                            676
+                Name:                            RegisterEventSourceW
+            Function
+                Hint:                            694
+                Name:                            ReportEventW
+            Function
+                Hint:                            593
+                Name:                            RegCloseKey
+    Library
+        Name:                            api-ms-win-crt-runtime-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            57
+                Name:                            _invalid_parameter_noinfo_noreturn
+            Function
+                Hint:                            35
+                Name:                            _exit
+            Function
+                Hint:                            85
+                Name:                            exit
+            Function
+                Hint:                            55
+                Name:                            _initterm_e
+            Function
+                Hint:                            54
+                Name:                            _initterm
+            Function
+                Hint:                            41
+                Name:                            _get_initial_wide_environment
+            Function
+                Hint:                            53
+                Name:                            _initialize_wide_environment
+            Function
+                Hint:                            25
+                Name:                            _configure_wide_argv
+            Function
+                Hint:                            66
+                Name:                            _set_app_type
+            Function
+                Hint:                            64
+                Name:                            _seh_filter_exe
+            Function
+                Hint:                            22
+                Name:                            _cexit
+            Function
+                Hint:                            30
+                Name:                            _crt_atexit
+            Function
+                Hint:                            60
+                Name:                            _register_onexit_function
+            Function
+                Hint:                            52
+                Name:                            _initialize_onexit_table
+            Function
+                Hint:                            33
+                Name:                            _errno
+            Function
+                Hint:                            84
+                Name:                            abort
+            Function
+                Hint:                            6
+                Name:                            __p___wargv
+            Function
+                Hint:                            21
+                Name:                            _c_exit
+            Function
+                Hint:                            61
+                Name:                            _register_thread_local_exe_atexit_callback
+            Function
+                Hint:                            103
+                Name:                            terminate
+            Function
+                Hint:                            4
+                Name:                            __p___argc
+    Library
+        Name:                            api-ms-win-crt-stdio-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            0
+                Name:                            __acrt_iob_func
+            Function
+                Hint:                            129
+                Name:                            fputwc
+            Function
+                Hint:                            1
+                Name:                            __p__commode
+            Function
+                Hint:                            84
+                Name:                            _set_fmode
+            Function
+                Hint:                            130
+                Name:                            fputws
+            Function
+                Hint:                            102
+                Name:                            _wfsopen
+            Function
+                Hint:                            119
+                Name:                            fflush
+            Function
+                Hint:                            7
+                Name:                            __stdio_common_vfwprintf
+            Function
+                Hint:                            12
+                Name:                            __stdio_common_vsnwprintf_s
+            Function
+                Hint:                            17
+                Name:                            __stdio_common_vswprintf
+            Function
+                Hint:                            152
+                Name:                            setvbuf
+    Library
+        Name:                            api-ms-win-crt-heap-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            23
+                Name:                            calloc
+            Function
+                Hint:                            22
+                Name:                            _set_new_mode
+            Function
+                Hint:                            24
+                Name:                            free
+            Function
+                Hint:                            8
+                Name:                            _callnewh
+            Function
+                Hint:                            25
+                Name:                            malloc
+    Library
+        Name:                            api-ms-win-crt-string-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            152
+                Name:                            toupper
+            Function
+                Hint:                            73
+                Name:                            _wcsdup
+            Function
+                Hint:                            166
+                Name:                            wcsncmp
+            Function
+                Hint:                            169
+                Name:                            wcsnlen
+            Function
+                Hint:                            137
+                Name:                            strcpy_s
+    Library
+        Name:                            api-ms-win-crt-convert-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            115
+                Name:                            wcstoul
+            Function
+                Hint:                            71
+                Name:                            _wtoi
+    Library
+        Name:                            api-ms-win-crt-time-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            32
+                Name:                            _gmtime64_s
+            Function
+                Hint:                            48
+                Name:                            _time64
+            Function
+                Hint:                            71
+                Name:                            wcsftime
+    Library
+        Name:                            api-ms-win-crt-locale-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            19
+                Name:                            setlocale
+            Function
+                Hint:                            3
+                Name:                            ___mb_cur_max_func
+            Function
+                Hint:                            8
+                Name:                            _configthreadlocale
+            Function
+                Hint:                            0
+                Name:                            ___lc_codepage_func
+            Function
+                Hint:                            2
+                Name:                            ___lc_locale_name_func
+            Function
+                Hint:                            6
+                Name:                            __pctype_func
+            Function
+                Hint:                            13
+                Name:                            _lock_locales
+            Function
+                Hint:                            15
+                Name:                            _unlock_locales
+    Library
+        Name:                            api-ms-win-crt-math-l1-1-0.dll
+        Functions
+            Function
+                Hint:                            9
+                Name:                            __setusermatherr
+Exported functions
+Sections
+    Section
+        Name:                            .text
+        Virtual Size:                    0x1695c (92508 bytes)
+        Virtual Address:                 0x1000
+        Size Of Raw Data:                0x16a00 (92672 bytes)
+        Pointer To Raw Data:             0x400
+        Number Of Relocations:           0
+        Characteristics:                 0x60000020
+        Characteristic Names
+                                             IMAGE_SCN_CNT_CODE
+                                             IMAGE_SCN_MEM_EXECUTE
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .rdata
+        Virtual Size:                    0x95de (38366 bytes)
+        Virtual Address:                 0x18000
+        Size Of Raw Data:                0x9600 (38400 bytes)
+        Pointer To Raw Data:             0x16e00
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .data
+        Virtual Size:                    0x1850 (6224 bytes)
+        Virtual Address:                 0x22000
+        Size Of Raw Data:                0xa00 (2560 bytes)
+        Pointer To Raw Data:             0x20400
+        Number Of Relocations:           0
+        Characteristics:                 0xc0000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+                                             IMAGE_SCN_MEM_WRITE
+    Section
+        Name:                            .pdata
+        Virtual Size:                    0x13bc (5052 bytes)
+        Virtual Address:                 0x24000
+        Size Of Raw Data:                0x1400 (5120 bytes)
+        Pointer To Raw Data:             0x20e00
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            _RDATA
+        Virtual Size:                    0x1f4 (500 bytes)
+        Virtual Address:                 0x26000
+        Size Of Raw Data:                0x200 (512 bytes)
+        Pointer To Raw Data:             0x22200
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .reloc
+        Virtual Size:                    0x318 (792 bytes)
+        Virtual Address:                 0x27000
+        Size Of Raw Data:                0x400 (1024 bytes)
+        Pointer To Raw Data:             0x22400
+        Number Of Relocations:           0
+        Characteristics:                 0x42000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_DISCARDABLE
+                                             IMAGE_SCN_MEM_READ
+    Section
+        Name:                            .rsrc
+        Virtual Size:                    0x14a3c (84540 bytes)
+        Virtual Address:                 0x28000
+        Size Of Raw Data:                0x14c00 (84992 bytes)
+        Pointer To Raw Data:             0x22800
+        Number Of Relocations:           0
+        Characteristics:                 0x40000040
+        Characteristic Names
+                                             IMAGE_SCN_CNT_INITIALIZED_DATA
+                                             IMAGE_SCN_MEM_READ

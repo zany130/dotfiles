@@ -1,12 +1,14 @@
 **/*.src.ini
 key.txt.age
 Brewfile*
+install_flatpaks.sh
+my-pip-packages.txt
+distrobox.txt
 .config/Mailspring/**
 .config/Microsoft/Microsoft Teams/Service Worker/**
 .config/heroic/tools/**
 .config/plasmaConfSaver/**
 .config/steamtinkerlaunch/backup/**
-.config/steamtinkerlaunch/downloads/**
 .config/steamtinkerlaunch/logs/**
 .config/steamtinkerlaunch/mo2/**
 .config/steamtinkerlaunch/proton/**

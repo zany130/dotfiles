@@ -1,0 +1,15 @@
+ASLR:                            yes
+DEP/NX:                          yes
+SEH:                             yes
+Stack cookies (EXPERIMENTAL):    yes
+certificates
+    certificate
+        Length:                          6888 bytes
+        Revision:                        0x200 (2)
+        Type:                            0x2 (PKCS_SIGNED_DATA)
+        Signature:                       invalid
+        signers
+            signer
+                Issuer:                          DigiCert SHA2 Assured ID Code Signing CA
+            signer
+                Issuer:                          SQUARE ENIX CO., LTD.

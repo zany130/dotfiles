@@ -1,0 +1,15 @@
+ASLR:                            yes
+DEP/NX:                          yes
+SEH:                             yes
+Stack cookies (EXPERIMENTAL):    yes
+certificates
+    certificate
+        Length:                          9312 bytes
+        Revision:                        0x200 (2)
+        Type:                            0x2 (PKCS_SIGNED_DATA)
+        Signature:                       valid
+        signers
+            signer
+                Issuer:                          Skutta, Kristjan
+            signer
+                Issuer:                          DigiCert SHA2 Assured ID Code Signing CA

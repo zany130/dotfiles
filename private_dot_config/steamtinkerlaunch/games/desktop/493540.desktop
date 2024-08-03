@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Figment
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/493540
+Icon=/home/zany130/.config/steamtinkerlaunch/games/header/493540.jpg
+Terminal=false
+Type=Application
+Categories=Game;

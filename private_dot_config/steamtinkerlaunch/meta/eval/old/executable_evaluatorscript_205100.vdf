@@ -1,0 +1,93 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"205100"
+		"mode"		"2"
+		"language"		""
+		"commonredist"		"0"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"directx"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205100"
+					"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\directx_full_redist\\dxsetup.exe"
+					"command 1"		"/silent"
+					"nocleanup"		"0"
+				}
+				"vcredist"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205100"
+					"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86_2005sp1.exe"
+					"command 1"		"/Q"
+					"process 2"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86_2008sp1.exe"
+					"command 2"		"/Q"
+					"nocleanup"		"0"
+				}
+				"vcredist64"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205100"
+					"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x64.exe"
+					"command 1"		"/Q"
+					"nocleanup"		"0"
+				}
+				"physxredist"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205100"
+					"process 1"		"msiexec"
+					"command 1"		"/package \"%INSTALLDIR%\\Binaries\\Redist\\PhysX-9.11.1111-SystemSoftware.msi\" /quiet"
+					"nocleanup"		"0"
+				}
+			}
+			"Registry"
+			{
+				"hkey_local_machine\\software\\microsoft\\windows\\currentversion\\uninstall\\steam app 205100"
+				{
+					"string"
+					{
+						"publisher"		"Bethesda Softworks"
+						"urlinfoabout"		"www.dishonored.com"
+						"displayversion"		"1.0"
+					}
+					"dword"
+					{
+						"versionmajor"		"1"
+						"versionminor"		"0"
+						"majorversion"		"1"
+						"minorversion"		"0"
+					}
+				}
+				"hkey_local_machine\\software\\arkane\\dishonored"
+				{
+					"dword"
+					{
+						"english"
+						{
+							"language"		"1"
+						}
+						"french"
+						{
+							"language"		"2"
+						}
+						"german"
+						{
+							"language"		"3"
+						}
+						"italian"
+						{
+							"language"		"4"
+						}
+						"spanish"
+						{
+							"language"		"5"
+						}
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/mnt/GAMES/SteamLibrary/steamapps/common/Dishonored"
+	}
+}
