@@ -1,0 +1,10 @@
+#!/bin/sh
+# distrobox_binary
+# name: Arch
+if [ -z "${CONTAINER_ID}" ]; then
+	exec "distrobox-enter"  -n Arch  --  '/usr/bin/bsdtar'  "$@"
+elif [ -n "${CONTAINER_ID}" ] && [ "${CONTAINER_ID}" != "Arch" ]; then
+	exec distrobox-host-exec '/home/zany130/.local/bin/bsdtar' "$@"
+else
+	exec '/usr/bin/bsdtar' "$@"
+fi

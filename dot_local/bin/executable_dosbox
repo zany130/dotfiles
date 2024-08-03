@@ -1,0 +1,10 @@
+#!/bin/sh
+# distrobox_binary
+# name: fedora
+if [ -z "${CONTAINER_ID}" ]; then
+	exec "/usr/bin/distrobox-enter"  -n fedora  --  '/usr/bin/dosbox'  "$@"
+elif [ -n "${CONTAINER_ID}" ] && [ "${CONTAINER_ID}" != "fedora" ]; then
+	exec distrobox-host-exec '/home/zany130/.local/bin/dosbox' "$@"
+else
+	exec '/usr/bin/dosbox' "$@"
+fi
