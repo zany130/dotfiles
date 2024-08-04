@@ -11,8 +11,16 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq
+|2,0,1722743477,,"wq"
 :q
-|2,0,1721183839,,"q"
+|2,0,1722743227,,"q"
+:w
+|2,0,1722743224,,"w"
+:qw
+|2,0,1722742879,,"qw"
+:q!
+|2,0,1722742833,,"q!"
 :'<,'>q
 |2,0,1721183838,,"'<,'>q"
 
@@ -25,27 +33,268 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	
+|3,1,1,1,1,0,1722742815,""
+"2	LINE	0
+	### Edits below this comment will be discarded
+|3,0,2,1,1,0,1722742814,"### Edits below this comment will be discarded"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1722742812,""
+"4	LINE	0
+	Environment="COOLERCONTROL_LOG="
+|3,0,4,1,1,0,1722742812,"Environment=\"COOLERCONTROL_LOG=\""
+"-	CHAR	0
+	O
+|3,0,36,0,1,0,1722742810,"O"
 
 # File marks:
-'0  1  0  ~/Desktop/Return.desktop
-|4,48,1,0,1721183839,"~/Desktop/Return.desktop"
-'1  1  0  ~/.config/organize/config.yaml
-|4,49,1,0,1721089115,"~/.config/organize/config.yaml"
+'0  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
+|4,48,4,35,1722743477,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd"
+'1  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,49,4,35,1722743227,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
+'2  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,50,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+'3  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,51,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+'4  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,52,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+'5  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,53,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+'6  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,54,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+'7  1  0  ~/Desktop/Return.desktop
+|4,55,1,0,1721183839,"~/Desktop/Return.desktop"
+'8  1  0  ~/.config/organize/config.yaml
+|4,56,1,0,1721089115,"~/.config/organize/config.yaml"
 
 # Jumplist (newest first):
--'  1  0  ~/Desktop/Return.desktop
-|4,39,1,0,1721183839,"~/Desktop/Return.desktop"
--'  1  0  ~/.config/organize/config.yaml
-|4,39,1,0,1721089115,"~/.config/organize/config.yaml"
--'  1  0  ~/.config/organize/config.yaml
-|4,39,1,0,1721089115,"~/.config/organize/config.yaml"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
+|4,39,4,35,1722743477,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
+|4,39,1,0,1722743457,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,39,4,35,1722743227,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,39,4,35,1722743227,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,39,1,0,1722743106,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,39,1,0,1722743106,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,1,0,1722743086,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,1,0,1722743086,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,1,0,1722743086,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+|4,39,1,0,1722743086,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+|4,39,1,0,1722743067,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,4,0,1722743063,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+|4,39,1,0,1722743046,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,4,35,1722742886,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1
+|4,39,1,0,1722742839,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf92fa88a2aefb63c1"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
+-'  40  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80
+|4,39,40,0,1722742833,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf895ad381842ddc80"
 
 # History of marks within files (newest to oldest):
 
-> ~/Desktop/Return.desktop
-	*	1721183838	0
-	"	1	0
+> /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
+	*	1722743474	0
+	"	4	35
+	^	4	36
+	.	4	35
+	+	4	35
 
-> ~/.config/organize/config.yaml
-	*	1721089113	0
-	"	1	0
+> /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+	*	1722743224	0
+	"	4	35
+	^	4	36
+	.	4	36
+	+	4	36
+
+> /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
+	*	1722743086	0
+	"	4	0
+
+> /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
+	*	1722743067	0
+	"	4	0
+
+> /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf37d7f540dcdf33bb
+	*	1722743056	0
+	"	4	0
