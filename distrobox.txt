@@ -15,3 +15,4 @@ bsdtar
 dosbox
 motivate
 senpai
+bt-du
