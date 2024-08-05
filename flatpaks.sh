@@ -13,7 +13,6 @@ flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub com.google.Chrome -y
 flatpak install flathub com.heroicgameslauncher.hgl -y
 flatpak install flathub com.logseq.Logseq -y
-flatpak install flathub com.moonlight_stream.Moonlight -y
 flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub com.quexten.Goldwarden -y
 flatpak install rustdesk-origin com.rustdesk.RustDesk -y
@@ -67,7 +66,6 @@ flatpak install flathub org.kde.krita -y
 flatpak install flathub org.kde.okular -y
 flatpak install flathub org.libreoffice.LibreOffice -y
 flatpak install flathub org.libretro.RetroArch -y
-flatpak install flathub org.linux_hardware.hw-probe -y
 flatpak install flathub org.mamedev.MAME -y
 flatpak install flathub org.mozilla.firefox -y
 flatpak install flathub org.ppsspp.PPSSPP -y
@@ -75,5 +73,4 @@ flatpak install flathub org.remmina.Remmina -y
 flatpak install flathub org.scummvm.ScummVM -y
 flatpak install flathub org.videolan.VLC -y
 flatpak install flathub org.x.Warpinator -y
-flatpak install flathub re.chiaki.Chiaki -y
 flatpak install flathub xyz.tytanium.DoorKnocker -y
