@@ -1,0 +1,1644 @@
+{
+    "metadata_id": {
+        "2214202335": 25436,
+        "2232373613": 15846,
+        "2266757561": 1346,
+        "2267570521": 1032,
+        "2319667174": 239182,
+        "2372358118": 36701,
+        "2401028560": 248593,
+        "2424801539": 1026,
+        "2459158875": 1029,
+        "2503068208": 1207,
+        "2529649641": 45142,
+        "2576336202": 75990,
+        "2576363895": 45142,
+        "2662689762": 1041,
+        "2704314705": 181851,
+        "2725287455": 124948,
+        "2734847977": 239182,
+        "2757669851": 1454,
+        "2797538530": 1454,
+        "2837802147": 45142,
+        "2866766845": 75081,
+        "2925183414": 1346,
+        "3100663910": 5541,
+        "3121052722": 5418,
+        "3128991170": 1029,
+        "3192991608": 1627,
+        "3208869608": 119259,
+        "3247354589": 1025,
+        "3271425514": 1030,
+        "3274336294": 1124,
+        "3297866716": 1027,
+        "3311772917": 248593,
+        "3449486057": 1346,
+        "3469410188": 4238,
+        "3520052129": 1030,
+        "3537685917": 3580,
+        "3601217830": 1124,
+        "3608681969": 1026,
+        "3611393224": 239999,
+        "3629348145": 1626,
+        "3632252704": 1030,
+        "3643269931": 1022,
+        "3718164108": 1029,
+        "3729392148": 1626,
+        "3746318038": 5199,
+        "3801622540": 825,
+        "3807004910": 229177,
+        "3839607526": 1346,
+        "3848216964": 49877,
+        "3863083592": 3580,
+        "3864177115": 61631,
+        "4025516482": 53098,
+        "4047008836": 1030,
+        "4117927567": 1073,
+        "4151070647": 4,
+        "4237305679": 7707,
+        "4273488410": 1026
+    },
+    "metadata": {
+        "2372358118": {
+            "title": "Zwei: The Ilvard Insurrection",
+            "id": 36701,
+            "description": "In a world where magic and technology exist side by side, vampire princess Alwen must reclaim her ancestral castle and her magic alongside her unlikely ally, treasure hunter Ragna Valentine. They may make for an odd pair, but when they combine their talents, the sky’s the limit!",
+            "developers": [
+                {
+                    "name": "Nihon Falcom",
+                    "url": "https://www.igdb.com/companies/nihon-falcom"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nihon Falcom",
+                    "url": "https://www.igdb.com/companies/nihon-falcom"
+                },
+                {
+                    "name": "XSEED Games",
+                    "url": "https://www.igdb.com/companies/xseed-games--1"
+                }
+            ],
+            "last_updated_at": "2024-07-30T17:49:25.224Z",
+            "release_date": 1261612800,
+            "compat_category": 3,
+            "store_categories": [
+                2
+            ]
+        },
+        "3449486057": {
+            "title": "Xenogears",
+            "id": 1346,
+            "description": "Xenogears follows protagonist Fei Fong Wong and several others as they journey to uncover the truth behind mysterious, cabalistic entities operating in their world. The principles and philosophies of Friedrich Nietzsche, Sigmund Freud and Carl Jung influence the plot, character design, and world of Xenogears. Additionally, the symbols, theological concepts, and devotional practices of several world religions are represented in fictionalized forms in the game. Major psychological themes are the nature of identity and human memory, particularly as these relate to the phenomenon of dissociative identity disorder. The relationship between humanity and machines is central to the game's plot, as indicated by the presence of giant robots dubbed \"gears,\" which almost each playable character can control.",
+            "developers": [
+                {
+                    "name": "Square Product Development Division 3",
+                    "url": "https://www.igdb.com/companies/square-product-development-division-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Square Electronic Arts",
+                    "url": "https://www.igdb.com/companies/square-electronic-arts"
+                },
+                {
+                    "name": "Square",
+                    "url": "https://www.igdb.com/companies/square"
+                }
+            ],
+            "last_updated_at": "2024-07-30T17:49:26.854Z",
+            "release_date": 887155200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2925183414": {
+            "title": "Xenogears",
+            "id": 1346,
+            "description": "Xenogears follows protagonist Fei Fong Wong and several others as they journey to uncover the truth behind mysterious, cabalistic entities operating in their world. The principles and philosophies of Friedrich Nietzsche, Sigmund Freud and Carl Jung influence the plot, character design, and world of Xenogears. Additionally, the symbols, theological concepts, and devotional practices of several world religions are represented in fictionalized forms in the game. Major psychological themes are the nature of identity and human memory, particularly as these relate to the phenomenon of dissociative identity disorder. The relationship between humanity and machines is central to the game's plot, as indicated by the presence of giant robots dubbed \"gears,\" which almost each playable character can control.",
+            "developers": [
+                {
+                    "name": "Square Product Development Division 3",
+                    "url": "https://www.igdb.com/companies/square-product-development-division-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Square Electronic Arts",
+                    "url": "https://www.igdb.com/companies/square-electronic-arts"
+                },
+                {
+                    "name": "Square",
+                    "url": "https://www.igdb.com/companies/square"
+                }
+            ],
+            "last_updated_at": "2024-07-30T17:49:27.084Z",
+            "release_date": 887155200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "3864177115": {
+            "title": "Zwei!!: The Arges Adventure",
+            "id": 61631,
+            "description": "Boasting a completely standalone story set on a mysterious “low fantasy” island floating amongst the clouds, Zwei: The Arges Adventure plays out as a classically styled action-oriented 2D dungeon crawler with oodles of optional content and unlockables, player-defined challenge through a unique food-based experience system, and a pervading tongue-in-cheek humor style that helps set it apart from other entries in the genre.",
+            "developers": [
+                {
+                    "name": "Nihon Falcom",
+                    "url": "https://www.igdb.com/companies/nihon-falcom"
+                },
+                {
+                    "name": "XSEED Games",
+                    "url": "https://www.igdb.com/companies/xseed-games--1"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Taito",
+                    "url": "https://www.igdb.com/companies/taito"
+                },
+                {
+                    "name": "Marvelous USA, Inc.",
+                    "url": "https://www.igdb.com/companies/marvelous-usa-inc"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:06:29.530Z",
+            "release_date": 1009670400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "3208869608": {
+            "title": "Yooka-Laylee and the Impossible Lair",
+            "id": 119259,
+            "description": "Yooka and Laylee are back for a brand new adventure! Get ready for the ultimate challenge - the Impossible Lair!\n\nCapital B has created a Hivemind device and used it to enslave the toughest bees in the Royal Stingdom - the Royal Beettalion Guard!\n\nLiberate them from chapters filled with only the tastiest 2D platforming trimmings, and take on a 3D overworld that contains a wealth of puzzles, secrets and some familiar faces!",
+            "developers": [
+                {
+                    "name": "Playtonic",
+                    "url": "https://www.igdb.com/companies/playtonic"
+                },
+                {
+                    "name": "Playtonic",
+                    "url": "https://www.igdb.com/companies/playtonic"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Team17",
+                    "url": "https://www.igdb.com/companies/team17"
+                },
+                {
+                    "name": "Team17",
+                    "url": "https://www.igdb.com/companies/team17"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:06:30.537Z",
+            "release_date": 1570406400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "2266757561": {
+            "title": "Xenogears",
+            "id": 1346,
+            "description": "Xenogears follows protagonist Fei Fong Wong and several others as they journey to uncover the truth behind mysterious, cabalistic entities operating in their world. The principles and philosophies of Friedrich Nietzsche, Sigmund Freud and Carl Jung influence the plot, character design, and world of Xenogears. Additionally, the symbols, theological concepts, and devotional practices of several world religions are represented in fictionalized forms in the game. Major psychological themes are the nature of identity and human memory, particularly as these relate to the phenomenon of dissociative identity disorder. The relationship between humanity and machines is central to the game's plot, as indicated by the presence of giant robots dubbed \"gears,\" which almost each playable character can control.",
+            "developers": [
+                {
+                    "name": "Square Product Development Division 3",
+                    "url": "https://www.igdb.com/companies/square-product-development-division-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Square Electronic Arts",
+                    "url": "https://www.igdb.com/companies/square-electronic-arts"
+                },
+                {
+                    "name": "Square",
+                    "url": "https://www.igdb.com/companies/square"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:06:30.998Z",
+            "release_date": 887155200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "4025516482": {
+            "title": "Xenia",
+            "id": 53098,
+            "description": "Classic pixel art platformer with simple controls. A beautiful game based on real facts.",
+            "developers": [],
+            "publishers": [],
+            "last_updated_at": "2024-07-30T18:06:31.586Z",
+            "release_date": 1501545600,
+            "compat_category": 3,
+            "store_categories": [
+                2
+            ]
+        },
+        "3839607526": {
+            "title": "Xenogears",
+            "id": 1346,
+            "description": "Xenogears follows protagonist Fei Fong Wong and several others as they journey to uncover the truth behind mysterious, cabalistic entities operating in their world. The principles and philosophies of Friedrich Nietzsche, Sigmund Freud and Carl Jung influence the plot, character design, and world of Xenogears. Additionally, the symbols, theological concepts, and devotional practices of several world religions are represented in fictionalized forms in the game. Major psychological themes are the nature of identity and human memory, particularly as these relate to the phenomenon of dissociative identity disorder. The relationship between humanity and machines is central to the game's plot, as indicated by the presence of giant robots dubbed \"gears,\" which almost each playable character can control.",
+            "developers": [
+                {
+                    "name": "Square Product Development Division 3",
+                    "url": "https://www.igdb.com/companies/square-product-development-division-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Square Electronic Arts",
+                    "url": "https://www.igdb.com/companies/square-electronic-arts"
+                },
+                {
+                    "name": "Square",
+                    "url": "https://www.igdb.com/companies/square"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:07:31.415Z",
+            "release_date": 887155200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "3247354589": {
+            "title": "Zelda II: The Adventure of Link",
+            "id": 1025,
+            "description": "Zelda II: The Adventure of Link is the second major installment in The Legend of Zelda series and the direct sequel to the first game. Like its predecessor, it features dungeons that must be located in the overworld and searched for an item that will prove useful. However, the game presents many very important gameplay changes compared to the previous one, affecting especially the movements and the combat. Moving around the world map involves encounters with enemies that take place on a side-scrolling playfield rather than the top-down perspective for which the series became known.",
+            "developers": [
+                {
+                    "name": "Nintendo R&D4",
+                    "url": "https://www.igdb.com/companies/nintendo-r-and-d4"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:09:26.937Z",
+            "release_date": 537580800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2725287455": {
+            "title": "Umineko When They Cry: Question Arcs",
+            "id": 124948,
+            "description": "Welcome to the world of \"Umineko When They Cry\" (When Seagulls Cry). Welcome to the Rokkenjima of October 4, 1986. You have been given a chance to catch a glimpse of the family conference held annually by the Ushiromiya family.",
+            "developers": [
+                {
+                    "name": "07th Expansion",
+                    "url": "https://www.igdb.com/companies/07th-expansion"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "MangaGamer",
+                    "url": "https://www.igdb.com/companies/mangagamer"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:09:28.595Z",
+            "release_date": 1467936000,
+            "compat_category": 3,
+            "store_categories": [
+                2
+            ]
+        },
+        "2866766845": {
+            "title": "Umineko When They Cry: Answer Arcs",
+            "id": 75081,
+            "description": "This is the second half of the Umineko When They Cry sound novel series, featuring episodes 5 through 8. This version features multi-language options, swappable renewed character sprites, as well as the original BGMs and un-cut content.",
+            "developers": [
+                {
+                    "name": "07th Expansion",
+                    "url": "https://www.igdb.com/companies/07th-expansion"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "MangaGamer",
+                    "url": "https://www.igdb.com/companies/mangagamer"
+                }
+            ],
+            "last_updated_at": "2024-07-30T18:09:28.783Z",
+            "release_date": 1510876800,
+            "compat_category": 3,
+            "store_categories": [
+                2
+            ]
+        },
+        "3611393224": {
+            "title": "The Outer Worlds: Spacer's Choice Edition",
+            "id": 239999,
+            "description": "The Outer Worlds: Spacer's Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
+            "developers": [],
+            "publishers": [
+                {
+                    "name": "Private Division",
+                    "url": "https://www.igdb.com/companies/private-division"
+                },
+                {
+                    "name": "Obsidian Entertainment",
+                    "url": "https://www.igdb.com/companies/obsidian-entertainment"
+                }
+            ],
+            "last_updated_at": "2024-07-31T20:34:52.374Z",
+            "release_date": 1678147200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2267570521": {
+            "title": "The Legend of Zelda: Oracle of Seasons",
+            "id": 1032,
+            "description": "The Legend of Zelda: Oracle of Seasons is one of two Zelda titles released for the Game Boy Color, the other being Oracle of Ages. The game retain many gameplay elements from Link's Awakening such as the graphics, audio and top-view perspective. It also features eight dungeons and a large overworld to explore like in the previous games. Oracle of Seasons is said to be more action-oriented than its counterpart being more puzzle-oriented. After completing one of the two games, both can be linked to form a single linear plot with an alternate ending. Oracle of Seasons and Oracle of Ages were often credited as being two of the top games for the Game Boy Color.",
+            "developers": [
+                {
+                    "name": "Capcom Production Studio 1",
+                    "url": "https://www.igdb.com/companies/capcom-production-studio-1"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-07-31T20:34:52.445Z",
+            "release_date": 983232000,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2662689762": {
+            "title": "The Legend of Zelda: Oracle of Ages",
+            "id": 1041,
+            "description": "The Legend of Zelda: Oracle of Ages is one of two Zelda titles released for the Game Boy Color, the other being Oracle of Seasons. The game retain many gameplay elements from Link's Awakening such as the graphics, audio and top-view perspective. It also features eight dungeons and a large overworld to explore like in the previous games. Oracle of Ages is said to be more puzzle-oriented than its counterpart being more action-oriented. After completing one of the two games, both can be linked to form a single linear plot with an alternate ending. Oracle of Ages and Oracle of Seasons were often credited as being two of the top games for the Game Boy Color.",
+            "developers": [
+                {
+                    "name": "Capcom Production Studio 1",
+                    "url": "https://www.igdb.com/companies/capcom-production-studio-1"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-07-31T20:34:52.573Z",
+            "release_date": 983232000,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2837802147": {
+            "title": "The Legend of Zelda: Ocarina of Time - Master Quest",
+            "id": 45142,
+            "description": "The Legend of Zelda: Ocarina of Time - Master Quest is a reworked version of the original Ocarina of Time for the Nintendo 64. Master Quest contains largely the same content as the original game but with more redesigned and difficult dungeons. Master Quest was available on a special bonus disc that also contained the original Ocarina of Time, it was given out in limited quantities with preorders of The Wind Waker. It was previously developed to be released as an expansion to the original game via the Nintendo 64DD, but that version was cancelled due to the lackluster sales of the hardware.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                }
+            ],
+            "last_updated_at": "2024-07-31T20:34:53.105Z",
+            "release_date": 1014854400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "4151070647": {
+            "title": "Thief",
+            "id": 4,
+            "description": "There is a rising tide of fear in The City. Hatred saturates every stone and whilst the rich prosper, the less fortunate face misery and repression. Ravaged with sickness and famine, they wait for something to change.\nInto this shadowy world steps Garrett, THE master thief in Thief, a reinvention of a franchise that helped define an entire genre of games. This first-person adventure features intelligent design that allows players to take full control, with freedom to choose their path through the game's levels and how they approach and overcome each challenge.",
+            "developers": [
+                {
+                    "name": "Eidos Montréal",
+                    "url": "https://www.igdb.com/companies/eidos-montreal"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Square Enix",
+                    "url": "https://www.igdb.com/companies/square-enix"
+                },
+                {
+                    "name": "Feral Interactive",
+                    "url": "https://www.igdb.com/companies/feral-interactive"
+                },
+                {
+                    "name": "Eidos Montréal",
+                    "url": "https://www.igdb.com/companies/eidos-montreal"
+                }
+            ],
+            "last_updated_at": "2024-08-01T21:10:17.878Z",
+            "release_date": 1393286400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2576363895": {
+            "title": "The Legend of Zelda: Ocarina of Time - Master Quest",
+            "id": 45142,
+            "description": "The Legend of Zelda: Ocarina of Time - Master Quest is a reworked version of the original Ocarina of Time for the Nintendo 64. Master Quest contains largely the same content as the original game but with more redesigned and difficult dungeons. Master Quest was available on a special bonus disc that also contained the original Ocarina of Time, it was given out in limited quantities with preorders of The Wind Waker. It was previously developed to be released as an expansion to the original game via the Nintendo 64DD, but that version was cancelled due to the lackluster sales of the hardware.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                }
+            ],
+            "last_updated_at": "2024-08-01T21:10:18.586Z",
+            "release_date": 1014854400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2529649641": {
+            "title": "The Legend of Zelda: Ocarina of Time - Master Quest",
+            "id": 45142,
+            "description": "The Legend of Zelda: Ocarina of Time - Master Quest is a reworked version of the original Ocarina of Time for the Nintendo 64. Master Quest contains largely the same content as the original game but with more redesigned and difficult dungeons. Master Quest was available on a special bonus disc that also contained the original Ocarina of Time, it was given out in limited quantities with preorders of The Wind Waker. It was previously developed to be released as an expansion to the original game via the Nintendo 64DD, but that version was cancelled due to the lackluster sales of the hardware.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                }
+            ],
+            "last_updated_at": "2024-08-01T21:10:18.672Z",
+            "release_date": 1014854400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "3718164108": {
+            "title": "The Legend of Zelda: Ocarina of Time",
+            "id": 1029,
+            "description": "The Legend of Zelda: Ocarina of Time is the fifth main installment of The Legend of Zelda series and the first to be released for the Nintendo 64. It was one of the most highly anticipated games of its age, and is listed among the greatest video games ever created by numerous websites and magazines. The gameplay of Ocarina of Time was revolutionary for its time, it has arguably made more of an impact on later games in the series than any of its predecessors even though they had the same cores of exploration, dungeons, puzzles and item usage. Among the gameplay mechanics, one of the most noteworthy is the time-traveling system. The game begins with the player controlling the child Link, but later on an adult Link becomes a playable character as well and each of them has certain unique abilities. Ocarina of Time also introduces the use of music to solve puzzles: as new songs are learned, they can be used to solve puzzles, gain access to new areas and warp to different locations. Dungeon exploration is somewhat more puzzle-oriented than in earlier games but they are not too complex.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "iQue",
+                    "url": "https://www.igdb.com/companies/ique"
+                }
+            ],
+            "last_updated_at": "2024-08-01T21:10:18.893Z",
+            "release_date": 911606400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "2459158875": {
+            "title": "The Legend of Zelda: Ocarina of Time",
+            "id": 1029,
+            "description": "The Legend of Zelda: Ocarina of Time is the fifth main installment of The Legend of Zelda series and the first to be released for the Nintendo 64. It was one of the most highly anticipated games of its age, and is listed among the greatest video games ever created by numerous websites and magazines. The gameplay of Ocarina of Time was revolutionary for its time, it has arguably made more of an impact on later games in the series than any of its predecessors even though they had the same cores of exploration, dungeons, puzzles and item usage. Among the gameplay mechanics, one of the most noteworthy is the time-traveling system. The game begins with the player controlling the child Link, but later on an adult Link becomes a playable character as well and each of them has certain unique abilities. Ocarina of Time also introduces the use of music to solve puzzles: as new songs are learned, they can be used to solve puzzles, gain access to new areas and warp to different locations. Dungeon exploration is somewhat more puzzle-oriented than in earlier games but they are not too complex.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "iQue",
+                    "url": "https://www.igdb.com/companies/ique"
+                }
+            ],
+            "last_updated_at": "2024-08-01T21:10:19.501Z",
+            "release_date": 911606400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "3128991170": {
+            "title": "The Legend of Zelda: Ocarina of Time",
+            "id": 1029,
+            "description": "The Legend of Zelda: Ocarina of Time is the fifth main installment of The Legend of Zelda series and the first to be released for the Nintendo 64. It was one of the most highly anticipated games of its age, and is listed among the greatest video games ever created by numerous websites and magazines. The gameplay of Ocarina of Time was revolutionary for its time, it has arguably made more of an impact on later games in the series than any of its predecessors even though they had the same cores of exploration, dungeons, puzzles and item usage. Among the gameplay mechanics, one of the most noteworthy is the time-traveling system. The game begins with the player controlling the child Link, but later on an adult Link becomes a playable character as well and each of them has certain unique abilities. Ocarina of Time also introduces the use of music to solve puzzles: as new songs are learned, they can be used to solve puzzles, gain access to new areas and warp to different locations. Dungeon exploration is somewhat more puzzle-oriented than in earlier games but they are not too complex.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "iQue",
+                    "url": "https://www.igdb.com/companies/ique"
+                }
+            ],
+            "last_updated_at": "2024-08-02T16:48:52.207Z",
+            "release_date": 911606400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "4047008836": {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "id": 1030,
+            "description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles. Compared to the previous Zelda games, this installment is more oriented towards interaction with NPCs and has a larger variety of items, optional quests, and mini-games. It also includes a time system that spans three days, and this cycle must be reset periodically to progress through the game.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-02T16:48:52.298Z",
+            "release_date": 956793600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "3297866716": {
+            "title": "The Legend of Zelda: Link's Awakening DX",
+            "id": 1027,
+            "description": "The Legend of Zelda: Link's Awakening DX is an updated re-release of Link's Awakening with several new additions, the most notable of which being the entire game is now in color.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-05T02:06:26.192Z",
+            "release_date": 913420800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "3608681969": {
+            "title": "The Legend of Zelda: A Link to the Past",
+            "id": 1026,
+            "description": "The Legend of Zelda: A Link to the Past is a top-down action game with puzzle-solving elements similar to the original The Legend of Zelda. After the side-scrolling and RPG-like gameplay of Zelda II: The Adventure of Link, the game is a return to the top-down view and gameplay style of the first installment. It introduces major new items to the series such as the Master Sword and the concept of two different worlds, which was revisited to some extent in Ocarina of Time with two distinct time periods rather than dark and light worlds.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "St. GIGA",
+                    "url": "https://www.igdb.com/companies/st-giga"
+                },
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-05T02:06:26.383Z",
+            "release_date": 690681600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "3632252704": {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "id": 1030,
+            "description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles. Compared to the previous Zelda games, this installment is more oriented towards interaction with NPCs and has a larger variety of items, optional quests, and mini-games. It also includes a time system that spans three days, and this cycle must be reset periodically to progress through the game.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:29:00.362Z",
+            "release_date": 956793600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "3520052129": {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "id": 1030,
+            "description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles. Compared to the previous Zelda games, this installment is more oriented towards interaction with NPCs and has a larger variety of items, optional quests, and mini-games. It also includes a time system that spans three days, and this cycle must be reset periodically to progress through the game.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:29:00.772Z",
+            "release_date": 956793600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "3271425514": {
+            "title": "The Legend of Zelda: Majora's Mask",
+            "id": 1030,
+            "description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles. Compared to the previous Zelda games, this installment is more oriented towards interaction with NPCs and has a larger variety of items, optional quests, and mini-games. It also includes a time system that spans three days, and this cycle must be reset periodically to progress through the game.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD Software Development Group No.3",
+                    "url": "https://www.igdb.com/companies/nintendo-ead-software-development-group-no-dot-3"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:33.185Z",
+            "release_date": 956793600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "2424801539": {
+            "title": "The Legend of Zelda: A Link to the Past",
+            "id": 1026,
+            "description": "The Legend of Zelda: A Link to the Past is a top-down action game with puzzle-solving elements similar to the original The Legend of Zelda. After the side-scrolling and RPG-like gameplay of Zelda II: The Adventure of Link, the game is a return to the top-down view and gameplay style of the first installment. It introduces major new items to the series such as the Master Sword and the concept of two different worlds, which was revisited to some extent in Ocarina of Time with two distinct time periods rather than dark and light worlds.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "St. GIGA",
+                    "url": "https://www.igdb.com/companies/st-giga"
+                },
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:33.192Z",
+            "release_date": 690681600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "4273488410": {
+            "title": "The Legend of Zelda: A Link to the Past",
+            "id": 1026,
+            "description": "The Legend of Zelda: A Link to the Past is a top-down action game with puzzle-solving elements similar to the original The Legend of Zelda. After the side-scrolling and RPG-like gameplay of Zelda II: The Adventure of Link, the game is a return to the top-down view and gameplay style of the first installment. It introduces major new items to the series such as the Master Sword and the concept of two different worlds, which was revisited to some extent in Ocarina of Time with two distinct time periods rather than dark and light worlds.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "St. GIGA",
+                    "url": "https://www.igdb.com/companies/st-giga"
+                },
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:33.721Z",
+            "release_date": 690681600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "3643269931": {
+            "title": "The Legend of Zelda",
+            "id": 1022,
+            "description": "The Legend of Zelda is the first title in the Zelda series, it has marked the history of video games particularly for it's game mechanics and universe. The player controls Link and must make his way through the forests, graveyards, plains and deserts of the Otherworld to find the secret entrances to the eight dungeons and try to restore the broken Triforce. Among the game's mechanics, it was the first time we saw a continuous world that could be freely explored, power-ups that permanently enhanced the main character's abilities and a battery save feature that allowed players to keep their progress instead of having to start over. The gameplay balanced action sequences with discovery, secrets and exploration.",
+            "developers": [
+                {
+                    "name": "Nintendo R&D4",
+                    "url": "https://www.igdb.com/companies/nintendo-r-and-d4"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:33.853Z",
+            "release_date": 509328000,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2734847977": {
+            "title": "The Legend of Dragoon",
+            "id": 239182,
+            "description": "Experience The Legend of Dragoon originally released on the PlayStation console, enhanced with up-rendering, rewind, quick save, and custom video filters.\n\nUnveil a fantasy of magnificence, deception, magical combat, and retribution as you join swordsman Dart and his companions to harness the spiritual forces of Dragons and triumph over evil.\n\nUsing a unique and innovative tactical combat system, transform into Dragoons and unleash extraordinary powers. Control a wide variety of characters that wield unique weapons and Dragoon attacks powered by the elements in this unforgettable role-playing game.",
+            "developers": [
+                {
+                    "name": "SCE Japan Studio",
+                    "url": "https://www.igdb.com/companies/sce-japan-studio"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Sony Interactive Entertainment",
+                    "url": "https://www.igdb.com/companies/sony-interactive-entertainment"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:34.038Z",
+            "release_date": 1676937600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2319667174": {
+            "title": "The Legend of Dragoon",
+            "id": 239182,
+            "description": "Experience The Legend of Dragoon originally released on the PlayStation console, enhanced with up-rendering, rewind, quick save, and custom video filters.\n\nUnveil a fantasy of magnificence, deception, magical combat, and retribution as you join swordsman Dart and his companions to harness the spiritual forces of Dragons and triumph over evil.\n\nUsing a unique and innovative tactical combat system, transform into Dragoons and unleash extraordinary powers. Control a wide variety of characters that wield unique weapons and Dragoon attacks powered by the elements in this unforgettable role-playing game.",
+            "developers": [
+                {
+                    "name": "SCE Japan Studio",
+                    "url": "https://www.igdb.com/companies/sce-japan-studio"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Sony Interactive Entertainment",
+                    "url": "https://www.igdb.com/companies/sony-interactive-entertainment"
+                }
+            ],
+            "last_updated_at": "2024-08-06T01:38:34.176Z",
+            "release_date": 1676937600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2576336202": {
+            "title": "The Caligula Effect: Overdose",
+            "id": 75990,
+            "description": "Mobius. An idyllic world that exists for the sake of letting people forget about the pain and problems of reality. In this world created by a sentient vocaloid program, μ, reality and fantasy has become blurred, allowing people to relive their high school years in bliss. Yet in this seemingly beautiful and perfect world, something is amiss. Escape from this false paradise with your fellow students and return to reality in The Caligula Effect: Overdose!",
+            "developers": [
+                {
+                    "name": "FuRyu",
+                    "url": "https://www.igdb.com/companies/furyu"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "FuRyu",
+                    "url": "https://www.igdb.com/companies/furyu"
+                },
+                {
+                    "name": "NIS America",
+                    "url": "https://www.igdb.com/companies/nis-america"
+                }
+            ],
+            "last_updated_at": "2024-08-06T17:01:02.165Z",
+            "release_date": 1526515200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28
+            ]
+        },
+        "2232373613": {
+            "title": "The 7th Saga",
+            "id": 15846,
+            "description": "The game takes place on a world called Ticondera. 5000 years ago, a divine being named Saro defeated an evil entity named Gorsia with the power of seven runes. In the years since then, the runes have been scattered across the globe. Lemele, the son of Saro, was born 100 years ago, and became a hero when he defeated the demon Gariso. Now 100 years old, Lemele has become the benevolent and powerful ruler of the world.",
+            "developers": [
+                {
+                    "name": "Produce",
+                    "url": "https://www.igdb.com/companies/produce"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Enix Corporation",
+                    "url": "https://www.igdb.com/companies/enix-corporation"
+                }
+            ],
+            "last_updated_at": "2024-08-06T17:01:02.730Z",
+            "release_date": 735523200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28
+            ]
+        },
+        "2503068208": {
+            "title": "Tales of the Abyss",
+            "id": 1207,
+            "description": "This entry in Namco's popular Tales series takes place in a world where prophecies clue people in to future happenings. Tales of the Abyss boasts a revolutionary new free roaming battle system allowing players to move anywhere on the battlefield, a first in the Tales series which brings new depth to the intense, high-action battles that Tales games are knows for.",
+            "developers": [
+                {
+                    "name": "Namco Tales Studio",
+                    "url": "https://www.igdb.com/companies/namco-tales-studio"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Bandai Namco Entertainment",
+                    "url": "https://www.igdb.com/companies/bandai-namco-entertainment"
+                }
+            ],
+            "last_updated_at": "2024-08-06T17:01:02.834Z",
+            "release_date": 1134604800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                392,
+                37,
+                28
+            ]
+        },
+        "3469410188": {
+            "title": "Super Street Fighter II Turbo",
+            "id": 4238,
+            "description": "Super Street Fighter II Turbo, released in Japan as Super Street Fighter II X: Grand Master Challenge, is a competitive fighting game released for the arcades by Capcom in 1994. It is the fifth installment in the Street Fighter II sub-series of Street Fighter games, following Super Street Fighter II: The New Challengers. Like its predecessor, it ran on the CP System II hardware.\n\nSuper Turbo introduced several new gameplay mechanics not present in previous versions of Street Fighter II, including the addition of Super Combos and air combos. It also introduced the secret character Akuma, who would go on to become a recurring character in later Street Fighter installments and other Capcom fighting games.\n\nSuper Turbo was originally ported to the 3DO Interactive Multiplayer, followed by the PlayStation and Sega Saturn (under the title of Super Street Fighter II Turbo: The Ultimate Championship) as part of the Street Fighter Collection, and for the Dreamcast in Japan under the title of Super Street Fighter II X for Matching Service. A remake of the game was released for the PlayStation 3 and Xbox 360 titled Super Street Fighter II Turbo HD Remix.",
+            "developers": [
+                {
+                    "name": "Capcom",
+                    "url": "https://www.igdb.com/companies/capcom"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Matsushita Electric Industrial",
+                    "url": "https://www.igdb.com/companies/matsushita-electric-industrial"
+                },
+                {
+                    "name": "GameTek, Inc.",
+                    "url": "https://www.igdb.com/companies/gametek-inc"
+                },
+                {
+                    "name": "Capcom",
+                    "url": "https://www.igdb.com/companies/capcom"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:03:42.058Z",
+            "release_date": 761961600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                28,
+                28,
+                28
+            ]
+        },
+        "3192991608": {
+            "title": "Super Smash Bros. Melee",
+            "id": 1627,
+            "description": "Super Smash Bros. Melee is the second installment in the Super Smash Bros. series and the follow-up to the Nintendo 64 title. It includes all playable characters from the first game, and also adds characters from franchises such as Fire Emblem, of which no games had been released outside Japan at the time. Super Smash Bros. Melee builds on the first game by adding new gameplay features and playable characters: it's major focus is the multiplayer mode, while still offering a number of single-player modes.",
+            "developers": [
+                {
+                    "name": "HAL Laboratory",
+                    "url": "https://www.igdb.com/companies/hal-laboratory"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:03:42.470Z",
+            "release_date": 1006300800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                392,
+                24,
+                37,
+                28
+            ]
+        },
+        "3629348145": {
+            "title": "Super Smash Bros.",
+            "id": 1626,
+            "description": "Super Smash Bros. is a crossover fighting video game between several different Nintendo franchises, and the first installment in the Super Smash Bros. series. Players must defeat their opponents multiple times in a fighting frenzy of items and power-ups. Super Smash Bros. is a departure from the general genre of fighting games: instead of depleting an opponent's life bar, the players seek to knock opposing characters off a stage. Each player has a damage total, represented by a percentage, which rises as the damage is taken.",
+            "developers": [
+                {
+                    "name": "HAL Laboratory",
+                    "url": "https://www.igdb.com/companies/hal-laboratory"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "iQue",
+                    "url": "https://www.igdb.com/companies/ique"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:03:42.670Z",
+            "release_date": 916876800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                392,
+                37,
+                28,
+                28
+            ]
+        },
+        "3729392148": {
+            "title": "Super Smash Bros.",
+            "id": 1626,
+            "description": "Super Smash Bros. is a crossover fighting video game between several different Nintendo franchises, and the first installment in the Super Smash Bros. series. Players must defeat their opponents multiple times in a fighting frenzy of items and power-ups. Super Smash Bros. is a departure from the general genre of fighting games: instead of depleting an opponent's life bar, the players seek to knock opposing characters off a stage. Each player has a damage total, represented by a percentage, which rises as the damage is taken.",
+            "developers": [
+                {
+                    "name": "HAL Laboratory",
+                    "url": "https://www.igdb.com/companies/hal-laboratory"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                },
+                {
+                    "name": "iQue",
+                    "url": "https://www.igdb.com/companies/ique"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:12:58.214Z",
+            "release_date": 916876800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                392,
+                37,
+                28,
+                28
+            ]
+        },
+        "4117927567": {
+            "title": "Super Mario World 2: Yoshi's Island",
+            "id": 1073,
+            "description": "Super Mario World 2: Yoshi's Island is a platform video game acting as a prequel to 1990's Super Mario World. The game casts players as Yoshi as he escorts Baby Mario through 48 levels in order to reunite him with his brother Luigi, who had been kidnapped by Baby Bowser's minions. As a Super Mario series platformer, Yoshi runs and jumps to reach the end of the level while solving puzzles and collecting items. In a style new to the series, the game has a hand-drawn aesthetic and is the first to have Yoshi as its main character. The game introduces his signature abilities to flutter jump, produce eggs from swallowed enemies, and transform into vehicles.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "St. GIGA",
+                    "url": "https://www.igdb.com/companies/st-giga"
+                },
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:12:58.279Z",
+            "release_date": 807580800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                28,
+                28,
+                28
+            ]
+        },
+        "3807004910": {
+            "title": "Super Mario Sunshine",
+            "id": 229177,
+            "description": "A port of Super Mario Sunshine included in Super Mario 3D All-Stars, featuring updated textures and high-definition, widescreen visuals.\n\nTime to hit the beach! Mario travels to the beautiful Isle Delfino for a tropical vacation with his friends, but instead finds himself teaming up with trusty F.L.U.D.D. to uncover a shadowy plot and the master puppeteer behind it all. His newfound friend also allows Mario to traverse worlds in all sorts of unique ways thanks to its wonderful water pump!",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                }
+            ],
+            "last_updated_at": "2024-08-07T01:12:58.544Z",
+            "release_date": 1600387200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28
+            ]
+        },
+        "3121052722": {
+            "title": "Super Mario RPG: Legend of the Seven Stars",
+            "id": 5418,
+            "description": "A JRPG entry in the Super Mario franchise in which Mario meets many unlikely allies in order to jump and fight his way through the Mushroom Kingdom and collect stars to repair the Star Road, the pathway that grants people's wishes, which was destroyed by Smithy, the otherworldly entity that hijacked Bowser's castle and threw the Kingdom into disarray.",
+            "developers": [
+                {
+                    "name": "Square",
+                    "url": "https://www.igdb.com/companies/square"
+                },
+                {
+                    "name": "Square Enix",
+                    "url": "https://www.igdb.com/companies/square-enix"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-07T18:09:40.139Z",
+            "release_date": 826329600,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "3848216964": {
+            "title": "Super Mario Bros. Deluxe",
+            "id": 49877,
+            "description": "Bowser has once again taken over the Mushroom Kingdom, and it's up to Mario to put an end to his sinister reign. Battle Bowser's vile henchmen through 32 different levels - all taken directly from the 1985 classic! Then move on to collect special Red Coins and Yoshi Eggs in the Challenge Mode. Or face off against a friend and race through 8 competition courses in the all-new VS Mode! This time there's a lot more to do than just save a Princess, so get ready for a brick-smashin', pipe-warpin', turtle-stompin' good time!",
+            "developers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Nintendo R&D2",
+                    "url": "https://www.igdb.com/companies/nintendo-r-d2"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Gradiente",
+                    "url": "https://www.igdb.com/companies/gradiente"
+                }
+            ],
+            "last_updated_at": "2024-08-07T18:09:40.794Z",
+            "release_date": 926294400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                28,
+                28
+            ]
+        },
+        "3746318038": {
+            "title": "Super Mario All-Stars",
+            "id": 5199,
+            "description": "Super Mario All-Stars is a compilation of remasters for the Super Nintendo Entertainment System. It enhances Super Mario Bros., Super Mario Bros. 2, Super Mario Bros. 3 and Super Mario Bros.: The Lost Levels with an added on-cartridge save feature, updated graphics and sound, and an additional \"battle game\" for Super Mario Bros. 3. It is also the first time that the original Japanese Super Mario Bros. 2 was released for the western public.",
+            "developers": [
+                {
+                    "name": "Nintendo EAD",
+                    "url": "https://www.igdb.com/companies/nintendo-ead"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Nintendo",
+                    "url": "https://www.igdb.com/companies/nintendo"
+                },
+                {
+                    "name": "Playtronic",
+                    "url": "https://www.igdb.com/companies/playtronic"
+                },
+                {
+                    "name": "Hyundai",
+                    "url": "https://www.igdb.com/companies/hyundai"
+                }
+            ],
+            "last_updated_at": "2024-08-07T18:09:41.228Z",
+            "release_date": 742608000,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                1,
+                28,
+                28
+            ]
+        },
+        "2797538530": {
+            "title": "Suikoden II",
+            "id": 1454,
+            "description": "Experience An Epic Tale of Warfare, Magic, Friendship And Betrayal\n\n-New tactical map battles add a whole level of strategy\n-Fantastic spells with stunning animation sequences and specialized attacks\n-Over 108 different characters can join your party and help you on your quest\n-Unlock hidden storylines using your memory card data from the original Suikoden\n-Build up your castle during the game to a thriving virtual community",
+            "developers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "last_updated_at": "2024-08-07T18:52:51.427Z",
+            "release_date": 913852800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "3274336294": {
+            "title": "Super Castlevania IV",
+            "id": 1124,
+            "description": "A century of Transylvanian tranquility is about to come to a shocking end. Once again the mortifying screams of helpless villagers shake the ground as they huddle against new nightmarish horrors unleashed by the Duke of Darkness, Count Dracula. And this time he has a tombstone with your name on it, Simon Belmont.\nYou must descend into Castle of the Undead and its gruesome ground, accompanied by the most chilling sound effects to ever tingle your spine. Inside, a freshly dug 11 levels maze features the treacherous Terrace of Terror, the dangerous Rotating Dungeon, the Sunken Ruins of Lost Spirits, torture chambers and creature filled caves. Use your whip like a grappling hook and swing past hundreds of traps and a host of ghost freaks, living corpses and hidden goblins. All while dodging or destroying the unpredictable spitting lizards, carnivorous coffins, and more.\nFind the concealed weapons needed to defeat everything from eerie phantoms to haunted furniture. Then prepare to find yourself face-to-thing with hideous torments like the Tongue Lasher, the Darkest Knight, the Bone-Afide Horseman and the Granite Crusher. When your nerves get shot, use your password and take a breather. But forge on, Simon Belmont, because if you though Dracula was down for the count, he's only just begun to fright!",
+            "developers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:23:50.901Z",
+            "release_date": 688867200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2757669851": {
+            "title": "Suikoden II",
+            "id": 1454,
+            "description": "Experience An Epic Tale of Warfare, Magic, Friendship And Betrayal\n\n-New tactical map battles add a whole level of strategy\n-Fantastic spells with stunning animation sequences and specialized attacks\n-Over 108 different characters can join your party and help you on your quest\n-Unlock hidden storylines using your memory card data from the original Suikoden\n-Build up your castle during the game to a thriving virtual community",
+            "developers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:23:51.450Z",
+            "release_date": 913852800,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2704314705": {
+            "title": "Soulstice",
+            "id": 181851,
+            "description": "A Tale of Two Souls",
+            "developers": [],
+            "publishers": [],
+            "last_updated_at": "2024-08-07T19:23:52.163Z",
+            "compat_category": 3,
+            "store_categories": []
+        },
+        "3100663910": {
+            "title": "Sherlock Holmes: Crimes & Punishments",
+            "id": 5541,
+            "description": "Crimes & Punishments lets you become the greatest detective of all time, Sherlock Holmes! Solve six high-profile, gripping and varied cases: murders, disappearances, spectacular thefts and sensational cases will sometimes take you to the realms of the fantastic in this stunning game of investigation in the fine tradition of the Conan Doyle novels. Crimes & Punishments offers you a large degree of freedom to make moral choices that go beyond merely seeing that justice is done: your decisions have a real influence on the game both in terms of your character’s reputation and the consequences that arise in a realistic and sometimes unexpected way.\n\nWill you listen to your moral sense, or will you impartially enforce justice?",
+            "developers": [
+                {
+                    "name": "Frogwares",
+                    "url": "https://www.igdb.com/companies/frogwares"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Focus Entertainment",
+                    "url": "https://www.igdb.com/companies/focus-entertainment"
+                },
+                {
+                    "name": "Maximum Games",
+                    "url": "https://www.igdb.com/companies/maximum-games"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:23:52.537Z",
+            "release_date": 1411948800,
+            "compat_category": 1,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "3311772917": {
+            "title": "Scooby-Doo and the Cyber Chase",
+            "id": 248593,
+            "description": "GBA port of Scooby-Doo and the Cyber Chase.",
+            "developers": [
+                {
+                    "name": "Software Creations",
+                    "url": "https://www.igdb.com/companies/software-creations"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "THQ",
+                    "url": "https://www.igdb.com/companies/thq"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:23:52.911Z",
+            "release_date": 1001894400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28
+            ]
+        },
+        "3601217830": {
+            "title": "Super Castlevania IV",
+            "id": 1124,
+            "description": "A century of Transylvanian tranquility is about to come to a shocking end. Once again the mortifying screams of helpless villagers shake the ground as they huddle against new nightmarish horrors unleashed by the Duke of Darkness, Count Dracula. And this time he has a tombstone with your name on it, Simon Belmont.\nYou must descend into Castle of the Undead and its gruesome ground, accompanied by the most chilling sound effects to ever tingle your spine. Inside, a freshly dug 11 levels maze features the treacherous Terrace of Terror, the dangerous Rotating Dungeon, the Sunken Ruins of Lost Spirits, torture chambers and creature filled caves. Use your whip like a grappling hook and swing past hundreds of traps and a host of ghost freaks, living corpses and hidden goblins. All while dodging or destroying the unpredictable spitting lizards, carnivorous coffins, and more.\nFind the concealed weapons needed to defeat everything from eerie phantoms to haunted furniture. Then prepare to find yourself face-to-thing with hideous torments like the Tongue Lasher, the Darkest Knight, the Bone-Afide Horseman and the Granite Crusher. When your nerves get shot, use your password and take a breather. But forge on, Simon Belmont, because if you though Dracula was down for the count, he's only just begun to fright!",
+            "developers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Konami",
+                    "url": "https://www.igdb.com/companies/konami"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:26:28.335Z",
+            "release_date": 688867200,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28,
+                28,
+                28,
+                28,
+                28
+            ]
+        },
+        "2401028560": {
+            "title": "Scooby-Doo and the Cyber Chase",
+            "id": 248593,
+            "description": "GBA port of Scooby-Doo and the Cyber Chase.",
+            "developers": [
+                {
+                    "name": "Software Creations",
+                    "url": "https://www.igdb.com/companies/software-creations"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "THQ",
+                    "url": "https://www.igdb.com/companies/thq"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:26:29.334Z",
+            "release_date": 1001894400,
+            "compat_category": 3,
+            "store_categories": [
+                2,
+                28
+            ]
+        },
+        "4237305679": {
+            "title": "Saints Row IV: Re-Elected",
+            "id": 7707,
+            "description": "Saints Row IV: Re-Elected is a remaster of Saints Row IV including all DLC. Originally released on Xbox One and PlayStation 4, the game came to Nintendo Switch, Stadia and PC at later dates.\n\nIn 2022 Re-Elected was released on the Epic Games Store and all previous releases of the original Saints Row IV on Steam and GOG were updated to Re-Elected for free with crossplay enabled across the different PC launchers.",
+            "developers": [
+                {
+                    "name": "Volition",
+                    "url": "https://www.igdb.com/companies/volition"
+                }
+            ],
+            "publishers": [
+                {
+                    "name": "Deep Silver",
+                    "url": "https://www.igdb.com/companies/deep-silver"
+                }
+            ],
+            "last_updated_at": "2024-08-07T19:26:29.556Z",
+            "release_date": 1421712000,
+            "compat_category": 2,
+            "store_categories": [
+                2,
+                38,
+                36,
+                28,
+                28,
+                28
+            ]
+        }
+    }
+}

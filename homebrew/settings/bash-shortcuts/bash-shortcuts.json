@@ -1,0 +1,59 @@
+{
+    "shortcuts": {
+        "2e879f4d-7461-4fae-8b09-845b39bfcc6a": {
+            "id": "2e879f4d-7461-4fae-8b09-845b39bfcc6a",
+            "name": "OpenRGB",
+            "cmd": "/home/zany130/AppImages/openrgb_8682f8.appimage --profile MyRGB --server &",
+            "position": 2,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        },
+        "bbe493c5-fe02-4292-9265-765d62b9982c": {
+            "id": "bbe493c5-fe02-4292-9265-765d62b9982c",
+            "name": "JamesDSP",
+            "cmd": "/usr/bin/xvfb-run flatpak run me.timschneeberger.jdsp4linux --watch",
+            "position": 3,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        },
+        "cb7c9487-043a-4b84-ad3e-90e826886df5": {
+            "id": "cb7c9487-043a-4b84-ad3e-90e826886df5",
+            "name": "Discord",
+            "cmd": "/usr/bin/xvfb-run flatpak run com.discordapp.Discord",
+            "position": 4,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        },
+        "9f88ccb8-a94b-4a12-92d3-8a905db93f2a": {
+            "id": "9f88ccb8-a94b-4a12-92d3-8a905db93f2a",
+            "name": "pCloud",
+            "cmd": "/usr/bin/xvfb-run /home/zany130/AppImages/pcloud_082454.appimage",
+            "position": 5,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        },
+        "be82c711-7dd1-428b-9ab8-85d93c5d2c0a": {
+            "id": "be82c711-7dd1-428b-9ab8-85d93c5d2c0a",
+            "name": "gamescopeApps",
+            "cmd": "systemctl --user start gamescopeApps.service",
+            "position": 5,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        },
+        "d7919dd0-c897-44ae-bf33-e932bccb7368": {
+            "id": "d7919dd0-c897-44ae-bf33-e932bccb7368",
+            "name": "openrgb.service",
+            "cmd": "systemctl --user start openrgb",
+            "position": 6,
+            "isApp": false,
+            "passFlags": true,
+            "hooks": []
+        }
+    },
+    "webSocketPort": "5000"
+}

@@ -1,0 +1,10 @@
+{
+    "lastCheckTimestamp": "2024-08-08T18:57:30.470Z",
+    "showToast": true,
+    "updateInterval": 720,
+    "appDataLocation": "/home",
+    "playSound": true,
+    "checkOnBootEnabled": true,
+    "unattendedUpgradesEnabled": true,
+    "aggressiveEnabled": false
+}

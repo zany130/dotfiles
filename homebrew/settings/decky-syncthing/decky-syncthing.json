@@ -1,0 +1,1 @@
+{"config_version": 2, "mode": "flatpak", "service_name": "syncthing", "flatpak_name": "io.github.martchus.syncthingtray", "flatpak_binary": "syncthing", "autostart": "gamescope", "keep_running_on_desktop": true, "port": 45745, "api_key": "m7Jwjq5gHGN9LHyhoLpwgLi67nvPJRgm", "basic_auth_user": "", "basic_auth_pass": "", "is_setup": true}

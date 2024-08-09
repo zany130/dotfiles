@@ -15,3 +15,4 @@ export PATH="$PATH:/home/zany130/.local/share/JetBrains/Toolbox/scripts"
 
 
 export PATH=$PATH:/home/zany130/.spicetify
+. "$HOME/.cargo/env"
