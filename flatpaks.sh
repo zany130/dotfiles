@@ -35,7 +35,6 @@ flatpak install flathub io.github.kotatogram -y
 flatpak install flathub io.github.martchus.syncthingtray -y
 flatpak install flathub io.github.philipk.boilr -y
 flatpak install flathub io.github.prateekmedia.appimagepool -y
-flatpak install flathub io.github.pwr_solaar.solaar -y
 flatpak install flathub io.github.seadve.Kooha -y
 flatpak install flathub io.github.shiftey.Desktop -y
 flatpak install flathub io.github.shiiion.primehack -y
@@ -64,6 +63,7 @@ flatpak install flathub org.kde.kcalc -y
 flatpak install flathub org.kde.kdenlive -y
 flatpak install flathub org.kde.krita -y
 flatpak install flathub org.kde.okular -y
+flatpak install flathub org.kde.yakuake -y
 flatpak install flathub org.libreoffice.LibreOffice -y
 flatpak install flathub org.libretro.RetroArch -y
 flatpak install flathub org.mamedev.MAME -y

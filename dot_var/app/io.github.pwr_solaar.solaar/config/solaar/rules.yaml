@@ -15,7 +15,7 @@
 ...
 ---
 - Key: [Mouse Gesture Button, pressed]
-- Execute: [flatpak, run, com.github.hluk.copyq, menu]
+- Execute: [/usr/bin/flatpak, run, com.github.hluk.copyq, menu]
 ...
 ---
 - MouseGesture: Mouse Up
