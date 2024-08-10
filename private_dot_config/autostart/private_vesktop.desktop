@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Network;
+Comment[en_US]=
+Comment=
+Exec=/home/zany130/AppImages/vesktop.appimage --no-sandbox --enable-blink-features=MiddleClickAutoscroll --start-minimized %U
+GenericName[en_US]=Internet Messenger
+GenericName=Internet Messenger
+Icon=/home/zany130/AppImages/.icons/vesktop.png
+Keywords=discord;vencord;electron;chat;
+MimeType=
+Name[en_US]=Vesktop
+Name=Vesktop
+Path=
+StartupNotify=true
+StartupWMClass=Vesktop
+Terminal=false
+TerminalOptions=
+TryExec=/home/zany130/AppImages/vesktop.appimage
+Type=Application
+X-AppImage-Version=1.5.3
+X-KDE-SubstituteUID=false
+X-KDE-Username=
