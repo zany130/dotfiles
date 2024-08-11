@@ -39,10 +39,8 @@
     ],
     "user_info.user_name": "zany130",
     "user_info.user_home": "/home/zany130",
-    "store": 0,
+    "store": 1,
     "developer.enabled": true,
     "developer.valve_internal": true,
-    "frozenPlugins": [
-        "EmuDecky"
-    ]
+    "frozenPlugins": []
 }
