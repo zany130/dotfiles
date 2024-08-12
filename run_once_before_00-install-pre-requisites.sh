@@ -7,7 +7,7 @@ fi
 
 # Install cargo if it's not already installed
 if ! command -v cargo >/dev/null; then
-	curl https://sh.rustup.rs -sSf | sh
+	/bin/bash -c "$(curl https://sh.rustup.rs -sSf)"
 fi
 
 # Install fisher if it's not already installed
