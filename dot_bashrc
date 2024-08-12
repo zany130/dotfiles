@@ -29,9 +29,10 @@ eval "$(atuin init bash)"
 
 export PATH=$PATH:/home/zany130/.spicetify
 
-# Added by ProtonUp-Qt on 29-07-2024 19:29:10
-if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
 ### bling.sh source start
 test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
 ### bling.sh source end
 . "$HOME/.cargo/env"
+
+# Added by ProtonUp-Qt on 11-08-2024 18:43:00
+if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
