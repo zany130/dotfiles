@@ -1,0 +1,12 @@
+#!/bin/bash
+{{ range .packages.pip -}}
+pip install -- user {{ . | quote }}
+{{ end -}}
+{{ range .packages.cargo -}}
+cargo install {{ . | quote }}
+{{ end -}}
+{{ range .packages.fisher -}}
+fisher install {{ . | quote }}
+{{ end -}}
+EOF
+{{ end -}}

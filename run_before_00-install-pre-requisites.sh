@@ -4,3 +4,13 @@ if ! command -v brew >/dev/null; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	brew tap Homebrew/bundle
 fi
+
+# Install cargo if it's not already installed
+if ! command -v cargo >/dev/null; then
+	curl https://sh.rustup.rs -sSf | sh
+fi
+
+# Install fisher if it's not already installed
+if ! command -v fisher >/dev/null; then
+	curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fi
