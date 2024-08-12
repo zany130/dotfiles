@@ -10,8 +10,8 @@ pip install -- user {{ . | quote }}
 {{ range .packages.cargo -}}
 cargo install {{ . | quote }}
 {{ end -}}
-{{ range .packages.fisher -}}
-fisher install {{ . | quote }}
-{{ end -}}
+#{{ range .packages.fisher -}}
+#fisher install {{ . | quote }}
+#{{ end -}}
 EOF
 {{ end -}}
