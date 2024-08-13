@@ -1,0 +1,17 @@
+#!/bin/bash
+if  command -v ujust >/dev/null; then
+	{{ range .packages.ujust -}}
+	ujust {{ . | quote }}
+	{{ end -}}
+fi
+if  command -v rpm-ostree >/dev/null; then
+	{{ range .packages.rpmtree -}}
+	sudo rpm-ostree install {{ . | quote }}
+	{{ end -}}
+fi
+{{ range .packages.pip -}}
+pip install -- user {{ . | quote }}
+{{ end -}}
+{{ range .packages.cargo -}}
+cargo install {{ . | quote }}
+{{ end -}}

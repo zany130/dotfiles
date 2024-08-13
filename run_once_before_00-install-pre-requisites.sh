@@ -9,8 +9,3 @@ fi
 if ! command -v cargo >/dev/null; then
 	/bin/bash -c "$(curl https://sh.rustup.rs -sSf)"
 fi
-
-# Install fisher if it's not already installed
-if ! command -v fisher >/dev/null; then
-	/bin/fish -c "$(curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish) | source && fisher install jorgebucaran/fisher"
-fi

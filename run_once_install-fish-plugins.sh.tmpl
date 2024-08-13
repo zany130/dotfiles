@@ -1,0 +1,4 @@
+#!/bin/fish
+{{ range .packages.fisher -}}
+fisher install {{ . | quote }}
+{{ end -}}
