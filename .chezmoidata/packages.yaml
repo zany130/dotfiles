@@ -1,14 +1,9 @@
 packages:
     rpm-tree:
-    - 'applet-window-buttons'
     - 'krdp'
     - 'kvantum'
     pip:
     - 'solaar'
-    - 'organize-tool'
-    cargo:
-    - 'cargo-install-update'
-    - 'clipboard-sync'
     fisher:
     - 'jorgebucaran/fisher'
     - 'ajeetdsouza/zoxide'
