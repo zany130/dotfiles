@@ -1,18 +1,32 @@
-distro box apps
+Arch:
+ 	distrobox-export --list-apps
+	Arch                 | /run/host/home/zany130/.local/share/applications/Arch.desktop
+	Waydroid Settings    | /run/host/home/zany130/.local/share/applications/Arch-waydroid-settings.desktop
+	OpenTabletDriver     | /run/host/home/zany130/.local/share/applications/Arch-opentabletdriver.desktop
 
-gui-exported
-
-droidcam new
-droidcam old
-teamviewer
-scrcpy
-hplip
-obs-studio
-
-cli-exported
-
-bsdtar
-dosbox
-motivate
-senpai
-bt-du
+	 distrobox-export --list-binaries                                                                                                                                                                                                                      ─╯
+	'/usr/bin/senpai'    | /home/zany130/.local/bin/senpai
+	'/usr/bin/bsdtar'    | /home/zany130/.local/bin/bsdtar
+	'/usr/bin/motivate'  | /home/zany130/.local/bin/motivate
+	'/usr/bin/btdu'      | /home/zany130/.local/bin/btdu 
+Fedora:
+	distrobox-export --list-apps                                                                                                                                                                                                                          ─╯
+	Fedora               | /run/host/home/zany130/.local/share/applications/fedora.desktop
+	DroidCam Client      | /run/host/home/zany130/.local/share/applications/fedora-com.dev47apps.droidcam.desktop
+	TeamViewer           | /run/host/home/zany130/.local/share/applications/fedora-com.teamviewer.TeamViewer.desktop
+	TeamViewer           | /run/host/home/zany130/.local/share/applications/fedora-teamviewer8.desktop
+	TeamViewer           | /run/host/home/zany130/.local/share/applications/fedora-teamviewerapi.desktop
+	TeamViewer           | /run/host/home/zany130/.local/share/applications/fedora-tvoneweblogin.desktop
+	                     | /run/host/home/zany130/.local/share/applications/ons/fedora-com.dev47apps.droidcam-2.desktop
+	hp-uiscan            | /run/host/home/zany130/.local/share/applications/fedora-hp-uiscan.desktop
+	HPLIP Graphical Tools  | /run/host/home/zany130/.local/share/applications/fedora-hplip.desktop
+	DOSBox Staging       | /run/host/home/zany130/.local/share/applications/fedora-dosbox-staging.desktop
+	Qt6 Designer         | /run/host/home/zany130/.local/share/applications/fedora-qt6-designer.desktop
+	Qt6 Linguist         | /run/host/home/zany130/.local/share/applications/fedora-qt6-linguist.desktop
+	DroidCam Client      | /run/host/home/zany130/.local/share/applications/fedora-com.dev47apps.droidcam-2.desktop
+	scrcpy               | /run/host/home/zany130/.local/share/applications/fedora-scrcpy-console.desktop
+	scrcpy               | /run/host/home/zany130/.local/share/applications/fedora-scrcpy.desktop
+	
+	distrobox-export --list-binaries                                                                                                                                                                                                                      ─╯
+	'/usr/bin/dosbox'    | /home/zany130/.local/bin/dosbox
+	
