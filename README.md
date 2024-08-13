@@ -6,7 +6,7 @@ These dotfiles are managed via [chezmoi](https://github.com/twpayne/chezmoi/)
 ## Install Chezmoi
 ```sh
 # Linux
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply zany130
+sh -c "$(wget -qO- chezmoi.io/get)"
 # Windows/Powershell
 (iwr -UseBasicParsing https://chezmoi.io/get.ps1).Content | powershell -c -
 ```
