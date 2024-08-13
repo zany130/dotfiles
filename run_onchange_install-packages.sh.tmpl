@@ -1,9 +1,4 @@
 #!/bin/bash
-if command -v rpm-ostree >/dev/null; then
-	{{ range .packages.rpm-tree -}}
-	sudo rpm-ostree install {{ . | quote }}
-	{{ end -}}
-fi
 {{ range .packages.pip -}}
 pip install -- user {{ . | quote }}
 {{ end -}}
@@ -12,6 +7,4 @@ cargo install {{ . | quote }}
 {{ end -}}
 {{ range .packages.fisher -}}
 fisher install {{ . | quote }}
-{{ end -}}
-EOF
 {{ end -}}
