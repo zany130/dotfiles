@@ -12,5 +12,5 @@ fi
 
 # Install fisher if it's not already installed
 if ! command -v fisher >/dev/null; then
-	/bin/fish -c "$(curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish) | source && fisher install jorgebucaran/fisher)"
+	/bin/fish -c "$(curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish) | source && fisher install jorgebucaran/fisher"
 fi
