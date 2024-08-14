@@ -317,6 +317,9 @@ _launch=Meta+Ctrl+B
 [services][ujust.desktop]
 _launch=Meta+Shift+Esc
 
+[services][xpanders_kill_wine_script.sh-3.desktop]
+_launch=Meta+Esc
+
 [yakuake]
 _k_friendly_name=Yakuake
 toggle-window-state=F12,F12,Open/Retract Yakuake

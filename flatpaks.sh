@@ -72,7 +72,6 @@ flatpak install flathub org.blender.Blender -y
 flatpak install flathub org.duckstation.DuckStation -y
 flatpak install flathub org.flycast.Flycast -y
 flatpak install flathub org.gimp.GIMP -y
-flatpak install flathub org.gnome.Boxes -y
 flatpak install flathub org.kde.elisa -y
 flatpak install flathub org.kde.filelight -y
 flatpak install flathub org.kde.gwenview -y
