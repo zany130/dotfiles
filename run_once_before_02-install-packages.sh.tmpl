@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin"
 if  command -v ujust >/dev/null; then
 	{{ range .packages.ujust -}}
 	ujust {{ . | quote }}
