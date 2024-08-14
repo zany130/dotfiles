@@ -11,7 +11,7 @@ if  command -v rpm-ostree >/dev/null; then
 	{{ end -}}
 fi
 {{ range .packages.brews -}}
-brew {{ . | quote }}
+brew install {{ . | quote }}
 {{ end -}}
 {{ range .packages.pip -}}
 pip install -- user {{ . | quote }}
