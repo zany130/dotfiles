@@ -10,6 +10,9 @@ if  command -v rpm-ostree >/dev/null; then
 	sudo rpm-ostree install {{ . | quote }}
 	{{ end -}}
 fi
+{{ range .packages.brews -}}
+brew {{ . | quote }}
+{{ end -}}
 {{ range .packages.pip -}}
 pip install -- user {{ . | quote }}
 {{ end -}}
