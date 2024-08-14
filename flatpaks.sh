@@ -70,6 +70,7 @@ flatpak install flathub org.DolphinEmu.dolphin-emu -y
 flatpak install flathub org.audacityteam.Audacity -y
 flatpak install flathub org.blender.Blender -y
 flatpak install flathub org.duckstation.DuckStation -y
+flatpak install flathub org.fedoraproject.MediaWriter -y
 flatpak install flathub org.flycast.Flycast -y
 flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.kde.elisa -y
