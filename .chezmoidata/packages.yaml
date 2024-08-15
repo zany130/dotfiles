@@ -12,6 +12,7 @@ packages:
     - 'fd'
     - 'fisher'
     - 'fzf'
+    - 'gcc'
     - 'gh'
     - 'imagemagick'
     - 'eddieantonio/eddieantonio/imgcat'
