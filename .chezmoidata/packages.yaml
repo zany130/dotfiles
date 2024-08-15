@@ -35,6 +35,7 @@ packages:
     cargo:
     - 'cargo-install-update'
     - 'clipboard-sync'
+    - 'chezmoi_modify_manager'
     fisher:
     - 'jorgebucaran/fisher'
     - 'ajeetdsouza/zoxide'
