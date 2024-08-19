@@ -36,3 +36,7 @@ test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.s
 
 # Added by ProtonUp-Qt on 11-08-2024 18:43:00
 if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
+
+# paths needed by cargo
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin"
+export OPENSSL_DIR=/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/
