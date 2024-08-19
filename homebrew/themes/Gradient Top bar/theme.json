@@ -1,0 +1,13 @@
+{
+  "name": "Gradient Top bar",
+  "version": "a1a8",
+  "inject": {
+    "shared.css": [
+      "QuickAccess",
+      "SP",
+      "MainMenu"
+    ]
+  },
+  "author": "GrizzlyFoxCat#5404",
+  "id": "334bc638-86d5-4362-b70c-bf84ba4fd96e"
+}

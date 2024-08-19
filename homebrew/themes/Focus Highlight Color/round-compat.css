@@ -1,0 +1,64 @@
+/* Home games carousel */
+/* Base outline while hovered */
+div.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+	border-color: var(--flangrande-base-highlight-color);
+	outline: none;
+	outline-color: unset;
+	animation: appportrait_growOutline_3wk3d 0.4s ease,
+	appportrait_fadeOutline_1FLuV_flangrande 1.4s ease,
+	appportrait_blinker_2tSbN_flangrande 1.2s ease-in-out 0.4s 20 !important;
+}
+
+/* Blinked outline while hovered */
+@keyframes appportrait_blinker_2tSbN_flangrande {
+	50% {
+		border-color: var(--flangrande-blinked-highlight-color);
+		outline: none;
+	}
+}
+
+/* outline during the into hover transition */
+@keyframes appportrait_fadeOutline_1FLuV_flangrande {
+	0% {
+		border-color: var(--flangrande-start-highlight-color);
+		outline-color: unset;
+	}
+	
+	100% {
+		border-color: var(--flangrande-base-highlight-color);
+		outline: none;
+	}
+}
+
+/* Everywhere else */
+div.focusring_FocusRing_1IZrQ {
+	border-color: var(--flangrande-base-highlight-color);
+	outline: none;
+	animation: focusring_flash_1YTKZ 0.5s ease,
+	focusring_growOutline_Z3LxS_alt 0.4s ease, focusring_fadeOutline_2hZu3_flangrande 0.4s ease,
+	focusring_blinker_3wFMM_flangrande 1.2s ease-in-out 0.4s 20 !important;
+}
+
+@keyframes focusring_fadeOutline_2hZu3_flangrande {
+	0% {
+		border-color: var(--flangrande-start-highlight-color);
+		outline-color: unset;
+	}
+	
+	100% {
+		border-color: var(--flangrande-base-highlight-color);
+		outline: none;
+	}
+}
+
+@keyframes focusring_blinker_3wFMM_flangrande {
+	50% {
+		border-color: var(--flangrande-blinked-highlight-color);
+		outline: none;
+	}
+}
+
+div.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+	border-color: var(--flangrande-base-highlight-color);
+	outline: none;
+}

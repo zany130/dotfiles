@@ -1,0 +1,63 @@
+{
+  "name": "Blur",
+  "version": "v2.2",
+  "author": "1/4 Life",
+  "manifest_version": 3,
+  "inject": {},
+  "patches": {
+    "Topbar Blur": {
+      "default": "Enabled",
+      "type": "dropdown",
+      "values": {
+        "Disabled": {},
+        "Enabled": {
+          "topbar.css": [
+            "SP"
+          ]
+        },
+        "Focused Only": {
+          "topbar-focus.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Volume Panel Blur": {
+      "default": "Enabled",
+      "type": "dropdown",
+      "values": {
+        "Disabled": {},
+        "Enabled": {
+          "volume.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Verified Badge Blur": {
+      "default": "Enabled",
+      "type": "dropdown",
+      "values": {
+        "Disabled": {},
+        "Enabled": {
+          "badges.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "ProtonDB Badges Support": {
+      "default": "Disabled",
+      "type": "dropdown",
+      "values": {
+        "Disabled": {},
+        "Enabled": {
+          "protondb.css": [
+            "SP"
+          ]
+        }
+      }
+    }
+  },
+  "id": "efd67018-1eec-49b6-b459-0df2140d5c31"
+}

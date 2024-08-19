@@ -1,0 +1,27 @@
+{
+  "name": "View Media in Fullscreen",
+  "author": "WorldFS",
+  "version": "v1.0",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Delay Effective Time (Turn this on if the theme breaks other pages)": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {
+          "immediately_apply_theme.css": [
+            "SP"
+          ]
+        },
+        "Yes": {}
+      }
+    }
+  },
+  "id": "9b219b1d-c23e-43b1-8269-e7a7f59af45f"
+}

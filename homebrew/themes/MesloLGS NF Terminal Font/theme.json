@@ -1,0 +1,12 @@
+{
+  "name": "MesloLGS NF Terminal Font",
+  "author": "Party Wumpus",
+  "version": "v0.1",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "id": "8f186a14-edf8-4940-8b35-6fc6595b8619"
+}

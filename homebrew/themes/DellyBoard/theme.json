@@ -1,0 +1,30 @@
+{
+  "name": "DellyBoard",
+  "author": "Dellyare",
+  "manifest_version": 4,
+  "version": "v1.0",
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "Dark theme": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {
+          "light.css": [
+            "SP"
+          ]
+        },
+        "Yes": {
+          "dark.css": [
+            "SP"
+          ]
+        }
+      }
+    }
+  },
+  "id": "c7996567-806f-4b0d-88be-780be6774379"
+}

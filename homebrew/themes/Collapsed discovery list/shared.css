@@ -1,0 +1,8 @@
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7.Panel.Focusable {
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7.Panel.Focusable.gpfocus.gpfocuswithin:focus {
+    max-height: initial;
+}

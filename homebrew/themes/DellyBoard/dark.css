@@ -1,0 +1,13 @@
+:root {
+	--DELLY-keyboard-bg: #2C2C2E;
+	--DELLY-keyboard-fr: #6B6B6B;
+	--DELLY-keyboard-fr-active: #474747;
+	--DELLY-keyboard-color: #F9F9F9;
+	--DELLY-keyboard-text-color: #FFFFFF;
+	--DELLY-keyboard-shifted-text-color: #949494;
+	--DELLY-keyboard-shadow: #1E1E1E;
+}
+
+.virtualkeyboard_KeyboardKey_2KhPX img {
+	filter: unset !important;
+}

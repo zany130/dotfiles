@@ -1,0 +1,15 @@
+/* Volume Panel */
+.audio_VolumePopin_2iUUM {
+	backdrop-filter: blur(8px);
+	background-color: #23262ebf;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+
+.gamepadslider_SliderTrackDark_3UIUD {
+	background: #00000045;
+}
+
+.gamepadslider_SliderTrack_Mq25N::before {
+	opacity: 0.5;
+}

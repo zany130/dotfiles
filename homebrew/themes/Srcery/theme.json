@@ -1,0 +1,185 @@
+{
+  "name": "Srcery",
+  "author": "milogert",
+  "version": "v0.7.0",
+  "manifest_version": 7,
+  "inject": {
+    "shared.css": [
+      "All"
+    ],
+    "home-page.css": [
+      "All"
+    ],
+    "system.css": [
+      "SP",
+      "QuickAccess"
+    ],
+    "notifications.css": [
+      "notificationtoasts.*"
+    ],
+    "toggle-switch.css": [
+      "All"
+    ],
+    "pill-menus.css": [
+      "SP",
+      "QuickAccess"
+    ],
+    "friends-list.css": [
+      "SP"
+    ],
+    "downloads.css": [
+      "SP"
+    ],
+    "library.css": [
+      "SP"
+    ],
+    "Custom.css": [
+      "SP"
+    ],
+    "account-page.css": [
+      "SP"
+    ],
+    "loader.css": [
+      "SP",
+      "QuickAccess"
+    ],
+    "add-friend.css": [
+      "SP"
+    ],
+    "progress-bar.css": [
+      "All"
+    ],
+    "achievements.css": [
+      "All"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Font": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "font.css": [
+            "All"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Keyboard": {
+      "type": "dropdown",
+      "default": "Colorful (github.com/milogert)",
+      "values": {
+        "Colorful (github.com/milogert)": {
+          "keyboards/milogert.css": [
+            "All"
+          ]
+        },
+        "Muted (github.com/Tormak9970)": {
+          "keyboards/tormak.css": [
+            "All"
+          ]
+        },
+        "None": {}
+      },
+      "components": []
+    },
+    "Fullscreen Modals": {
+      "type": "dropdown",
+      "default": "Fullscreen",
+      "values": {
+        "Fullscreen": {
+          "modals/fullscreen-modals.css": [
+            "SP"
+          ]
+        },
+        "Styled": {
+          "modals/styled-modals.css": [
+            "SP"
+          ]
+        },
+        "None": {}
+      }
+    },
+    "Quick Access": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "quick-access-menu.css": [
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Main Menu": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "main-menu.css": [
+            "MainMenu"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Settings": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "settings.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Components": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "Components.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Controller Settings": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "controller-settings.css": [
+            "SP",
+            "MainMenu"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "In-Game Overlay": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "in-game-overlay.css": [
+            "MainMenu"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Clear Game Details": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "compat-patches/clean-game-view.css": [
+            "All"
+          ]
+        },
+        "No": {}
+      }
+    }
+  },
+  "id": "1a1f3394-6d80-4634-8cca-ba760964590c"
+}

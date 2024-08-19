@@ -1,0 +1,145 @@
+/* Home */
+.RecentSection.Panel {
+  height: 100vh;
+  display: flex;
+}
+
+/* Carousel */
+.RecentGamesContainer.Panel {
+  display: flex;
+}
+.RecentGamesInnerContainer {
+  align-self: flex-end;
+}
+/* Games */
+.Capsule.CapsuleVisible {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.LibraryItemBox.InRecentGames.BasicMode.Panel.Focusable.gpfocus.gpfocuswithin:focus {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+  display: none;
+}
+
+/* HomeScreen fix */
+.RecentGamesInnerContainer > div > .Panel {
+  width: 100vw;
+}
+.ReactVirtualized__Grid.BasicGameCarousel {
+  height: 52vh !important;
+}
+
+/*  Game */
+
+._2gZXhRmKUk68pA28-5ZmGQ.HeaderLoaded._6-WKlwpwjgMWFow-NM_W4 {
+  height: 70vh;
+}
+
+.TopCapsule {
+  max-height: unset;
+  height: 100%;
+}
+/* Buttons */
+._3qDWQGB0rtwM3qpXTb11Q- {
+  border-radius: 12px !important;
+  background: linear-gradient(180deg, rgba(242, 235, 255, 0.16) 0%, rgba(242, 235, 255, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+._3qDWQGB0rtwM3qpXTb11Q-.Focusable.gpfocus.gpfocuswithin {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+}
+.AppActionButton.PlayButtonContainer.Panel {
+  border-radius: 12px !important;
+  background: linear-gradient(180deg, rgba(242, 235, 255, 0.16) 0%, rgba(242, 235, 255, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+}
+
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+  color: #444;
+  border-radius: 12px;
+}
+
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus ._33cnXIqTRgRr49_FNXIHj6 {
+  color: #444;
+}
+.BasicFooter {
+  background: #221d2d;
+}
+
+/* Tabs */
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG {
+  background: linear-gradient(180deg, rgba(242, 235, 255, 0.16) 0%, rgba(242, 235, 255, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+._3eEbSktrstBdLk0dVpnKVI.gpfocus {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+}
+
+.DialogContent._DialogLayout {
+  background: #221d2d;
+  border-radius: 12px;
+}
+
+/* Global buttons*/
+
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover.Primary {
+  background: linear-gradient(180deg, rgba(242, 235, 255, 0.16) 0%, rgba(242, 235, 255, 0.08) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton.gpfocus.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled.gpfocus.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active.gpfocus.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active:active.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover.gpfocus.Primary,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover:active.Primary {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+  color: #444;
+}
+
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton.gpfocus,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled.gpfocus,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active.gpfocus,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:active:active,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover.gpfocus,
+button._1kn7017HPxqS3NKx_wnI4e.DialogButton:enabled:active:hover:active {
+  background: linear-gradient(180deg, #f2ebff 24.09%, #e5d6ff 100%);
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 40%);
+}
+
+.Mq25Nap224hVdTdtXSsnq::before,
+._2JtC3JSLKaOtdpAVEACsG1::before {
+  background: #ddd;
+}
+
+.S2Fu9HxHCA5MaCLGrN2ib > div + div {
+  border-radius: 12px;
+  overflow: hidden;
+}

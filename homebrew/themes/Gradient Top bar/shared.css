@@ -1,0 +1,11 @@
+.header_Header_1E_SL::before {
+    background-color: transparent;
+}
+
+.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
+    background: linear-gradient(180deg, white, transparent);
+}
+
+.header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before {
+    background: linear-gradient(180deg, black, transparent);
+}

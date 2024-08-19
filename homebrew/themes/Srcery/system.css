@@ -1,0 +1,134 @@
+#header::before {
+  background: var(--srcery-black);
+}
+
+#header
+  .header_HeaderDownloadContainer_2ssr3
+  .header_HeaderAppPortraitContainer_1PbL3
+  .header_HeaderDownloadProgressBarBackground_vo3Tt
+  .header_HeaderDownloadProgressBar_AK_Ax {
+  background: var(--srcery-blue);
+}
+
+#header .header_HeaderItem_2HnVd,
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T,
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconLeft_2Ya83 {
+  color: var(--srcery-white);
+}
+
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ:not(.gpfocuswithin) .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingSearch_NMb_F:not(.searchbar_VR_35hhe):hover .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+#header .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchFieldBackground_3F4YR,
+#header .searchbar_SearchBox_2a1-s.gpfocus,
+#header .searchbar_SearchBox_2a1-s.gpfocus::placeholder,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder,
+#header .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
+  color: var(--srcery-bright-white);
+  background-color: var(--srcery-bright-black);
+}
+
+#header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {
+  color: var(--srcery-black);
+  background: var(--srcery-bright-white);
+}
+
+#header .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL svg path:last-child {
+  fill: var(--srcery-black);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT svg path:not(:first-child) {
+  fill: var(--srcery-yellow);
+}
+
+#header .header_HeaderItem_2HnVd.header_UpdatesIcon_33cHT.gpfocus.gpfocuswithin svg path:not(:first-child) {
+  fill: var(--srcery-orange);
+}
+
+#Footer {
+  background: var(--srcery-black);
+}
+
+#Footer .footericons_Light_2e0Fq .footericons_Background_I3P4e {
+  color: var(--srcery-bright-white);
+}
+
+#Footer .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonGlyph_3Jfd8 img {
+  filter: var(--srcery-bright-white-filter);
+}
+
+#Footer .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+  color: var(--srcery-white);
+}
+
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+  backdrop-filter: sepia(100%) blur(4px);
+}
+
+/* Glyphs like L1/R1. Try to color all of them in one shot. */
+.gamepadtabbedpage_Glyphs_N-f57 {
+    filter: var(--srcery-bright-white-filter);
+}
+
+.shared_svg_library_SteamDeckCompatVerified_3mvZq {
+  color: var(--srcery-green);
+}
+
+.shared_svg_library_SteamDeckCompatPlayable_S7BDm {
+  color: var(--srcery-yellow);
+}
+
+.shared_svg_library_SteamDeckCompatUnsupported_1SeOP,.shared_svg_library_SteamDeckCompatUnknown_15dEs {
+    color: var(--srcery-bright-black)
+}
+
+.offline .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .offline .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-xgray9);
+}
+
+.online .steamavatar_avatarStatus_1yIzy.GamepadMode,
+.GamepadMode .online .steamavatar_avatarStatus_1yIzy {
+  background: var(--srcery-blue);
+}
+
+.audio_VolumePopin_2iUUM {
+  background: var(--srcery-xgray3);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD {
+  background: var(--srcery-black);
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrackDark_3UIUD::before {
+  background: var(--srcery-blue);
+}
+
+/* Focus Ring */
+
+@keyframes srcery-focusring_flash_1YTKZ {
+  0% {
+    background-color: rgba(255 255 255 / 8%);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes srcery-focusring_fadeOutline_2hZu3 {
+  0% {
+    outline-color: var(--srcery-xgray3);
+  }
+
+  100% {
+    outline-color: var(--srcery-bright-black);
+  }
+}
+
+.focusring_FocusRingRoot_3PH_X .focusring_FocusRing_1IZrQ {
+  animation: srcery-focusring_flash_1YTKZ .5s ease,
+      focusring_growOutline_Z3LxS .4s ease,
+      srcery-focusring_fadeOutline_2hZu3 .4s ease,
+      focusring_blinker_3wFMM 1.2s ease-in-out .4s 20;
+  outline: 2px solid var(--srcery-bright-black);
+}
