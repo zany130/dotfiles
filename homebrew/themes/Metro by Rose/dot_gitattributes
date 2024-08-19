@@ -1,6 +1,0 @@
-decals/ export-ignore
-.github/ export-ignore
-*.md export-ignore
-preview.png export-ignore
-custom.css export-ignore
-.gitattributes export-ignore

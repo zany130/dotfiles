@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "BigBlueTerm437";
-  src: url("/themes_custom/Nerd%20Fonts/nerd-fonts/reduced.BigBlueTerm437NerdFont-Regular.ttf");
-}
-
-* {
-  font-family: "BigBlueTerm437" !important;
-}

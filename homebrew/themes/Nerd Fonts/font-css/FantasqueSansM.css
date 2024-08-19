@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "FantasqueSansM";
-  src: url("/themes_custom/Nerd%20Fonts/nerd-fonts/reduced.FantasqueSansMNerdFont-Regular.ttf");
-}
-
-* {
-  font-family: "FantasqueSansM" !important;
-}

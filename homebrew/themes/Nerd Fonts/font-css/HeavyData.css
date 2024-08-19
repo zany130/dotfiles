@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "HeavyData";
-  src: url("/themes_custom/Nerd%20Fonts/nerd-fonts/reduced.HeavyDataNerdFont-Regular.ttf");
-}
-
-* {
-  font-family: "HeavyData" !important;
-}

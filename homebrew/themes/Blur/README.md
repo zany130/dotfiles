@@ -1,1 +1,0 @@
-Adds a frosted glass effect to various UI elements. Includes ProtonDB Badges support.
