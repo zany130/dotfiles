@@ -27,8 +27,6 @@ unset rc
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
-export PATH=$PATH:/home/zany130/.spicetify
-
 ### bling.sh source start
 test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
 ### bling.sh source end
@@ -38,5 +36,9 @@ test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.s
 if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
 
 # paths needed by cargo
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin"
-export OPENSSL_DIR=/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/
+export PATH="/home/linuxbrew/.linuxbrew/opt/binutils/bin:$PATH"
+export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/"
+
+
+# Make sure system binaries are perfered over user binaries such as brew
+export PATH="/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH"

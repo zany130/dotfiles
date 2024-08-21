@@ -3,6 +3,7 @@ packages:
     - 'adb-enhanced'
     - 'age'
     - 'atuin'
+    - 'asciinema'
     - 'bat'
     - 'bitwarden-cli'
     - 'btop'
