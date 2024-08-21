@@ -38,6 +38,3 @@ if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/
 # paths needed by cargo
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin"
 export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/"
-
-# Make sure system binaries are perfered over user binaries such as brew
-export PATH="/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
