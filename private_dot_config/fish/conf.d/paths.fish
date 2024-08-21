@@ -1,0 +1,1 @@
+set -x PATH "/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/zany130/stl/prefix:/home/zany130/.atuin/bin:/home/zany130/.cargo/bin:/home/zany130/.local/bin:/home/zany130/bin:bin:/home/zany130/.local/share/JetBrains/Toolbox/scripts"
