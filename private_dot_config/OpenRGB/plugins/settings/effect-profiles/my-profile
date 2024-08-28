@@ -46,7 +46,7 @@
                     "self_brightness": 100,
                     "serial": "0E0500637329041A",
                     "vendor": "Corsair",
-                    "version": "13.15.0",
+                    "version": "0.9.212",
                     "zone_idx": 0
                 },
                 {
@@ -59,7 +59,7 @@
                     "self_brightness": 100,
                     "serial": "0E0500637329041A",
                     "vendor": "Corsair",
-                    "version": "13.15.0",
+                    "version": "0.9.212",
                     "zone_idx": 1
                 }
             ],
