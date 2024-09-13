@@ -1,0 +1,14 @@
+{
+    "shortcuts": {
+        "fcba1cb4-4601-45d8-b919-515d152c56ef": {
+            "id": "fcba1cb4-4601-45d8-b919-515d152c56ef",
+            "name": "Konsole",
+            "cmd": "LD_PRELOAD= QT_SCALE_FACTOR=1.25 konsole",
+            "position": 1,
+            "isApp": true,
+            "hooks": [],
+            "passFlags": false
+        }
+    },
+    "webSocketPort": "5000"
+}

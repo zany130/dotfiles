@@ -1,0 +1,16 @@
+{
+    "plugin_use_count": 1,
+    "motd_cached": {
+        "id": "doom_project",
+        "text": "GRID AND TEAR!",
+        "text_sub": "A new SteamGridDB project to create library assets for DOOM WADs!",
+        "image_url": "https://www.steamgriddb.com/static/img/doom/logo_nobar.png",
+        "bg_type": "video",
+        "bg_url": "https://www.steamgriddb.com/static/img/doom/decky_bg.webm",
+        "bg_color": "#470000",
+        "bg_position": "center center",
+        "url": "https://www.steamgriddb.com/projects/grid-and-tear",
+        "expires": 1725033600
+    },
+    "motd_last_fetched": 1726189675
+}

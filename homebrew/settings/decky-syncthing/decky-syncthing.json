@@ -1,0 +1,1 @@
+{"config_version": 2, "mode": "flatpak", "service_name": "", "flatpak_name": "me.kozec.syncthingtk", "flatpak_binary": "syncthing", "autostart": "gamescope", "keep_running_on_desktop": true, "port": 8384, "api_key": "0um3r05qknkvbajkyqxac4x0dgl962", "basic_auth_user": "zany130", "basic_auth_pass": "", "is_setup": true}
