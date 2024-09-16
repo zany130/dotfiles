@@ -1303,18 +1303,18 @@
         "theme": "dark"
     },
     "UserInterface": {
-        "RunZoneChecks": true,
+        "RunZoneChecks": false,
         "exit_profile": {
             "profile_name": "MyRGB",
             "set_on_exit": false
         },
         "geometry": {
-            "height": 1019,
+            "height": 1029,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 1261,
-            "x": 3209,
-            "y": 450
+            "width": 2548,
+            "x": 1926,
+            "y": 445
         },
         "greyscale_tray_icon": false,
         "language": "default",

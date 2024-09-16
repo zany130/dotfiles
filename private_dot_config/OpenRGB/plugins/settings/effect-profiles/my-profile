@@ -4,21 +4,7 @@
             "AllowOnlyFirst": false,
             "AutoStart": true,
             "Brightness": 100,
-            "ControllerZones": [
-                {
-                    "description": "Logitech Keyboard Device",
-                    "is_segment": false,
-                    "location": "",
-                    "name": "Logitech G512 RGB",
-                    "reverse": false,
-                    "segment_idx": -1,
-                    "self_brightness": 100,
-                    "serial": "0A77307A3336",
-                    "vendor": "Logitech",
-                    "version": "",
-                    "zone_idx": 0
-                }
-            ],
+            "ControllerZones": [],
             "CustomName": "",
             "CustomSettings": {
                 "saturation": 255
@@ -39,7 +25,7 @@
                 {
                     "description": "Corsair Lighting Node Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw6",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Corsair Commander Pro",
                     "reverse": false,
                     "segment_idx": -1,
@@ -52,7 +38,7 @@
                 {
                     "description": "Corsair Lighting Node Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw6",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Corsair Commander Pro",
                     "reverse": false,
                     "segment_idx": -1,

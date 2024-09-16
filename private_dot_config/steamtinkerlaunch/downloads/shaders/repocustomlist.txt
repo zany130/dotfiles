@@ -1,18 +1,25 @@
 "https://github.com/AlexTuduran/FGFX";FGFX;AlexTuduran;Collection of ReShade shaders.
+"https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shaderThis reshade shader is designed to enhance the vibrance of an image selectively
 "https://github.com/bituq/ZealShaders";ZealShaders;bituq;A bundle of HLSL shaders written for Reshade.
+"https://github.com/liuxd17thu/BX-Shade";BX-Shade;liuxd17thu;Some ReShade Shaders made by BarricadeMKXX
 "https://github.com/dddfault/NativeEnhancer-FE";NativeEnhancer-FE;dddfault;A simple and basic film emulation shader for ReShade.
 "https://github.com/EndlesslyFlowering/ReShade_HDR_shaders/";ReShade_HDR_shaders;EndlesslyFlowering;ReShade shaders focused on HDR analysis, (post) processing and (inverse) tone mapping.
 "https://github.com/Filoppi/PumboAutoHDR/";PumboAutoHDR;Filoppi;Advanced ReShade AutoHDR
-"https://github.com/guestrr/ReshadeShaders";guestrrShaders;guestrr;guestrrShaders;
-"https://github.com/GimleLarpes/potatoFX";potatoFX;GimleLarpes;A collection of HDR compatible reshade shaders.;
+"https://github.com/guestrr/ReshadeShaders";guestrrShaders;guestrr;guestrrShaders
+"https://github.com/GimleLarpes/potatoFX";potatoFX;GimleLarpes;A collection of HDR compatible reshade shaders.
 "https://github.com/JakobPCoder/ReshadeBUR";ReshadeBUR;JakobPCoder;Enhance spatial upscaling quality in games using ReShade with BUR (Bad Upscaling Replacer).
 "https://github.com/JakobPCoder/ReshadeMotionEstimation";ReshadeMotionEstimation;JakobPCoder;Optical Flow for games in realtime
 "https://github.com/JakobPCoder/ReshadeTFAA";ReshadeTFAA;JakobPCoder;This is a work in progress Reshade shader, which acts as an addon to other, non temporal, anti aliasing methods. Only works dx10+ maybe
 "https://github.com/MajorPainTheCactus/AutoHDR-ReShade";AutoHDR;MajorPainTheCactus;AutoHDR addon and effect for ReShade
 "https://github.com/martymcmodding/METEOR";METEOR;martymcmodding;Marty's Extra Effects for ReShade
-"https://github.com/martymcmodding/ReShade-Optical-Flow";ReShade-Optical-Flow;martymcmodding;ReShade-Optical-Flow;
-"https://github.com/Matsilagi/RSJankShaders";RSJankShaders;Matsilagi;Shaders that doesn't fit any other's criteria or looks, or that has better versions on main repos.;
-"https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.;
-"https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.;
+"https://github.com/martymcmodding/ReShade-Optical-Flow";ReShade-Optical-Flow;martymcmodding;ReShade-Optical-Flow
+"https://github.com/Matsilagi/RSJankShaders";RSJankShaders;Matsilagi;Shaders that doesn't fit any other's criteria or looks, or that has better versions on main repos.
+"https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.
+"https://github.com/murchalloo/murchFX/tree/main";murchFX;murchalloo;some kind of reshade shaders
+"https://github.com/MaxG2D/ReshadeSimpleHDRShaders";ReshadeSimpleHDRShaders;MaxG2D;Reshade HDR-Compatible shaders that focus on eye-candy effects and basic adjustments
+"https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.
 "https://github.com/TreyM/SHADERDECK";SHADERDECK;TreyM;Various Shaders by TreyM for ReShade
+"https://github.com/thatshaman/ReShadeShaders";shaman's-ReShade;thatshaman;that_shaman's ReShade Shaders
 "https://github.com/WhiteMagicRaven/fakebilinear2";fakebilinear2;WhiteMagicRaven;An improvement of previous fakebilinear , code is still unoptimized, it produces less graphical glitches
+"https://github.com/Zackin5/Misc-ReShade-Shaders";Misc-ReShade-Shaders;Zackin5;Various ReShade shaders I've made
+"https://github.com/Zenteon/QuarkFX";QuarkFX;Zenteon;Quark Shaders for ReShade, Quark is a repository of efficient and high quality shaders meant to adhere closely to physical methods.
