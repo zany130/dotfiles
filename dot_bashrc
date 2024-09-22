@@ -33,10 +33,8 @@ test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.s
 . "$HOME/.cargo/env"
 
 # paths needed by cargo
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin"
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
 export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/"
 
 # Added by ProtonUp-Qt on 20-09-2024 22:28:08
 if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
-
-export XDG_DATA_DIRS="/home/linuxbrew/.linuxbrew/share:$XDG_DATA_DIRS"
