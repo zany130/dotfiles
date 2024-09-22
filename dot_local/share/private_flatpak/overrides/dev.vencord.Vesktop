@@ -1,3 +1,9 @@
 [Context]
 features=multiarch;
 filesystems=host-os:ro;xdg-data/applications;/home/zany130/Documents/GitHub;
+
+[Session Bus Policy]
+org.freedesktop.Flatpak=talk
+
+[System Bus Policy]
+org.freedesktop.Flatpak=talk

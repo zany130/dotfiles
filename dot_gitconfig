@@ -4,7 +4,7 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = zany130
+	name = Andres
 	email = andresdortiz@gmail.com
 	signingkey = A14B4B0EDD568E77
 [commit]

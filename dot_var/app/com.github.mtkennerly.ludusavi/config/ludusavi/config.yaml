@@ -130,7 +130,7 @@ cloud:
   synchronize: true
 apps:
   rclone:
-    path: /run/user/1000/doc/7b4f3905/rclone
+    path: /home/linuxbrew/.linuxbrew/bin/rclone
     arguments: "--fast-list --ignore-checksum"
 customGames:
   - name: "The Legend of Heroes: Trails of Cold Steel III"
