@@ -1,0 +1,5 @@
+sync_dir = "~/OneDrive/SharePoint_All_Company_Documents"
+drive_id = "b!-Nyaugh2z02kOwjveahvn9Jhqrmk9iNLmBBSAvhNwnh6TYSlSL2ZQqULllzPatT6"
+check_nosync = "true"
+sync_root_files = "true"
+

@@ -1,0 +1,5 @@
+sync_dir = "~/OneDrive/DFG"
+check_nomount = "true"
+check_nosync = "true"
+sync_root_files = "true"
+
