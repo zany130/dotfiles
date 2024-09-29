@@ -1,0 +1,9 @@
+[Unit]
+Description=Homebrew generated unit for fail2ban
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+ExecStart=/home/linuxbrew/.linuxbrew/opt/fail2ban/bin/fail2ban-client -x start
