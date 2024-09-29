@@ -6,4 +6,4 @@ Type=simple
 ExecStart=/home/zany130/AppImages/openrgb_8682f8.appimage --profile MyRGB --server
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
