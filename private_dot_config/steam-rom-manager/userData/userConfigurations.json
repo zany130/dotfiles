@@ -3770,7 +3770,7 @@
         },
         "parserId": "16478559884003904",
         "version": 23,
-        "disabled": true,
+        "disabled": false,
         "steamCategories": [
             "Nintendo 3DS"
         ]
@@ -5780,7 +5780,7 @@
                 "Global"
             ]
         },
-        "disabled": true,
+        "disabled": false,
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/yuzu.sh",
             "shortcutPassthrough": false,

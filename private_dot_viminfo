@@ -12,21 +12,21 @@
 ~H
 # Command Line History (newest to oldest):
 :q
-|2,0,1727314514,,"q"
+|2,0,1727983078,,"q"
 :w
-|2,0,1727280225,,"w"
+|2,0,1727983076,,"w"
+:qw
+|2,0,1727983072,,"qw"
+:'<,'>q
+|2,0,1727982666,,"'<,'>q"
 :s
 |2,0,1727280222,,"s"
 :qa
 |2,0,1727280212,,"qa"
 :wq
 |2,0,1722872040,,"wq"
-:qw
-|2,0,1722742879,,"qw"
 :q!
 |2,0,1722742833,,"q!"
-:'<,'>q
-|2,0,1721183838,,"'<,'>q"
 
 # Search String History (newest to oldest):
 
@@ -49,41 +49,89 @@
 "4	LINE	0
 	Environment="COOLERCONTROL_LOG="
 |3,0,4,1,1,0,1722742812,"Environment=\"COOLERCONTROL_LOG=\""
-""-	BLOCK	0
-	L
-|3,1,36,2,1,0,1722872024,"L"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1727983007," "
 
 # File marks:
-'0  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
-|4,48,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
-'1  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
-|4,49,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
-'2  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
-|4,50,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
-'3  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
-|4,51,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
-'4  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,52,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
-'5  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,53,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
-'6  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
-|4,54,4,35,1722743477,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd"
-'7  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
-|4,55,4,35,1722743227,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
-'8  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f
-|4,56,4,0,1722743102,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf9bbdadcb1fefc71f"
-'9  4  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac
-|4,57,4,0,1722743082,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.conf8058ea9644fcf7ac"
+'0  5  73  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126
+|4,48,5,73,1727983078,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126"
+'1  4  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+|4,49,4,0,1727982668,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5"
+'2  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,50,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+'3  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,51,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+'4  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,52,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+'5  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,53,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+'6  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
+|4,54,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
+'7  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
+|4,55,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
+'8  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd
+|4,56,4,35,1722743477,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.confaaf3ffaac0c968cd"
+'9  4  35  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015
+|4,57,4,35,1722743227,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrold.service.d/.#override.confac461fe785692015"
 
 # Jumplist (newest first):
+-'  5  73  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126
+|4,39,5,73,1727983078,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126"
+-'  1  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126
+|4,39,1,0,1727982692,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126"
+-'  4  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+|4,39,4,0,1727982668,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5"
+-'  4  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+|4,39,4,0,1727982668,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5"
+-'  1  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+|4,39,1,0,1727982661,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5"
+-'  1  0  ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+|4,39,1,0,1727982661,"~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5"
 -'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
 |4,39,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,4,0,1727320551,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,1,0,1727320539,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,1,0,1727320539,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
+|4,39,1,0,1727320539,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
 |4,39,1,0,1727320539,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0"
 -'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
 |4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
 -'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
 |4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,3,0,1727314514,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
+|4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
 |4,39,1,0,1727314487,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf5a1ae1c9bd15b991
@@ -96,6 +144,54 @@
 |4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
 -'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
 |4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  4  63  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,4,63,1727280230,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
+|4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
 |4,39,1,0,1727280018,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confcbe401dbaf7c38ff
@@ -120,6 +216,54 @@
 |4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
 -'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
 |4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
+|4,39,4,0,1727279841,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
 |4,39,1,0,1727279822,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
@@ -132,152 +276,19 @@
 |4,39,1,0,1727279822,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
 |4,39,1,0,1727279822,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
-|4,39,1,0,1727279822,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298
-|4,39,1,0,1727279822,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conffefd85ca877ae298"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  80  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,80,0,1723164357,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a
-|4,39,1,0,1723164329,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/systemd-resolved.service.d/.#override.conf16273bf1665d611a"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  4  46  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,4,46,1722872040,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
--'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414
-|4,39,1,0,1722871995,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/coolercontrol-liqctld.service.d/.#override.conf4ee024ad17adb414"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.conf9ba774e59054d126
+	*	1727983076	0
+	"	5	73
+	^	5	74
+	.	5	74
+	+	5	74
+
+> ~/.config/systemd/user/plasma-plasmashell.service.d/.#override.confdca3ade5a806c8f5
+	*	1727982666	0
+	"	4	0
 
 > ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf47ab7df85a43eef0
 	*	1727320547	0

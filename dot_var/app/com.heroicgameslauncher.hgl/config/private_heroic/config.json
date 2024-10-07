@@ -10,7 +10,7 @@
     "addSteamShortcuts": true,
     "preferSystemLibs": false,
     "checkForUpdatesOnStartup": false,
-    "autoUpdateGames": false,
+    "autoUpdateGames": true,
     "customWinePaths": [],
     "defaultInstallPath": "/home/zany130/Games/Heroic",
     "libraryTopSection": "disabled",
@@ -42,7 +42,16 @@
     "afterLaunchScriptPath": "",
     "exitToTray": true,
     "startInTray": true,
-    "discordRPC": true
+    "discordRPC": true,
+    "customThemesPath": "",
+    "disableController": false,
+    "experimentalFeatures": {
+      "enableNewDesign": true,
+      "enableHelp": false,
+      "automaticWinetricksFixes": true,
+      "cometSupport": true,
+      "umuSupport": false
+    }
   },
   "version": "v0"
 }

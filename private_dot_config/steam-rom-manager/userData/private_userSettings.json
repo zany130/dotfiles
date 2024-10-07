@@ -1,15 +1,15 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1722907490630,
-			"download": 1722907490630
+			"check": 1727747125602,
+			"download": 1727747125602
 		},
 		"verbose": false,
 		"filterProviders": true
 	},
 	"environmentVariables": {
 		"steamDirectory": "/home/zany130/.steam/steam",
-		"romsDirectory": "/home/zany130/Emulation/roms",
+		"romsDirectory": "/var/mnt/GAMES/Emulation/roms",
 		"retroarchPath": "/home/zany130/Emulation/tools/launchers/retroarch.sh",
 		"raCoresDirectory": "",
 		"localImagesDirectory": "",
