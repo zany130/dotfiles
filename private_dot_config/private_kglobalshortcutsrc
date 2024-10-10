@@ -1,7 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-3bdb0883-e05c-4324-bfc8-708e312f4734=none,none,Switch to activity "Default"
-switch-to-activity-ba3b1a17-4ea8-4002-91c3-ed494409356a=none,none,Switch to activity "Work"
+switch-to-activity-3bdb0883-e05c-4324-bfc8-708e312f4734=Meta+1,none,Switch to activity "Default"
+switch-to-activity-ba3b1a17-4ea8-4002-91c3-ed494409356a=Meta+2,none,Switch to activity "Work"
 switch-to-activity-f577afb5-1dac-4cd8-932c-770f8518f05f=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -279,7 +279,7 @@ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
-next activity=none,none,Walk through activities
+next activity=Meta+Tab,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
