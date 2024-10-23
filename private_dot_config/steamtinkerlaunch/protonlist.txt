@@ -1,2 +1,2 @@
-/var/home/zany130/.local/share/Steam/compatibilitytools.d/GE-Proton9-15/proton
 /var/home/zany130/.local/share/Steam/compatibilitytools.d/proton_tkg_7.6.r12.g51472395.release/proton
+/var/home/zany130/.local/share/Steam/compatibilitytools.d/GE-Proton9-16/proton
