@@ -1,5 +1,6 @@
 "https://github.com/AlexTuduran/FGFX";FGFX;AlexTuduran;Collection of ReShade shaders.
-"https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shaderThis reshade shader is designed to enhance the vibrance of an image selectively
+"https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shader This reshade shader is designed to enhance the vibrance of an image selectively
+"https://github.com/BarbatosBachiko/Reshade-Shaders";baba-reshade;barbatos;Home of UFakeHDR and other neat shaders by Barbatos
 "https://github.com/bituq/ZealShaders";ZealShaders;bituq;A bundle of HLSL shaders written for Reshade.
 "https://github.com/liuxd17thu/BX-Shade";BX-Shade;liuxd17thu;Some ReShade Shaders made by BarricadeMKXX
 "https://github.com/dddfault/NativeEnhancer-FE";NativeEnhancer-FE;dddfault;A simple and basic film emulation shader for ReShade.
@@ -15,7 +16,7 @@
 "https://github.com/martymcmodding/ReShade-Optical-Flow";ReShade-Optical-Flow;martymcmodding;ReShade-Optical-Flow
 "https://github.com/Matsilagi/RSJankShaders";RSJankShaders;Matsilagi;Shaders that doesn't fit any other's criteria or looks, or that has better versions on main repos.
 "https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.
-"https://github.com/murchalloo/murchFX/tree/main";murchFX;murchalloo;some kind of reshade shaders
+"https://github.com/murchalloo/murchFX";murchFX;murchalloo;some kind of reshade shaders
 "https://github.com/MaxG2D/ReshadeSimpleHDRShaders";ReshadeSimpleHDRShaders;MaxG2D;Reshade HDR-Compatible shaders that focus on eye-candy effects and basic adjustments
 "https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.
 "https://github.com/TreyM/SHADERDECK";SHADERDECK;TreyM;Various Shaders by TreyM for ReShade

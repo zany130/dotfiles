@@ -285,7 +285,8 @@
             "ignoreGuilds": "",
             "logEdits": true,
             "logDeletes": true,
-            "collapseDeleted": false
+            "collapseDeleted": false,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": true,
@@ -437,14 +438,6 @@
         },
         "PreviewMessage": {
             "enabled": true
-        },
-        "PronounDB": {
-            "enabled": true,
-            "pronounsFormat": "LOWERCASE",
-            "pronounSource": 0,
-            "showSelf": true,
-            "showInMessages": true,
-            "showInProfile": true
         },
         "QuickMention": {
             "enabled": false
@@ -605,7 +598,9 @@
             "showInUserProfileModal": true,
             "showVoiceChannelSectionHeader": true,
             "showVoiceActivityIcons": true,
-            "showUsersInVoiceActivity": true
+            "showUsersInVoiceActivity": true,
+            "showInMemberList": true,
+            "showInMessages": true
         },
         "USRBG": {
             "enabled": true,
@@ -863,7 +858,7 @@
             "enabled": true
         },
         "PartyMode": {
-            "enabled": true,
+            "enabled": false,
             "superIntensePartyMode": 2
         },
         "AutomodContext": {
@@ -1262,7 +1257,8 @@
             "voiceBackground": true
         },
         "FakeProfileThemesAndEffects": {
-            "enabled": true
+            "enabled": true,
+            "prioritizeNitro": false
         },
         "Fake Voice Options": {
             "enabled": false
@@ -1649,6 +1645,20 @@
         },
         "AtSomeone": {
             "enabled": false
+        },
+        "UserMessagesPronouns": {
+            "enabled": true,
+            "pronounsFormat": "LOWERCASE",
+            "pronounSource": 0,
+            "showSelf": true,
+            "showInMessages": true,
+            "showInProfile": true
+        },
+        "DynamicImageModalAPI": {
+            "enabled": true
+        },
+        "FixImagesQuality": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -1661,6 +1671,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1730250393248
+        "settingsSyncVersion": 1730928883970
     }
 }

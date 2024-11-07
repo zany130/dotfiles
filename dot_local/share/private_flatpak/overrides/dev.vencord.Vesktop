@@ -1,6 +1,6 @@
 [Context]
 features=multiarch;
-filesystems=host-os:ro;xdg-data/applications;/home/zany130/Documents/GitHub;
+filesystems=host-os:ro;xdg-data/applications;/home/zany130/Documents/GitHub;/home/zany130/.config/Vencord;
 
 [Session Bus Policy]
 org.freedesktop.Flatpak=talk

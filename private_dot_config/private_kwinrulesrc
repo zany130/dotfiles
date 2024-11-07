@@ -1,15 +1,40 @@
+[254d14c7-5966-48d7-82a6-591173ce8abd]
+Description=Fix plasmashell going behind windows
+above=true
+aboverule=2
+types=24
+wmclass=plasmashell
+wmclassmatch=1
+
 [46d8fb2d-0879-41aa-96ba-26470ea88276]
 above=true
 aboverule=2
 
 [General]
-count=2
-rules=da9f3b99-336b-455e-901f-bc88b2e0ef0f,1
+count=4
+rules=254d14c7-5966-48d7-82a6-591173ce8abd,e76d3b5c-b962-4a21-ba1d-7dd22b164890,fea2aaa6-f233-45cd-b28d-4c63aa9be672,1
 
-[da9f3b99-336b-455e-901f-bc88b2e0ef0f]
-Description=Fishbowl fix popups
-above=true
-aboverule=2
-types=952
-wmclass=steam_proton
-wmclassmatch=1
+[e76d3b5c-b962-4a21-ba1d-7dd22b164890]
+Description=fix tilling geometry
+minsizerule=2
+types=1
+
+[fea2aaa6-f233-45cd-b28d-4c63aa9be672]
+Description=Settings for gamescope
+fullscreen=true
+fullscreenrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+maximizehoriz=true
+maximizehorizrule=2
+maximizevert=true
+maximizevertrule=2
+minsize=3840,2160
+minsizerule=2
+position=0,0
+positionrule=2
+size=3840,2160
+sizerule=2
+types=1
+wmclass=gamescope
+wmclassmatch=2

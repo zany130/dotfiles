@@ -118,6 +118,7 @@ restore:
   sort:
     key: name
     reversed: false
+  reverseRedirects: false
 scan:
   showDeselectedGames: true
   showUnchangedGames: true
@@ -134,33 +135,39 @@ apps:
     arguments: "--fast-list --ignore-checksum"
 customGames:
   - name: "The Legend of Heroes: Trails of Cold Steel III"
+    integration: override
     files:
       - "<home>/Saved Games/Falcom/"
       - "<winLocalAppData>/TrailsOfColdSteel3/ "
       - "<base>/bin/x64/"
     registry: []
   - name: "The Legend of Heroes: Trails of Cold Steel IV"
+    integration: override
     files:
       - "<home>/Saved Games/Falcom/"
       - "<winLocalAppData>/TrailsOfColdSteel4/"
       - "<base>/bin/Win64/"
     registry: []
   - name: Ryujinx Saves
+    integration: override
     files:
       - ~/.config/Ryujinx/bis/system/save/
       - ~/.config/Ryujinx/bis/user/save/
     registry: []
   - name: Other EMU saves
+    integration: override
     files:
       - ~/Emulation/saves
     registry: []
   - name: "The Legend of Heroes: Trails into Reverie"
+    integration: override
     files:
       - "<home>/Saved Games/Falcom/"
       - "<winLocalAppData>/Falcom/"
       - "<base>/bin/Win64/"
     registry: []
   - name: Persona 3 Reload
+    integration: override
     files:
       - "<winAppData>/SEGA/P3R/Steam/<storeUserId>"
       - "<winLocalAppData>/P3R/Saved/Config/WinGDK"
@@ -169,6 +176,7 @@ customGames:
       - "<base>/P3R/Binaries/Win64/"
     registry: []
   - name: "The Legend of Heroes: Trails through Daybreak"
+    integration: override
     files:
       - "<home>/Saved Games/Falcom/Kuro"
       - "<winLocalAppData>/Falcom/Kuro"
