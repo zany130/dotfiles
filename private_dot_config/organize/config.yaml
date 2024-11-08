@@ -1,8 +1,26 @@
 private_folders: &Pfolders
     - "pCloudDrive"
+    - "MEGA"
+    - "MEGAsync"
+    - "MEGAsync Downloads"
+    - "OneDrive"
+    - "Sync"
     - ".*"
     - "Applications"
-    - "OneDrive"
+    - "CE-Tables"
+    - "mods"
+    - "Games"
+    - "homebrew"
+    - "ludusavid-backup"
+    - "Emulation"
+    - "ES_DE"
+    - "bin"
+    - "rEFInd_GUI"
+    - "Shortix"
+    - "sdgyodsu"
+    - "stl"
+    - 'Unity'
+  
 
 private_files: &Pfiles 
     - ".steampath"
@@ -42,16 +60,30 @@ rules:
                 rename_template: "{name}-{counter}{extension}"
 #--------------------------------------------------------------------
 
+    - name: move cheat engine tables into cheatengine folder
+      locations:
+          - ~/Downloads/
+          - /mnt/DATA/Downloads/
+      filters:
+          - extension:
+            - CT
+      actions:
+          - move: 
+                dest: ~/CE-Tables/
+                on_conflict: skip
+#--------------------------------------------------------------------
+     
     - name: move Documents into documents folder
       locations:
           - path: ~/
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: [*Pfolders, "Documents"]
             exclude_files: [*Pfiles]
       filters:
           - extension:
             - doc
             - docx
+            - csv
             - msg
             - odt
             - pages
@@ -71,11 +103,11 @@ rules:
                 on_conflict: rename_new
                 rename_template: "{name}-{counter}{extension}"
 #--------------------------------------------------------------------
- 
+    
     - name: move Log files into Logs folder
       locations:
           - path: ~/
-            max_Depth: 2
+            max_depth: 0
             exclude_dirs: [*Pfolders, "Logs"]
             exclude_files: [*Pfiles]
       filters:
@@ -91,17 +123,19 @@ rules:
     - name: Move applications into Applications folder
       locations:
         - path: ~/
-          max_Depth: 2
-          exclude_dirs: [*Pfolders, "Applications"]
+          max_depth: 2
+          exclude_dirs: [*Pfolders, "Applications", "AppImages"]
           exclude_files: [*Pfiles]
       filters:
           - extension:
             - apk
             - app
             - exe
+            - flatpak
+            - flatpakref
+            - ipk
             - msi
             - jar
-            - appimage
             - rpm
             - deb
             - pkg
@@ -118,7 +152,7 @@ rules:
     - name: Move audio files into music folder
       locations:
           - path: ~/
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: [*Pfolders, "Music"]
             exclude_files: [*Pfiles]
       filters:
@@ -142,7 +176,7 @@ rules:
     - name: Move video files into Videos
       locations:
           - path: ~/
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: [*Pfolders, "Videos"]
             exclude_files: [*Pfiles]
       filters:
@@ -171,11 +205,12 @@ rules:
       name: Move image files into Pictures
       locations:
           - path: ~/
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: [*Pfolders, "Pictures"]
             exclude_files: [*Pfiles]
       filters:
           - extension:
+            - avif
             - bmp
             - dds
             - gif
@@ -192,6 +227,7 @@ rules:
             - ai
             - eps
             - svg
+            - webp
       actions:
           - move: 
                 dest: ~/Pictures/
@@ -223,28 +259,10 @@ rules:
 
 #--------------------------------------------------------------------
 
-    - name: Move Scripts into Scripts folder
-      locations:
-        - path: ~/
-          max_Depth: 2
-          exclude_dirs: [*Pfolders, "Scripts", "Applications", "emudeck"]
-          exclude_files: [*Pfiles]
-      filters:
-          - extension:
-            - sh
-            - bat
-            - vbs
-      actions:
-          - move: 
-                dest: ~/Scripts/
-                on_conflict: rename_new
-                rename_template: "{name}-{counter}{extension}"
-#--------------------------------------------------------------------
-
     - name: Move 3ds roms into 3ds rom folder
       locations:        
         - path: ~/Downloads
-          max_Depth: 2
+          max_depth: 2
           exclude_dirs: []
           exclude_files: []
       filters:
@@ -266,7 +284,7 @@ rules:
     - name: Move n64 roms into n64 rom folder
       locations:
         - path: ~/Downloads
-          max_Depth: 2
+          max_depth: 2
           exclude_dirs: []
           exclude_files: []
       filters:
@@ -290,7 +308,7 @@ rules:
     - name: Move nds roms into nds rom folder
       locations:
         - path: ~/Downloads
-          max_Depth: 2
+          max_depth: 2
           exclude_dirs: []
           exclude_files: []
       filters:
@@ -308,7 +326,7 @@ rules:
     - name: Move nes roms into nes rom folder
       locations:
         - path: ~/Downloads
-          max_Depth: 2
+          max_depth: 2
           exclude_dirs: []
           exclude_files: []
       filters:
@@ -325,7 +343,7 @@ rules:
     - name: Move snes roms into snes rom folder
       locations:
         - path: ~/Downloads
-          max_Depth: 2
+          max_depth: 2
           exclude_dirs: []
           exclude_files: []
       filters:
@@ -341,7 +359,7 @@ rules:
     - name: Move GB roms into GB rom folder
       locations:
           - path: ~/Downloads
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: []
             exclude_files: []
       filters:
@@ -358,7 +376,7 @@ rules:
     - name: Move GBC roms into GBC rom folder
       locations:
           - path: ~/Downloads
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: []
             exclude_files: []
       filters:
@@ -375,7 +393,7 @@ rules:
     - name: Move GBA roms into GBA rom folder
       locations:
           - path: ~/Downloads
-            max_Depth: 2
+            max_depth: 2
             exclude_dirs: []
             exclude_files: []
       filters:

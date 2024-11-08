@@ -1,7 +1,8 @@
 "https://github.com/akgunter/crt-royale-reshade";crt-royale-reshade;akgunter;Repository of crt-royale-reshade, an effect with multiple uses in the CRT emulation scene.
 "https://github.com/AlexTuduran/FGFX";FGFX;AlexTuduran;Collection of ReShade shaders.
 "https://github.com/AlucardDH/dh-reshade-shaders";dh-reshade-shaders;AlucardDH;Abstract shaders and some utility aswell like unditter and uniformity correction.
-"https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shaderThis reshade shader is designed to enhance the vibrance of an image selectively
+"https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shader This reshade shader is designed to enhance the vibrance of an image selectively
+"https://github.com/BarbatosBachiko/Reshade-Shaders";baba-reshade;barbatos;Home of UFakeHDR and other neat shaders by Barbatos
 "https://github.com/bituq/ZealShaders";ZealShaders;bituq;A bundle of HLSL shaders written for Reshade.
 "https://github.com/BlueSkyDefender/Depth3D";Depth3D;BlueSkyDefender;Lots of great utility shaders. Home of SuperDepth3D (adds 3D support on almost any game)
 "https://github.com/brussell1/Shaders";Shaders (brussell1);brussell1;Home of Eye Adaptation and UI Detect shaders.
@@ -34,7 +35,7 @@
 "https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.
 "https://github.com/MaxG2D/ReshadeSimpleHDRShaders";ReshadeSimpleHDRShaders;MaxG2D;Reshade HDR-Compatible shaders that focus on eye-candy effects and basic adjustments
 "https://github.com/mj-ehsan/NiceGuy-Shaders";NiceGuy-Shaders;mj-ehsan;A repository of shaders such as NiceGuy-Lighting, NiceGuy-Lamps, and HoleFiller.
-"https://github.com/murchalloo/murchFX/tree/main";murchFX;murchalloo;some kind of reshade shaders
+"https://github.com/murchalloo/murchFX";murchFX;murchalloo;some kind of reshade shaders
 "https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.
 "https://github.com/originalnicodr/CorgiFX";CorgiFX;Originalnicodr;Home of a few "enhanced" versions of known shaders.
 "https://github.com/papadanku/CShade";CShade;papadanku;Previously known as BrimsonFX, a repository that hosts shaders such as cMotionBlur, cAutoExposure, cGaussianBlur, and cBloom.
