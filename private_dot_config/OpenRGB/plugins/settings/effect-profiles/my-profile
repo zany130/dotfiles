@@ -6,28 +6,28 @@
             "Brightness": 100,
             "ControllerZones": [
                 {
-                    "description": "Corsair Vengeance Pro RGB Device",
+                    "description": "AMD Wraith Prism Device",
                     "is_segment": false,
-                    "location": "I2C: /dev/i2c-8, address 0x5A",
-                    "name": "Corsair Vengeance Pro RGB",
+                    "location": "HID: /dev/hidraw8",
+                    "name": "AMD Wraith Prism",
                     "reverse": false,
                     "segment_idx": -1,
                     "self_brightness": 100,
                     "serial": "",
-                    "vendor": "Corsair",
-                    "version": "",
-                    "zone_idx": 0
+                    "vendor": "Cooler Master",
+                    "version": "V1.01.00",
+                    "zone_idx": 2
                 },
                 {
-                    "description": "Corsair Vengeance Pro RGB Device",
+                    "description": "Logitech Keyboard Device",
                     "is_segment": false,
-                    "location": "I2C: /dev/i2c-8, address 0x5B",
-                    "name": "Corsair Vengeance Pro RGB",
+                    "location": "",
+                    "name": "Logitech G512 RGB",
                     "reverse": false,
                     "segment_idx": -1,
                     "self_brightness": 100,
-                    "serial": "",
-                    "vendor": "Corsair",
+                    "serial": "0A77307A3336",
+                    "vendor": "Logitech",
                     "version": "",
                     "zone_idx": 0
                 }
@@ -52,20 +52,7 @@
                 {
                     "description": "Corsair Lighting Node Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw7",
-                    "name": "Corsair Commander Pro",
-                    "reverse": false,
-                    "segment_idx": -1,
-                    "self_brightness": 100,
-                    "serial": "0E0500637329041A",
-                    "vendor": "Corsair",
-                    "version": "0.9.212",
-                    "zone_idx": 0
-                },
-                {
-                    "description": "Corsair Lighting Node Device",
-                    "is_segment": false,
-                    "location": "HID: /dev/hidraw7",
+                    "location": "HID: /dev/hidraw1",
                     "name": "Corsair Commander Pro",
                     "reverse": false,
                     "segment_idx": -1,
@@ -102,19 +89,37 @@
         },
         {
             "AllowOnlyFirst": false,
-            "AutoStart": false,
+            "AutoStart": true,
             "Brightness": 100,
-            "ControllerZones": [],
+            "ControllerZones": [
+                {
+                    "description": "Corsair Lighting Node Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "Corsair Commander Pro",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "0E0500637329041A",
+                    "vendor": "Corsair",
+                    "version": "0.9.212",
+                    "zone_idx": 0
+                }
+            ],
             "CustomName": "",
-            "EffectClassName": "Comet",
+            "EffectClassName": "StarryNight",
             "FPS": 60,
             "RandomColors": true,
-            "Slider2Val": 50,
-            "Speed": 25,
+            "Slider2Val": 37,
+            "Speed": 50,
             "Temperature": 0,
             "Tint": 0,
             "UserColors": [
-                65505
+                655104,
+                15597823,
+                9765119,
+                65518,
+                65310
             ]
         }
     ],

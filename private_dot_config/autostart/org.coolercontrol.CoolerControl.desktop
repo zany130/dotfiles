@@ -9,4 +9,4 @@ Keywords=cooling;fan control;pump control
 Comment=Monitor and control your cooling device
 StartupNotify=true
 StartupWMClass=coolercontrol
-X-Desktop-File-Install-Version=0.26
+X-Desktop-File-Install-Version=0.27

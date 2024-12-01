@@ -1,4 +1,16 @@
 {
+    "ASRock Polychrome USB": {
+        "RGSwap": {
+            "Addressable Header 1": false,
+            "Addressable Header 2": false,
+            "Addressable Header 3/Audio": false,
+            "IO Cover": true,
+            "PCB": true,
+            "PCH": true,
+            "RGB LED 1 Header": false,
+            "RGB LED 2 Header": false
+        }
+    },
     "AutoStart": {
         "client": "localhost:6742",
         "custom": "",
@@ -1275,6 +1287,11 @@
             "Z370 AORUS Gaming 5-CF"
         ]
     },
+    "LogManager": {
+        "dialog_no_show_hashes": [
+            14306703760882907409
+        ]
+    },
     "Plugins": {
         "plugins": [
             {
@@ -1309,12 +1326,12 @@
             "set_on_exit": false
         },
         "geometry": {
-            "height": 1022,
+            "height": 1033,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 938,
-            "x": 967,
-            "y": 50
+            "width": 1262,
+            "x": 1931,
+            "y": 40
         },
         "greyscale_tray_icon": false,
         "language": "default",

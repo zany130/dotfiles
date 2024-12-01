@@ -108,7 +108,7 @@
   _wpid: '4069'
   change-host: null
   divert-keys: {82: 1, 83: 0, 86: 0, 195: 2, 196: 3}
-  dpi: 1850
+  dpi: 2200
   gesture2-divert: {46: false}
   gesture2-gestures: {45: true, 46: true}
   hires-scroll-mode: false

@@ -27,14 +27,13 @@ unset rc
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
-### bling.sh source start
-test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
-### bling.sh source end
 . "$HOME/.cargo/env"
-
 # paths needed by cargo
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
 export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.2/"
 
 # Added by ProtonUp-Qt on 22-10-2024 21:45:16
 if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
+### bling.sh source start
+test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
+### bling.sh source end

@@ -481,7 +481,8 @@
             "memberList": true,
             "voiceUsers": true,
             "reactorsList": true,
-            "colorChatMessages": false
+            "colorChatMessages": false,
+            "pollResults": true
         },
         "SecretRingToneEnabler": {
             "enabled": false
@@ -1053,9 +1054,6 @@
             "enabled": false
         },
         "NoChannelEmoji": {
-            "enabled": false
-        },
-        "NoDefaultEmojis": {
             "enabled": false
         },
         "NoDeleteSafety": {
@@ -1659,6 +1657,92 @@
         },
         "FixImagesQuality": {
             "enabled": false
+        },
+        "WhitelistedEmojis": {
+            "enabled": false
+        },
+        "Boo": {
+            "enabled": false
+        },
+        "MinecraftFormatCodes": {
+            "enabled": false
+        },
+        "NeverPausePreviews": {
+            "enabled": false
+        },
+        "NoDefaultEmojis": {
+            "enabled": false
+        },
+        "Personify": {
+            "enabled": false
+        },
+        "UserFlags": {
+            "enabled": false
+        },
+        "Venplug": {
+            "enabled": false
+        },
+        "AutomodIndicator": {
+            "enabled": false
+        },
+        "BetterAudioPlayer": {
+            "enabled": false
+        },
+        "ChannelBadges": {
+            "enabled": false
+        },
+        "CharacterCounter": {
+            "enabled": false
+        },
+        "CustomTimestamps": {
+            "enabled": false
+        },
+        "HideChatButtons": {
+            "enabled": false
+        },
+        "ImagePreview": {
+            "enabled": false
+        },
+        "KeyboardSounds": {
+            "enabled": false
+        },
+        "MessagePeek": {
+            "enabled": true,
+            "dms": true,
+            "guildChannels": true
+        },
+        "NoAppsAllowed": {
+            "enabled": false
+        },
+        "PinIcon": {
+            "enabled": false
+        },
+        "PollCommands": {
+            "enabled": false
+        },
+        "PronounDB": {
+            "enabled": false
+        },
+        "RoleDuplication": {
+            "enabled": false
+        },
+        "ScreenRecorder": {
+            "enabled": false
+        },
+        "ServersPage": {
+            "enabled": false
+        },
+        "SidebarChat": {
+            "enabled": false
+        },
+        "StatusPresets": {
+            "enabled": false
+        },
+        "MoreThemes": {
+            "enabled": false
+        },
+        "Onward": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -1671,6 +1755,6 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1730928883970
+        "settingsSyncVersion": 1732738975224
     }
 }
