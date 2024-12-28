@@ -1,0 +1,10 @@
+{
+  "host_url": "https://luxtorpeda-dev.github.io",
+  "should_do_update": true,
+  "disable_default_confirm": false,
+  "enable_steam_cloud": false,
+  "hash_check_install": true,
+  "close_client_on_launch": false,
+  "steam_app_id_install_wait_in_seconds": 600,
+  "additional_remote_packages": null
+}
