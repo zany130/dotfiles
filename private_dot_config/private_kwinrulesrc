@@ -1,18 +1,14 @@
-[254d14c7-5966-48d7-82a6-591173ce8abd]
-Description=Fix plasmashell going behind windows
+[1]
 above=true
-aboverule=2
-types=24
-wmclass=plasmashell
-wmclassmatch=1
+skiptaskbar=true
 
 [46d8fb2d-0879-41aa-96ba-26470ea88276]
 above=true
 aboverule=2
 
 [General]
-count=4
-rules=254d14c7-5966-48d7-82a6-591173ce8abd,e76d3b5c-b962-4a21-ba1d-7dd22b164890,fea2aaa6-f233-45cd-b28d-4c63aa9be672,1
+count=3
+rules=fea2aaa6-f233-45cd-b28d-4c63aa9be672,1,e76d3b5c-b962-4a21-ba1d-7dd22b164890
 
 [e76d3b5c-b962-4a21-ba1d-7dd22b164890]
 Description=fix tilling geometry

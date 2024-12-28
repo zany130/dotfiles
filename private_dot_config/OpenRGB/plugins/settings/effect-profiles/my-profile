@@ -6,19 +6,6 @@
             "Brightness": 100,
             "ControllerZones": [
                 {
-                    "description": "AMD Wraith Prism Device",
-                    "is_segment": false,
-                    "location": "HID: /dev/hidraw8",
-                    "name": "AMD Wraith Prism",
-                    "reverse": false,
-                    "segment_idx": -1,
-                    "self_brightness": 100,
-                    "serial": "",
-                    "vendor": "Cooler Master",
-                    "version": "V1.01.00",
-                    "zone_idx": 2
-                },
-                {
                     "description": "Logitech Keyboard Device",
                     "is_segment": false,
                     "location": "",
@@ -60,7 +47,7 @@
                     "serial": "0E0500637329041A",
                     "vendor": "Corsair",
                     "version": "0.9.212",
-                    "zone_idx": 1
+                    "zone_idx": 0
                 }
             ],
             "CustomName": "",
@@ -73,7 +60,7 @@
                 "speed_mult": 12
             },
             "EffectClassName": "Bubbles",
-            "FPS": 15,
+            "FPS": 10,
             "RandomColors": true,
             "Slider2Val": 1,
             "Speed": 1,
@@ -103,12 +90,12 @@
                     "serial": "0E0500637329041A",
                     "vendor": "Corsair",
                     "version": "0.9.212",
-                    "zone_idx": 0
+                    "zone_idx": 1
                 }
             ],
             "CustomName": "",
             "EffectClassName": "StarryNight",
-            "FPS": 60,
+            "FPS": 10,
             "RandomColors": true,
             "Slider2Val": 37,
             "Speed": 50,
