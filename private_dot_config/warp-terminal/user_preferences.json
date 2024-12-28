@@ -12,7 +12,7 @@
     "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockSelect\"},{\"Action\":\"CommandPalette\"},{\"Action\":\"SplitPane\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"OpenWarpDrive\"},{\"Hint\":\"BlockAction\"}]",
     "InputAutodetectionBannerDismissed": "true",
     "AliasExpansionBannerSeen": "true",
-    "AIRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":36,\"next_refresh_time\":\"2025-01-02T00:44:15.254265Z\",\"is_unlimited\":false,\"request_limit_refresh_duration\":\"Monthly\",\"accepted_autosuggestions_limit\":250,\"is_unlimited_autosuggestions\":false,\"accepted_autosuggestions_since_last_refresh\":11}",
+    "AIRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":36,\"next_refresh_time\":\"2025-01-02T00:44:15.254265Z\",\"is_unlimited\":false,\"request_limit_refresh_duration\":\"Monthly\",\"accepted_autosuggestions_limit\":250,\"is_unlimited_autosuggestions\":false,\"accepted_autosuggestions_since_last_refresh\":13}",
     "NextCommandSuggestionsUpgradeBannerNumTimesShownThisPeriod": "0",
     "AutosuggestionAcceptedCount": "2",
     "ExperimentId": "9552fbb1-6ecd-4bc9-b073-238db6305628",
