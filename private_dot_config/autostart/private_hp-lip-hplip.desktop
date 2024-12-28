@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=System;Settings;HardwareSettings;
+Comment=View device status, ink levels and perform maintenance etc.
+Exec=/usr/bin/distrobox-enter  -n hp-lip  --   hp-toolbox
+GenericName=Printer Graphical Tools (on hp-lip)
+Icon=hp_logo
+Name=HPLIP Graphical Tools (on hp-lip)
+StartupNotify=false
+StartupWMClass=HPLIP Graphical Tools
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.26
+X-KDE-StartupNotify=false
