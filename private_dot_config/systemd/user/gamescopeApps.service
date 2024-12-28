@@ -1,7 +1,5 @@
 [Unit]
 Description=headless apps to run in gamescope session
-After=openrgb.service
-Requires=openrgb.service
 
 [Service]
 Type=forking
