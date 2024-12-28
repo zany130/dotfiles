@@ -1,0 +1,5 @@
+input_player1_analog_dpad_mode = "1"
+cheevos_enable = "false" = 
+video_shader_enable = true
+video_smooth = "false"
+input_overlay_enable = "false"
