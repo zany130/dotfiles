@@ -1,0 +1,129 @@
+{
+	"installed": [
+		{
+			"appName": "1646061575",
+			"install_path": "/home/zany130/Games/Heroic/The Caligula Effect Overdose",
+			"executable": "/home/zany130/Games/Heroic/The Caligula Effect Overdose",
+			"install_size": "5.15 GiB",
+			"is_dlc": false,
+			"version": "v1.03",
+			"platform": "windows",
+			"buildId": "52138642315794205",
+			"language": "en-US",
+			"installedDLCs": [
+				"1757553435"
+			],
+			"installedWithDLCs": true,
+			"versionEtag": "\"3635961886\""
+		},
+		{
+			"appName": "1532671653",
+			"install_path": "/home/zany130/Games/Heroic/Higurashi When They Cry Hou - Ch.1 Onikakushi",
+			"executable": "/home/zany130/Games/Heroic/Higurashi When They Cry Hou - Ch.1 Onikakushi",
+			"install_size": "420.41 MiB",
+			"is_dlc": false,
+			"version": "1.0 BGM & SFX update",
+			"platform": "linux",
+			"buildId": "664749895",
+			"language": "en-US",
+			"installedDLCs": [],
+			"installedWithDLCs": false
+		},
+		{
+			"appName": "1757179626",
+			"install_path": "/var/mnt/DATA/Games/Heroic/Hitman Absolution",
+			"executable": "/var/mnt/DATA/Games/Heroic/Hitman Absolution",
+			"install_size": "16.53 GiB",
+			"is_dlc": false,
+			"version": "1.0.447.0",
+			"platform": "windows",
+			"buildId": "52147953401842270",
+			"language": "en-US",
+			"installedDLCs": [],
+			"installedWithDLCs": false,
+			"versionEtag": "\"4109340675\""
+		},
+		{
+			"appName": "1611106985",
+			"install_path": "/home/zany130/Games/Heroic/Memory's Dogma CODE01",
+			"executable": "/home/zany130/Games/Heroic/Memory's Dogma CODE01",
+			"install_size": "4.91 GiB",
+			"is_dlc": false,
+			"version": "1.2",
+			"platform": "windows",
+			"buildId": "51730779603371501",
+			"language": "*",
+			"installedDLCs": [],
+			"installedWithDLCs": false,
+			"versionEtag": "\"3182802811\""
+		},
+		{
+			"platform": "windows",
+			"executable": "",
+			"install_path": "/home/zany130/Games/Heroic/A Light in the Dark",
+			"install_size": "97.14 MiB",
+			"is_dlc": false,
+			"version": "1.2.3",
+			"appName": "1991671705",
+			"installedDLCs": [],
+			"language": "en-US",
+			"versionEtag": "\"3078270390\"",
+			"buildId": "57040694685901789",
+			"pinnedVersion": false
+		},
+		{
+			"appName": "2049521547",
+			"install_path": "/home/zany130/Games/Heroic/Zwei The Arges Adventure",
+			"executable": "/home/zany130/Games/Heroic/Zwei The Arges Adventure",
+			"install_size": "2.46 GiB",
+			"is_dlc": false,
+			"version": "1.0.10",
+			"platform": "windows",
+			"buildId": "50960831913414878",
+			"language": "en-US",
+			"installedDLCs": [],
+			"installedWithDLCs": false,
+			"versionEtag": "\"2444464086\""
+		},
+		{
+			"appName": "1572922743",
+			"install_path": "/home/zany130/Games/Heroic/Zwei - The Ilvard Insurrection",
+			"executable": "/home/zany130/Games/Heroic/Zwei - The Ilvard Insurrection",
+			"install_size": "4.73 GiB",
+			"is_dlc": false,
+			"version": "20180120",
+			"platform": "windows",
+			"buildId": "50917331396700275",
+			"language": "en",
+			"installedDLCs": [],
+			"installedWithDLCs": false,
+			"versionEtag": "\"949064881\""
+		},
+		{
+			"appName": "1343222065",
+			"install_path": "/var/mnt/DATA/Games/Heroic/Umineko When They Cry - Question Arcs",
+			"executable": "/var/mnt/DATA/Games/Heroic/Umineko When They Cry - Question Arcs",
+			"install_size": "2.71 GiB",
+			"is_dlc": false,
+			"version": "gog-1",
+			"platform": "linux",
+			"buildId": "664819810",
+			"language": "en-US",
+			"installedDLCs": [],
+			"installedWithDLCs": false
+		},
+		{
+			"appName": "1654193651",
+			"install_path": "/var/mnt/DATA/Games/Heroic/Umineko When They Cry - Answer Arcs",
+			"executable": "/var/mnt/DATA/Games/Heroic/Umineko When They Cry - Answer Arcs",
+			"install_size": "4 GiB",
+			"is_dlc": false,
+			"version": "gog-1",
+			"platform": "linux",
+			"buildId": "664360978",
+			"language": "en-US",
+			"installedDLCs": [],
+			"installedWithDLCs": false
+		}
+	]
+}
