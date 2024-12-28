@@ -1,0 +1,5 @@
+---
+initial-setup: true
+backend-renderer: Vulkan
+pref-path: /home/zany130/Emulation/storage/Vita3K/
+...
