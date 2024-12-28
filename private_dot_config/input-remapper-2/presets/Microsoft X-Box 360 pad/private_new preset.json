@@ -1,0 +1,24 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 310,
+                "origin_hash": "bd947e359c04f76008fa811dcacb68b9"
+            },
+            {
+                "type": 3,
+                "code": 4,
+                "origin_hash": "bd947e359c04f76008fa811dcacb68b9",
+                "analog_threshold": 1
+            },
+            {
+                "type": 3,
+                "code": 3,
+                "origin_hash": "bd947e359c04f76008fa811dcacb68b9",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard"
+    }
+]
