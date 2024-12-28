@@ -1,0 +1,26 @@
+{
+    "version": 21,
+    "clientId": "e3224dcc-8be4-4dc8-8441-a32203330be2",
+    "currentHostId": null,
+    "gameSession": {
+        "autoApplyAppId": false,
+        "resumeAfterSuspend": false
+    },
+    "buttonPosition": {
+        "horizontalAlignment": "bottom",
+        "verticalAlignment": "right",
+        "offsetX": "",
+        "offsetY": "",
+        "offsetForHltb": false,
+        "zIndex": ""
+    },
+    "buttonStyle": {
+        "showFocusRing": true,
+        "theme": "Clean"
+    },
+    "enableMoondeckShortcuts": true,
+    "hostSettings": {},
+    "runnerDebugLogs": false,
+    "useMoonlightExec": false,
+    "moonlightExecPath": ""
+}
