@@ -1,0 +1,53 @@
+{
+	"isLoggedIn": true,
+	"userData": {
+		"country": "US",
+		"currencies": [
+			{
+				"code": "USD",
+				"symbol": "$"
+			}
+		],
+		"selectedCurrency": {
+			"code": "USD",
+			"symbol": "$"
+		},
+		"preferredLanguage": {
+			"code": "en",
+			"name": "English"
+		},
+		"ratingBrand": "ESRB",
+		"isLoggedIn": true,
+		"checksum": {
+			"cart": null,
+			"games": "97aa3df5f4608b3976bb0bcb52eb7f7a",
+			"wishlist": "b673165b3d0da995b21fba1e4088a6b5",
+			"reviews_votes": null,
+			"games_rating": null
+		},
+		"updates": {
+			"messages": 0,
+			"pendingFriendRequests": 0,
+			"unreadChatMessages": 0,
+			"products": 25,
+			"forum": 0,
+			"total": 25
+		},
+		"userId": "49857789314806",
+		"username": "zany130",
+		"galaxyUserId": "49857789263883365",
+		"avatar": "https://images.gog.com/df5402a468d3405c9ce8e43c33ceb91f5a6cec0bf4c6439e1a5007f424d3c405",
+		"walletBalance": {
+			"currency": "USD",
+			"amount": 0
+		},
+		"purchasedItems": {
+			"games": 77,
+			"movies": 0
+		},
+		"wishlistedItems": 27,
+		"friends": [],
+		"personalizedProductPrices": [],
+		"personalizedSeriesPrices": []
+	}
+}
