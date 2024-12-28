@@ -1,0 +1,38 @@
+[GENERIC DOWNLOAD_MANAGER] INFO: Depot version: 2
+[V2] INFO: Initialized V2 Download Manager
+[V2] INFO: Deleted: 0 New: 18 Changed: 0
+[API] INFO: Getting Dependencies repository
+(51.73351573944092, 'MB') 54246523
+(97.1431188583374, 'MB') 101861943
+[PROGRESS] INFO: = Progress: 0.00 0/101861943, Running for: 00:00:00, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 0.00 MiB, Written: 0.00 MiB
+[PROGRESS] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 1.13 1155096/101861943, Running for: 00:00:01, ETA: 00:01:28
+[PROGRESS] INFO: = Downloaded: 1.15 MiB, Written: 1.10 MiB
+[PROGRESS] INFO:  + Download	- 0.13 MiB/s (raw) / 0.50 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 1.10 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 1.13 1155096/101861943, Running for: 00:00:02, ETA: 00:02:56
+[PROGRESS] INFO: = Downloaded: 1.15 MiB, Written: 1.10 MiB
+[PROGRESS] INFO:  + Download	- 1.07 MiB/s (raw) / 2.18 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 26.49 26981936/101861943, Running for: 00:00:03, ETA: 00:00:08
+[PROGRESS] INFO: = Downloaded: 13.31 MiB, Written: 25.73 MiB
+[PROGRESS] INFO:  + Download	- 1.43 MiB/s (raw) / 3.64 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 3.00 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 26.49 26981936/101861943, Running for: 00:00:04, ETA: 00:00:11
+[PROGRESS] INFO: = Downloaded: 13.31 MiB, Written: 25.73 MiB
+[PROGRESS] INFO:  + Download	- 1.02 MiB/s (raw) / 2.71 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 4.99 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 85.85 87449207/101861943, Running for: 00:00:05, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 40.60 MiB, Written: 83.40 MiB
+[PROGRESS] INFO:  + Download	- 2.00 MiB/s (raw) / 4.20 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 4.99 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 85.85 87449207/101861943, Running for: 00:00:06, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 40.60 MiB, Written: 83.40 MiB
+[PROGRESS] INFO:  + Download	- 2.50 MiB/s (raw) / 7.31 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 4.99 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 100.00 101861943/101861943, Running for: 00:00:07, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 51.73 MiB, Written: 97.14 MiB
+[PROGRESS] INFO:  + Download	- 2.50 MiB/s (raw) / 7.05 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 4.99 MiB/s (write) / 0.00 MiB/s (read)

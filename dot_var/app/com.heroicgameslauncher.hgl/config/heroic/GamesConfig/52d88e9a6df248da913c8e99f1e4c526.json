@@ -1,0 +1,30 @@
+{
+  "52d88e9a6df248da913c8e99f1e4c526": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "",
+      "name": "Default Wine - Not Found",
+      "type": "wine"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/PREY",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

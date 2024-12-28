@@ -1,0 +1,51 @@
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Preparing download for "Grand Theft Auto V" (9d2d0eb64d5c44529cece33fe2a46482)...
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /var/mnt/DATA/Games/Heroic/GTAV
+[Core] INFO: Selected CDN: cloudflare.epicgamescdn.com (https)
+[DLM] INFO: Found 0 missing files.
+[cli] INFO: Install size: 117011.97 MiB
+[cli] INFO: Download size: 82.55 MiB (Compression savings: 7.2%)
+[cli] INFO: Reusable size: 387.00 MiB (chunks) / 116539.07 MiB (unchanged / skipped)
+[cli] INFO: Downloads are resumable, you can interrupt the download with CTRL-C and resume it using the same command later on.
+
+Installation requirements check returned the following results:
+ - Warning: This game is not marked for offline use (may still work).
+
+
+This game may have compatibility issues or require additional setup, see: https://github.com/CommandMC/EpicLinux/wiki/GTA-V
+
+[DLManager] INFO: Download Manager running with process-id: 254
+[DLManager] INFO: Starting download workers...
+[DLManager] INFO: Starting file writing worker...
+[DLManager] INFO: = Progress: 0.00% (0/478), Running for 00:00:00, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 0.00 MiB, Written: 0.00 MiB
+[DLManager] INFO:  - Cache usage: 1.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 19.67% (94/478), Running for 00:00:01, ETA: 00:00:04
+[DLManager] INFO:  - Downloaded: 82.55 MiB, Written: 89.72 MiB
+[DLManager] INFO:  - Cache usage: 1.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 82.49 MiB/s (raw) / 88.93 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 89.64 MiB/s (write) / 4.00 MiB/s (read)
+[DLManager] INFO: = Progress: 57.53% (275/478), Running for 00:00:02, ETA: 00:00:01
+[DLManager] INFO:  - Downloaded: 82.55 MiB, Written: 270.72 MiB
+[DLManager] INFO:  - Cache usage: 1.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 180.81 MiB/s (write) / 180.81 MiB/s (read)
+[DLManager] INFO: = Progress: 92.89% (444/478), Running for 00:00:03, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 82.55 MiB, Written: 439.72 MiB
+[DLManager] INFO:  - Cache usage: 1.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 168.84 MiB/s (write) / 168.84 MiB/s (read)
+[DLManager] INFO: = Progress: 100.00% (478/478), Running for 00:00:04, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 82.55 MiB, Written: 472.90 MiB
+[DLManager] INFO:  - Cache usage: 0.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 33.15 MiB/s (write) / 32.97 MiB/s (read)
+[DLManager] INFO: Waiting for installation to finish...
+[DLManager] INFO: All done! Download manager quitting...
+[cli] INFO: Finished installation process in 5.09 seconds.
+
+This game may require additional setup, see: https://github.com/CommandMC/EpicLinux/wiki/GTA-V
+

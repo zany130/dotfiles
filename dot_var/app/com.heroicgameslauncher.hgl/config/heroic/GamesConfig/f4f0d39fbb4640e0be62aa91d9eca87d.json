@@ -1,0 +1,30 @@
+{
+  "f4f0d39fbb4640e0be62aa91d9eca87d": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "",
+      "name": "Default Wine - Not Found",
+      "type": "wine"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/DAEMON X MACHINA",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

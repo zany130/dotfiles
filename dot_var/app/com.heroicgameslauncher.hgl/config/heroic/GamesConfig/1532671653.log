@@ -1,0 +1,34 @@
+[GENERIC DOWNLOAD_MANAGER] INFO: Platform is Linux, redirecting download to Linux Native installer manager
+[LINUX] INFO: Initialized Linux Download Manager
+[API] INFO: Getting info from products endpoint for id: 1532671653
+New/changed files 0
+Deleted 0
+Total files 787
+(0, 'B') 0
+(0, 'B') 0
+Traceback (most recent call last):
+  File "gogdl/cli.py", line 4, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "gogdl/dl/managers/manager.py", line 9, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "gogdl/dl/managers/linux.py", line 9, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "gogdl/dl/dl_utils.py", line 8, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "requests/__init__.py", line 43, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "urllib3/__init__.py", line 14, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "urllib3/exceptions.py", line 7, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "http/client.py", line 71, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "email/parser.py", line 12, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "email/feedparser.py", line 27, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "email/_policybase.py", line 7, in <module>
+  File "PyInstaller/loader/pyimod02_importers.py", line 378, in exec_module
+  File "email/header.py", line 14, in <module>
+ModuleNotFoundError: No module named 'binascii'
+[PYI-246:ERROR] Failed to execute script 'cli' due to unhandled exception!

@@ -1,0 +1,30 @@
+{
+  "256ba8bdd1ff4c26a0b2d3776d1a1bf6": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "",
+      "name": "Default Wine - Not Found",
+      "type": "wine"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/The Callisto Protocol",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

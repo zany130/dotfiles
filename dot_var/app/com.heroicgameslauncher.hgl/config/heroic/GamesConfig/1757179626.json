@@ -1,0 +1,30 @@
+{
+  "1757179626": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "",
+      "name": "Default Wine - Not Found",
+      "type": "wine"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/Hitman Absolution",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

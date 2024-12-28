@@ -1,0 +1,9 @@
+[GENERIC DOWNLOAD_MANAGER] INFO: Depot version: 2
+[V2] INFO: Initialized V2 Download Manager
+[V2] INFO: Creating Manifest instance from existing manifest
+[V2] INFO: Requested dlcs 1757553435
+[V2] INFO: Owned dlcs [{'title': 'The Caligula Effect: Overdose DLC - Casual Clothes Costume', 'id': '1757553435'}]
+[V2] INFO: No patch found, falling back to chunk based updates
+[V2] INFO: Deleted: 0 New: 0 Changed: 0
+[API] INFO: Getting Dependencies repository
+[V2] INFO: Nothing to do
