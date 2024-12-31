@@ -1,10 +1,11 @@
 {
-    "version": 21,
+    "version": 23,
     "clientId": "e3224dcc-8be4-4dc8-8441-a32203330be2",
     "currentHostId": null,
     "gameSession": {
         "autoApplyAppId": false,
-        "resumeAfterSuspend": false
+        "resumeAfterSuspend": false,
+        "controllerConfig": "Noop"
     },
     "buttonPosition": {
         "horizontalAlignment": "bottom",
@@ -19,6 +20,7 @@
         "theme": "Clean"
     },
     "enableMoondeckShortcuts": true,
+    "enableMoondeckButtonPrompt": false,
     "hostSettings": {},
     "runnerDebugLogs": false,
     "useMoonlightExec": false,

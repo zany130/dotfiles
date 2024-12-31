@@ -2,6 +2,6 @@
 Type=Application
 Name=Vesktop
 Comment=Vesktop autostart script
-Exec="/tmp/.mount_veskto3fTqJu/vesktop.bin" "" "--no-sandbox"
+Exec="/var/home/zany130/AppImages/vesktop.appimage" "" "--no-sandbox" "--start-minimized"
 StartupNotify=false
 Terminal=false
