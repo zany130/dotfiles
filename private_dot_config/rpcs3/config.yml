@@ -233,4 +233,4 @@ Miscellaneous:
   Silence All Logs: false
   Window Title Format: "FPS: %F | %R | %V | %T [%t]"
   Pause Emulation During Home Menu: false
-Log: {}
+Log: {}Resolution Scale: = 300
