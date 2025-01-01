@@ -1,0 +1,6 @@
+{
+    "device": "alsa_output.usb-Sony_INZONE_H9___INZONE_H7-00.iec958-stereo",
+    "device-description": "INZONE H9 / INZONE H7 Digital Stereo (IEC958)",
+    "device-profile": "iec958-stereo-output",
+    "preset-name": "INZONEH7"
+}
