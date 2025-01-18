@@ -3457,7 +3457,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8089,7 +8089,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8180,7 +8180,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,

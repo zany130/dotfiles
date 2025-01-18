@@ -1,1 +1,1 @@
-{"version": 1, "hostname": "192.168.4.48", "key": "c9ba71bf47449974ce6fdb52ca3c1e5a", "mac": "ac:5a:f0:66:8e:41"}
+{"version": 2, "default_tv": "default", "tvs": {"default": {"hostname": "192.168.4.48", "key": "c9ba71bf47449974ce6fdb52ca3c1e5a", "mac": "ac:5a:f0:66:8e:41"}}}

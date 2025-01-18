@@ -20,7 +20,7 @@
 		"isLoggedIn": true,
 		"checksum": {
 			"cart": null,
-			"games": "97aa3df5f4608b3976bb0bcb52eb7f7a",
+			"games": "9988663606cc21672fed10b0d4526df9",
 			"wishlist": "b673165b3d0da995b21fba1e4088a6b5",
 			"reviews_votes": null,
 			"games_rating": null
@@ -42,7 +42,7 @@
 			"amount": 0
 		},
 		"purchasedItems": {
-			"games": 77,
+			"games": 78,
 			"movies": 0
 		},
 		"wishlistedItems": 27,

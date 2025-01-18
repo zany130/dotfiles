@@ -1,7 +1,7 @@
 {
     "audio_settings": {
         "amplitude": 100,
-        "audio_device": -1,
+        "audio_device": 0,
         "avg_mode": 0,
         "avg_size": 8,
         "decay": 80,

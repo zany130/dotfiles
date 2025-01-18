@@ -1,8 +1,8 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1734062261741,
-			"download": 1734062261741
+			"check": 1736386841798,
+			"download": 1736386841798
 		},
 		"verbose": false,
 		"filterProviders": true
@@ -13,9 +13,7 @@
 		"retroarchPath": "/home/zany130/Emulation/tools/launchers/retroarch.sh",
 		"raCoresDirectory": "",
 		"localImagesDirectory": "",
-		"userAccounts": [
-			"zany130"
-		]
+		"userAccounts": []
 	},
 	"previewSettings": {
 		"imageLoadStrategy": "loadLazy",
