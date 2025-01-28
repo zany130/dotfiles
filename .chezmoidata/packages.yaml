@@ -54,11 +54,13 @@ packages:
     - 'organize-tool'
     rpmtree:
     - 'applet-window-buttons'
-    - 'krdp'
     - 'kvantum'
     ujust:
     - 'add-user-to-input-group'
     - 'bazzite-cli'
     - 'install-adwaita-for-steam'
     - 'install-boxtron'
+    - 'install-docker'
+    - 'install-emudeck'
     - 'install-hhd-controller-glyph-theme'
+    - 'setup-sunshine'
