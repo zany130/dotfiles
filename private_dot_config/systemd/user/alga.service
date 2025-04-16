@@ -1,6 +1,0 @@
-[Unit]
-Description=turn on tv and set input
-
-[Service]
-Type=simple
-ExecStart=/var/home/zany130/Scripts/wolTV.sh
