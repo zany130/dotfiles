@@ -61,14 +61,14 @@
 			"platform": "windows",
 			"executable": "",
 			"install_path": "/home/zany130/Games/Heroic/A Light in the Dark",
-			"install_size": "97.14 MiB",
+			"install_size": "1.73 GiB",
 			"is_dlc": false,
-			"version": "1.2.3",
+			"version": "1.2.4",
 			"appName": "1991671705",
 			"installedDLCs": [],
 			"language": "en-US",
-			"versionEtag": "\"9726b5b1c0dc7556368f85a2cd878065\"",
-			"buildId": "57040694685901789",
+			"versionEtag": "\"192c29a05200bbd1c9d41a27e02ac7c4\"",
+			"buildId": "57448409483282909",
 			"pinnedVersion": false
 		},
 		{
@@ -124,6 +124,20 @@
 			"language": "en-US",
 			"installedDLCs": [],
 			"installedWithDLCs": false
+		},
+		{
+			"platform": "windows",
+			"executable": "",
+			"install_path": "/home/zany130/Games/Heroic/Symphonia",
+			"install_size": "1 GiB",
+			"is_dlc": false,
+			"version": "V1.0",
+			"appName": "2069516170",
+			"installedDLCs": [],
+			"language": "en-US",
+			"versionEtag": "\"82ba13fd96b74dd32e6181fd285a3ebb\"",
+			"buildId": "54533854502806685",
+			"pinnedVersion": false
 		}
 	]
 }

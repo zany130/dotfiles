@@ -21,7 +21,7 @@
 		"checksum": {
 			"cart": null,
 			"games": "9988663606cc21672fed10b0d4526df9",
-			"wishlist": "b673165b3d0da995b21fba1e4088a6b5",
+			"wishlist": "811a81b3e2df6ac7a1f8e98a62d6ff3d",
 			"reviews_votes": null,
 			"games_rating": null
 		},
@@ -29,9 +29,9 @@
 			"messages": 0,
 			"pendingFriendRequests": 0,
 			"unreadChatMessages": 0,
-			"products": 25,
+			"products": 26,
 			"forum": 0,
-			"total": 25
+			"total": 26
 		},
 		"userId": "49857789314806",
 		"username": "zany130",
@@ -45,7 +45,7 @@
 			"games": 78,
 			"movies": 0
 		},
-		"wishlistedItems": 27,
+		"wishlistedItems": 28,
 		"friends": [],
 		"personalizedProductPrices": [],
 		"personalizedSeriesPrices": []

@@ -15,6 +15,18 @@ roots:
   - store: lutris
     path: /home/zany130/.config/lutris
     database: /home/zany130/.local/share/lutris/pga.db
+  - store: steam
+    path: /var/home/zany130/.var/app/com.valvesoftware.Steam/.steam/steam
+  - store: steam
+    path: /var/mnt/DATA/SteamLibrary
+  - store: steam
+    path: /var/mnt/GAMES/SteamLibrary
+  - store: heroic
+    path: /var/mnt/GAMES/Heroic
+  - store: heroic
+    path: /home/zany130/Games/Heroic
+  - store: otherHome
+    path: /var/home/zany130/
 redirects: []
 backup:
   path: /home/zany130/ludusavi-backup
@@ -35,8 +47,8 @@ backup:
   toggledPaths: {}
   toggledRegistry: {}
   sort:
-    key: status
-    reversed: false
+    key: size
+    reversed: true
   retention:
     full: 5
     differential: 10
@@ -51,6 +63,7 @@ backup:
         level: 6
       zstd:
         level: 10
+  onlyConstructive: false
 restore:
   path: /home/zany130/ludusavi-backup
   ignoredGames:
@@ -134,40 +147,14 @@ apps:
     path: /home/linuxbrew/.linuxbrew/bin/rclone
     arguments: "--fast-list --ignore-checksum"
 customGames:
-  - name: "The Legend of Heroes: Trails of Cold Steel III"
-    integration: override
-    files:
-      - "<home>/Saved Games/Falcom/"
-      - "<winLocalAppData>/TrailsOfColdSteel3/ "
-      - "<base>/bin/x64/"
-    registry: []
-  - name: "The Legend of Heroes: Trails of Cold Steel IV"
-    integration: override
-    files:
-      - "<home>/Saved Games/Falcom/"
-      - "<winLocalAppData>/TrailsOfColdSteel4/"
-      - "<base>/bin/Win64/"
-    registry: []
-  - name: Ryujinx Saves
-    integration: override
-    files:
-      - ~/.config/Ryujinx/bis/system/save/
-      - ~/.config/Ryujinx/bis/user/save/
-    registry: []
   - name: Other EMU saves
     integration: override
     files:
       - ~/Emulation/saves
     registry: []
-  - name: "The Legend of Heroes: Trails into Reverie"
-    integration: override
-    files:
-      - "<home>/Saved Games/Falcom/"
-      - "<winLocalAppData>/Falcom/"
-      - "<base>/bin/Win64/"
-    registry: []
+    installDir: []
   - name: Persona 3 Reload
-    integration: override
+    integration: extend
     files:
       - "<winAppData>/SEGA/P3R/Steam/<storeUserId>"
       - "<winLocalAppData>/P3R/Saved/Config/WinGDK"
@@ -175,16 +162,51 @@ customGames:
       - "<winLocalAppData>/Packages/SEGAofAmericaInc.L0cb6b3aea_s751p9cej88mt/SystemAppData/wgs/<storeUserId>"
       - "<base>/P3R/Binaries/Win64/"
     registry: []
-  - name: "The Legend of Heroes: Trails through Daybreak"
+    installDir: []
+  - name: Ryujinx Saves
     integration: override
+    files:
+      - ~/.config/Ryujinx/bis/system/save/
+      - ~/.config/Ryujinx/bis/user/save/
+    registry: []
+    installDir: []
+  - name: "The Legend of Heroes: Trails into Reverie"
+    integration: extend
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/Falcom/"
+      - "<base>/bin/Win64/"
+    registry: []
+    installDir: []
+  - name: "The Legend of Heroes: Trails of Cold Steel III"
+    integration: extend
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/TrailsOfColdSteel3/ "
+      - "<base>/bin/x64/"
+    registry: []
+    installDir: []
+  - name: "The Legend of Heroes: Trails of Cold Steel IV"
+    integration: extend
+    files:
+      - "<home>/Saved Games/Falcom/"
+      - "<winLocalAppData>/TrailsOfColdSteel4/"
+      - "<base>/bin/Win64/"
+    registry: []
+    installDir: []
+  - name: "The Legend of Heroes: Trails through Daybreak"
+    integration: extend
     files:
       - "<home>/Saved Games/Falcom/Kuro"
       - "<winLocalAppData>/Falcom/Kuro"
-      - "<base>/reshade-shaders"
-      - "<base>/ReShade.ini"
-      - "<base>/ReshadeEffectShaderToggler.ini"
-      - "<base>/ReShadePreset.ini"
-      - "<base>/depth.ini"
-      - "<base>/mods"
-      - "<base>/dlc"
+      - "<base>/reshade-shaders/enabled"
+      - "<base>/*.ini"
     registry: []
+    installDir: []
+  - name: "The Legend of Heroes: Trails through Daybreak II"
+    integration: extend
+    files:
+      - "<base>/reshade-shaders/enabled"
+      - "<base>/*.ini"
+    registry: []
+    installDir: []

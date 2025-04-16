@@ -5,9 +5,36 @@ switch-to-activity-ba3b1a17-4ea8-4002-91c3-ed494409356a=Meta+2,none,Switch to ac
 switch-to-activity-f577afb5-1dac-4cd8-932c-770f8518f05f=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
+
+[com.vivaldi.Vivaldi]
+Ctrl+Shift+E=Ctrl+Shift+E,Ctrl+Shift+E,Ctrl+Shift+E
+Ctrl+Shift+Y=Ctrl+Shift+Y,Ctrl+Shift+Y,Ctrl+Shift+Y
+OpenTraceSettings=Ctrl+Shift+X,Ctrl+Shift+X,Open the Trace dashboard
+PauseTrace=Ctrl+Shift+F,Ctrl+Shift+F,Pause Trace
+ToggleTraceWeb=none,Ctrl+Shift+E,Toggle Web Controller
+_k_friendly_name=com.vivaldi.Vivaldi
+add-to-todoist=none,Alt+Shift+A,Add to Todoist
+addSite=Alt+Shift+A,Alt+Shift+A,Toggle current site
+autofill_card=none,none,Autofill the last used card for the current website
+autofill_identity=none,none,Autofill the last used identity for the current website
+autofill_login=Ctrl+Shift+L,Ctrl+Shift+L,Autofill the last used login for the current website
+generate_password=Ctrl+Shift+9,Ctrl+Shift+9,Generate and copy a new random password to the clipboard
+lock_vault=none,none,Lock the vault
+open-dashboard=none,none,Open dashboard
+open-dashboard-with-running-scripts=none,none,Open dashboard with the current tab's URL used as filter
+open-new-script=none,none,Open new script tab
+openManage=none,none,Manage
+quick-start-stop-entry=Ctrl+Shift+U,Ctrl+Shift+U,Quick start/stop current entry
+reload=none,none,Reload
+save-to-pocket-action=Ctrl+Shift+P,Ctrl+Shift+P,Save page to Pocket
+styleDisableAll=none,none,Turn all styles off
+switchEngine=none,none,Theme generation mode
+toggle=Alt+Shift+D,Alt+Shift+D,Toggle extension
+toggle-enable=none,none,Toggle enable state
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -16,7 +43,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kmix]
@@ -179,6 +206,10 @@ Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Thr
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Alt+F4,Alt+F4,Close Window
+Window Custom Quick Tile Bottom=none,,Custom Quick Tile Window to the Bottom
+Window Custom Quick Tile Left=none,,Custom Quick Tile Window to the Left
+Window Custom Quick Tile Right=none,,Custom Quick Tile Window to the Right
+Window Custom Quick Tile Top=none,,Custom Quick Tile Window to the Top
 Window Fullscreen=Meta+F11,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -261,6 +292,7 @@ allWindowsToNextActivity=none,none,[WAS] Move all windows to next activity
 allWindowsToNextActivityAndSwitch=Meta+Shift+P,none,[WAS] Move all windows to next activity and switch
 allWindowsToPrevActivity=none,none,[WAS] Move all windows to previous activity
 allWindowsToPrevActivityAndSwitch=none,none,[WAS] Move all windows to previous activity and switch
+disableInputCapture=none,Meta+Shift+Esc,Disable Active Input Capture
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta+=\tMeta++,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
@@ -296,7 +328,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 _k_friendly_name=plasmashell
 activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
-activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
+activate task manager entry 10=none,,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
 activate task manager entry 3=Meta+3,Meta+3,Activate Task Manager Entry 3
 activate task manager entry 4=Meta+4,Meta+4,Activate Task Manager Entry 4
@@ -306,7 +338,9 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 137=none,none,Activate PlasMusic Toolbar Widget
+activate widget 138=none,none,Activate Flex Hub Widget
 activate widget 290=none,none,Activate KDE control station Widget
+activate widget 87=none,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -315,7 +349,7 @@ cyclePrevAction=none,none,Previous History Item
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
-repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+repeat_action=none,none,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Show Clipboard Items at Mouse Position
@@ -368,6 +402,9 @@ _launch=Meta+Ctrl+B
 
 [services][ujust.desktop]
 _launch=Meta+Shift+Esc
+
+[services][warp-terminal-AM.desktop]
+_launch=Ctrl+Alt+T
 
 [services][warp.desktop]
 _launch=Ctrl+Alt+T

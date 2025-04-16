@@ -19,7 +19,7 @@
     "hideChangelogsOnStartup": false,
     "language": "en",
     "maxWorkers": 0,
-    "minimizeOnLaunch": false,
+    "minimizeOnLaunch": true,
     "nvidiaPrime": false,
     "enviromentOptions": [],
     "wrapperOptions": [],
@@ -28,9 +28,12 @@
     "wineCrossoverBottle": "Heroic",
     "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default",
     "wineVersion": {
-      "bin": "",
-      "name": "Default Wine - Not Found",
-      "type": "wine"
+      "bin": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wine",
+      "name": "Wine - Wine-GE-latest",
+      "type": "wine",
+      "lib": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib64",
+      "lib32": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib",
+      "wineserver": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
     },
     "enableEsync": true,
     "enableFsync": true,
@@ -50,7 +53,21 @@
       "enableHelp": false,
       "automaticWinetricksFixes": true,
       "cometSupport": true,
-      "umuSupport": false
+      "umuSupport": true
+    },
+    "showMangohud": false,
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": ""
     }
   },
   "version": "v0"

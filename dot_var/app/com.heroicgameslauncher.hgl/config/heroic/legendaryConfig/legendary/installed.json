@@ -1,17 +1,43 @@
 {
+  "007ff8f4e30845a687e66aa77eb3e965": {
+    "app_name": "007ff8f4e30845a687e66aa77eb3e965",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/e5d12f6d14514964a97cb98002f0eeea/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/e5d12f6d14514964a97cb98002f0eeea/default",
+      "https://download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/e5d12f6d14514964a97cb98002f0eeea/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/e5d12f6d14514964a97cb98002f0eeea/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "GWT.exe",
+    "install_path": "/home/zany130/Games/Heroic/GhostwireTokyo",
+    "install_size": 24959552533,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Ghostwire Tokyo",
+    "uninstaller": null,
+    "version": "CL642509-A"
+  },
   "0a2d9f6403244d12969e11da6713137b": {
     "app_name": "0a2d9f6403244d12969e11da6713137b",
     "base_urls": [
-      "https://cloudflare.epicgamescdn.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
-      "https://epicgames-download1.akamaized.net/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
-      "https://fastly-download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default"
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default"
     ],
     "can_run_offline": true,
     "egl_guid": "",
     "executable": "RunFallGuys.exe",
     "install_path": "/var/mnt/DATA/Games/Heroic/FallGuys",
-    "install_size": 7567306873,
+    "install_size": 7706111475,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -19,18 +45,18 @@
     "needs_verification": false,
     "platform": "Windows",
     "prereq_info": {
-      "args": "install 591 -console",
+      "args": "install d42d7101bb7a41c09a810ee418b7d3d0",
       "ids": [
-        "EasyAntiCheatFallGuys"
+        "EOSAntiCheatFallGuys"
       ],
       "name": "",
-      "path": "EasyAntiCheat/EasyAntiCheat_Setup.exe"
+      "path": "EasyAntiCheat/EasyAntiCheat_EOS_Setup.exe"
     },
     "requires_ot": false,
     "save_path": null,
     "title": "Fall Guys",
     "uninstaller": null,
-    "version": "EGS_8749"
+    "version": "EGS_9755"
   },
   "0afb9d54dd3743a582b48b506466d3f8": {
     "app_name": "0afb9d54dd3743a582b48b506466d3f8",
@@ -163,6 +189,32 @@
     "uninstaller": null,
     "version": "TH4_EPIC_1.7.0.5"
   },
+  "4237ffc575c94a0e89ef9ab7dd884ad5": {
+    "app_name": "4237ffc575c94a0e89ef9ab7dd884ad5",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-xp93sggqy3u8jltkgmsf256wrj7fs8/9da72b3af32d4818b502369a4aac5aac/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-xp93sggqy3u8jltkgmsf256wrj7fs8/9da72b3af32d4818b502369a4aac5aac/default",
+      "https://download.epicgames.com/Builds/Org/o-xp93sggqy3u8jltkgmsf256wrj7fs8/9da72b3af32d4818b502369a4aac5aac/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-xp93sggqy3u8jltkgmsf256wrj7fs8/9da72b3af32d4818b502369a4aac5aac/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Escape Academy.exe",
+    "install_path": "/var/mnt/DATA/Games/Heroic/EscapeAcademyOcy7i",
+    "install_size": 5402027974,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Escape Academy",
+    "uninstaller": null,
+    "version": "v3.0.6.1"
+  },
   "52d88e9a6df248da913c8e99f1e4c526": {
     "app_name": "52d88e9a6df248da913c8e99f1e4c526",
     "base_urls": [
@@ -189,19 +241,71 @@
     "uninstaller": null,
     "version": "1.8"
   },
+  "8de4840d52d645119f0a08d1f6ce206d": {
+    "app_name": "8de4840d52d645119f0a08d1f6ce206d",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-ttudgfyffrswppq6pflnkwfzdm6qc3/836b235a73124dff93ad3f6ec12dbaeb/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-ttudgfyffrswppq6pflnkwfzdm6qc3/836b235a73124dff93ad3f6ec12dbaeb/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-ttudgfyffrswppq6pflnkwfzdm6qc3/836b235a73124dff93ad3f6ec12dbaeb/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-ttudgfyffrswppq6pflnkwfzdm6qc3/836b235a73124dff93ad3f6ec12dbaeb/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "TheSpiritAndTheMouse.exe",
+    "install_path": "/home/zany130/Games/Heroic/TheSpiritandtheMouse",
+    "install_size": 978358467,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "The Spirit and the Mouse",
+    "uninstaller": null,
+    "version": "1.32d6_egs"
+  },
+  "9bc4423d873845739cc99ab69b6bfbe9": {
+    "app_name": "9bc4423d873845739cc99ab69b6bfbe9",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-2j5hh2gww8vepy62sf9dvqelweczxj/db98a8404062421ebf3baee0e1d831ab/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-2j5hh2gww8vepy62sf9dvqelweczxj/db98a8404062421ebf3baee0e1d831ab/default",
+      "https://download.epicgames.com/Builds/Org/o-2j5hh2gww8vepy62sf9dvqelweczxj/db98a8404062421ebf3baee0e1d831ab/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-2j5hh2gww8vepy62sf9dvqelweczxj/db98a8404062421ebf3baee0e1d831ab/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "GodsTrigger.exe",
+    "install_path": "/home/zany130/Games/Heroic/GodsTrigger",
+    "install_size": 7555714153,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "God's Trigger",
+    "uninstaller": null,
+    "version": "1.2.58760.3"
+  },
   "9d2d0eb64d5c44529cece33fe2a46482": {
     "app_name": "9d2d0eb64d5c44529cece33fe2a46482",
     "base_urls": [
-      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
-      "https://epicgames-download1.akamaized.net/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
       "https://download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
-      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default"
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default"
     ],
     "can_run_offline": false,
     "egl_guid": "",
     "executable": "PlayGTAV.exe",
     "install_path": "/var/mnt/DATA/Games/Heroic/GTAV",
-    "install_size": 122695939929,
+    "install_size": 122694449422,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -216,7 +320,7 @@
       "args": "4 0",
       "path": "GTA5_BE.exe"
     },
-    "version": "1.0.3411.0"
+    "version": "1.0.3504.0"
   },
   "Cormorant": {
     "app_name": "Cormorant",
@@ -270,6 +374,32 @@
     "uninstaller": null,
     "version": "1.0.28131"
   },
+  "Flier": {
+    "app_name": "Flier",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-3nbn496fvhxljkjn7fwgvhaq4znt37/eba09c7a2ff0495c932bb9205b7d486d/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-3nbn496fvhxljkjn7fwgvhaq4znt37/eba09c7a2ff0495c932bb9205b7d486d/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-3nbn496fvhxljkjn7fwgvhaq4znt37/eba09c7a2ff0495c932bb9205b7d486d/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-3nbn496fvhxljkjn7fwgvhaq4znt37/eba09c7a2ff0495c932bb9205b7d486d/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "GoneHome.exe",
+    "install_path": "/home/zany130/Games/Heroic/GoneHome",
+    "install_size": 3222130231,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Gone Home",
+    "uninstaller": null,
+    "version": "1.3.3"
+  },
   "c5109bdceb3a453bb38c2fdc964ddee8": {
     "app_name": "c5109bdceb3a453bb38c2fdc964ddee8",
     "base_urls": [
@@ -295,6 +425,32 @@
     "title": "Doki Doki Literature Club Plus!",
     "uninstaller": null,
     "version": "Windows_1.0.7"
+  },
+  "cb28095340aa4bb8ace6f42c9a6e5f13": {
+    "app_name": "cb28095340aa4bb8ace6f42c9a6e5f13",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-4nt2t5ugd4myf5ju68nbj38sv44cfg/1251ee32f3b6496e99e170d4dc890d9e/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-4nt2t5ugd4myf5ju68nbj38sv44cfg/1251ee32f3b6496e99e170d4dc890d9e/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-4nt2t5ugd4myf5ju68nbj38sv44cfg/1251ee32f3b6496e99e170d4dc890d9e/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-4nt2t5ugd4myf5ju68nbj38sv44cfg/1251ee32f3b6496e99e170d4dc890d9e/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "EOSBootstrapper.exe",
+    "install_path": "/home/zany130/Games/Heroic/RugratsAdventuresinGwzDDG",
+    "install_size": 878906561,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Rugrats: Adventures in Gameland",
+    "uninstaller": null,
+    "version": "1.3.2"
   },
   "cb3bf7ba89574a66ae3b795e039d4dbc": {
     "app_name": "cb3bf7ba89574a66ae3b795e039d4dbc",

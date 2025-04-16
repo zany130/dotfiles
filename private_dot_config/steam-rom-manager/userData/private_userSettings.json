@@ -1,19 +1,21 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1736386841798,
-			"download": 1736386841798
+			"check": 1742934283633,
+			"download": 1742934283633
 		},
 		"verbose": false,
 		"filterProviders": true
 	},
 	"environmentVariables": {
 		"steamDirectory": "/home/zany130/.steam/steam",
-		"romsDirectory": "/var/mnt/GAMES/Emulation/roms",
+		"romsDirectory": "/var/mnt/emulation/library/roms",
 		"retroarchPath": "/home/zany130/Emulation/tools/launchers/retroarch.sh",
 		"raCoresDirectory": "",
 		"localImagesDirectory": "",
-		"userAccounts": []
+		"userAccounts": [
+			"zany130"
+		]
 	},
 	"previewSettings": {
 		"imageLoadStrategy": "loadLazy",

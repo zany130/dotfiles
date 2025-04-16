@@ -17,10 +17,12 @@
 "https://github.com/Matsilagi/RSJankShaders";RSJankShaders;Matsilagi;Shaders that doesn't fit any other's criteria or looks, or that has better versions on main repos.
 "https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.
 "https://github.com/MaxG2D/ReshadeSimpleHDRShaders";ReshadeSimpleHDRShaders;MaxG2D;Reshade HDR-Compatible shaders that focus on eye-candy effects and basic adjustments
+"https://github.com/mj-ehsan/eLITE_Shaders";eLITE_Shaders;mj-ehsan;Freemium High-Performance Mostion Estimation shaders for ReShade by NiceGuy.
 "https://github.com/murchalloo/murchFX";murchFX;murchalloo;some kind of reshade shaders
 "https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.
 "https://github.com/thatshaman/ReShadeShaders";shaman's-ReShade;thatshaman;that_shaman's ReShade Shaders
 "https://github.com/TreyM/SHADERDECK";SHADERDECK;TreyM;Various Shaders by TreyM for ReShade
 "https://github.com/WhiteMagicRaven/fakebilinear2";fakebilinear2;WhiteMagicRaven;An improvement of previous fakebilinear , code is still unoptimized, it produces less graphical glitches
+"https://github.com/yplebedev/UjelFX-ReShade-Effect-Pack-by-BFB";Ujel HDR;yplebedev;efects that took way too long to make. Made for and around HL2.
 "https://github.com/Zackin5/Misc-ReShade-Shaders";Misc-ReShade-Shaders;Zackin5;Various ReShade shaders I've made
 "https://github.com/Zenteon/QuarkFX";QuarkFX;Zenteon;Quark Shaders for ReShade, Quark is a repository of efficient and high quality shaders meant to adhere closely to physical methods.

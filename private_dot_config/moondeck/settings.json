@@ -1,5 +1,5 @@
 {
-    "version": 23,
+    "version": 29,
     "clientId": "e3224dcc-8be4-4dc8-8441-a32203330be2",
     "currentHostId": null,
     "gameSession": {
@@ -24,5 +24,6 @@
     "hostSettings": {},
     "runnerDebugLogs": false,
     "useMoonlightExec": false,
-    "moonlightExecPath": ""
+    "moonlightExecPath": "",
+    "pythonExecPath": ""
 }

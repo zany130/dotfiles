@@ -2,5 +2,5 @@
 
 eval "$(atuin init zsh)"
 
-# Added by ProtonUp-Qt on 22-10-2024 21:45:16
+# Added by ProtonUp-Qt on 23-02-2025 18:57:06
 if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
