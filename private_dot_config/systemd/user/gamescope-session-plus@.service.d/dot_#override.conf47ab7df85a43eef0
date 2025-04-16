@@ -1,0 +1,47 @@
+### Editing /home/zany130/.config/systemd/user/gamescope-session-plus@.service.d/override.conf
+### Anything between here and the comment below will become the contents of the drop-in file
+
+[Service]
+ExecStartPre=/usr/bin/bash -c '/var/home/zany130/Scripts/wolTV.sh && /var/home/zany130/Scripts/startGamescopeAppsBazzite.sh'
+
+### Edits below this comment will be discarded
+
+
+### /usr/lib/systemd/user/gamescope-session-plus@.service
+# # Startup systemd unit for Gamescope session plus meant to be started by a script.
+# # Logs will go to journal and logged into /run/user/$USER
+# # This is the way Valve does it, we add our own file structure and scripts
+# [Unit]
+# Description=Gamescope Session Plus
+# BindsTo=graphical-session.target
+# Before=graphical-session.target
+# Wants=graphical-session-pre.target
+# After=graphical-session-pre.target
+# 
+# [Service]
+# ExecStart=/usr/share/gamescope-session-plus/gamescope-session-plus %i
+# # This is a temporary workaround for the some proton apps becoming
+# # confused by the AF_UNIX socket they get for the stdout when the
+# # service outputs to the journal. (e.g.  Vampire Survivors).
+# StandardOutput=append:%t/gamescope-session-plus.log
+# StandardError=append:%t/gamescope-session-plus.log
+
+### /usr/lib/systemd/user/service.d/10-timeout-abort.conf
+# # This file is part of the systemd package.
+# # See https://fedoraproject.org/wiki/Changes/Shorter_Shutdown_Timer.
+# #
+# # To facilitate debugging when a service fails to stop cleanly,
+# # TimeoutStopFailureMode=abort is set to "crash" services that fail to stop in
+# # the time allotted. This will cause the service to be terminated with SIGABRT
+# # and a coredump to be generated.
+# #
+# # To undo this configuration change, create a mask file:
+# #   sudo mkdir -p /etc/systemd/user/service.d
+# #   sudo ln -sv /dev/null /etc/systemd/user/service.d/10-timeout-abort.conf
+# 
+# [Service]
+# TimeoutStopFailureMode=abort
+
+### /var/home/zany130/.config/systemd/user/gamescope-session-plus@.service.d/override.conf
+# [Service]
+# ExecStartPre=/usr/bin/bash -c '/var/home/zany130/Scripts/wolTV.sh && /var/home/zany130/Scripts/startGamescopeAppsBazzite.sh'
