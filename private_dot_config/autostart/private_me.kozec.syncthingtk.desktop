@@ -1,10 +1,20 @@
 [Desktop Entry]
 Categories=Network;
+Comment[en_US]=GUI for Syncthing
 Comment=GUI for Syncthing
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=syncthing-gtk me.kozec.syncthingtk
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=syncthing-gtk me.kozec.syncthingtk -m
+GenericName[en_US]=Syncthing GTK
 GenericName=Syncthing GTK
 Icon=me.kozec.syncthingtk
+MimeType=
+Name[en_US]=Syncthing GTK
 Name=Syncthing GTK
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
 Type=Application
 X-Flatpak=me.kozec.syncthingtk
 X-Flatpak-RenamedFrom=syncthing-gtk.desktop;
+X-KDE-SubstituteUID=false
+X-KDE-Username=
