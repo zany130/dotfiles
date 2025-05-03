@@ -30,7 +30,7 @@
     "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"Changelog\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"SplitPane\"},{\"Action\":\"OpenWarpDrive\"}]",
     "ShouldShowAgentModeModelExecuteReadonlyCommandsSpeedbump": "false",
     "DidNonAnonymousUserLogIn": "true",
-    "FontSize": "11.0",
+    "FontSize": "15.0",
     "MCPExecutionPath": "\"/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/zany130/.atuin/bin:/home/zany130/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/zany130/.local/bin:/home/zany130/bin:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/zany130/stl/prefix:/home/zany130/.local/share/JetBrains/Toolbox/scripts:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/zany130/stl/prefix:/home/zany130/.local/share/JetBrains/Toolbox/scripts\"",
     "AliasExpansionBannerSeen": "true",
     "WorkflowsBoxOpen": "true",
