@@ -1,8 +1,8 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1742934283633,
-			"download": 1742934283633
+			"check": 1745988061568,
+			"download": 1745988061568
 		},
 		"verbose": false,
 		"filterProviders": true
@@ -34,7 +34,7 @@
 	"navigationWidth": 256,
 	"clearLogOnTest": false,
 	"version": 10,
-	"theme": "Deck",
+	"theme": "EmuDeck",
 	"dnsServers": [],
 	"batchDownloadSize": 50,
 	"emudeckInstall": false,

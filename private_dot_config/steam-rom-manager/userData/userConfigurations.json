@@ -3457,7 +3457,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3546,7 +3546,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3656,7 +3656,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3745,7 +3745,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3831,7 +3831,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/melonds.sh",
             "shortcutPassthrough": false,
@@ -3941,7 +3941,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -4119,7 +4119,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4229,7 +4229,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4318,7 +4318,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4428,7 +4428,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4606,7 +4606,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4716,7 +4716,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8089,7 +8089,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8180,7 +8180,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -9497,36 +9497,45 @@
     },
     {
         "parserType": "Glob",
-        "configTitle": "Nintendo Switch - suyu",
+        "configTitle": "Nintendo Switch - citron",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}/switch",
+        "steamCategories": [
+            "Nintendo Switch - citron"
+        ],
         "executableArgs": "vblank_mode=0 %command% -f -g \"'${filePath}'\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "fetchControllerTemplatesButton": null,
+        "removeControllersButton": null,
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
         },
-        "disabled": true,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/suyu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
         "parserInputs": {
             "glob": "**/${title}@(.kip|.KIP|.nca|.NCA|.nro|.NRO|.nso|.NSO|.nsp|.NSP|.xci|.XCI)"
         },
+        "executable": {
+            "path": "/home/zany130/.local/bin/citron",
+            "shortcutPassthrough": true,
+            "appendArgsToExecutable": false
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
@@ -9536,12 +9545,15 @@
         "controllers": {
             "ps4": null,
             "ps5": null,
+            "ps5_edge": null,
             "xbox360": null,
             "xboxone": null,
+            "xboxelite": null,
             "switch_joycon_left": null,
             "switch_joycon_right": null,
             "switch_pro": null,
-            "neptune": null
+            "neptune": null,
+            "steamcontroller_gordon": null
         },
         "imageProviderAPIs": {
             "sgdb": {
@@ -9553,7 +9565,11 @@
                 "stylesIcon": [],
                 "imageMotionTypes": [
                     "static"
-                ]
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesTall": null,
+                "sizesIcon": []
             }
         },
         "defaultImage": {
@@ -9571,14 +9587,6 @@
             "icon": ""
         },
         "parserId": "164785621855061651",
-        "version": 25,
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Switch - suyu"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "version": 25
     }
 ]

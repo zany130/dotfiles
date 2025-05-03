@@ -1,2 +1,2 @@
 [Context]
-filesystems=/var/home/zany130/biosedit;/var/home/zany130/Applications;/var/home/zany130/OneDrive;/var/home/zany130/.local/share:ro;/var/mnt/GAMES;/varhome/zany130/biosedit;/var/home/zany130/mods;
+filesystems=/var/home/zany130/biosedit;/var/home/zany130/Applications;/var/home/zany130/OneDrive;/var/home/zany130/.local/share:ro;/var/mnt/GAMES;/varhome/zany130/biosedit;/var/home/zany130/mods;/var/mnt/emulation;

@@ -7,4 +7,4 @@ $(EmulatorDir): ""
 /dev_usb000/: $(EmulatorDir)dev_usb000/
 /dev_bdvd/: ""
 /app_home/: ""
-/games/: /home/zany130/Emulation/roms/ps3/
+/games/: /var/mnt/emulation/library/roms/ps3/
