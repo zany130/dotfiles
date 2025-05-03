@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Vesktop
+Comment=Vesktop autostart script
+Exec="/var/home/zany130/AppImages/vesktop.appimage" "" "--no-sandbox" "--start-minimized"
+StartupNotify=false
+Terminal=false
