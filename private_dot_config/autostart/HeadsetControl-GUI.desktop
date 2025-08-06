@@ -1,6 +1,0 @@
-[Desktop Entry]
-Path=/var/home/zany130/.local/bin
-Type=Application
-Exec=/var/home/zany130/.local/bin/HeadsetControl-GUI
-Name=HeadsetControl-GUI
-Comment=Auto-starts HeadsetControl-GUI on boot
