@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=
+Exec=/home/zany130/.local/bin/onedrive-gui
+Icon=/var/home/zany130/Applications/onedrive-gui/icons/onedrive-gui
+Name=OneDriveGUI
+Terminal=false
+Type=Application
+X-AppImage-Arch=x86_64
+X-AppImage-Name=OneDriveGUI
+X-AppImage-Version=1.1.1
