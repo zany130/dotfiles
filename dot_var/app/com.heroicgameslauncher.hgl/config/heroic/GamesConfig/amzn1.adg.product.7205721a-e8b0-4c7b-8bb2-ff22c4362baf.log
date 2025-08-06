@@ -1,0 +1,27 @@
+INFO [CLI]:	 Found: Indiana Jones and the Last Crusade
+INFO [DOWNLOAD]:	 Download size: 41.33MB
+INFO [PROGRESS]:	 = Progress: 0.00 0/43340475, Running for: 00:00:00, ETA: 00:00:00
+INFO [PROGRESS]:	 = Downloaded: 0.00 MiB, Written: 0.00 MiB
+INFO [PROGRESS]:	  + Download	- 0.00 MiB/s
+INFO [PROGRESS]:	  + Disk	- 0.00 MiB/s
+INFO [PROGRESS]:	 = Progress: 0.00 1641067/43340475, Running for: 00:00:01, ETA: 00:00:00
+INFO [PROGRESS]:	 = Downloaded: 1.57 MiB, Written: 1.57 MiB
+INFO [PROGRESS]:	  + Download	- 1.56 MiB/s
+INFO [PROGRESS]:	  + Disk	- 1.56 MiB/s
+INFO [PROGRESS]:	 = Progress: 3.79 6130517/43340475, Running for: 00:00:02, ETA: 00:00:50
+INFO [PROGRESS]:	 = Downloaded: 5.85 MiB, Written: 5.85 MiB
+INFO [PROGRESS]:	  + Download	- 4.28 MiB/s
+INFO [PROGRESS]:	  + Disk	- 4.28 MiB/s
+INFO [PROGRESS]:	 = Progress: 14.15 7509292/43340475, Running for: 00:00:03, ETA: 00:00:18
+INFO [PROGRESS]:	 = Downloaded: 7.16 MiB, Written: 7.16 MiB
+INFO [PROGRESS]:	  + Download	- 1.31 MiB/s
+INFO [PROGRESS]:	  + Disk	- 1.31 MiB/s
+INFO [PROGRESS]:	 = Progress: 17.33 17879227/43340475, Running for: 00:00:04, ETA: 00:00:19
+INFO [PROGRESS]:	 = Downloaded: 17.05 MiB, Written: 17.05 MiB
+INFO [PROGRESS]:	  + Download	- 9.88 MiB/s
+INFO [PROGRESS]:	  + Disk	- 9.88 MiB/s
+INFO [PROGRESS]:	 = Progress: 41.25 35705019/43340475, Running for: 00:00:05, ETA: 00:00:07
+INFO [PROGRESS]:	 = Downloaded: 34.05 MiB, Written: 34.05 MiB
+INFO [PROGRESS]:	  + Download	- 16.99 MiB/s
+INFO [PROGRESS]:	  + Disk	- 16.99 MiB/s
+INFO [CLI]:	 Download complete

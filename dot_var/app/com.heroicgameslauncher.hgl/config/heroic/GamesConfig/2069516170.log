@@ -1,0 +1,53 @@
+[GENERIC DOWNLOAD_MANAGER] INFO: Depot version: 2
+[V2] INFO: Initialized V2 Download Manager
+[V2] INFO: Deleted: 0 New: 200 Changed: 0
+[API] INFO: Getting Dependencies repository
+(338.9239692687988, 'MB') 355387540
+(1.0022464031353593, 'GB') 1076153881
+[PROGRESS] INFO: = Progress: 0.00 0/1076153881, Running for: 00:00:00, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 0.00 MiB, Written: 0.00 MiB
+[PROGRESS] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 0.20 2105288/1076153881, Running for: 00:00:01, ETA: 00:10:33
+[PROGRESS] INFO: = Downloaded: 44.96 MiB, Written: 2.01 MiB
+[PROGRESS] INFO:  + Download	- 1.51 MiB/s (raw) / 3.78 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 1.64 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 53.03 570648587/1076153881, Running for: 00:00:02, ETA: 00:00:02
+[PROGRESS] INFO: = Downloaded: 114.21 MiB, Written: 544.21 MiB
+[PROGRESS] INFO:  + Download	- 111.67 MiB/s (raw) / 601.33 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 256.14 MiB/s (write) / 0.12 MiB/s (read)
+[PROGRESS] INFO: = Progress: 61.75 664491622/1076153881, Running for: 00:00:03, ETA: 00:00:02
+[PROGRESS] INFO: = Downloaded: 119.43 MiB, Written: 633.71 MiB
+[PROGRESS] INFO:  + Download	- 3.65 MiB/s (raw) / 15.71 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 56.66 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 61.95 666711579/1076153881, Running for: 00:00:04, ETA: 00:00:02
+[PROGRESS] INFO: = Downloaded: 120.14 MiB, Written: 635.83 MiB
+[PROGRESS] INFO:  + Download	- 0.71 MiB/s (raw) / 1.95 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 50.62 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 64.08 689586681/1076153881, Running for: 00:00:05, ETA: 00:00:02
+[PROGRESS] INFO: = Downloaded: 142.66 MiB, Written: 657.64 MiB
+[PROGRESS] INFO:  + Download	- 26.96 MiB/s (raw) / 63.78 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 92.78 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 75.77 815415801/1076153881, Running for: 00:00:06, ETA: 00:00:02
+[PROGRESS] INFO: = Downloaded: 220.15 MiB, Written: 777.64 MiB
+[PROGRESS] INFO:  + Download	- 89.50 MiB/s (raw) / 185.73 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 166.09 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 96.23 1035616761/1076153881, Running for: 00:00:07, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 300.43 MiB, Written: 987.64 MiB
+[PROGRESS] INFO:  + Download	- 70.69 MiB/s (raw) / 107.70 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 29.76 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 97.21 1046102521/1076153881, Running for: 00:00:08, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 310.38 MiB, Written: 997.64 MiB
+[PROGRESS] INFO:  + Download	- 12.86 MiB/s (raw) / 12.88 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 25.82 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 98.18 1056588281/1076153881, Running for: 00:00:09, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 320.38 MiB, Written: 1007.64 MiB
+[PROGRESS] INFO:  + Download	- 15.72 MiB/s (raw) / 15.81 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 31.46 MiB/s (write) / 0.00 MiB/s (read)
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "threading.py", line 980, in _bootstrap_inner
+  File "threading.py", line 917, in run
+  File "gogdl/dl/progressbar.py", line 44, in loop
+  File "multiprocessing/queues.py", line 100, in get
+ValueError: Queue <multiprocessing.queues.Queue object at 0x7f9779b3f820> is closed

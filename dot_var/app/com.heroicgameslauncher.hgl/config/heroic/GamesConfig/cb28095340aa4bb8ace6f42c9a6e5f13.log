@@ -1,0 +1,71 @@
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Preparing download for "Rugrats: Adventures in Gameland" (cb28095340aa4bb8ace6f42c9a6e5f13)...
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /home/zany130/Games/Heroic/RugratsAdventuresinGwzDDG
+[Core] INFO: Selected CDN: download.epicgames.com (https)
+[DLM] INFO: Found 0 missing files.
+[cli] INFO: Install size: 838.19 MiB
+[cli] INFO: Download size: 715.52 MiB (Compression savings: 14.8%)
+[cli] INFO: Reusable size: 0.00 MiB (chunks) / 0.00 MiB (unchanged / skipped)
+[cli] INFO: Downloads are resumable, you can interrupt the download with CTRL-C and resume it using the same command later on.
+
+Installation requirements check returned the following results:
+ - Warning: This game ships the Epic Online Services bootstrapper. The Epic Online Services Windows service may have to be installed manually for the game to function properly.
+
+[DLManager] INFO: Download Manager running with process-id: 682
+[DLManager] INFO: Starting download workers...
+[DLManager] INFO: Starting file writing worker...
+[DLManager] INFO: = Progress: 0.00% (0/882), Running for 00:00:00, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 0.00 MiB, Written: 0.00 MiB
+[DLManager] INFO:  - Cache usage: 24.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 13.38% (118/882), Running for 00:00:01, ETA: 00:00:06
+[DLManager] INFO:  - Downloaded: 80.59 MiB, Written: 109.85 MiB
+[DLManager] INFO:  - Cache usage: 34.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 80.51 MiB/s (raw) / 118.88 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 109.74 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 26.42% (233/882), Running for 00:00:02, ETA: 00:00:05
+[DLManager] INFO:  - Downloaded: 170.56 MiB, Written: 224.85 MiB
+[DLManager] INFO:  - Cache usage: 28.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 89.25 MiB/s (raw) / 108.14 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 114.09 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 37.87% (334/882), Running for 00:00:03, ETA: 00:00:05
+[DLManager] INFO:  - Downloaded: 251.62 MiB, Written: 325.85 MiB
+[DLManager] INFO:  - Cache usage: 25.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 80.98 MiB/s (raw) / 97.90 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 100.89 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 52.95% (467/882), Running for 00:00:04, ETA: 00:00:03
+[DLManager] INFO:  - Downloaded: 337.10 MiB, Written: 435.64 MiB
+[DLManager] INFO:  - Cache usage: 29.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 85.40 MiB/s (raw) / 113.89 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 109.68 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 59.86% (528/882), Running for 00:00:05, ETA: 00:00:03
+[DLManager] INFO:  - Downloaded: 421.95 MiB, Written: 496.64 MiB
+[DLManager] INFO:  - Cache usage: 55.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 84.75 MiB/s (raw) / 86.90 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 60.93 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 59.86% (528/882), Running for 00:00:06, ETA: 00:00:04
+[DLManager] INFO:  - Downloaded: 500.79 MiB, Written: 496.64 MiB
+[DLManager] INFO:  - Cache usage: 134.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 78.78 MiB/s (raw) / 78.94 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 79.59% (702/882), Running for 00:00:07, ETA: 00:00:01
+[DLManager] INFO:  - Downloaded: 584.73 MiB, Written: 670.64 MiB
+[DLManager] INFO:  - Cache usage: 44.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 83.86 MiB/s (raw) / 83.92 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 173.83 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 85.94% (758/882), Running for 00:00:08, ETA: 00:00:01
+[DLManager] INFO:  - Downloaded: 667.51 MiB, Written: 726.64 MiB
+[DLManager] INFO:  - Cache usage: 71.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 82.70 MiB/s (raw) / 82.92 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 55.94 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 100.00% (882/882), Running for 00:00:09, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 715.52 MiB, Written: 838.19 MiB
+[DLManager] INFO:  - Cache usage: 0.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 47.96 MiB/s (raw) / 66.93 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 111.44 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: Waiting for installation to finish...
+[DLManager] INFO: All done! Download manager quitting...
+[cli] INFO: This game supports cloud saves, syncing is handled by the "sync-saves" command. To download saves for this game run "legendary sync-saves cb28095340aa4bb8ace6f42c9a6e5f13"
+[cli] INFO: Finished installation process in 10.15 seconds.
