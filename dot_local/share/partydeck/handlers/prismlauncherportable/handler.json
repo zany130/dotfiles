@@ -1,9 +1,0 @@
-{
-  "handler.uid": "prismlauncherportable",
-  "handler.name": "Minecraft (Prism Launcher)",
-  "handler.author": "wunner",
-  "handler.version": "1",
-  "handler.info": "PLEASE READ ALL OF THIS BEFORE RUNNING THE HANDLER! This handler only works on the portable version of PrismLauncher; this can be downloaded at https://prismlauncher.org/download/. Before running the handler, log into portable PrismLauncher with a Microsoft Account, and create as many Offline accounts as you need. Create a Minecraft instance with a mod for controller support (MidnightControls, Controllable, Controllify); Controllable is recommended. When launching with PartyDeck, use a mouse to change each instance to one of the offline accounts before launching. Disable Steam Runtime SDL2 in settings.",
-
-  "game.exec": "PrismLauncher"
-}
