@@ -1,5 +1,5 @@
 ---
 initial-setup: true
 backend-renderer: Vulkan
-pref-path: /home/zany130/Emulation/storage/Vita3K/
+pref-path: /var/mnt/emulation/emudeck/Emulation//storage/Vita3K/
 ...

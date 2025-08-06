@@ -28,12 +28,9 @@
     "wineCrossoverBottle": "Heroic",
     "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default",
     "wineVersion": {
-      "bin": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wine",
-      "name": "Wine - Wine-GE-latest",
-      "type": "wine",
-      "lib": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib64",
-      "lib32": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib",
-      "wineserver": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+      "bin": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/proton/GE-Proton-latest/proton",
+      "name": "Proton - GE-Proton-latest",
+      "type": "proton"
     },
     "enableEsync": true,
     "enableFsync": true,
@@ -43,6 +40,10 @@
     "framelessWindow": false,
     "beforeLaunchScriptPath": "",
     "afterLaunchScriptPath": "",
+    "disableUMU": false,
+    "verboseLogs": false,
+    "downloadProtonToSteam": false,
+    "advertiseAvxForRosetta": false,
     "exitToTray": true,
     "startInTray": true,
     "discordRPC": true,

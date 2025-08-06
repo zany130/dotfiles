@@ -30,7 +30,8 @@ eval "$(atuin init bash)"
 . "$HOME/.cargo/env"
 # paths needed by cargo
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
-export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.4.1/"
+export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.5.1/"
 
-
-if [ -d "/home/zany130/stl/prefix" ]; then export PATH="$PATH:/home/zany130/stl/prefix"; fi
+### bling.sh source start
+test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
+### bling.sh source end

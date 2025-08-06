@@ -28,16 +28,16 @@
   "0a2d9f6403244d12969e11da6713137b": {
     "app_name": "0a2d9f6403244d12969e11da6713137b",
     "base_urls": [
+      "https://fastly-download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://epicgames-download1.akamaized.net/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
-      "https://fastly-download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://cloudflare.epicgamescdn.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default"
     ],
     "can_run_offline": true,
     "egl_guid": "",
     "executable": "RunFallGuys.exe",
     "install_path": "/var/mnt/DATA/Games/Heroic/FallGuys",
-    "install_size": 7706080340,
+    "install_size": 7922830813,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -54,9 +54,10 @@
     },
     "requires_ot": false,
     "save_path": null,
+    "save_timestamp": null,
     "title": "Fall Guys",
     "uninstaller": null,
-    "version": "EGS_10015"
+    "version": "EGS_10428"
   },
   "0afb9d54dd3743a582b48b506466d3f8": {
     "app_name": "0afb9d54dd3743a582b48b506466d3f8",
@@ -163,6 +164,33 @@
     "uninstaller": null,
     "version": "1.16.0.0-1.71290.0.712379"
   },
+  "37f5a526914b4eaaa86d32820e162aa0": {
+    "app_name": "37f5a526914b4eaaa86d32820e162aa0",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-bdq65kgy9hhkz5n4gkjlyt3uju86hw/dd3cd36c07864e8398375e00372711cd/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-bdq65kgy9hhkz5n4gkjlyt3uju86hw/dd3cd36c07864e8398375e00372711cd/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-bdq65kgy9hhkz5n4gkjlyt3uju86hw/dd3cd36c07864e8398375e00372711cd/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-bdq65kgy9hhkz5n4gkjlyt3uju86hw/dd3cd36c07864e8398375e00372711cd/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Figment 2.exe",
+    "install_path": "/var/mnt/DATA/Games/Heroic/Figment2CreedValley",
+    "install_size": 1564992268,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "Figment 2: Creed Valley",
+    "uninstaller": null,
+    "version": "1.1.2c"
+  },
   "4123bcce398b4b1d8b9ef878f81055d1": {
     "app_name": "4123bcce398b4b1d8b9ef878f81055d1",
     "base_urls": [
@@ -241,6 +269,63 @@
     "uninstaller": null,
     "version": "1.8"
   },
+  "588cec64448242d8b61188205d97f887": {
+    "app_name": "588cec64448242d8b61188205d97f887",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-t9vdtu8kntlubnxnh64w4tnrfzatkx/a6eec1ad46bc4515be5731b22f274ef7/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-t9vdtu8kntlubnxnh64w4tnrfzatkx/a6eec1ad46bc4515be5731b22f274ef7/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-t9vdtu8kntlubnxnh64w4tnrfzatkx/a6eec1ad46bc4515be5731b22f274ef7/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-t9vdtu8kntlubnxnh64w4tnrfzatkx/a6eec1ad46bc4515be5731b22f274ef7/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "RiverCityGirls.exe",
+    "install_path": "/home/zany130/Games/Heroic/RiverCityGirls",
+    "install_size": 5260449795,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "River City Girls",
+    "uninstaller": null,
+    "version": "0.00.861829"
+  },
+  "8769e24080ea413b8ebca3f1b8c50951": {
+    "app_name": "8769e24080ea413b8ebca3f1b8c50951",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
+      "https://download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "PlayGTAV.exe",
+    "install_path": "/var/mnt/GAMES/Heroic/GTAVEnhanced",
+    "install_size": 100331122655,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "Grand Theft Auto V Enhanced",
+    "uninstaller": {
+      "args": "4 0",
+      "path": "GTA5_Enhanced_BE.exe"
+    },
+    "version": "1.0.889.19"
+  },
   "8de4840d52d645119f0a08d1f6ce206d": {
     "app_name": "8de4840d52d645119f0a08d1f6ce206d",
     "base_urls": [
@@ -292,35 +377,6 @@
     "title": "God's Trigger",
     "uninstaller": null,
     "version": "1.2.58760.3"
-  },
-  "9d2d0eb64d5c44529cece33fe2a46482": {
-    "app_name": "9d2d0eb64d5c44529cece33fe2a46482",
-    "base_urls": [
-      "https://download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
-      "https://epicgames-download1.akamaized.net/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
-      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default",
-      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/68d2cc08f9a94b8fb51af4f5cfa6d41b/default"
-    ],
-    "can_run_offline": false,
-    "egl_guid": "",
-    "executable": "PlayGTAV.exe",
-    "install_path": "/var/mnt/DATA/Games/Heroic/GTAV",
-    "install_size": 122694449422,
-    "install_tags": [],
-    "is_dlc": false,
-    "launch_parameters": "",
-    "manifest_path": null,
-    "needs_verification": false,
-    "platform": "Windows",
-    "prereq_info": null,
-    "requires_ot": false,
-    "save_path": null,
-    "title": "Grand Theft Auto V",
-    "uninstaller": {
-      "args": "4 0",
-      "path": "GTA5_BE.exe"
-    },
-    "version": "1.0.3504.0"
   },
   "Cormorant": {
     "app_name": "Cormorant",
@@ -399,6 +455,33 @@
     "title": "Gone Home",
     "uninstaller": null,
     "version": "1.3.3"
+  },
+  "Hazelnut": {
+    "app_name": "Hazelnut",
+    "base_urls": [
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-t88sw9ly7ajm3wz7tll53xt3cmypx8/483e8369f22e4c46884b0b8406a33bde/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-t88sw9ly7ajm3wz7tll53xt3cmypx8/483e8369f22e4c46884b0b8406a33bde/default",
+      "https://download.epicgames.com/Builds/Org/o-t88sw9ly7ajm3wz7tll53xt3cmypx8/483e8369f22e4c46884b0b8406a33bde/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-t88sw9ly7ajm3wz7tll53xt3cmypx8/483e8369f22e4c46884b0b8406a33bde/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "LimboLauncher.exe",
+    "install_path": "/home/zany130/Games/Heroic/Limbo",
+    "install_size": 103357949,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "Limbo",
+    "uninstaller": null,
+    "version": "1.0.1"
   },
   "c5109bdceb3a453bb38c2fdc964ddee8": {
     "app_name": "c5109bdceb3a453bb38c2fdc964ddee8",
@@ -541,7 +624,7 @@
     "can_run_offline": true,
     "egl_guid": "",
     "executable": "DXM.exe",
-    "install_path": "/var/mnt/GAMES/Heroic/DaemonxMachina",
+    "install_path": "/var/mnt/DATA/Games/Heroic/DaemonxMachina",
     "install_size": 13090576358,
     "install_tags": [],
     "is_dlc": false,
@@ -552,6 +635,7 @@
     "prereq_info": null,
     "requires_ot": false,
     "save_path": null,
+    "save_timestamp": null,
     "title": "DAEMON X MACHINA",
     "uninstaller": null,
     "version": "1.0.6"

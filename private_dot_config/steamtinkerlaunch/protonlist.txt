@@ -1,1 +1,0 @@
-/var/home/zany130/.local/share/Steam/compatibilitytools.d/GE-Proton9-27/proton

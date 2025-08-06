@@ -11,24 +11,26 @@ RenderToSeparateWindow = false
 HideMainWindowWhenRunning = false
 DisableWindowResize = false
 PreferEnglishGameList = false
-Theme = darkfusion
+Theme = darkfusionblue
 SetupWizardIncomplete = false
 
 
 [Folders]
-Covers = /home/zany130/Emulation/storage/pcsx2/covers
-Bios = /home/zany130/Emulation/bios
-Snapshots = /home/zany130/Emulation/storage/pcsx2/snaps
-Savestates = /home/zany130/Emulation/saves/pcsx2/states
-MemoryCards = /home/zany130/Emulation/saves/pcsx2/saves
+Covers = /var/mnt/emulation/emudeck/Emulation//storage/pcsx2/covers
+Bios = /var/mnt/emulation/emudeck/Emulation//bios
+Snapshots = /var/mnt/emulation/emudeck/Emulation//storage/pcsx2/snaps
+Savestates = /var/mnt/emulation/emudeck/Emulation//saves/pcsx2/states
+MemoryCards = /var/mnt/emulation/emudeck/Emulation//saves/pcsx2/saves
 Logs = logs
 Cheats = cheats
 Patches = patches
 UserResources = resources
-Cache = /home/zany130/Emulation/storage/pcsx2/cache
-Textures = /home/zany130/Emulation/storage/pcsx2/textures
+Cache = /var/mnt/emulation/emudeck/Emulation//storage/pcsx2/cache
+Textures = /var/mnt/emulation/emudeck/Emulation//storage/pcsx2/textures
 InputProfiles = inputprofiles
 Videos = videos
+DebuggerLayouts = debuggerlayouts
+DebuggerSettings = debuggersettings
 
 
 [EmuCore]
@@ -46,17 +48,24 @@ EnableThreadPinning = false
 EnableRecordingTools = true
 EnableGameFixes = true
 SaveStateOnShutdown = false
-UseSavestateSelector = false
+UseSavestateSelector = true
 EnableDiscordPresence = false
 InhibitScreensaver = true
 HostFs = false
 BackupSavestate = true
 McdFolderAutoManage = true
 WarnAboutUnsafeSettings = true
+ManuallySetRealTimeClock = false
 SavestateCompressionType = 2
 SavestateCompressionRatio = 1
 GzipIsoIndexTemplate = $(f).pindex.tmp
 PINESlot = 28011
+RtcYear = 0
+RtcMonth = 1
+RtcDay = 1
+RtcHour = 0
+RtcMinute = 0
+RtcSecond = 0
 BlockDumpSaveDirectory = 
 
 
@@ -115,7 +124,7 @@ AspectRatio = Auto 4:3/3:2
 FMVAspectRatioSwitch = Off
 ScreenshotSize = 0
 ScreenshotFormat = 0
-ScreenshotQuality = 50
+ScreenshotQuality = 90
 StretchY = 100
 CropLeft = 0
 CropTop = 0
@@ -170,11 +179,13 @@ UserHacks_TextureInsideRt = 0
 UserHacks_EstimateTextureRegion = false
 fxaa = false
 ShadeBoost = false
-dump = false
-save = false
-savef = false
-savet = false
-savez = false
+DumpGSData = false
+SaveRT = false
+SaveFrame = false
+SaveTexture = false
+SaveDepth = false
+SaveAlpha = false
+SaveInfo = false
 DumpReplaceableTextures = false
 DumpReplaceableMipmaps = false
 DumpTexturesWithFMVActive = false
@@ -194,7 +205,7 @@ OsdScale = 100
 OsdMessagesPos = 1
 OsdPerformancePos = 2
 Renderer = -1
-upscale_multiplier = 6
+upscale_multiplier = 1
 hw_mipmap = true
 accurate_blending_unit = 1
 filter = 2
@@ -226,8 +237,12 @@ ShadeBoost_Contrast = 50
 ShadeBoost_Saturation = 50
 ExclusiveFullscreenControl = -1
 png_compression_level = 1
-saven = 0
-savel = 5000
+SaveDrawStart = 0
+SaveDrawCount = 5000
+SaveDrawBy = 1
+SaveFrameStart = 0
+SaveFrameCount = -1
+SaveFrameBy = 1
 CaptureContainer = mp4
 VideoCaptureCodec = 
 VideoCaptureFormat = 
@@ -272,7 +287,7 @@ DeviceName =
 ExpansionMode = Disabled
 OutputLatencyMinimal = false
 BufferMS = 50
-OutputLatencyMS = 50
+OutputLatencyMS = 20
 StretchSequenceLengthMS = 30
 StretchSeekWindowMS = 20
 StretchOverlapMS = 10
@@ -346,16 +361,6 @@ RecBlocks_VU0 = true
 RecBlocks_VU1 = true
 
 
-[EmuCore/Debugger]
-ShowDebuggerOnStart = false
-AlignMemoryWindowStart = true
-FontWidth = 8
-FontHeight = 12
-WindowWidth = 0
-WindowHeight = 0
-MemoryViewBytesPerRow = 16
-
-
 [Debugger/Analysis]
 RunCondition = If Debugger Is Open
 GenerateSymbolsForIRXExports = true
@@ -416,8 +421,8 @@ MISC.sif = false
 
 
 [Achievements]
-LoginTimestamp = 1743626954
-Token = h6hoHNkpPrOgYJns
+LoginTimestamp = 1750105134
+Token = zHUYq5IrHkVXK4nI
 Username = zany130
 Enabled = True
 ChallengeMode = True
@@ -427,9 +432,15 @@ UnofficialTestMode = false
 Notifications = true
 LeaderboardNotifications = true
 SoundEffects = true
+InfoSound = true
+UnlockSound = true
+LBSubmitSound = true
 Overlays = true
 NotificationsDuration = 5
 LeaderboardsDuration = 10
+InfoSoundName = /tmp/.mount_pcsx2-KX5tEb/usr/bin/resources/sounds/achievements/message.wav
+UnlockSoundName = /tmp/.mount_pcsx2-KX5tEb/usr/bin/resources/sounds/achievements/unlock.wav
+LBSubmitSoundName = /tmp/.mount_pcsx2-KX5tEb/usr/bin/resources/sounds/achievements/lbsubmit.wav
 
 
 [Filenames]
@@ -463,7 +474,7 @@ Multitap2_Slot4_Filename = Mcd-Multitap2-Slot04.ps2
 
 [Logging]
 EnableSystemConsole = false
-EnableFileLogging = false
+EnableFileLogging = true
 EnableTimestamps = true
 EnableVerbose = false
 EnableEEConsole = false
@@ -476,8 +487,8 @@ EnableControllerLogs = false
 Keyboard = true
 Mouse = true
 SDL = true
-SDLControllerEnhancedMode = false
-SDLPS5PlayerLED = false
+SDLControllerEnhancedMode = true
+SDLPS5PlayerLED = true
 
 
 [Hotkeys]
@@ -624,4 +635,4 @@ Type = None
 Type = None
 
 [GameList]
-RecursivePaths = /home/zany130/Emulation/roms/ps2
+RecursivePaths = /var/mnt/emulation/emudeck/Emulation//roms/ps2

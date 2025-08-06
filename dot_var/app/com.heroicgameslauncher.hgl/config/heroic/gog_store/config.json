@@ -19,9 +19,9 @@
 		"ratingBrand": "ESRB",
 		"isLoggedIn": true,
 		"checksum": {
-			"cart": null,
-			"games": "9988663606cc21672fed10b0d4526df9",
-			"wishlist": "811a81b3e2df6ac7a1f8e98a62d6ff3d",
+			"cart": "1b737269228a40de24b4c2f7b494ed0a",
+			"games": "fefc0916500a807f66ba2ec68d467a2a",
+			"wishlist": "d318a40a635d40d230a756525573c04f",
 			"reviews_votes": null,
 			"games_rating": null
 		},
@@ -29,9 +29,9 @@
 			"messages": 0,
 			"pendingFriendRequests": 0,
 			"unreadChatMessages": 0,
-			"products": 26,
+			"products": 28,
 			"forum": 0,
-			"total": 26
+			"total": 28
 		},
 		"userId": "49857789314806",
 		"username": "zany130",
@@ -42,10 +42,10 @@
 			"amount": 0
 		},
 		"purchasedItems": {
-			"games": 78,
+			"games": 91,
 			"movies": 0
 		},
-		"wishlistedItems": 28,
+		"wishlistedItems": 31,
 		"friends": [],
 		"personalizedProductPrices": [],
 		"personalizedSeriesPrices": []

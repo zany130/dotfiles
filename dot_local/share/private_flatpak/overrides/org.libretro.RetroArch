@@ -1,2 +1,2 @@
 [Context]
-filesystems=/var/mnt/emulation;
+filesystems=/home/zany130/Emulation;/var/mnt/emulation;

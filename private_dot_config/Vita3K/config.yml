@@ -89,11 +89,12 @@ keyboard-gui-toggle-touch: 23
 keyboard-toggle-texture-replacement: 0
 keyboard-take-screenshot: 0
 user-id: 00
-user-auto-connect: false
+user-auto-connect: true
 user-lang: ""
 display-info-message: false
 show-welcome: false
 check-for-updates: true
+file-loading-delay: 0
 asia-font-support: false
 shader-cache: true
 spirv-shader: false

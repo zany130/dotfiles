@@ -1,15 +1,15 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1745988061568,
-			"download": 1745988061568
+			"check": 1751574044041,
+			"download": 1751574044041
 		},
 		"verbose": false,
 		"filterProviders": true
 	},
 	"environmentVariables": {
 		"steamDirectory": "/home/zany130/.steam/steam",
-		"romsDirectory": "/var/mnt/emulation/library/roms",
+		"romsDirectory": "/home/zany130/Emulation/roms",
 		"retroarchPath": "/home/zany130/Emulation/tools/launchers/retroarch.sh",
 		"raCoresDirectory": "",
 		"localImagesDirectory": "",
@@ -26,15 +26,14 @@
 		"hideUserAccount": false
 	},
 	"enabledProviders": [
-		"sgdb",
-		"steamCDN"
+		"sgdb"
 	],
 	"language": "en-US",
 	"offlineMode": false,
-	"navigationWidth": 256,
+	"navigationWidth": 432,
 	"clearLogOnTest": false,
 	"version": 10,
-	"theme": "EmuDeck",
+	"theme": "Deck",
 	"dnsServers": [],
 	"batchDownloadSize": 50,
 	"emudeckInstall": false,
