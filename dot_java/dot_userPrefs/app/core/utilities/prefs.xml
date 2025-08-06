@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="TouchButtonHeight" value="667.0"/>
+  <entry key="TouchButtonWidth" value="1182.0"/>
+  <entry key="autoCreateBackButtons" value="true"/>
+  <entry key="catListWidth_1" value="300"/>
+  <entry key="cc0" value="|General||Audio, Music &amp; Media||Streaming||Content Creation||Home Automation||Misc.||Run &amp; Open||Navigation||Input||Keyboard||Mouse||Logic||File IO||Http||Values &amp; States||Values||Media functions||Utility||Touch Portal Functions||Clipboard||Visuals||Philips Hue|"/>
+  <entry key="cc1" value="|General||Audio, Music &amp; Media||Streaming||Content Creation||Home Automation||Misc.|"/>
+  <entry key="cc6" value="|General||Audio, Music &amp; Media||Streaming||Content Creation||Home Automation||Misc.|"/>
+  <entry key="firstTimeClose" value="false"/>
+  <entry key="firstTimeNewVersion" value="402000"/>
+  <entry key="firstTimeStart" value="false"/>
+  <entry key="language" value="en-EN"/>
+  <entry key="obsAutoConnect" value="false"/>
+  <entry key="rdir" value="/var/home/zany130/"/>
+  <entry key="uid" value="183bkqzrnnk7cr1frrj0"/>
+  <entry key="windowStatemain" value="{&quot;t&quot;:36,&quot;isMax&quot;:false,&quot;w&quot;:1200,&quot;h&quot;:700,&quot;l&quot;:1920}"/>
+</map>

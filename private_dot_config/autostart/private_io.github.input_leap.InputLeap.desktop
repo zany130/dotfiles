@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Network
+Comment=Keyboard and mouse sharing solution
+Exec=/usr/bin/flatpak run --branch=master --arch=x86_64 --command=input-leap io.github.input_leap.InputLeap
+Icon=io.github.input_leap.InputLeap
+Keywords=keyboard;mouse;sharing;network;share;
+Name=Input Leap
+Terminal=false
+Type=Application
+X-Flatpak=io.github.input_leap.InputLeap

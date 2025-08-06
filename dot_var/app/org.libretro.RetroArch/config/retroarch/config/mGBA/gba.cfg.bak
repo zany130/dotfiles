@@ -1,0 +1,3 @@
+input_player1_analog_dpad_mode = "1"
+video_shader_enable = "true"
+video_smooth = "false"
