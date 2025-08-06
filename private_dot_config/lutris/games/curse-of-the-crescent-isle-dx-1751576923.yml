@@ -1,0 +1,30 @@
+game:
+  exe: /var/mnt/DATA/Games/itchio/curse-of-the-crescent-isle-dx/CotCIDX
+game_slug: curse-of-the-crescent-isle-dx
+name: Curse of the Crescent Isle DX
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_ELF_xXx_
+  installer:
+  - extract:
+      dst: $CACHE
+      file: itchupload
+  - merge:
+      dst: $GAMEDIR
+      src: $CACHE
+  - write_json:
+      data:
+        appid: '33467'
+        date: 1751576911
+        runner: linux
+        service: itchio
+        slug: curse-of-the-crescent-isle-dx
+        upload: '412274'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '33467'
+slug: curse-of-the-crescent-isle-dx
+version: itch.io Linux

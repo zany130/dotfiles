@@ -1,0 +1,27 @@
+game:
+  args: uplay://launch/4c341890-a871-428b-84f3-0b41a719d5a1
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /var/mnt/GAMES/ubisoft-connect
+game_slug: assassins-creed-brotherhood
+name: Assassin's Creed Brotherhood
+requires: ubisoft-connect
+script:
+  game:
+    args: uplay://launch/4c341890-a871-428b-84f3-0b41a719d5a1
+  installer:
+  - task:
+      arch: win64
+      args: uplay://install/4c341890-a871-428b-84f3-0b41a719d5a1
+      env: {}
+      executable: /var/mnt/GAMES/ubisoft-connect/drive_c/Program Files (x86)/Ubisoft/Ubisoft
+        Game Launcher/UbisoftConnect.exe
+      prefix: /var/mnt/GAMES/ubisoft-connect
+      wine_path: /home/zany130/.local/share/lutris/runners/proton/ge-proton/files/bin/wine
+  requires: ubisoft-connect
+service: ubisoft
+service_id: 4c341890-a871-428b-84f3-0b41a719d5a1
+slug: assassins-creed-brotherhood-ubisoft
+version: Ubisoft Connect
+wine:
+  overrides:
+    libglesv2: d

@@ -1,0 +1,30 @@
+game:
+  exe: ''
+game_slug: untangle
+name: Untangle
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+  installer:
+  - task:
+      arch: win64
+      prefix: /var/mnt/DATA/Games/itchio/untangle
+      wine_path: /home/zany130/.local/share/Steam/compatibilitytools.d/GE-Proton10-5/files/bin/wine
+  - install_or_extract: itchupload
+  - write_json:
+      data:
+        appid: '1166793'
+        build: '446838'
+        date: 1751575431
+        runner: wine
+        service: itchio
+        slug: untangle
+        upload: '4424994'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '1166793'
+slug: untangle
+version: itch.io

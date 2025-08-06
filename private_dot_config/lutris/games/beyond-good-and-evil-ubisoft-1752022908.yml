@@ -1,0 +1,27 @@
+game:
+  args: uplay://launch/232
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /var/mnt/GAMES/ubisoft-connect
+game_slug: beyond-good-and-evil
+name: Beyond Good and Evil
+requires: ubisoft-connect
+script:
+  game:
+    args: uplay://launch/232
+  installer:
+  - task:
+      arch: win64
+      args: uplay://install/232
+      env: {}
+      executable: /var/mnt/GAMES/ubisoft-connect/drive_c/Program Files (x86)/Ubisoft/Ubisoft
+        Game Launcher/UbisoftConnect.exe
+      prefix: /var/mnt/GAMES/ubisoft-connect
+      wine_path: /home/zany130/.local/share/lutris/runners/proton/ge-proton/files/bin/wine
+  requires: ubisoft-connect
+service: ubisoft
+service_id: 41b67b23-c7e1-417b-af71-4d24a7a50c45
+slug: beyond-good-and-evil-ubisoft
+version: Ubisoft Connect
+wine:
+  overrides:
+    libglesv2: d

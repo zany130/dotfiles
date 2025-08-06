@@ -1,0 +1,27 @@
+game:
+  args: uplay://launch/111
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /var/mnt/GAMES/ubisoft-connect
+game_slug: prince-of-persia-the-sands-of-time
+name: "Prince of Persia: The Sands of Time\u2122"
+requires: ubisoft-connect
+script:
+  game:
+    args: uplay://launch/111
+  installer:
+  - task:
+      arch: win64
+      args: uplay://install/111
+      env: {}
+      executable: /var/mnt/GAMES/ubisoft-connect/drive_c/Program Files (x86)/Ubisoft/Ubisoft
+        Game Launcher/UbisoftConnect.exe
+      prefix: /var/mnt/GAMES/ubisoft-connect
+      wine_path: /home/zany130/.local/share/lutris/runners/proton/ge-proton/files/bin/wine
+  requires: ubisoft-connect
+service: ubisoft
+service_id: '111'
+slug: prince-of-persia-the-sands-of-time-ubisoft
+version: Ubisoft Connect
+wine:
+  overrides:
+    libglesv2: d

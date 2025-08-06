@@ -1,0 +1,30 @@
+game:
+  exe: ''
+game_slug: miniature-garden
+name: Miniature Garden
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+  installer:
+  - task:
+      arch: win64
+      prefix: /var/mnt/DATA/Games/itchio/miniature-garden
+      wine_path: /home/zany130/.local/share/Steam/compatibilitytools.d/GE-Proton10-5/files/bin/wine
+  - install_or_extract: itchupload
+  - write_json:
+      data:
+        appid: '149343'
+        build: '32508'
+        date: 1751586193
+        runner: wine
+        service: itchio
+        slug: miniature-garden
+        upload: '498551'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '149343'
+slug: miniature-garden
+version: itch.io
