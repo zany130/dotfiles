@@ -1,0 +1,9 @@
+[FileDialogSize]
+2 screens: Height=660
+2 screens: Width=1056
+
+[KFileDialog Settings][$i]
+Recent Files[$ie]=os_bazzite.png,file:$HOME/rEFInd_GUI/icons/os_bazzite.png
+Recent URLs[$ie]=file:$HOME/rEFInd_GUI/icons/
+detailViewIconSize[$i]=16
+iconViewIconSize[$i]=64
