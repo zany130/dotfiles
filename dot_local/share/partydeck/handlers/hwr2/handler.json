@@ -1,0 +1,17 @@
+{
+  "handler.uid": "hwr2",
+  "handler.name": "Heroes of Hammerwatch II",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.exec": "HWR2.exe",
+  "game.copy_instead_paths": ["HWR2.exe"],
+
+  "steam.api_path": ".",
+  "steam.appid": "619820",
+
+  "profiles.game_paths": ["saves"]
+}

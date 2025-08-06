@@ -1,0 +1,17 @@
+{
+  "handler.uid": "spel2",
+  "handler.name": "Spelunky 2",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "100% completion savegame included. All instances should select \"Online\" and then join by pressing RB/R1 and entering the host's ID. Disabling input delay in settings will make movement more responsive in multiplayer, but your character may move weirdly from the other instances' points of view.",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.exec": "Spel2.exe",
+  "game.copy_instead_paths": ["Spel2.exe"],
+
+  "steam.api_path": ".",
+  "steam.appid": "418530",
+
+  "profiles.game_paths": ["savegame.sav", "settings.cfg"]
+}

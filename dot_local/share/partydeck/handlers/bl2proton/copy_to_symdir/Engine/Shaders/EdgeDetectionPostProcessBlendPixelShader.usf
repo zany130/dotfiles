@@ -1,0 +1,148 @@
+/*=============================================================================
+	EdgeDetectionPostProcessBlendPixelShader.usf
+=============================================================================*/
+
+#include "Common.usf"
+
+#if PS3
+#pragma option randomSched=25
+#pragma option randomSeed=7
+#endif
+
+uniform float4 HFilterDiagCoeff;// = {-HFilterDiagCoeff, HFilterDiagCoeff, -HFilterDiagCoeff,  HFilterDiagCoeff};
+uniform float4 HFilterAxisCoeff;// = {0,  0, -HFilterAxisCoeff, HFilterAxisCoeff};
+uniform float4 VFilterDiagCoeff;// = {VFilterDiagCoeff,  VFilterDiagCoeff, -VFilterDiagCoeff, -VFilterDiagCoeff};
+uniform float4 VFilterAxisCoeff;// = {VFilterAxisCoeff, -VFilterAxisCoeff,  0,  0};
+
+uniform float4 MiscParameters;
+uniform float4 RenderTargetSize;	// x=width, y=height, z=1/width, w=1/height
+
+uniform float4 DiagOffsetAB;
+uniform float4 DiagOffsetCD;
+uniform float4 AxisOffsetAB;
+uniform float4 AxisOffsetCD;
+
+static const float FarDist = MiscParameters.x;
+static const float NearDist = MiscParameters.y;
+static const float SobelPower = MiscParameters.z;
+static const float TexelOffset = MiscParameters.w;
+
+#define Z_PRECISION_FOREGROUND	0.01f
+
+void Main(
+	in float4 PackedUVDiagAB : TEXCOORD0,
+	in float4 PackedUVDiagCD : TEXCOORD1,
+	in float4 PackedUVAxisAB : TEXCOORD2,
+	in float4 PackedUVAxisCD : TEXCOORD3,
+	in float2 CenterUV : TEXCOORD4,
+	out float4 OutColor : COLOR0
+	)
+{
+	float CenterDepth = CalcSceneDepth( CenterUV );
+    float4 DepthsDiag = CalcSceneDepth_4x(PackedUVDiagAB.xy, PackedUVDiagAB.zw, PackedUVDiagCD.xy, PackedUVDiagCD.zw,Z_PRECISION);
+    float4 DepthsAxis = CalcSceneDepth_4x(PackedUVAxisAB.xy, PackedUVAxisAB.zw, PackedUVAxisCD.xy, PackedUVAxisCD.zw,Z_PRECISION);
+
+	// Interior only pixels
+	DepthsDiag = max(DepthsDiag, CenterDepth.xxxx);
+	DepthsAxis = max(DepthsAxis, CenterDepth.xxxx);
+
+	// Exterior only pixels
+	//DepthsDiag = min(DepthsDiag, CenterDepth.xxxx);
+	//DepthsAxis = min(DepthsAxis, CenterDepth.xxxx);
+
+	float CenterScale = 1.0f / CenterDepth;
+	DepthsDiag = DepthsDiag * CenterScale - 1;
+	DepthsAxis = DepthsAxis * CenterScale - 1;
+	
+	float4 SobelH = DepthsDiag * HFilterDiagCoeff + DepthsAxis * HFilterAxisCoeff;
+	float4 SobelV = DepthsDiag * VFilterDiagCoeff + DepthsAxis * VFilterAxisCoeff;
+
+	float SobelX = dot(SobelH, float4(1,1,1,1));
+	float SobelY = dot(SobelV, float4(1,1,1,1));
+
+	float Sobel = sqrt(SobelX * SobelX + SobelY * SobelY);
+
+	#if 0
+	float depthDelta = 1 - saturate(Sobel);
+	#else
+	float depthDelta = 1 - smoothstep(0.1f, 1.0f, Sobel);
+	#endif
+
+#if PS3
+	float4 CenterColor = CalcFullSceneColor( CenterUV );
+	float edgeFactor = CenterColor.a > 0.f ? depthDelta : 1.f;
+	OutColor.rgb = CenterColor.rgb * edgeFactor;
+	OutColor.a = edgeFactor;
+#else
+	OutColor.rgb = depthDelta.xxx;
+	OutColor.a = depthDelta.x > (244.0/255.0) ? 0 : 1;
+#if XBOX
+	clip(OutColor.a - 0.5);
+#endif
+#endif
+}
+
+void ForegroundMain(
+	in float4 PackedUVDiagAB : TEXCOORD0,
+	in float4 PackedUVDiagCD : TEXCOORD1,
+	in float4 PackedUVAxisAB : TEXCOORD2,
+	in float4 PackedUVAxisCD : TEXCOORD3,
+	in float2 CenterUV : TEXCOORD4,
+	out float4 OutColor : COLOR0
+	)
+{
+	float CenterDepth = CalcSceneDepth( CenterUV );
+    float4 DepthsDiag = CalcSceneDepth_4x(PackedUVDiagAB.xy, PackedUVDiagAB.zw, PackedUVDiagCD.xy, PackedUVDiagCD.zw,Z_PRECISION_FOREGROUND);
+	float4 DepthsAxis = CalcSceneDepth_4x(PackedUVAxisAB.xy, PackedUVAxisAB.zw, PackedUVAxisCD.xy, PackedUVAxisCD.zw,Z_PRECISION_FOREGROUND);
+
+#if 0
+	// Interior only pixels
+	DepthsDiag = max(DepthsDiag, CenterDepth.xxxx);
+	DepthsAxis = max(DepthsAxis, CenterDepth.xxxx);
+
+	// Exterior only pixels
+	//DepthsDiag = min(DepthsDiag, CenterDepth.xxxx);
+	//DepthsAxis = min(DepthsAxis, CenterDepth.xxxx);
+#endif
+
+	float CenterScale = 1.0f / CenterDepth;
+	DepthsDiag = DepthsDiag * CenterScale - 1;
+	DepthsAxis = DepthsAxis * CenterScale - 1;
+	
+	float4 SobelH = DepthsDiag * HFilterDiagCoeff + DepthsAxis * HFilterAxisCoeff;
+	float4 SobelV = DepthsDiag * VFilterDiagCoeff + DepthsAxis * VFilterAxisCoeff;
+
+	float SobelX = dot(SobelH, float4(1,1,1,1));
+	float SobelY = dot(SobelV, float4(1,1,1,1));
+
+	float Sobel = sqrt(SobelX * SobelX + SobelY * SobelY);
+
+	float depthDelta = 1 - saturate(Sobel);
+
+#if PS3
+	float4 CenterColor = CalcFullSceneColor( CenterUV );
+	float edgeFactor = CenterColor.a > 0.f ? depthDelta : 1.f;
+	OutColor.rgb = CenterColor.rgb * edgeFactor;
+	OutColor.a = edgeFactor;
+#else
+	OutColor.rgb = depthDelta.xxx;
+	OutColor.a = depthDelta.x > (244.0/255.0) ? 0 : 1;
+#if XBOX
+	clip(OutColor.a - 0.5);
+#endif
+#endif
+}
+
+sampler2D EdgeTexture;
+
+void MainCombine(
+	in float2 UV : TEXCOORD0,
+	in float2 SceneUV : TEXCOORD1,
+	out float4 OutColor : COLOR0
+	)
+{
+	OutColor = tex2D(EdgeTexture, UV);
+#if XBOX || SM4_PROFILE
+	clip(OutColor.a - 0.5);
+#endif
+}

@@ -1,0 +1,345 @@
+#include "Common.usf"
+#if PIXELSHADER
+#include "Grendel_ShadowProjectionCommon.usf"
+#endif
+
+#if ORBIS || DINGO
+#define SHADOWS_APPLY_ENABLE_DYN_BRANCHING_OPT 0 // does not impress right now
+#endif
+
+#define SHADOWS_APPLY_ENABLE_BANDWIDTH_OPT 1
+
+
+float ShadowFadeFraction;
+float4x4 ScreenToShadowMatrix;
+
+float ShadowmapTexelSize;	// GBX:Zoner - pull the uv samples 1 shadowmap texel toward the view to avoid shadow pcf filtering self-shadowing errors
+float ShadowmapTexelDepthBias;	// GBX:Zoner - pull the z of the uv sample toward the shadowmap by this amount (only useful for ortho rendering)
+float ShadowmapInvertedZ;	// 1.0 if the z is inverted (1..0 instead of 0..1), which causes the shadowmap to be inside out when coverage is determined
+float4 ShadowParams;
+
+// GBX:Zoner - The whole scene shadow code path uses a different vertex shader now (see DrawStencilingPlanes)
+uniform float4x4 ProjectionMatrix;
+
+
+#if VERTEXSHADER
+void StencilMaskConvexGeom_VertexShaderMain(
+	in float4 InPosition : POSITION,
+	out float4 OutPosition : POSITION
+	)
+{
+	OutPosition = MulMatrix(ViewProjectionMatrix,InPosition);
+}
+#endif
+
+
+#if VERTEXSHADER
+void StencilMaskScreenGeom_VertexShaderMain(
+	in float4 InPosition : POSITION,
+	out float4 OutPosition : POSITION
+	)
+{
+	OutPosition = MulMatrix(ProjectionMatrix,InPosition);
+	OutPosition.xy = InPosition.xy * OutPosition.w;
+}
+#endif
+
+
+#if VERTEXSHADER
+void VertexShaderMain(
+	in float4 InPosition : POSITION,
+	out float4 OutScreenPosition : TEXCOORD0,
+	out float4 OutPosition : POSITION
+	)
+{
+	OutPosition = OutScreenPosition = MulMatrix(ViewProjectionMatrix,InPosition);
+}
+#endif
+
+
+#if VERTEXSHADER
+void ProjectionOnly_VertexShaderMain(
+	in float4 InPosition : POSITION,
+	out float4 OutScreenPosition : TEXCOORD0,
+	out float4 OutPosition : POSITION
+	)
+{
+	OutPosition = OutScreenPosition = MulMatrix(ProjectionMatrix,InPosition);
+	OutPosition.xy = OutScreenPosition.xy = InPosition.xy * OutPosition.w;
+}
+#endif
+
+
+/**
+* Entry point for uniform manual PCF that supports lights using normal shadows.
+*/
+#if PIXELSHADER
+void ManualPCF_PixelShaderMain(
+	in float4 ScreenPosition : TEXCOORD0,
+	out float4 OutColor : COLOR0
+	)
+{
+	// NVCHANGES [Begin] [02/08/2012 Lin Nan, NVIDIA, Stereo Fixup]
+#if ALLOW_NVIDIA_STEREO_3D
+	// The NV stereo driver shifts POSITION.x in the vertex shader. To make ScreenPosition correct, we have to
+	// manually shift it here. (Notice the geometry of this draw call is a light volume, not a full screen quad.)
+	float4 StereoClipPos = MonoToStereoClipPos(ScreenPosition);
+
+	// Convert from [-1, 1] for texture lookup.
+	float2 StereoUV = StereoClipPos.xy / StereoClipPos.w * ScreenPositionScaleBias.xy + ScreenPositionScaleBias.wz;
+	// Get the real scene depth from the alpha channel of the main RT.
+	half SceneW = CalcSceneDepth(StereoUV);
+
+	SceneW -= ShadowmapTexelSize;
+
+	// Convert the position back to real scene position, as if the pixel was produced at that scene location
+	StereoClipPos = float4(StereoClipPos.xy / StereoClipPos.w * SceneW, 0, SceneW);
+	// De-stereo to mono position. (Notice ScreenToShadowMatrix in the next line is setup for mono transform,
+	// thus we do need to use mono position again.)
+	float4 MonoClipPos = StereoToMonoClipPos(StereoClipPos);
+
+	// Transform to shadow casting light space
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix, float4(MonoClipPos.xy, SceneW, 1));
+#else
+	half SceneW = PreviousDepthForShadows(ScreenPosition);
+
+	SceneW -= ShadowmapTexelSize;
+
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix,float4(ScreenPosition.xy / ScreenPosition.w * SceneW,SceneW,1));
+#endif // ALLOW_NVIDIA_STEREO_3D
+	// NVCHANGES [End] [02/08/2012 Lin Nan, NVIDIA, Stereo Fixup]
+
+	ShadowPosition.z = ShadowPosition.z + ShadowmapTexelDepthBias;
+	ShadowPosition.xyz /= ShadowPosition.w;
+	//ShadowPosition.z = 0.f;
+
+	half Shadow = ManualPCF(ShadowPosition);
+	Shadow = lerp(Shadow, 1-Shadow, ShadowmapInvertedZ);
+	Shadow = saturate(Shadow * 1.2f);	// GBX:Zoner - one of the ingredients to hiding shadow artifacts
+
+	// 0 is shadowed, 1 is unshadowed
+	// RETURN_COLOR not needed unless writing to SceneColor;
+	half FadedShadow = lerp(1.0f, Square(Shadow), ShadowFadeFraction);
+	OutColor = EncodeLightAttenuation(FadedShadow);
+	
+#if 0
+    // GBX:Zoner - super cool visualization of projection mapping
+	OutColor.rg = ShadowPosition.xy;
+	OutColor.b = 0;
+	if (ShadowPosition.x < 0)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.y < 0)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.x > 1)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.y > 1)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	OutColor.rgb *= FadedShadow;
+#endif
+}
+#endif
+
+
+/**
+* Entry point for uniform hardware PCF that supports lights using normal shadows.
+*/
+#if PIXELSHADER
+void HardwarePCF_PixelShaderMain(
+
+	in float4 ScreenPosition : TEXCOORD0,
+
+#if TWOK_ENABLE_GLOBAL_SHADOWS_QUALITY_IMPROVEMENTS
+
+#if ORBIS || DINGO || SM5_PROFILE
+	in float4 spos : SV_Position,
+#endif
+
+#if SM3_PROFILE
+	in float2 spos : VPOS,
+#endif
+
+#endif // TWOK_ENABLE_GLOBAL_SHADOWS_QUALITY_IMPROVEMENTS
+	
+	out float4 OutColor : COLOR0
+	)
+{
+
+#if TWOK_ENABLE_GLOBAL_SHADOWS_QUALITY_IMPROVEMENTS
+	
+	float			SceneW	= PreviousDepthForShadows(ScreenPosition);
+	const float2	NDCPos	= ScreenPosition.xy / ScreenPosition.w;
+
+	const float shadowSplitFade = saturate(min(	SceneW * ShadowParams.x + ShadowParams.y, 
+												SceneW * ShadowParams.z + ShadowParams.w));
+	
+	SceneW -= ShadowmapTexelSize;
+
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix,float4(NDCPos * SceneW,SceneW,1));
+
+	ShadowPosition.z = ShadowPosition.z + ShadowmapTexelDepthBias;
+	ShadowPosition.xyz /= ShadowPosition.w;
+
+	const float3	receiverDepthGrad	= ReceiverPlaneSMDepthGradient(ShadowPosition.xyz);
+	half			Shadow;
+
+#if SHADOWS_APPLY_ENABLE_DYN_BRANCHING_OPT
+	BRANCH
+	if (receiverDepthGrad.z >= 0 || SceneW < 15.0f)
+#endif
+	{
+#if ORBIS || DINGO || SM5_PROFILE || SM3_PROFILE
+		const float2 pixelCoords = floor(spos.xy);
+#else
+		const float2 pixelCoords = 0;
+#endif
+
+		Shadow = HardwarePCFNew(ShadowPosition, pixelCoords, min(max(receiverDepthGrad, -0.025f), 0.025f));
+	}
+#if SHADOWS_APPLY_ENABLE_DYN_BRANCHING_OPT
+	else
+	{
+		Shadow = HWPCFFetchSingle(ShadowPosition);
+	}
+#endif
+
+	Shadow = lerp(Shadow, 1 - Shadow, ShadowmapInvertedZ);
+	Shadow = saturate(Shadow * 1.2f);	// GBX:Zoner - one of the ingredients to hiding shadow artifacts
+	const half FadedShadow = lerp(1.0f, Square(Shadow), ShadowFadeFraction);
+
+#if SHADOWS_APPLY_ENABLE_BANDWIDTH_OPT
+	clip(0.995f - FadedShadow * shadowSplitFade);
+#endif
+
+	OutColor.xyz = EncodeLightAttenuation(FadedShadow);		
+	OutColor.w   = shadowSplitFade;
+
+#else
+
+	// NVCHANGES [Begin] [02/08/2012 Lin Nan, NVIDIA, Stereo Fixup]
+#if ALLOW_NVIDIA_STEREO_3D
+	// The NV stereo driver shifts POSITION.x in the vertex shader. To make ScreenPosition correct, we have to
+	// manually shift it here. (Notice the geometry of this draw call is a light volume, not a full screen quad.)
+	float4 StereoClipPos = MonoToStereoClipPos(ScreenPosition);
+
+	// Convert from [-1, 1] for texture lookup.
+	float2 StereoUV = StereoClipPos.xy / StereoClipPos.w * ScreenPositionScaleBias.xy + ScreenPositionScaleBias.wz;
+	// Get the real scene depth from the alpha channel of the main RT.
+	half SceneW = CalcSceneDepth(StereoUV);
+
+	SceneW -= ShadowmapTexelSize;
+
+	// Convert the position back to real scene position, as if the pixel was produced at that scene location
+	StereoClipPos = float4(StereoClipPos.xy / StereoClipPos.w * SceneW, 0, SceneW);
+	// De-stereo to mono position. (Notice ScreenToShadowMatrix in the next line is setup for mono transform,
+	// thus we do need to use mono position again.)
+	float4 MonoClipPos = StereoToMonoClipPos(StereoClipPos);
+
+	// Transform to shadow casting light space
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix, float4(MonoClipPos.xy, SceneW, 1));
+#else
+	half SceneW = PreviousDepthForShadows(ScreenPosition);
+
+	SceneW -= ShadowmapTexelSize;
+
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix,float4(ScreenPosition.xy / ScreenPosition.w * SceneW,SceneW,1));
+#endif // ALLOW_NVIDIA_STEREO_3D
+	// NVCHANGES [End] [02/08/2012 Lin Nan, NVIDIA, Stereo Fixup]
+
+	ShadowPosition.z = ShadowPosition.z + ShadowmapTexelDepthBias;
+	ShadowPosition.xyz /= ShadowPosition.w;
+
+	half Shadow = HardwarePCF(ShadowPosition);
+	Shadow = lerp(Shadow, 1-Shadow, ShadowmapInvertedZ);
+	Shadow = saturate(Shadow * 1.2f);	// GBX:Zoner - one of the ingredients to hiding shadow artifacts
+	
+	// RETURN_COLOR not needed unless writing to SceneColor;
+	half FadedShadow = lerp(1.0f, Square(Shadow), ShadowFadeFraction);
+	OutColor = EncodeLightAttenuation(FadedShadow);
+
+#endif
+
+}
+#endif
+
+
+/**
+* Entry point for uniform Fetch4 PCF that supports lights using normal shadows.
+*/
+#if PIXELSHADER
+void Fetch4_PixelShaderMain(
+	in float4 ScreenPosition : TEXCOORD0,
+	out float4 OutColor : COLOR0
+	)
+{
+	float SceneW = PreviousDepthForShadows(ScreenPosition);
+
+	SceneW -= ShadowmapTexelSize;
+
+	float4 ShadowPosition = MulMatrix(ScreenToShadowMatrix,float4(ScreenPosition.xy / ScreenPosition.w * SceneW,SceneW,1));
+	ShadowPosition.z = ShadowPosition.z + ShadowmapTexelDepthBias;
+	ShadowPosition.xyz /= ShadowPosition.w;
+
+	half Shadow = Fetch4PCF(ShadowPosition);
+	Shadow = lerp(Shadow, 1-Shadow, ShadowmapInvertedZ);
+	Shadow = saturate(Shadow * 1.2f);	// GBX:Zoner - one of the ingredients to hiding shadow artifacts
+	
+	// RETURN_COLOR not needed unless writing to SceneColor;
+	half FadedShadow = lerp(1.0f, Square(Shadow), ShadowFadeFraction);
+	OutColor = EncodeLightAttenuation(FadedShadow);
+	
+#if 0
+    // GBX:Zoner - super cool visualization of projection mapping
+	OutColor.rg = ShadowPosition.xy;
+	OutColor.b = 0;
+	if (ShadowPosition.x < 0)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.y < 0)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.x > 1)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	if (ShadowPosition.y > 1)
+	{
+	    OutColor.r = 0.f;
+	    OutColor.g = 0.f;
+	    OutColor.b = 1.f;
+	    OutColor.a = 1.f;
+	}
+	OutColor.rgb *= FadedShadow;
+#endif
+}
+#endif

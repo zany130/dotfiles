@@ -1,0 +1,15 @@
+{
+  "handler.uid": "ror2",
+  "handler.name": "Risk of Rain 2",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "WARNING: BUGGY AND UNSTABLE. HEAVILY RECOMMEND HAVING A KEYBOARD AND MOUSE ON HAND. STEAM VERSION ONLY! Make sure crossplay is disabled before running through PartyDeck. Select the Play Online option. One instance should host a Public or Friends Only server, then the other instances can join using the lobby browser. If the server doesn't show up, try using a different instance to host. Mods are untested, but may work.",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.exec": "Risk of Rain 2.exe",
+  "game.copy_instead_paths": ["Risk of Rain 2.exe"],
+
+  "steam.api_path": ".",
+  "steam.appid": "632360"
+}

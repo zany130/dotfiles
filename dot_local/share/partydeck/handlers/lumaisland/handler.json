@@ -1,0 +1,22 @@
+{
+  "handler.uid": "lumaisland",
+  "handler.name": "Luma Island",
+  "handler.info": "To allow other instances to join the lobby, the host instance should pause, select Multiplayer, and change the type to All Friends.",
+  "handler.author": "blckink",
+  "handler.version": "1",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.32bit": false,
+  "game.exec": "Luma Island.exe",
+  "game.copy_instead_paths": [
+    "Luma Island.exe",
+    "UnityCrashHandler64.exe",
+    "UnityPlayer.dll"
+  ],
+
+  "steam.api_path": "Luma Island_Data/Plugins/x86_64",
+  "steam.appid": "2408820",
+
+  "profiles.unique_appdata": true
+}

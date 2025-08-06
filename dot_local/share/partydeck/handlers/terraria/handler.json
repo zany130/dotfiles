@@ -1,0 +1,11 @@
+{
+  "handler.uid": "terraria",
+  "handler.name": "Terraria",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "This is for the Linux native, Steam version of Terraria. May also work on the GOG version. One instance should host a server, others can join by selecting \"Join via IP\", leaving the IP blank and the port default (7777). Each instance should use a different character.",
+
+  "game.exec": "Terraria",
+
+  "steam.appid": "105600"
+}

@@ -1,0 +1,26 @@
+{
+  "handler.uid": "darksoulsrem",
+  "handler.name": "Dark Souls Remastered",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "INSTALL YUI'S DSR SEAMLESS COOP MOD ON A LEGITIMATE STEAM COPY OF DARK SOULS REMASTERED BEFORE RUNNING THIS HANDLER! To start coop, sit at a bonfire at least once and use the coop items given to you.",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.exec": "steamclient_loader_x64.exe",
+  "game.copy_instead_paths": [
+    "DarkSoulsRemastered.exe",
+    "fmod_event64.dll",
+    "fmodex64.dll",
+    "fmod_event_net64.dll",
+    "xinput1_3.dll",
+    "binkw64.dll",
+    "ds1sc_launcher.exe"
+  ],
+
+  "steam.api_path": ".",
+  "steam.appid": "570940",
+  "steam.gb_coldclient": true,
+
+  "profiles.unique_documents": true
+}

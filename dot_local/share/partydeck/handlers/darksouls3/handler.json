@@ -1,0 +1,26 @@
+{
+  "handler.uid": "darksouls3",
+  "handler.name": "Dark Souls III",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "INSTALL YUI'S DS3 SEAMLESS COOP MOD ON A LEGITIMATE STEAM COPY OF DARK SOULS 3 BEFORE RUNNING THIS HANDLER! To start coop, sit at a bonfire at least once and use the coop items given to you.",
+
+  "game.symlink_dir": true,
+  "game.win": true,
+  "game.exec": "Game/steamclient_loader_x64.exe",
+  "game.copy_instead_paths": [
+    "Game/DarkSoulsIII.exe",
+    "Game/fmod_event64.dll",
+    "Game/fmodex64.dll",
+    "Game/binkw64.dll",
+    "Game/fmodex64.dll",
+    "Game/ds3sc_launcher.exe"
+  ],
+  "game.dll_overrides": ["winmm"],
+
+  "steam.api_path": "Game/",
+  "steam.appid": "374320",
+  "steam.gb_coldclient": true,
+
+  "profiles.unique_appdata": true
+}

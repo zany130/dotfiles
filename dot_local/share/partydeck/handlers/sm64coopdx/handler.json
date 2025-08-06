@@ -1,0 +1,10 @@
+{
+  "handler.uid": "sm64coopdx",
+  "handler.name": "Super Mario 64 Coop DX",
+  "handler.author": "wunner",
+  "handler.version": "1",
+  "handler.info": "Make sure the game has been launched at least once normally before launching through PartyDeck. One instance should host a game on Direct Connection with default port, other instances then join using Direct Connection and default IP (localhost).",
+
+  "game.exec": "sm64coopdx",
+  "game.args": ["--fullscreen", "--skip-intro", "--playername", "$PROFILE"]
+}

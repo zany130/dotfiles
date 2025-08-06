@@ -1,0 +1,27 @@
+{
+  "handler.uid": "l4d2",
+  "handler.name": "Left 4 Dead 2",
+  "handler.author": "wunner",
+  "handler.version": "2",
+  "handler.info": "On one instance, create a lobby with Local Server as the server type. The other instances should then use the Join Friend menu to join. The Join Friend menu may require a mouse to navigate. Place mods in 'handlers/l4d2/copy/left4dead2/addons'",
+
+  "game.symlink_dir": true,
+  "game.win": false,
+  "game.32bit": true,
+  "game.runtime": "scout",
+  "game.exec": "hl2.sh",
+  "game.args": [
+    "-game left4dead2",
+    "-steam",
+    "-novid",
+    "-gamepadui",
+    "+sv_pure 0",
+    "+sv_consistency 0",
+    "+exec autoexec"
+  ],
+  "game.copy_instead_paths": ["hl2.sh", "hl2_linux"],
+  "game.remove_paths": ["left4dead2/addons/workshop"],
+
+  "steam.api_path": "bin/",
+  "steam.appid": "550"
+}
