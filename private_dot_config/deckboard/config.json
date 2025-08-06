@@ -1,0 +1,420 @@
+{
+	"configs": {
+		"pro": 0,
+		"autolaunch": {},
+		"obsPassword": "Hacker172!",
+		"obsPort": 4444,
+		"slobsPort": 59650,
+		"currentVersion": "3.1.2",
+		"obsAddress": "127.0.0.1",
+		"slobsAddress": "127.0.0.1",
+		"slobsToken": "",
+		"imageResolution": "image:low",
+		"audioPress": "audio:stop",
+		"disabledActions": "[]",
+		"boardScale": 1,
+		"staggeredGridMigrated": 1,
+		"buttonModeMigrated": 1,
+		"defaultScreenId": null,
+		"hotkeys": {
+			"toggleTouchMode": {
+				"hotkey": "Control+Shift+T",
+				"enabled": false
+			},
+			"showHideWindow": {
+				"hotkey": "Control+Shift+H",
+				"enabled": false
+			}
+		}
+	},
+	"extensions": [
+		{
+			"divider": true
+		},
+		{
+			"header": "Clock",
+			"extensionKey": "deckboard-clock"
+		},
+		{
+			"label": "Display Time",
+			"value": "clock-display-time",
+			"icon": "clock",
+			"mode": "custom-value",
+			"fontIcon": "fas",
+			"color": "#1a1a1a",
+			"input": [
+				{
+					"label": "Select Clock Format",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "clock-12h",
+							"label": "12 Hour Format"
+						},
+						{
+							"value": "clock-24h",
+							"label": "24 Hour Format"
+						}
+					]
+				}
+			],
+			"extensionKey": "deckboard-clock"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "Commands",
+			"extensionKey": "deckboard-commands"
+		},
+		{
+			"label": "Run Command",
+			"value": "run-command",
+			"icon": "terminal",
+			"color": "#34495e",
+			"input": [
+				{
+					"label": "Action",
+					"ref": "commandAction",
+					"type": "input:text",
+					"items": [
+						{
+							"label": "Run Command",
+							"value": "command"
+						}
+					]
+				}
+			],
+			"extensionKey": "deckboard-commands"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "System Info",
+			"extensionKey": "deckboard-system-info"
+		},
+		{
+			"label": "Display CPU Stats",
+			"value": "si-cpu",
+			"icon": "headphones",
+			"mode": "graph",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Select monitor",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "si-load-cpu",
+							"label": "CPU Load"
+						},
+						{
+							"value": "si-temperature-cpu",
+							"label": "CPU Temperature"
+						}
+					]
+				}
+			],
+			"display": {
+				"type": "graph",
+				"defaultTitle": "CPU"
+			},
+			"extensionKey": "deckboard-system-info"
+		},
+		{
+			"label": "Display RAM Stats",
+			"value": "si-ram",
+			"icon": "headphones",
+			"mode": "graph",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Select monitor",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "si-load-p-ram",
+							"label": "RAM Usage (%)"
+						},
+						{
+							"value": "si-load-gb-ram",
+							"label": "RAM Usage (GB)"
+						}
+					]
+				}
+			],
+			"display": {
+				"type": "graph",
+				"defaultTitle": "RAM"
+			},
+			"extensionKey": "deckboard-system-info"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "Discord Deckboard",
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Toggle Microphone",
+			"value": "toggle-microphone",
+			"icon": "microphone",
+			"mode": "custom-value",
+			"color": "#5865F2",
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Toggle Headphone",
+			"value": "toggle-headphone",
+			"icon": "headphones",
+			"mode": "custom-value",
+			"color": "#5865F2",
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Microphone",
+			"value": "microphone",
+			"icon": "microphone",
+			"color": "#5865F2",
+			"input": [
+				{
+					"label": "Action",
+					"ref": "action",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "enable_microphone",
+							"label": "Enable Microphone"
+						},
+						{
+							"value": "disable_microphone",
+							"label": "Disable Microphone"
+						}
+					]
+				}
+			],
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Deaf",
+			"value": "headphone",
+			"icon": "headphones",
+			"color": "#5865F2",
+			"input": [
+				{
+					"label": "Action",
+					"ref": "action",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "enable_headphone",
+							"label": "Disable Deaf"
+						},
+						{
+							"value": "disable_headphone",
+							"label": "Enable Deaf"
+						}
+					]
+				}
+			],
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Disconnect Voice Channel",
+			"value": "disconnect-voice",
+			"icon": "phone-slash",
+			"color": "#5865F2",
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Change input method",
+			"value": "change-input",
+			"icon": "wave-square",
+			"color": "#5865F2",
+			"input": [
+				{
+					"label": "Action",
+					"ref": "action",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "toggle_input",
+							"label": "Toggle Input"
+						},
+						{
+							"value": "push_to_talk",
+							"label": "Change to Push to Talk"
+						},
+						{
+							"value": "voice_activity",
+							"label": "Change to Voice Activity"
+						}
+					]
+				}
+			],
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"label": "Connect Voice",
+			"value": "connect-voice",
+			"icon": "phone",
+			"color": "#5865F2",
+			"input": [
+				{
+					"label": "Select voice channel",
+					"ref": "channel_id",
+					"type": "input:autocomplete"
+				}
+			],
+			"extensionKey": "discord-deckboard"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "Libre Hardware Monitor",
+			"extensionKey": "libre-hardware-monitor"
+		},
+		{
+			"label": "Display Load Stats",
+			"value": "lhw-load",
+			"icon": "headphones",
+			"mode": "graph",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Sensor",
+					"type": "input:select",
+					"items": []
+				}
+			],
+			"extensionKey": "libre-hardware-monitor"
+		},
+		{
+			"label": "Display Temperature Stats",
+			"value": "lhw-temperature",
+			"icon": "headphones",
+			"mode": "graph",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Sensor",
+					"type": "input:select",
+					"items": []
+				}
+			],
+			"extensionKey": "libre-hardware-monitor"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "Hardware Monitor",
+			"extensionKey": "open-hardware-monitor"
+		},
+		{
+			"label": "Display CPU Stats",
+			"value": "hw-cpu",
+			"icon": "headphones",
+			"mode": "custom-value",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Select monitor",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "hw-load-cpu",
+							"label": "CPU Load"
+						},
+						{
+							"value": "hw-temperature-cpu",
+							"label": "CPU Temperature"
+						}
+					]
+				}
+			],
+			"extensionKey": "open-hardware-monitor"
+		},
+		{
+			"label": "Display GPU Stats",
+			"value": "hw-gpu",
+			"icon": "headphones",
+			"mode": "custom-value",
+			"fontIcon": "fas",
+			"color": "#8E44AD",
+			"input": [
+				{
+					"label": "Select monitor",
+					"type": "input:select",
+					"items": [
+						{
+							"value": "hw-load-gpu",
+							"label": "GPU Load"
+						},
+						{
+							"value": "hw-temperature-gpu",
+							"label": "GPU Temperature"
+						}
+					]
+				}
+			],
+			"extensionKey": "open-hardware-monitor"
+		},
+		{
+			"divider": true
+		},
+		{
+			"header": "Steam Launcher",
+			"extensionKey": "steam-launcher"
+		},
+		{
+			"label": "Launch Game",
+			"value": "steam-launch-games",
+			"icon": "steam",
+			"fontIcon": "fab",
+			"color": "#171A21",
+			"input": [
+				{
+					"label": "Game",
+					"ref": "appid",
+					"type": "input:select",
+					"items": []
+				}
+			],
+			"extensionKey": "steam-launcher"
+		}
+	],
+	"spotify_token": {
+		"access_token": "BQD4uI9mHi0ScwJ4uSNVeqWxS6uHAmefMvlBXM1amSrZO4fRMoySxhep-J7X1F-ESiXGpOwO64c_XvImBHsjCk8oRG36wEGrQhpqicKB966F4ntT6ApaNNJlSDy0JWNqu-eNfCIdli8WSFn4-lmdnIEzCNkNlklmyoC7yCTpiE_2C9dqkhKHUI5m_MlX-PfJDaNn2Q8aP0gaKsLSySrfuN2wgMwjSiNVWnuuAKsIWnx8fSh0FYzI9BNYCsgivlv92N_a4xSRrxnrSqyILR9j0vTfDbG6YGEhjASzvD4oT7pZt0fSs4N8PIvW28ga5XMTxw",
+		"token_type": "Bearer",
+		"expires_in": 3600,
+		"scope": "streaming user-library-read user-library-modify playlist-modify-private playlist-modify-public user-read-playback-state user-read-currently-playing user-read-email user-read-private",
+		"refresh_token": "AQBbnlb1vAJjwaMC4lh7kk5-0zOWl7FBrsc6CPFFpsSyBfy3RxSs65HMldi1QomkHkbRIDInSi1H-B0LofdN8kh8nDFBwS8Q8NEGfT37FNZON2YgGo73xZm5gWqLwdlXpM4"
+	},
+	"twitch_token": {
+		"access_token": "daj5qwoehu7s2phftwmmjjk1vtgp7u",
+		"expires_in": 14297,
+		"refresh_token": "g0gerfdz1esh6r8btah38o2rthe46ahemqrc1mkk861mbo590j",
+		"scope": [
+			"channel:moderate",
+			"channel:read:subscriptions",
+			"channel_commercial",
+			"chat:edit",
+			"chat:read",
+			"clips:edit",
+			"moderator:manage:chat_messages",
+			"moderator:manage:chat_settings",
+			"user:edit:broadcast",
+			"user:read:email"
+		],
+		"token_type": "bearer"
+	}
+}
