@@ -1,0 +1,17 @@
+[0x1038][0x2202]
+EqualizerPreset=0
+InactiveTime=30
+MicrophonBrightness=3
+MicrophonVolume=96
+Sidetone=70
+
+[FileDialogSize]
+2 screens: Height=540
+2 screens: Width=960
+
+[General]
+Primary=0x1038,0x2202
+StartMinimized=true
+
+[HeadsetControl]
+ExecutablePath[$e]=$HOME/.local/bin/headsetcontrol
