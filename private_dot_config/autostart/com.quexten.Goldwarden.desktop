@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=com.quexten.Goldwarden
+X-XDP-Autostart=com.quexten.Goldwarden
+Exec=flatpak run --command=goldwarden_ui_main.py com.quexten.Goldwarden --hidden
+X-Flatpak=com.quexten.Goldwarden
