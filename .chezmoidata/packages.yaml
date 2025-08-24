@@ -68,7 +68,6 @@ packages:
     - 'spicetify-cli'
     - 'syncthing'
     - 'tealdeer'
-    - 'tldr'
     - 'torsocks'
     - 'trash-cli'
     - 'wgetpaste'
@@ -101,11 +100,7 @@ packages:
     - 'solaar'
     - 'yt-dlp'
     rpmtree:
-    - 'applet-window-buttons'
-    - 'gamemode'
-    - 'konsole'
     - 'kvantum'
-    - 'rmlint-gui'
     ujust:
     - 'setup-decky'
     - 'add-user-to-input-group'

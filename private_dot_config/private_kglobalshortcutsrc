@@ -10,6 +10,14 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.google.Chrome]
+4A888E9C1B86CCDBF255AF5071001919-autofill_card=none,none,Autofill the last used card for the current website
+4A888E9C1B86CCDBF255AF5071001919-autofill_identity=none,none,Autofill the last used identity for the current website
+4A888E9C1B86CCDBF255AF5071001919-autofill_login=none,none,Autofill the last used login for the current website
+4A888E9C1B86CCDBF255AF5071001919-generate_password=none,none,Generate and copy a new random password to the clipboard
+4A888E9C1B86CCDBF255AF5071001919-lock_vault=none,none,Lock the vault
+_k_friendly_name=Google Chrome
+
 [com.vivaldi.Vivaldi]
 3F2E0947FE80915D66F725D46CF7F6BB-Ctrl+Shift+E=none,none,Ctrl+Shift+E
 3F2E0947FE80915D66F725D46CF7F6BB-Ctrl+Shift+Y=none,none,Ctrl+Shift+Y

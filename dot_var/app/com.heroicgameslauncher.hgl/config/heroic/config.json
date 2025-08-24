@@ -1,5 +1,6 @@
 {
   "defaultSettings": {
+    "analyticsOptIn": true,
     "checkUpdatesInterval": 10,
     "enableUpdates": false,
     "addDesktopShortcuts": false,
@@ -35,6 +36,9 @@
     "enableEsync": true,
     "enableFsync": true,
     "enableMsync": false,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
     "eacRuntime": true,
     "battlEyeRuntime": true,
     "framelessWindow": false,
@@ -44,6 +48,8 @@
     "verboseLogs": false,
     "downloadProtonToSteam": false,
     "advertiseAvxForRosetta": false,
+    "noTrayIcon": false,
+    "showValveProton": false,
     "exitToTray": true,
     "startInTray": true,
     "discordRPC": true,

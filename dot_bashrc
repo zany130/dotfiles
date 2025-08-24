@@ -32,6 +32,8 @@ eval "$(atuin init bash)"
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
 export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.5.1/"
 
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ### bling.sh source start
 test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
 ### bling.sh source end

@@ -1,6 +1,6 @@
 {
     "close_steam_before_sleep": true,
-    "force_big_picture": true,
+    "env_capture_regex": "^(?:SUNSHINE|APOLLO).*",
     "logging_rules": "",
     "mac_address_override": "",
     "port": 59999,

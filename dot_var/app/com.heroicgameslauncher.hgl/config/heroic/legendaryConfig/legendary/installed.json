@@ -37,7 +37,7 @@
     "egl_guid": "",
     "executable": "RunFallGuys.exe",
     "install_path": "/var/mnt/DATA/Games/Heroic/FallGuys",
-    "install_size": 7922830813,
+    "install_size": 7922869324,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -57,7 +57,7 @@
     "save_timestamp": null,
     "title": "Fall Guys",
     "uninstaller": null,
-    "version": "EGS_10428"
+    "version": "EGS_10661"
   },
   "0afb9d54dd3743a582b48b506466d3f8": {
     "app_name": "0afb9d54dd3743a582b48b506466d3f8",
@@ -299,16 +299,16 @@
   "8769e24080ea413b8ebca3f1b8c50951": {
     "app_name": "8769e24080ea413b8ebca3f1b8c50951",
     "base_urls": [
-      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
       "https://epicgames-download1.akamaized.net/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
       "https://download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default",
-      "https://fastly-download.epicgames.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default"
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-dhz7kpvrvqngzdpnx5vn3jrljj53ca/25e088b16a154dfbbe74d2510bdef015/default"
     ],
     "can_run_offline": true,
     "egl_guid": "",
     "executable": "PlayGTAV.exe",
     "install_path": "/var/mnt/GAMES/Heroic/GTAVEnhanced",
-    "install_size": 100331122655,
+    "install_size": 100342204520,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -324,7 +324,7 @@
       "args": "4 0",
       "path": "GTA5_Enhanced_BE.exe"
     },
-    "version": "1.0.889.19"
+    "version": "1.0.889.22"
   },
   "8de4840d52d645119f0a08d1f6ce206d": {
     "app_name": "8de4840d52d645119f0a08d1f6ce206d",

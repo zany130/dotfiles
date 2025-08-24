@@ -1,2 +1,4 @@
+(15:01:03) [INFO]:    GOG REDIST:: GOGDL_CONFIG_PATH=/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gogdlConfig /app/bin/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gog_store/auth.json redist --ids ISI,DirectX,MSVC2008,UE4REDIST,MSVC2010,dotNet472 --path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/redist/gog 
+
 [API] INFO: Getting Dependencies repository
 [REDIST] INFO: Nothing to do
