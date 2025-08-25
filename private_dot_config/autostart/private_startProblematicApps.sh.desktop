@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/zany130/Scripts/startProblematicApps.sh
+Icon=application-x-shellscript
+Name=startProblematicApps.sh
+Type=Application
+X-KDE-AutostartScript=true
