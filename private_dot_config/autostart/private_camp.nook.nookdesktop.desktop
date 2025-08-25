@@ -1,7 +1,0 @@
-[Desktop Entry]
-Categories=Audio;Music;Player;AudioVideo;
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=run.sh camp.nook.nookdesktop
-Icon=camp.nook.nookdesktop
-Name=Nook
-Type=Application
-X-Flatpak=camp.nook.nookdesktop
