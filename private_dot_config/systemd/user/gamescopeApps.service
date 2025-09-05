@@ -1,6 +1,0 @@
-[Unit]
-Description=headless apps to run in gamescope session
-
-[Service]
-Type=forking
-ExecStart=/home/zany130/Scripts/startGamescopeAppsBazzite.sh
