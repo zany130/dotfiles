@@ -1,0 +1,56 @@
+"evaluatorscript"
+{
+	"0"
+	{
+		"appid"		"2561580"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"0"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"PlayStation SDK 3.00"
+				{
+					"hasrunkey"		"HKEY_CURRENT_USER\\SOFTWARE\\Guerrilla Games\\Horizon Zero Dawn Remastered"
+					"process 1"		"%INSTALLDIR%\\install_pspc_sdk_runtime.bat"
+					"command 1"		"quiet"
+					"nocleanup"		"1"
+				}
+			}
+		}
+		"linux_install_path"		"/var/home/zany130/.local/share/Steam/steamapps/common/Horizon Zero Dawn Remastered"
+	}
+	"1"
+	{
+		"appid"		"228980"
+		"mode"		"1"
+		"language"		"english"
+		"commonredist"		"1"
+		"SteamID"		"76561198080681209"
+		"compat_installscript"
+		{
+			"run process"
+			{
+				"x86 14.42.34438.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2022"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2022\\Microsoft Visual C++ 2022 x86.cmd"
+					"nocleanup"		"1"
+				}
+				"x64 14.42.34438.0"
+				{
+					"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2022"
+					"process 1"		"%INSTALLDIR%\\_CommonRedist\\vcredist\\2022\\Microsoft Visual C++ 2022 x64.cmd"
+					"nocleanup"		"1"
+					"requirement_os"
+					{
+						"Is64BitWindows"		"1"
+					}
+				}
+			}
+		}
+		"linux_install_path"		"/var/home/zany130/.local/share/Steam/steamapps/common/Steamworks Shared"
+	}
+}

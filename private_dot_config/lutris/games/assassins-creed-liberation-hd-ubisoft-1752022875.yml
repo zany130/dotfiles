@@ -1,0 +1,27 @@
+game:
+  args: uplay://launch/49fb01af-5f00-4038-b538-5d82e15a8e79
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /var/mnt/GAMES/ubisoft-connect
+game_slug: assassins-creed-liberation-hd
+name: "Assassin's Creed\xAE Liberation HD"
+requires: ubisoft-connect
+script:
+  game:
+    args: uplay://launch/49fb01af-5f00-4038-b538-5d82e15a8e79
+  installer:
+  - task:
+      arch: win64
+      args: uplay://install/49fb01af-5f00-4038-b538-5d82e15a8e79
+      env: {}
+      executable: /var/mnt/GAMES/ubisoft-connect/drive_c/Program Files (x86)/Ubisoft/Ubisoft
+        Game Launcher/UbisoftConnect.exe
+      prefix: /var/mnt/GAMES/ubisoft-connect
+      wine_path: /home/zany130/.local/share/lutris/runners/proton/ge-proton/files/bin/wine
+  requires: ubisoft-connect
+service: ubisoft
+service_id: 49fb01af-5f00-4038-b538-5d82e15a8e79
+slug: assassins-creed-liberation-hd-ubisoft
+version: Ubisoft Connect
+wine:
+  overrides:
+    libglesv2: d
