@@ -138,6 +138,20 @@
 			"versionEtag": "\"82ba13fd96b74dd32e6181fd285a3ebb\"",
 			"buildId": "54533854502806685",
 			"pinnedVersion": false
+		},
+		{
+			"platform": "linux",
+			"executable": "",
+			"install_path": "/var/mnt/DATA/Games/Heroic/Sunrider - Mask of Arcadius",
+			"install_size": "1.22 GiB",
+			"is_dlc": false,
+			"version": "gog-1",
+			"appName": "1748855533",
+			"installedDLCs": [],
+			"language": "en",
+			"versionEtag": "",
+			"buildId": "",
+			"pinnedVersion": false
 		}
 	]
 }

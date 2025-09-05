@@ -14,7 +14,10 @@ fi
 brew install {{ . | quote }}
 {{ end -}}
 {{ range .packages.pip -}}
-pip install -- user {{ . | quote }}
+pip install --user {{ . | quote }}
+{{ end -}}
+{{ range .packages.pipx -}}
+pipx install {{ . | quote }}
 {{ end -}}
 {{ range .packages.cargo -}}
 cargo install {{ . | quote }}

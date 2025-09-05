@@ -1,14 +1,10 @@
-[1]
-above=true
-skiptaskbar=true
-
 [46d8fb2d-0879-41aa-96ba-26470ea88276]
 above=true
 aboverule=2
 
 [General]
-count=3
-rules=fea2aaa6-f233-45cd-b28d-4c63aa9be672,1,e76d3b5c-b962-4a21-ba1d-7dd22b164890
+count=2
+rules=fea2aaa6-f233-45cd-b28d-4c63aa9be672,e76d3b5c-b962-4a21-ba1d-7dd22b164890
 
 [e76d3b5c-b962-4a21-ba1d-7dd22b164890]
 Description=fix tilling geometry

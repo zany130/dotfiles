@@ -22,7 +22,7 @@
         "setcustom": false,
         "setminimized": true,
         "setprofile": true,
-        "setserver": true,
+        "setserver": false,
         "setserverhost": false,
         "setserverport": false
     },
@@ -1329,8 +1329,8 @@
             "height": 1031,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 944,
-            "x": 965,
+            "width": 1898,
+            "x": 11,
             "y": 42
         },
         "greyscale_tray_icon": false,

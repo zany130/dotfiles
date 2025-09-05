@@ -2,7 +2,7 @@
 Categories=Utility;
 Comment[en_US]=OpenRGB 0.9, for controlling RGB lighting.
 Comment=OpenRGB 0.9, for controlling RGB lighting.
-Exec=/home/zany130/AppImages/openrgb.appimage --client localhost:6742 --startminimized --profile MyRGB --server
+Exec=/var/home/zany130/AppImages/openrgb.appimage --startminimized --profile MyRGB
 GenericName[en_US]=
 GenericName=
 Icon=OpenRGB

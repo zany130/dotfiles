@@ -164,6 +164,33 @@
     "uninstaller": null,
     "version": "1.16.0.0-1.71290.0.712379"
   },
+  "3206dba3f9b14fd3b01c18f9dcbc864a": {
+    "app_name": "3206dba3f9b14fd3b01c18f9dcbc864a",
+    "base_urls": [
+      "https://fastly-download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/524e461c5cd04677b563cc723f9da02c/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/524e461c5cd04677b563cc723f9da02c/default",
+      "https://download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/524e461c5cd04677b563cc723f9da02c/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/524e461c5cd04677b563cc723f9da02c/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Deathloop.exe",
+    "install_path": "/var/mnt/DATA/Games/Heroic/DEATHLOOP",
+    "install_size": 33284941186,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": true,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "DEATHLOOP",
+    "uninstaller": null,
+    "version": "1.820.5.1v5"
+  },
   "37f5a526914b4eaaa86d32820e162aa0": {
     "app_name": "37f5a526914b4eaaa86d32820e162aa0",
     "base_urls": [
@@ -612,6 +639,33 @@
     "title": "Cris Tales",
     "uninstaller": null,
     "version": "1.0.7"
+  },
+  "eb6ddfb245f647e2bb6902f52f38a535": {
+    "app_name": "eb6ddfb245f647e2bb6902f52f38a535",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/83287756497c406f93943dc01dd539f3/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/83287756497c406f93943dc01dd539f3/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/83287756497c406f93943dc01dd539f3/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/83287756497c406f93943dc01dd539f3/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Wonderlands.exe",
+    "install_path": "/var/mnt/DATA/Games/Heroic/TinyTinasWonderlands",
+    "install_size": 52424755024,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": true,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "Tiny Tina's Wonderlands",
+    "uninstaller": null,
+    "version": "1.0.8_CL_3059852_Wonderlands"
   },
   "f4f0d39fbb4640e0be62aa91d9eca87d": {
     "app_name": "f4f0d39fbb4640e0be62aa91d9eca87d",

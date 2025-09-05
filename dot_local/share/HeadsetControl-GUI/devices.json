@@ -1,6 +1,6 @@
 [
     {
-        "bt_call_volume": 2,
+        "bt_call_volume": 1,
         "bt_when_powered_on": -1,
         "device": "SteelSeries Arctis Nova 7",
         "equalizer_curve": [
@@ -22,11 +22,12 @@
         "lights": -1,
         "mic_mute_led_brightness": 3,
         "mic_volume": 88,
+        "previous_sidetone": 0,
         "product": "Arctis Nova 7",
         "rotate_to_mute": -1,
         "sidetone": 73,
         "vendor": "SteelSeries",
         "voice_prompts": -1,
-        "volume_limiter": -1
+        "volume_limiter": 0
     }
 ]

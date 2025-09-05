@@ -3,4 +3,4 @@ Description=Organize files into folders with organize
 
 [Service]
 Type=oneshot
-ExecStart=organize run
+ExecStart=/home/linuxbrew/.linuxbrew/bin/organize run
