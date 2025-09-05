@@ -1,0 +1,95 @@
+[General]
+alwaysShowChangelog = false
+autoUpdate = false
+BGMvolume = 97
+checkCompatibilityOnStartup = true
+chooseHomeTab = "General"
+compatibilityEnabled = true
+enableDiscordRPC = true
+Fullscreen = true
+FullscreenMode = "Borderless"
+isDevKit = false
+isPS4Pro = false
+isPSNSignedIn = false
+isTrophyPopupDisabled = true
+logFilter = ""
+logType = "async"
+playBGM = true
+separateUpdateEnabled = false
+showSplash = true
+sideTrophy = "right"
+trophyNotificationDuration = 5.0
+updateChannel = "Nightly"
+userName = "zany130"
+
+[Input]
+backButtonBehavior = "left"
+cursorHideTimeout = 5
+cursorState = 1
+isMotionControlsEnabled = true
+specialPadClass = 1
+useSpecialPad = false
+useUnifiedInputConfig = true
+
+[GPU]
+allowHDR = true
+copyGPUBuffers = false
+directMemoryAccess = false
+dumpShaders = false
+Fullscreen = true
+FullscreenMode = "Fullscreen"
+nullGpu = false
+patchShaders = true
+readbacks = false
+screenHeight = 2160
+screenWidth = 3840
+vblankDivider = 1
+
+[Vulkan]
+crashDiagnostic = false
+gpuId = 0
+guestMarkers = false
+hostMarkers = false
+rdocEnable = false
+rdocMarkersEnable = false
+validation = false
+validation_gpu = false
+validation_sync = false
+
+[Debug]
+CollectShader = false
+DebugDump = false
+FPSColor = true
+isSeparateLogFilesEnabled = false
+
+[Keys]
+TrophyKey = ""
+
+[GUI]
+addonInstallDir = "/home/zany130/Emulation/storage/shadps4/dlc"
+backgroundImageOpacity = 50
+elfDirs = []
+emulatorLanguage = "en_US"
+gameTableMode = 0
+geometry_h = 1031
+geometry_w = 2538
+geometry_x = 1920
+geometry_y = 720
+iconSize = 36
+iconSizeGrid = 69
+installDirs = ["/home/zany130/Emulation/storage/shadps4/games"]
+installDirsEnabled = [true]
+loadGameSizeEnabled = true
+mw_height = 1031
+mw_width = 2538
+pkgDirs = []
+recentFiles = ["/home/zany130/Emulation/storage/shadps4/games/CUSA02344/eboot.bin", "/home/zany130/Emulation/storage/shadps4/games/CUSA04943/eboot.bin"]
+saveDataPath = ""
+showBackgroundImage = true
+sliderPos = 0
+sliderPosGrid = 0
+theme = 0
+
+[Settings]
+consoleLanguage = 1
+
