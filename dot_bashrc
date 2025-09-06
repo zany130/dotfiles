@@ -5,12 +5,6 @@ if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
 
-# User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
-    PATH="$PATH:$HOME/.local/bin:$HOME/bin"
-fi
-export PATH
-
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
@@ -24,20 +18,14 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+### atuin
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
+[[ -f "$HOME/.atuin/bin/env" ]] && . "$HOME/.atuin/bin/env"
 
-. "$HOME/.cargo/env"
+### Rust
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
-#homebrew exports 
-export DOTNET_ROOT="/home/linuxbrew/.linuxbrew/opt/dotnet/libexec"
-export OPENSSL_DIR="/home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.5.1/"
-
-# paths needed by cargo
-#export PATH="$PATH:/home/linuxbrew/.linuxbrew/opt/binutils/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-export QML_IMPORT_PATH="$QML_IMPORT_PATH:$HOME/.local/lib64/qt6/qml"
 ### bling.sh source start
 test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
 ### bling.sh source end
