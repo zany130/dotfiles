@@ -588,6 +588,33 @@
     "uninstaller": null,
     "version": "0.0.0.6415"
   },
+  "cc3213f280df4b428e85b771c09d1891": {
+    "app_name": "cc3213f280df4b428e85b771c09d1891",
+    "base_urls": [
+      "https://fastly-download.epicgames.com/Builds/Org/o-cul2z53mrw3bxltv63v68rgd4b3w52/5fe2542e232b4014a5f2f3619598bd19/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-cul2z53mrw3bxltv63v68rgd4b3w52/5fe2542e232b4014a5f2f3619598bd19/default",
+      "https://download.epicgames.com/Builds/Org/o-cul2z53mrw3bxltv63v68rgd4b3w52/5fe2542e232b4014a5f2f3619598bd19/default",
+      "https://cloudflare.epicgamescdn.com/Builds/Org/o-cul2z53mrw3bxltv63v68rgd4b3w52/5fe2542e232b4014a5f2f3619598bd19/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Ghostrunner2.exe",
+    "install_path": "/home/zany130/Games/Heroic/Ghostrunner2",
+    "install_size": 76122049035,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "save_timestamp": null,
+    "title": "Ghostrunner 2",
+    "uninstaller": null,
+    "version": "42294_57"
+  },
   "d366ae16e31b41869cf26c6ee309e7f3": {
     "app_name": "d366ae16e31b41869cf26c6ee309e7f3",
     "base_urls": [

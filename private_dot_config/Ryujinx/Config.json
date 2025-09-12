@@ -91,10 +91,10 @@
     "nso": true
   },
   "window_startup": {
-    "window_size_width": 1264,
+    "window_size_width": 942,
     "window_size_height": 1031,
-    "window_position_x": 3200,
-    "window_position_y": 2197,
+    "window_position_x": 962,
+    "window_position_y": 37,
     "window_maximized": false
   },
   "language_code": "en_US",
