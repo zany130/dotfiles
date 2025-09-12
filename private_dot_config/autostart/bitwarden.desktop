@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[en_US]=Bitwarden startup script
+Comment=Bitwarden startup script
+Exec=/home/zany130/Applications/bitwarden/bitwarden
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name[en_US]=Bitwarden
+Name=Bitwarden
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=2025.8.2
+X-KDE-SubstituteUID=false
+X-KDE-Username=

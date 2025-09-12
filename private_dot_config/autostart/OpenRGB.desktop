@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_US]=OpenRGB 0.9, for controlling RGB lighting.
+Comment=OpenRGB 0.9, for controlling RGB lighting.
+Exec=/var/home/zany130/AppImages/openrgb.appimage --startminimized --profile MyRGB
+GenericName[en_US]=
+GenericName=
+Icon=OpenRGB
+MimeType=
+Name[en_US]=OpenRGB
+Name=OpenRGB
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

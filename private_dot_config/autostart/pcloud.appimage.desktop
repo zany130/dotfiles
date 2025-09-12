@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=pcloud.appimage
+Comment=pcloud.appimagestartup script
+Exec=/var/home/zany130/AppImages/pcloud.appimage
+StartupNotify=false
+Terminal=false
