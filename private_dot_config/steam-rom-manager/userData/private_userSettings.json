@@ -1,8 +1,8 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1756259571265,
-			"download": 1756259571265
+			"check": 1758318783207,
+			"download": 1758318783207
 		},
 		"verbose": false,
 		"filterProviders": true
@@ -26,11 +26,12 @@
 		"hideUserAccount": false
 	},
 	"enabledProviders": [
-		"sgdb"
+		"sgdb",
+		"steamCDN"
 	],
 	"language": "en-US",
 	"offlineMode": false,
-	"navigationWidth": 432,
+	"navigationWidth": 489,
 	"clearLogOnTest": false,
 	"version": 10,
 	"theme": "Deck",

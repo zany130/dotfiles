@@ -11,4 +11,5 @@ Terminal=false
 Categories=Network;System;
 StartupNotify=false
 X-GNOME-Autostart-Delay=60
+X-Desktop-File-Install-Version=0.27
 

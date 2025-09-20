@@ -1,3 +1,7 @@
+[General]
+maximized=false
+windowPos=@Point(0 20)
+
 [shortcutKey]
 cheatsWindow=End
 fastForward=Home

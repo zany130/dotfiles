@@ -11,8 +11,12 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:q!
+|2,0,1758076664,,"q!"
+:!q
+|2,0,1758076658,,"!q"
 :q
-|2,0,1755479521,,"q"
+|2,0,1758076645,,"q"
 :'<,'>q
 |2,0,1755479516,,"'<,'>q"
 :Q
@@ -29,8 +33,6 @@
 |2,0,1727280212,,"qa"
 :wq
 |2,0,1722872040,,"wq"
-:q!
-|2,0,1722742833,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -41,53 +43,105 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	
-|3,0,1,1,1,0,1722742815,""
+""1	LINE	0
+			  rclone mount --daemon Andres_GDrive:/ /home/zany130/mnt/Andres_GDrive & \
+|3,1,1,1,1,0,1758076643,"		  rclone mount --daemon Andres_GDrive:/ /home/zany130/mnt/Andres_GDrive & \\"
 "2	LINE	0
-	### Edits below this comment will be discarded
-|3,0,2,1,1,0,1722742814,"### Edits below this comment will be discarded"
+	ExecStart=rclone mount --daemon Andres_DropBox:/ /home/zany130/mnt/Andres_DropBox & \
+|3,0,2,1,1,0,1758076642,"ExecStart=rclone mount --daemon Andres_DropBox:/ /home/zany130/mnt/Andres_DropBox & \\"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1722742812,""
+|3,0,3,1,1,0,1722742815,""
 "4	LINE	0
+	### Edits below this comment will be discarded
+|3,0,4,1,1,0,1722742814,"### Edits below this comment will be discarded"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1722742812,""
+"6	LINE	0
 	Environment="COOLERCONTROL_LOG="
-|3,0,4,1,1,0,1722742812,"Environment=\"COOLERCONTROL_LOG=\""
-""-	CHAR	0
+|3,0,6,1,1,0,1722742812,"Environment=\"COOLERCONTROL_LOG=\""
+"-	CHAR	0
 	 
-|3,1,36,0,1,0,1727983007," "
+|3,0,36,0,1,0,1727983007," "
 
 # File marks:
-'0  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
-|4,48,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
-'1  8  6  ~/.config/organize/config.yaml
-|4,49,8,6,1746841335,"~/.config/organize/config.yaml"
-'2  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
-|4,50,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
-'3  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
-|4,51,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
-'4  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,52,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
-'5  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,53,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
-'6  14  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf68103eebd7e235b8
-|4,54,14,0,1743970723,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf68103eebd7e235b8"
-'7  4  0  ~/.config/systemd/user/openrgb.service.d/.#override.confb411e91b4c0351e5
-|4,55,4,0,1735168149,"~/.config/systemd/user/openrgb.service.d/.#override.confb411e91b4c0351e5"
-'8  2  0  ~/.config/organize/config.yaml
-|4,56,2,0,1731025121,"~/.config/organize/config.yaml"
-'9  2  0  ~/.config/organize/config.yaml
-|4,57,2,0,1731025121,"~/.config/organize/config.yaml"
+'0  6  4  ~/.config/systemd/user/rclonemounts.service
+|4,48,6,4,1758076664,"~/.config/systemd/user/rclonemounts.service"
+'1  5  0  ~/.config/systemd/user/rclonemounts.service
+|4,49,5,0,1758076635,"~/.config/systemd/user/rclonemounts.service"
+'2  5  0  ~/.config/systemd/user/rclonemounts.service
+|4,50,5,0,1758076635,"~/.config/systemd/user/rclonemounts.service"
+'3  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,51,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+'4  8  6  ~/.config/organize/config.yaml
+|4,52,8,6,1746841335,"~/.config/organize/config.yaml"
+'5  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,53,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+'6  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,54,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+'7  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
+|4,55,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
+'8  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
+|4,56,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
+'9  14  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf68103eebd7e235b8
+|4,57,14,0,1743970723,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf68103eebd7e235b8"
 
 # Jumplist (newest first):
+-'  6  4  ~/.config/systemd/user/rclonemounts.service
+|4,39,6,4,1758076664,"~/.config/systemd/user/rclonemounts.service"
+-'  5  0  ~/.config/systemd/user/rclonemounts.service
+|4,39,5,0,1758076638,"~/.config/systemd/user/rclonemounts.service"
+-'  5  0  ~/.config/systemd/user/rclonemounts.service
+|4,39,5,0,1758076635,"~/.config/systemd/user/rclonemounts.service"
+-'  1  0  ~/.config/systemd/user/rclonemounts.service
+|4,39,1,0,1758076625,"~/.config/systemd/user/rclonemounts.service"
+-'  1  0  ~/.config/systemd/user/rclonemounts.service
+|4,39,1,0,1758076625,"~/.config/systemd/user/rclonemounts.service"
 -'  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
 |4,39,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  42  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,42,0,1755479521,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,1,0,1755479472,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,1,0,1755479472,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
+-'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
+|4,39,1,0,1755479472,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
 -'  1  0  /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
 |4,39,1,0,1755479472,"/var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b"
 -'  8  6  ~/.config/organize/config.yaml
 |4,39,8,6,1746841335,"~/.config/organize/config.yaml"
 -'  8  6  ~/.config/organize/config.yaml
 |4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  8  6  ~/.config/organize/config.yaml
+|4,39,8,6,1746841335,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
+-'  1  0  ~/.config/organize/config.yaml
+|4,39,1,0,1746841332,"~/.config/organize/config.yaml"
 -'  1  0  ~/.config/organize/config.yaml
 |4,39,1,0,1746841332,"~/.config/organize/config.yaml"
 -'  1  0  ~/.config/organize/config.yaml
@@ -100,6 +154,54 @@
 |4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
 -'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
 |4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  48  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,48,0,1743976926,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
+-'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
+|4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
 |4,39,1,0,1743976495,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf7d429d066bba3b30
@@ -124,6 +226,54 @@
 |4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
 -'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
 |4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
+-'  4  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
+|4,39,4,0,1743976336,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
 |4,39,1,0,1743976190,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
@@ -138,150 +288,14 @@
 |4,39,1,0,1743976190,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
 -'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
 |4,39,1,0,1743976190,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977
-|4,39,1,0,1743976190,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.confafc37d289a6b7977"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  52  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,52,0,1743975803,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631
-|4,39,1,0,1743975703,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf924d9d2c9cc60631"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  3  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,3,0,1743972022,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
--'  1  0  ~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6
-|4,39,1,0,1743971952,"~/.config/systemd/user/gamescope-session-plus@.service.d/.#override.conf2df70171cd68c9a6"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/systemd/user/rclonemounts.service
+	*	1758076658	0
+	"	6	4
+	.	6	0
+	+	6	0
 
 > /var/home/linuxbrew/.linuxbrew/etc/systemd/system/portmaster.service.d/.#override.conf28303a24ac0d150b
 	*	1755479518	0
