@@ -3,7 +3,7 @@
         "action": 2,
         "cron_line": "0 0 23 * * ?",
         "name": "Sleep Disable Effect plugin",
-        "next_run": 1759287600936279219,
+        "next_run": 1759546800962868157,
         "run": true,
         "sub_action": "Stop all effects"
     },
@@ -11,7 +11,7 @@
         "action": 1,
         "cron_line": "0 0 23 * * ?",
         "name": "Sleep",
-        "next_run": 1759287600147946486,
+        "next_run": 1759546800962609211,
         "run": true
     }
 ]

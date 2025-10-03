@@ -28,16 +28,16 @@
   "0a2d9f6403244d12969e11da6713137b": {
     "app_name": "0a2d9f6403244d12969e11da6713137b",
     "base_urls": [
-      "https://download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
-      "https://epicgames-download1.akamaized.net/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://fastly-download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
+      "https://download.epicgames.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default",
       "https://cloudflare.epicgamescdn.com/Builds/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/default"
     ],
     "can_run_offline": true,
     "egl_guid": "",
     "executable": "RunFallGuys.exe",
     "install_path": "/var/mnt/DATA/Games/Heroic/FallGuys",
-    "install_size": 8051940660,
+    "install_size": 8051926636,
     "install_tags": [],
     "is_dlc": false,
     "launch_parameters": "",
@@ -57,7 +57,7 @@
     "save_timestamp": null,
     "title": "Fall Guys",
     "uninstaller": null,
-    "version": "EGS_10783"
+    "version": "EGS_10932"
   },
   "0afb9d54dd3743a582b48b506466d3f8": {
     "app_name": "0afb9d54dd3743a582b48b506466d3f8",

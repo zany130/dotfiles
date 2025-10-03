@@ -10,6 +10,13 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.github.hluk.copyq]
+CTRL+SHIFT+C||Copy a Secret=Ctrl+Shift+C,Ctrl+Shift+C,CopyQ - Copy a Secret
+LOGO+ALT+D||Diff Latest Items=Meta+Alt+D,Meta+Alt+D,CopyQ - Diff Latest Items
+LOGO+ALT+X||Toggle Clipboard Storing=Meta+Alt+X,Meta+Alt+X,CopyQ - Toggle Clipboard Storing
+LOGO+SHIFT+F||Show Frequent=none,Meta+Shift+F,CopyQ - Show Frequent
+_k_friendly_name=CopyQ
+
 [com.microsoft.Edge]
 02619D43EBE242B9E9E0FB2E5E95EE72-autofill_card=none,none,Autofill the last used card for the current website
 02619D43EBE242B9E9E0FB2E5E95EE72-autofill_identity=none,none,Autofill the last used identity for the current website
