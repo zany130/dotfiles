@@ -1,0 +1,9 @@
+[Unit]
+Description=rclone webgui
+
+[Service]
+Type=forking
+ExecStart=rclone rcd --rc-web-gui --rc-web-gui-update --rc-web-gui-no-open-browser
+
+[Install]
+WantedBy=default.target

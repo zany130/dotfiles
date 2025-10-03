@@ -1,0 +1,13 @@
+[Unit]
+Description=Homebrew generated unit for onedrive
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+ExecStart=/home/linuxbrew/.linuxbrew/opt/onedrive/bin/onedrive --monitor
+Restart=always
+WorkingDirectory=/home/zany130
+StandardOutput=append:/home/linuxbrew/.linuxbrew/var/log/onedrive.log
+StandardError=append:/home/linuxbrew/.linuxbrew/var/log/onedrive.log
