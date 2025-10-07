@@ -1,0 +1,2554 @@
+{
+	"{\"0\":[\"xenia\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenia",
+		"matched": true
+	},
+	"{\"0\":[\"xenia-Native\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "xeniaNative",
+		"matched": false
+	},
+	"{\"0\":[\"xemu-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "xemu (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"vita3k\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Vita3K (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"supermodel\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Supermodel (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"scummvm\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ScummVM",
+		"matched": true
+	},
+	"{\"0\":[\"ryujinx\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ryujinx (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"rpcs3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "RPCS3 (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"rosaliesmupengui\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Rosalie's Mupen GUI (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"retroarch\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "RetroArch",
+		"matched": true
+	},
+	"{\"0\":[\"primehack\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PrimeHack",
+		"matched": true
+	},
+	"{\"0\":[\"ppsspp\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PPSSPP (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"pcsx2-qt\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "pcsx2qt",
+		"matched": false
+	},
+	"{\"0\":[\"model-2-emulator\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Model 2 (emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"mgba\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "mGBA (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"melonds\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "melonDS (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"mame\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "MAME (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"lime3ds\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lime3DS (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"flycast\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "flycast (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"duckstation\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "DuckStation (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"dolphin-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dolphin (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"citra\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Citra (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"cemu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Cemu (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"bigpemu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BigPEmu (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"ares-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ares (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"es-de\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "ES-DE (Program)",
+		"matched": true
+	},
+	"{\"0\":[\"SteamLink\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Steam Link",
+		"matched": true
+	},
+	"{\"0\":[\"ShadowPC\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Shadow Ops: Red Mercury",
+		"matched": true
+	},
+	"{\"0\":[\"Parsec\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Parsec",
+		"matched": true
+	},
+	"{\"0\":[\"Moonlight Game Streaming\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Moonlight Game Streaming (Program)",
+		"matched": true
+	},
+	"{\"0\":[\"Greenlight\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Greenlight (Program)",
+		"matched": true
+	},
+	"{\"0\":[\"Chiaki4deck\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "chiaki4deck",
+		"matched": true
+	},
+	"{\"0\":[\"Chiaki Remote Play Client\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Chiaki Remote Play Client",
+		"matched": false
+	},
+	"{\"0\":[\"YouTube\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "YouTube TV",
+		"matched": true
+	},
+	"{\"0\":[\"Xbox Cloud Gaming (xCloud) (2019)\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Xbox Cloud Gaming (xCloud)",
+		"matched": true
+	},
+	"{\"0\":[\"Netflix\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Netflix",
+		"matched": true
+	},
+	"{\"0\":[\"Hulu\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Hulu",
+		"matched": true
+	},
+	"{\"0\":[\"Crunchyroll\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Crunchyroll",
+		"matched": true
+	},
+	"{\"0\":[\"Amazon Luna (2020)\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Amazon Luna",
+		"matched": true
+	},
+	"{\"0\":[\"Spotify\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Spotify (Program)",
+		"matched": true
+	},
+	"{\"0\":[\"Heroic-Games-Launcher\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Heroic Games Launcher",
+		"matched": true
+	},
+	"{\"0\":[\"Super Smash Bros. (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros.",
+		"matched": true
+	},
+	"{\"0\":[\"Quest 64 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Quest 64",
+		"matched": true
+	},
+	"{\"0\":[\"Paper Mario (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man 64 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man 64",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man 64 (USA) (Beta)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man 64",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube Edition)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Ocarina of Time Master Quest",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (Debug Version)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Ocarina of Time Master Quest",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Ocarina of Time (USA) (Rev B)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Ocarina of Time",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Ocarina of Time (USA) (GameCube Edition)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Ocarina of Time",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Majora's Mask (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Majora's Mask",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Majora's Mask (USA) (GameCube Edition)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Majora's Mask",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Majora's Mask (USA) (Demo)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Majora's Mask",
+		"matched": true
+	},
+	"{\"0\":[\"Kirby 64 - The Crystal Shards (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Kirby 64: The Crystal Shards",
+		"matched": true
+	},
+	"{\"0\":[\"Hey You, Pikachu! (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Hey You Pikachu!",
+		"matched": true
+	},
+	"{\"0\":[\"Gauntlet Legends (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gauntlet Legends",
+		"matched": true
+	},
+	"{\"0\":[\"F-Zero X (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "F-Zero X",
+		"matched": true
+	},
+	"{\"0\":[\"Batman Beyond - Return of the Joker (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Batman Beyond: Return of the Joker",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo-Tooie (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Tooie",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo-Kazooie (USA) (Rev A)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Kazooie",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo-Dreamie\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Dreamie",
+		"matched": true
+	},
+	"{\"0\":[\"AeroGauge (U) [!].sync-conflict-20240603-112947-Q56IESU\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "AeroGauge syncconflict20240603112947Q56IESU",
+		"matched": false
+	},
+	"{\"0\":[\"AeroGauge (U) [!]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "AeroGauge",
+		"matched": true
+	},
+	"{\"0\":[\"WarioWare, Inc. Mega Microgame$! - Trial Version (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "WarioWare Inc Mega Microgame Trial Version",
+		"matched": false
+	},
+	"{\"0\":[\"WarioWare, Inc. - Trial version (USA) (Demo) (Kiosk, GameCube)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "WarioWare Inc Trial version",
+		"matched": false
+	},
+	"{\"0\":[\"Puyo Pop - Endless Version (World)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Puyo Pop Endless Version",
+		"matched": false
+	},
+	"{\"0\":[\"Nintendo Puzzle Collection - Yoshi no Cookie (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo Puzzle Collection Yoshi no Cookie",
+		"matched": false
+	},
+	"{\"0\":[\"Nintendo Puzzle Collection - Panel de Pon (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo Puzzle Collection Panel de Pon",
+		"matched": false
+	},
+	"{\"0\":[\"Nintendo Puzzle Collection - Dr. Mario (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo Puzzle Collection Dr Mario",
+		"matched": false
+	},
+	"{\"0\":[\"NiGHTS into Dreams - Score Attack (World)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NiGHTS into Dreams Score Attack",
+		"matched": false
+	},
+	"{\"0\":[\"Minna de Puyo Puyo - Toko Puyo Genteiban (World) (Ja)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Minna de Puyo Puyo Toko Puyo Genteiban",
+		"matched": false
+	},
+	"{\"0\":[\"Made in Wario (Japan) (Demo) (Kiosk, GameCube)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Achievement Lurker: Ballad of the Shimapan Warrior - King of Panties",
+		"matched": true
+	},
+	"{\"0\":[\"Dr. Mario (USA) (Kiosk, GameCube)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dr. Mario",
+		"matched": true
+	},
+	"{\"0\":[\"Chuchuroketto! Pazuru (World) (Ja)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chuchuroketto Pazuru",
+		"matched": false
+	},
+	"{\"0\":[\"Chuchuroketto! Charenji (World) (Ja)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chuchuroketto Charenji",
+		"matched": false
+	},
+	"{\"0\":[\"ChuChu Rocket! Challenge (World)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ChuChu Rocket Challenge",
+		"matched": false
+	},
+	"{\"0\":[\"Chu Chu Rocket! Challenge (USA) (Billy Hatcher and the Giant Egg) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chu Chu Rocket Challenge",
+		"matched": false
+	},
+	"{\"0\":[\"Chao no Puchigaden (World) (En,Ja,Fr,De,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chao no Puchigaden",
+		"matched": false
+	},
+	"{\"0\":[\"Chao no Puchigaden (World) (En,Ja,Fr,De,Es) (Sonic Adventure DX - Director’s Cut)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chao no Puchigaden",
+		"matched": false
+	},
+	"{\"0\":[\"Chao no Puchigaden (World) (En,Ja,Fr,De,Es) (Phantasy Star Online Episode I & II)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chao no Puchigaden",
+		"matched": false
+	},
+	"{\"0\":[\"Billy Hatcher Hyper Shoot - Easy (World)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Billy Hatcher Hyper Shoot Easy",
+		"matched": false
+	},
+	"{\"0\":[\"Billy Hatcher Hyper Shoot (World)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Billy Hatcher: Hyper Shoot",
+		"matched": true
+	},
+	"{\"0\":[\"Animal Crossing - Tennis (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Tennis",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Tennis (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Tennis",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Super Mario Bros. (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Super Mario Bros",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Super Mario Bros. (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Super Mario Bros",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Soccer (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Soccer",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Soccer (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Soccer",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Pinball (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Pinball",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Pinball (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Pinball",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Mario Bros. (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Mario Bros",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Mario Bros. (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Mario Bros",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Ice Climber (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Ice Climber",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Ice Climber (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Ice Climber",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Golf (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Golf",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Golf (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Golf",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Excitebike (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Excitebike",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Excitebike (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Excitebike",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong Jr. Math (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong Jr Math",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong Jr. Math (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong Jr Math",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong Jr. (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong Jr",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong Jr. (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong Jr",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong 3 (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong 3",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong 3 (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong 3",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Donkey Kong (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Donkey Kong",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Clu Clu Land (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Clu Clu Land",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Clu Clu Land (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Clu Clu Land",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Baseball (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Baseball",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Baseball (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Baseball",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Balloon Fight (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Balloon Fight",
+		"matched": false
+	},
+	"{\"0\":[\"Animal Crossing - Balloon Fight (Japan) (En)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Animal Crossing Balloon Fight",
+		"matched": false
+	},
+	"{\"0\":[\"Super Mario Bros. Deluxe (USA, Europe) (Rev 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Bros. Deluxe",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Oracle of Seasons (USA, Australia)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Oracle of Seasons",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Oracle of Ages (Europe) (En,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Oracle of Ages",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (SGB Enhanced) (GB Compatible)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Link's Awakening DX",
+		"matched": true
+	},
+	"{\"0\":[\"Super Smash Bros. Melee (USA) (En,Ja) (v1.02)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros. Melee",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Sunshine (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Sunshine",
+		"matched": true
+	},
+	"{\"0\":[\"Paper Mario - The Thousand-Year Door (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: The Thousand-Year Door",
+		"matched": true
+	},
+	"{\"0\":[\"Billy Hatcher and the Giant Egg (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Billy Hatcher and the Giant Egg",
+		"matched": true
+	},
+	"{\"0\":[\"Zelda II - The Adventure of Link (USA) (Virtual Console)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Zelda II: The Adventure of Link",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The (USA) (Rev 1) (Virtual Console)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda",
+		"matched": true
+	},
+	"{\"0\":[\"Zelda no Densetsu - Kamigami no Triforce (Japan) (Rev 2) (Virtual Console, Switch Online)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Zelda no Densetsu Kamigami no Triforce",
+		"matched": false
+	},
+	"{\"0\":[\"Super Street Fighter II (USA) [Color hack by Dex909 v1.1]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Street Fighter II",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario World 2 - Yoshi's Island (USA) [Color hack by Mattrizzle v1.0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario World 2: Yoshi's Island",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario RPG - Legend of the Seven Stars (USA, Europe) (Virtual Console)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario RPG: Legend of the Seven Stars",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario All-Stars (USA) (Wii)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario All-Stars",
+		"matched": true
+	},
+	"{\"0\":[\"Super Fire Pro Wrestling III - Easy Type (Japan) [Color hack by SCD Final]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Fire Pro Wrestling III Easy Type",
+		"matched": false
+	},
+	"{\"0\":[\"Super Fire Pro Wrestling 2 (Japan) [Color hack by SCD Final]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Fire Pro Wrestling 2",
+		"matched": false
+	},
+	"{\"0\":[\"Super Fire Pro Wrestling (Japan) [Color hack by SCD Final]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Fire Pro Wrestling",
+		"matched": false
+	},
+	"{\"0\":[\"Super Castlevania IV (USA) [Color hack by Bogaabogaa v1.1]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Castlevania IV",
+		"matched": true
+	},
+	"{\"0\":[\"Super Castlevania IV (USA) [Color hack by Bogaabogaa v1.1] [Less Exaggerated Palette]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Castlevania IV",
+		"matched": true
+	},
+	"{\"0\":[\"Mortal Kombat (USA) [Color hack by DarkSamus993 v1.0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mortal Kombat",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - A Link to the Past (USA, Europe) (Switch Online)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: A Link to the Past",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - A Link to the Past (USA) [Color hack by N.Dpendent v1.2]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: A Link to the Past",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - A Link to the Past (Germany) [Color hack by N.Dpendent v1.2]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: A Link to the Past",
+		"matched": true
+	},
+	"{\"0\":[\"Eek! The Cat (USA) [Color hack by Mister Man v1.00]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eek! the Cat",
+		"matched": true
+	},
+	"{\"0\":[\"Eek! The Cat (Europe) [Color hack by Mister Man v1.00]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eek! the Cat",
+		"matched": true
+	},
+	"{\"0\":[\"Captain Commando (USA) [Arcade Edition by Blade133bo & Proteunerd & RealGaea v1.2]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Captain Commando",
+		"matched": true
+	},
+	"{\"0\":[\"Captain Commando (Japan) [Arcade Edition by Blade133bo & Proteunerd & RealGaea v1.2]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Captain Commando",
+		"matched": true
+	},
+	"{\"0\":[\"Captain Commando (Europe) [Arcade Edition by Blade133bo & Proteunerd & RealGaea v1.2]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Captain Commando",
+		"matched": true
+	},
+	"{\"0\":[\"7th Saga, The (USA) [Color hack by Kyuwert v1.0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The 7th Saga",
+		"matched": true
+	},
+	"{\"0\":[\"_______________________________________________________________!!____________ v0 (01005400145AC000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "MELIGO Creator v1.0",
+		"matched": true
+	},
+	"{\"0\":[\"White Night (2015)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "White Night",
+		"matched": true
+	},
+	"{\"0\":[\"Travis Strikes Again_ No More Heroes v0 (010011600C946000)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Travis Strikes Again No More Heroes v0",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda_ Tears of the Kingdom\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Tears of the Kingdom",
+		"matched": true
+	},
+	"{\"0\":[\"The Count Lucanor v0 (01000850037C0000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Count Lucanor v0",
+		"matched": false
+	},
+	"{\"0\":[\"The Coma_ Recut v0 (010033100691A000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Coma Recut v0",
+		"matched": false
+	},
+	"{\"0\":[\"The Book of Death v0 (01005C601A2C0000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Book of Death v0",
+		"matched": false
+	},
+	"{\"0\":[\"Super Smash Bros. Ultimate\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros. Ultimate",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Odyssey\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"STEINS;GATE 8bit\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "STEINSGATE 8bit",
+		"matched": false
+	},
+	"{\"0\":[\"Process of Elimination\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Process of Elimination",
+		"matched": true
+	},
+	"{\"0\":[\"OKAMI-HD-BASE\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Otonari no Kokujin Otto ni Dakarete Nakimodaeru Saiai no Tsuma. Sono Hikikae ni Ajiwau Kokujin Tsuma no Hada. -Big Black Cock & Big Black Butt & My Sweet Wife-",
+		"matched": true
+	},
+	"{\"0\":[\"OCTOPATH TRAVELER v0 (010057D006492000)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "OCTOPATH TRAVELER v0",
+		"matched": false
+	},
+	"{\"0\":[\"Noise of Neon v0 (01004E501A2C2000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Noise of Neon v0",
+		"matched": false
+	},
+	"{\"0\":[\"No More Heroes 2_ Desperate Struggle v0 (010071400F204000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "No More Heroes 2 Desperate Struggle v0",
+		"matched": false
+	},
+	"{\"0\":[\"No More Heroes (2007)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "No More Heroes",
+		"matched": true
+	},
+	"{\"0\":[\"Master Detective Archives_ RAIN CODE v0 (0100149019460000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Master Detective Archives RAIN CODE v0",
+		"matched": false
+	},
+	"{\"0\":[\"LOST SPHEAR\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "LOST SPHEAR",
+		"matched": true
+	},
+	"{\"0\":[\"Knockout City\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Knockout City™",
+		"matched": true
+	},
+	"{\"0\":[\"Doki Doki Literature Club Plus v196608 (010086901543E000)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Doki Doki Literature Club Plus v196608",
+		"matched": false
+	},
+	"{\"0\":[\"Blaster Master Zero\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blaster Master Zero",
+		"matched": true
+	},
+	"{\"0\":[\"Azure Striker GUNVOLT\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Azure Striker Gunvolt",
+		"matched": true
+	},
+	"{\"0\":[\"Tales of the Abyss (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Tales of the Abyss",
+		"matched": true
+	},
+	"{\"0\":[\"Suikoden II (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Suikoden II",
+		"matched": true
+	},
+	"{\"0\":[\"Scooby-Doo and the Cyber Chase (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Scooby-Doo and the Cyber Chase",
+		"matched": true
+	},
+	"{\"0\":[\"Rockman Dash 2 - Episode 1 - 'Roll-chan Kikiippatsu!' no Maki (English) (Demo)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Rockman Dash 2 Episode 1 Rollchan Kikiippatsu no Maki",
+		"matched": false
+	},
+	"{\"0\":[\"Persona 2 - Eternal Punishment (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Persona 2: Eternal Punishment",
+		"matched": true
+	},
+	"{\"0\":[\"Persona 2 - Eternal Punishment (USA) (Bonus Disc)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Persona 2: Eternal Punishment",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man Legends 2 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man Legends 2",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man Legends 2 (USA) (Demo)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man Legends 2",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man Legends (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man Legends",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Dragoon, The (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Dragoon",
+		"matched": true
+	},
+	"{\"0\":[\"E.T. the Extra-Terrestrial - Interplanetary Mission (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "E.T. The Extra-Terrestrial: Interplanetary Mission",
+		"matched": true
+	},
+	"{\"0\":[\"Alundra 2 - A New Legend Begins (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Alundra 2: A New Legend Begins",
+		"matched": true
+	},
+	"{\"0\":[\"Alundra (USA) (v1.1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Alundra",
+		"matched": true
+	},
+	"{\"0\":[\"Xenogears (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenogears",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete (USA) (The Making of)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Xenogears (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenogears",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete (USA) (Disc 3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete (USA) (Demo)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar - Silver Star Story Complete (USA) (Demo)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Story Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar - Silver Star Story Complete (USA) (The Making of)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Story Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar - Silver Star Story Complete (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Story Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar - Silver Star Story Complete (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Story Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Ore no Imouto (Japan) Disc 2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ore no Imouto Disc 2",
+		"matched": false
+	},
+	"{\"0\":[\"Ore no Imouto (English v1) Disc 1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ore no Imouto Disc 1",
+		"matched": false
+	},
+	"{\"0\":[\"LUNAR - SILVER STAR HARMONY [ULUS10482]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Harmony",
+		"matched": true
+	},
+	"{\"0\":[\"Dot Hack Link (English patched v1.0.2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dot Hack Link",
+		"matched": false
+	},
+	"{\"0\":[\"2698 - Shin Megami Tensei - Persona 2 - Innocent Sin (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "2698 Shin Megami Tensei Persona 2 Innocent Sin",
+		"matched": false
+	},
+	"{\"0\":[\"1914 - Shin Megami Tensei - Persona (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "1914 Shin Megami Tensei Persona",
+		"matched": false
+	},
+	"{\"0\":[\"0857 - Legend of Heroes III, The - Song of the Ocean (USA) (v1.01)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "0857 Legend of Heroes III The Song of the Ocean",
+		"matched": false
+	},
+	"{\"0\":[\"0451 - Legend of Heroes II, The - Prophecy of the Moonlight Witch (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "0451 Legend of Heroes II The Prophecy of the Moonlight Witch",
+		"matched": false
+	},
+	"{\"0\":[\"0197 - Legend of Heroes, The - A Tear of Vermillion (USA) (v1.01)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "0197 Legend of Heroes The A Tear of Vermillion",
+		"matched": false
+	},
+	"{\"0\":[\"Banjo Tooie\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Tooie",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo Kazooie\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Kazooie",
+		"matched": true
+	},
+	"{\"0\":[\"58410955\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "58410955",
+		"matched": false
+	},
+	"{\"0\":[\"58410954\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "58410954",
+		"matched": false
+	},
+	"{\"0\":[\"000D0000\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "000D0000",
+		"matched": false
+	},
+	"{\"0\":[\"ABB9CAB336175357D09F2D922735D23C62F90DDD\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ABB9CAB336175357D09F2D922735D23C62F90DDD",
+		"matched": false
+	},
+	"{\"0\":[\"DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8",
+		"matched": false
+	},
+	"{\"0\":[\"Banjo-Kazooie - Nuts & Bolts (USA) (En,Ja,Fr,De,Es,It,Nl,Sv,No,Zh,Ko,Pl,Ru,Cs)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Kazooie: Nuts & Bolts",
+		"matched": true
+	},
+	"{\"0\":[\"YouTube TV\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "YouTube TV",
+		"matched": true
+	},
+	"{\"0\":[\"Apple TV\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Apple TV (Website)",
+		"matched": true
+	},
+	"{\"0\":[\"pegasus-frontend\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pegasus Frontend (Program)",
+		"matched": true
+	},
+	"{\"0\":[\"es-de\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Desdemona",
+		"matched": true
+	},
+	"{\"0\":[\"shadps4\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "shadPS4 (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Dragoon, The (USA) (Disc 4)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Dragoon",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Dragoon, The (USA) (Disc 3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Dragoon",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Dragoon, The (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Dragoon",
+		"matched": true
+	},
+	"{\"0\":[\"Xenogears\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenogears",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar 2 - Eternal Blue Complete\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar 2: Eternal Blue Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Lunar - Silver Star Story Complete\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lunar: Silver Star Story Complete",
+		"matched": true
+	},
+	"{\"0\":[\"Uncharted: Golden Abyss\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted: Golden Abyss",
+		"matched": true
+	},
+	"{\"0\":[\"Asura's Wrath\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Asura's Wrath",
+		"matched": true
+	},
+	"{\"0\":[\".hack//Versus\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": ".hack//Versus",
+		"matched": true
+	},
+	"{\"0\":[\"Sonic the Hedgehog\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic the Hedgehog",
+		"matched": true
+	},
+	"{\"0\":[\"俺の妹がこんなに可愛いわけがない。 ハッピーエンド\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "",
+		"matched": false
+	},
+	"{\"0\":[\"v0 (01005400145AC000) (BASE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Vectromirror 0",
+		"matched": true
+	},
+	"{\"0\":[\"v0 (01005400145AC000) (BASE).nsp [01005400145AC000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "v0 nsp",
+		"matched": false
+	},
+	"{\"0\":[\"White Night [0100D99009734000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "White Night",
+		"matched": true
+	},
+	"{\"0\":[\"Travis Strikes Again No More Heroes [010011600C946000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Travis Strikes Again: No More Heroes Complete Edition",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda Tears of the Kingdom [0100F2C0115B6000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Tears of the Kingdom",
+		"matched": true
+	},
+	"{\"0\":[\"The Count Lucanor [01000850037C0000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Count Lucanor",
+		"matched": true
+	},
+	"{\"0\":[\"The Coma Recut [010033100691A000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Coma: Recut",
+		"matched": true
+	},
+	"{\"0\":[\"The Book of Death [01005C601A2C0000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The book of death for dummies",
+		"matched": true
+	},
+	"{\"0\":[\"Super Smash Bros. Ultimate [01006A800016E000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros. Ultimate",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Odyssey [0100000000010000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Process of Elimination [01005CC018A32000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Process of Elimination",
+		"matched": true
+	},
+	"{\"0\":[\"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Oregairu My Youth Romantic Comedy Is Wrong As I Expected",
+		"matched": false
+	},
+	"{\"0\":[\"Octopath Traveler [010057D006492000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Octopath Traveler",
+		"matched": true
+	},
+	"{\"0\":[\"OKAMI HD [0100276009872000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Okami HD",
+		"matched": true
+	},
+	"{\"0\":[\"Noise of Neon [01004E501A2C2000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Noise of Neon",
+		"matched": false
+	},
+	"{\"0\":[\"No More Heroes 2 Desperate Struggle [010071400F204000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "No More Heroes 2: Desperate Struggle",
+		"matched": true
+	},
+	"{\"0\":[\"No More Heroes [0100F0400F202000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "No More Heroes",
+		"matched": true
+	},
+	"{\"0\":[\"Master Detective Archives RAIN CODE [0100149019460000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Master Detective Archives: Rain Code",
+		"matched": true
+	},
+	"{\"0\":[\"LOST SPHEAR [010077B0038B2000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "LOST SPHEAR",
+		"matched": true
+	},
+	"{\"0\":[\"Knockout City [01009EF00DDB4000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Knockout City™",
+		"matched": true
+	},
+	"{\"0\":[\"Doki Doki Literature Club Plus [010086901543E000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Doki Doki Literature Club Plus!",
+		"matched": true
+	},
+	"{\"0\":[\"Blaster Master Zero [0100225000FEE000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blaster Master Zero",
+		"matched": true
+	},
+	"{\"0\":[\"Azure Striker GUNVOLT STRIKER PACK [0100192003FA4000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Azure Striker GUNVOLT: STRIKER PACK",
+		"matched": true
+	},
+	"{\"0\":[\"8-BIT ADV STEINSGATE [0100E9F00B882000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "8-bit Adventure Steins;Gate",
+		"matched": true
+	},
+	"{\"0\":[\"Tales of Xillia 2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Tales of Xillia 2",
+		"matched": true
+	},
+	"{\"0\":[\"Drakengard 3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Drakengard 3",
+		"matched": true
+	},
+	"{\"0\":[\"Tales of Xillia\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Tales of Xillia",
+		"matched": true
+	},
+	"{\"0\":[\"NPUA80619\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80619",
+		"matched": false
+	},
+	"{\"0\":[\"BlueDragon-Disk2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BlueDragonDisk2",
+		"matched": false
+	},
+	"{\"0\":[\"BlueDragon-Disc3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BlueDragonDisc3",
+		"matched": false
+	},
+	"{\"0\":[\"BlueDragon-Disc1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BlueDragonDisc1",
+		"matched": false
+	},
+	"{\"0\":[\"Blue Dragon Disk2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon Disk2",
+		"matched": false
+	},
+	"{\"0\":[\"Blue Dragon Disc3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon Disc3",
+		"matched": false
+	},
+	"{\"0\":[\"Blue Dragon Disc1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon Disc1",
+		"matched": false
+	},
+	"{\"0\":[\"Blue Dragon\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Kan [010066801A138000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Yahari Game demo Ore no Seishun Love-Come wa Machigatteiru. Kan (やはりゲームでも俺の青春ラブコメはまちがっている。完)",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey Disk4\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey Disk4",
+		"matched": false
+	},
+	"{\"0\":[\"Lost Odyssey Disk3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey Disk3",
+		"matched": false
+	},
+	"{\"0\":[\"Lost Odyssey Disk2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey Disk2",
+		"matched": false
+	},
+	"{\"0\":[\"The Coma Recut [010033100691A000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Coma: Recut",
+		"matched": true
+	},
+	"{\"0\":[\"POKKÉN TOURNAMENT DX [0100B3F000BE2000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokken Tournament DX",
+		"matched": true
+	},
+	"{\"0\":[\"ARMS [01009B500007C000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ARMS",
+		"matched": true
+	},
+	"{\"0\":[\"ToeJam & Earl III - Mission to Earth (USA).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ToeJam and Earl III Mission to Earth xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Sudeki (World) (En,Fr,De,Es,It).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sudeki xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Phantom Dust (USA).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Phantom Dust xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Grabbed by the Ghoulies (USA) (En,Fr,De,Es,It).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Grabbed by the Ghoulies xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Conker - Live & Reloaded (USA) (En,Ja,Fr,De,Es,It).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Conker Live and Reloaded xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Skies of Arcadia (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Skies of Arcadia",
+		"matched": true
+	},
+	"{\"0\":[\"Skies of Arcadia (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Skies of Arcadia",
+		"matched": true
+	},
+	"{\"0\":[\"SGGG - Segagaga (Japan) (Rev A)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "SGGG Segagaga",
+		"matched": false
+	},
+	"{\"0\":[\"Napple Tale - Arsia in Daydream (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Napple Tale Arsia in Daydream",
+		"matched": false
+	},
+	"{\"0\":[\"Kanon (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Kanon",
+		"matched": true
+	},
+	"{\"0\":[\"Evolution 2 - Far Off Promise (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Evolution 2: Far off Promise",
+		"matched": true
+	},
+	"{\"0\":[\"Evolution - The World of Sacred Device (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Evolution: The World of Sacred Device",
+		"matched": true
+	},
+	"{\"0\":[\"Eldorado Gate Dai-7-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai7kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-6-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai6kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-5-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai5kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-4-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai4kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-3-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai3kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-2-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai2kan",
+		"matched": false
+	},
+	"{\"0\":[\"Eldorado Gate Dai-1-kan (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eldorado Gate Dai1kan",
+		"matched": false
+	},
+	"{\"0\":[\"Xenosaga Episode III - Also sprach Zarathustra (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenosaga Episode III: Also sprach Zarathustra",
+		"matched": true
+	},
+	"{\"0\":[\"Xenosaga Episode III - Also sprach Zarathustra (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenosaga Episode III: Also sprach Zarathustra",
+		"matched": true
+	},
+	"{\"0\":[\"Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenosaga Episode II Jenseits von Gut und Boese",
+		"matched": false
+	},
+	"{\"0\":[\"Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenosaga Episode II Jenseits von Gut und Boese",
+		"matched": false
+	},
+	"{\"0\":[\"Xenosaga Episode I - Der Wille zur Macht (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenosaga Episode I: Der Wille zur Macht",
+		"matched": true
+	},
+	"{\"0\":[\"Suikoden V (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Suikoden V",
+		"matched": true
+	},
+	"{\"0\":[\"Suikoden IV (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Suikoden IV",
+		"matched": true
+	},
+	"{\"0\":[\"Suikoden III (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Suikoden III",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Digital Devil Saga 2 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Digital Devil Saga 2",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Digital Devil Saga (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Digital Devil Saga",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. the Soulless Army (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Devil Summoner - Raidou Kuzunoha vs. the Soulless Army",
+		"matched": true
+	},
+	"{\"0\":[\"Ar tonelico II - Melody of Metafalica (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ar tonelico II: Melody of Metafalica",
+		"matched": true
+	},
+	"{\"0\":[\"Ar tonelico - Melody of Elemia (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ar tonelico: Melody of Elemia",
+		"matched": true
+	},
+	"{\"0\":[\"ヴィオラートのアトリエ　～グラムナートの錬金術士２～　群青の思い出 [ULJM05835]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "",
+		"matched": false
+	},
+	"{\"0\":[\"ユーディーのアトリエ　囚われの守人 [ULJM05607]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "",
+		"matched": false
+	},
+	"{\"0\":[\"hack_Link_English\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "hack Link English",
+		"matched": false
+	},
+	"{\"0\":[\"Jak & Daxter® - The Lost Frontier™ [NPUG80330]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Jak and Daxter: The Lost Frontier",
+		"matched": true
+	},
+	"{\"0\":[\"Daxter [NPUG80329]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Daxter",
+		"matched": true
+	},
+	"{\"0\":[\"Sonic the Hedgehog (USA, Europe) (En,Ja,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic the Hedgehog",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto - The Broken Bond (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto: The Broken Bond",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto - Rise of a Ninja (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto: Rise of a Ninja",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Party 2 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Party 2",
+		"matched": true
+	},
+	"{\"0\":[\"PlayStation All-Stars Battle Royale\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PlayStation All-Stars Battle Royale",
+		"matched": true
+	},
+	"{\"0\":[\"NPEB02080\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPEB02080",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80823\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80823",
+		"matched": false
+	},
+	"{\"0\":[\"NPIA00025\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPIA00025",
+		"matched": false
+	},
+	"{\"0\":[\"Ar Tonelico Qoga: Knell of Ar Ciel\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ar Tonelico Qoga: Knell of Ar Ciel",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo Tooie (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Tooie",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo Kazooie (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Kazooie",
+		"matched": true
+	},
+	"{\"0\":[\"Skies of Arcadia Legends (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Skies of Arcadia: Legends",
+		"matched": true
+	},
+	"{\"0\":[\"Shadow the Hedgehog (USA) (En,Ja,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shadow the Hedgehog",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Party 7 (USA) (Rev 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Party 7",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Party 6 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Party 6",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart - Double Dash!! (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart: Double Dash!!",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart - Double Dash!! (USA) (Debug) (2004-07-05)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart: Double Dash!!",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart - Double Dash!! (USA) (Bonus Disc)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart: Double Dash!!",
+		"matched": true
+	},
+	"{\"0\":[\"Wii Sports Resort (USA) (En,Fr,Es) (Rev 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wii Sports Resort",
+		"matched": true
+	},
+	"{\"0\":[\"Wii Sports + Wii Sports Resort (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wii Sports Resort",
+		"matched": true
+	},
+	"{\"0\":[\"Wii Sports (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wii Sports",
+		"matched": true
+	},
+	"{\"0\":[\"Wii Fit Plus (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wii Fit Plus",
+		"matched": true
+	},
+	"{\"0\":[\"Super Smash Bros. Brawl (USA) (Rev 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros. Brawl",
+		"matched": true
+	},
+	"{\"0\":[\"Super Paper Mario (USA) (Rev 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Paper Mario",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Galaxy 2 (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Galaxy 2",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Galaxy (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Galaxy",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto Shippuden - Dragon Blade Chronicles (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto Shippuden: Dragon Blade Chronicles",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart Wii (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart Wii",
+		"matched": true
+	},
+	"{\"0\":[\"Blue Dragon (USA) (Disk 3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Blue Dragon (USA) (Disk 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Blue Dragon (USA) (Disk 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey (USA) (Disk 4)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey (USA) (Disk 3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey (USA) (Disk 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Lost Odyssey (USA) (Disk 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lost Odyssey",
+		"matched": true
+	},
+	"{\"0\":[\"Undertale [010080B00AD66000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Undertale",
+		"matched": true
+	},
+	"{\"0\":[\"STEINS;GATE ELITE [010042800B880000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Steins;Gate Elite",
+		"matched": true
+	},
+	"{\"0\":[\"Earthlock [01006E50042EA000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "EARTHLOCK",
+		"matched": true
+	},
+	"{\"0\":[\"Child of Light [01007D000AD8A000][v0][Base]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Child of Light",
+		"matched": true
+	},
+	"{\"0\":[\"TTYD64-v1.0.0\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "TTYD64v100",
+		"matched": false
+	},
+	"{\"0\":[\"Sweet_Expedition_V1.0.3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sweet Expedition V103",
+		"matched": false
+	},
+	"{\"0\":[\"Paper Mario Pro Mode v0.1.6\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario Pro Mode v016",
+		"matched": false
+	},
+	"{\"0\":[\"Paper Mario 2 Section 3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario 2 Section 3",
+		"matched": false
+	},
+	"{\"0\":[\"PMMQ_Jr._1.5.1.2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PMMQ Jr 1512",
+		"matched": false
+	},
+	"{\"0\":[\"BLUS30721 - Asura's Wrath\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BLUS30721 Asuras Wrath",
+		"matched": false
+	},
+	"{\"0\":[\"BLUS30639 - Ar tonelico Qoga: Knell of Ar Ciel\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BLUS30639 Ar tonelico Qoga Knell of Ar Ciel",
+		"matched": false
+	},
+	"{\"0\":[\"BLJS93008 - dot hack Versus (English Patch)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BLJS93008 dot hack Versus",
+		"matched": false
+	},
+	"{\"0\":[\"BLJS10238 俺の妹がこんなに可愛いわけがない。 ハッピーエンド アップデートデータ (OREIMO)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BLJS10238",
+		"matched": false
+	},
+	"{\"0\":[\"Wii Sports Club (USA) (En,Fr,Es) (Rev 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wii Sports Club",
+		"matched": true
+	},
+	"{\"0\":[\"Star Fox Zero (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Star Fox Zero",
+		"matched": true
+	},
+	"{\"0\":[\"Star Fox Guard (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Star Fox Guard",
+		"matched": true
+	},
+	"{\"0\":[\"Nintendo Land (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo Land",
+		"matched": true
+	},
+	"{\"0\":[\"Project X Zone 2 (USA)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Project X Zone 2",
+		"matched": true
+	},
+	"{\"0\":[\"Project X Zone (USA)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Project X Zone",
+		"matched": true
+	},
+	"{\"0\":[\"Persona Q2 - New Cinema Labyrinth (USA)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Persona Q2: New Cinema Labyrinth",
+		"matched": true
+	},
+	"{\"0\":[\"3DS1240 - Shin Megami Tensei - Devil Survivor 2 Record Breaker (USA)(En) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS1240 Shin Megami Tensei Devil Survivor 2 Record Breaker Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS1111 - Persona Q - Shadow of the Labyrinth (USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS1111 Persona Q Shadow of the Labyrinth Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS0638 - Naruto Powerful Shippuden(USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS0638 Naruto Powerful Shippuden Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS1568 - Shin Megami Tensei IV - Apocalypse (USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS1568 Shin Megami Tensei IV Apocalypse Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS0429 - Shin Megami Tensei - Devil Summoner - Soul Hackers (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS0429 Shin Megami Tensei Devil Summoner Soul Hackers Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS0414 - Shin Megami Tensei IV 3DS (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS0414 Shin Megami Tensei IV 3DS Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"3DS0105 - Tales of the Abyss (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "3DS0105 Tales of the Abyss Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Misadventures of Tron Bonne, The (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Misadventures of Tron Bonne",
+		"matched": true
+	},
+	"{\"0\":[\"Shadow Hearts - From the New World (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shadow Hearts: From the New World",
+		"matched": true
+	},
+	"{\"0\":[\"Shadow Hearts (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shadow Hearts",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Wars - So Long, My Love (USA) (Disc 2) (Japanese Voice Over)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Wars: So Long, My Love",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Wars - So Long, My Love (USA) (Disc 1) (English Voice Over)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Wars: So Long, My Love",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Taisen V Episode 0 - Kouya no Samurai Musume (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Taisen V Episode 0: Kouya no Samurai Musume",
+		"matched": true
+	},
+	"{\"0\":[\"Shadow Hearts - Covenant (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shadow Hearts: Covenant",
+		"matched": true
+	},
+	"{\"0\":[\"Shadow Hearts - Covenant (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shadow Hearts: Covenant",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Taisen V - Saraba Itoshiki Hito yo (Japan) (Taikenban)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Taisen V Saraba Itoshiki Hito yo",
+		"matched": false
+	},
+	"{\"0\":[\"Sakura Taisen Monogatari - Mysterious Paris (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Taisen Monogatari Mysterious Paris",
+		"matched": false
+	},
+	"{\"0\":[\"Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Shokai Press-ban)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Taisen 3 Paris wa Moeteiru ka",
+		"matched": false
+	},
+	"{\"0\":[\"Sakura Taisen - Atsuki Chishio ni (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Taisen: Atsuki Chishio ni",
+		"matched": true
+	},
+	"{\"0\":[\"Namco x Capcom (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Namco x Capcom",
+		"matched": true
+	},
+	"{\"0\":[\"Breath of Fire - Dragon Quarter (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Breath of Fire: Dragon Quarter",
+		"matched": true
+	},
+	"{\"0\":[\"Okage - Shadow King (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Okage: Shadow King",
+		"matched": true
+	},
+	"{\"0\":[\"dot hack Link(English Patch)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "dot hack Link",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Heroes III Song of the Ocean\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Heroes III: Song of the Ocean",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Heroes - A Tear of Vermillion\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Heroes: A Tear of Vermillion",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Persona 2 - Innocent Sin\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Persona 2 - Innocent Sin",
+		"matched": true
+	},
+	"{\"0\":[\"Shin Megami Tensei - Persona\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Persona",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Heroes II - Prophecy of the Moonlight Witch\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Heroes II: Prophecy of the Moonlight Witch",
+		"matched": true
+	},
+	"{\"0\":[\"Sweet_Expedition_V1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sweet Expedition V1",
+		"matched": false
+	},
+	"{\"0\":[\"TTYD64-v1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "TTYD64v1",
+		"matched": false
+	},
+	"{\"0\":[\"Paper Mario Pro Mode v0\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario Pro Mode v0",
+		"matched": false
+	},
+	"{\"0\":[\"PMMQ_Jr._1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PMMQ Jr 1",
+		"matched": false
+	},
+	"{\"0\":[\"Neon Genesis Evangelion (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Neon Genesis Evangelion",
+		"matched": true
+	},
+	"{\"0\":[\"Mystical Ninja 2 Starring Goemon (Europe) (En,Fr,De)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mystical Ninja 2 Starring Goemon",
+		"matched": true
+	},
+	"{\"0\":[\"Mystical Ninja Starring Goemon (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mystical Ninja Starring Goemon (Game Boy)",
+		"matched": true
+	},
+	"{\"0\":[\"[BIOS] Nintendo 64DD IPL (USA) (Proto)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo 64DD IPL",
+		"matched": false
+	},
+	"{\"0\":[\"[BIOS] Nintendo 64DD IPL (Japan) (v1.2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo 64DD IPL",
+		"matched": false
+	},
+	"{\"0\":[\"[BIOS] Nintendo 64DD IPL (Japan) (v1.1) (Beta)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo 64DD IPL",
+		"matched": false
+	},
+	"{\"0\":[\"[BIOS] Nintendo 64DD IPL (Japan) (v1.0) (Beta)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo 64DD IPL",
+		"matched": false
+	},
+	"{\"0\":[\"[BIOS] Nintendo 64DD Tool IPL (Japan) (Beta)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo 64DD Tool IPL",
+		"matched": false
+	},
+	"{\"0\":[\"Randnet Disk (Japan) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Randnet Disk",
+		"matched": false
+	},
+	"{\"0\":[\"Randnet Disk (Japan) (Rev 1) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Randnet Disk",
+		"matched": false
+	},
+	"{\"0\":[\"Nihon Pro Golf Tour 64 (Japan) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nihon Pro Golf Tour 64",
+		"matched": false
+	},
+	"{\"0\":[\"SimCity 64 (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "SimCity 64",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario 64 - Disk Version (Japan) (Proto)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario 64 Disk Version",
+		"matched": false
+	},
+	"{\"0\":[\"Mario Artist - Polygon Studio (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Artist: Polygon Studio",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Artist - Paint Studio (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Artist: Paint Studio",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Artist - Paint Studio (Japan) (Beta) (1999-02-11)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Artist: Paint Studio",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Artist - Communication Kit (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Artist: Communication Kit",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Artist - Talent Studio (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Artist: Talent Studio",
+		"matched": true
+	},
+	"{\"0\":[\"Kyojin no Doshin - Kaihou Sensen Chibikko Chikko Daishuugou (Japan) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Kyojin no Doshin Kaihou Sensen Chibikko Chikko Daishuugou",
+		"matched": false
+	},
+	"{\"0\":[\"Kyojin no Doshin (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Kyojin no Doshin",
+		"matched": false
+	},
+	"{\"0\":[\"F-Zero X - Expansion Kit (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "F-Zero X Expansion Kit",
+		"matched": true
+	},
+	"{\"0\":[\"Kyojin no Doshin (Japan) (Demo) (Kiosk) [b]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Kyojin no Doshin",
+		"matched": false
+	},
+	"{\"0\":[\"Dezaemon DD (Japan) (Proto)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dezaemon 3D",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Wars (En) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Wars",
+		"matched": true
+	},
+	"{\"0\":[\"Sakura Wars (En) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sakura Wars",
+		"matched": true
+	},
+	"{\"0\":[\"dot hack Versus (English Patch) (BLJS93008)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "dot hack Versus",
+		"matched": false
+	},
+	"{\"0\":[\"Ore no Imouto ga Konnani Kawaii Wake ga Nai. HappyenD\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ore no Imouto ga Konna ni Kawaii Wake ga nai. HappyenD",
+		"matched": true
+	},
+	"{\"0\":[\"Asura's Wrath (BLUS30721)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Asura's Wrath",
+		"matched": true
+	},
+	"{\"0\":[\"Ar Tonelico Qoga Knell of Ar Ciel\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ar Tonelico Qoga: Knell of Ar Ciel",
+		"matched": true
+	},
+	"{\"0\":[\"Yahari Game demo Ore no Seishun Love Come wa Machigatteiru.\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru",
+		"matched": true
+	},
+	"{\"0\":[\"Yahari Game Demo Ore no Seishun Love-Kome wa Machigatteiru. Zoku\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Yahari Game Demo Ore no Seishun LoveKome wa Machigatteiru Zoku",
+		"matched": false
+	},
+	"{\"0\":[\"GoldenEye 007 Xbox Live Arcade\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "GoldenEye 007 Xbox Live Arcade",
+		"matched": false
+	},
+	"{\"0\":[\"GoldenEye 007 XBLA\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "GoldenEye 007 XBLA",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31563\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31563",
+		"matched": false
+	},
+	"{\"0\":[\"Gran Turismo 6\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gran Turismo 6",
+		"matched": true
+	},
+	"{\"0\":[\"Gran Turismo HD Concept\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gran Turismo HD Concept",
+		"matched": true
+	},
+	"{\"0\":[\"GoldenEye 007 - Reloaded (USA, Europe) (En,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "GoldenEye 007: Reloaded",
+		"matched": true
+	},
+	"{\"0\":[\"dot hack Versus (English Patch) (BLJS93008).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "dot hack Versus ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Ore no Imouto ga Konnani Kawaii Wake ga Nai. HappyenD (BLJS10238).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ore no Imouto ga Konnani Kawaii Wake ga Nai HappyenD ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Asura's Wrath (BLUS30721).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Asuras Wrath ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Ar Tonelico Qoga Knell of Ar Ciel (BLUS30639).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ar Tonelico Qoga Knell of Ar Ciel ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Paper Mario - Color Splash (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: Color Splash",
+		"matched": true
+	},
+	"{\"0\":[\"New Super Mario Bros. U + New Super Luigi U (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "New Super Mario Bros. U + New Super Luigi U",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Tennis - Ultra Smash (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Tennis: Ultra Smash",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Twilight Princess HD (USA) (En,Fr,Es) (Rev 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Twilight Princess HD",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - The Wind Waker HD (USA, Asia) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: The Wind Waker HD",
+		"matched": true
+	},
+	"{\"0\":[\"Tales of the Abyss (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Tales of the Abyss Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Shin Megami Tensei IV - Apocalypse (USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei IV Apocalypse Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Shin Megami Tensei - Devil Survivor 2 Record Breaker (USA)(En) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei Devil Survivor 2 Record Breaker Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Shin Megami Tensei - Devil Summoner - Soul Hackers (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei Devil Summoner Soul Hackers Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Shin Megami Tensei IV 3DS (Usa) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei IV 3DS Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Persona Q - Shadow of the Labyrinth (USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Persona Q Shadow of the Labyrinth Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Paper Mario - Sticker Star (USA) (En,Fr,Es)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: Sticker Star",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto Powerful Shippuden(USA) Decrypted(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto Powerful Shippuden Decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Mario & Luigi - Paper Jam (USA)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Paper Jam",
+		"matched": true
+	},
+	"{\"0\":[\"Mario & Luigi - Dream Team (USA) (En,Fr,Es)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Dream Team",
+		"matched": true
+	},
+	"{\"0\":[\"Mario & Luigi - Bowser's Inside Story + Bowser Jr(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Bowser's Inside Story + Bowser Jr's Journey",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es)(Trimmed)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: A Link Between Worlds",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Tri Force Heroes (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Tri Force Heroes",
+		"matched": true
+	},
+	"{\"0\":[\"Dr. Mario 64 (USA) (LodgeNet)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dr. Mario 64",
+		"matched": true
+	},
+	"{\"0\":[\"Mario & Luigi - Partners in Time (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Partners In Time",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Spirit Tracks (USA) (Video)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Spirit Tracks",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Spirit Tracks (USA) (En,Fr,Es) (Rev 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Spirit Tracks",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Phantom Hourglass - Exclusive Movie 2 (USA) (Video)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Legend of Zelda The Phantom Hourglass Exclusive Movie 2",
+		"matched": false
+	},
+	"{\"0\":[\"Legend of Zelda, The - Phantom Hourglass - Exclusive Movie 1 (USA) (Video)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Legend of Zelda The Phantom Hourglass Exclusive Movie 1",
+		"matched": false
+	},
+	"{\"0\":[\"Legend of Zelda, The - Phantom Hourglass (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Phantom Hourglass",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda - Spirit Tracks, The - Multiplayer (USA) (DS Broadcast)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Legend of Zelda Spirit Tracks The Multiplayer",
+		"matched": false
+	},
+	"{\"0\":[\"Super Mario Special 3 (Taiwan) (En) (Unl)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Special 3",
+		"matched": false
+	},
+	"{\"0\":[\"Super Mario Advance 4 - Super Mario Bros. 3 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Advance 4: Super Mario Bros. 3",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Advance 2 - Super Mario World (USA, Australia)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario World: Super Mario Advance 2",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Advance 3 - Yoshi's Island (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Yoshi's Island: Super Mario Advance 3",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Advance - Super Mario USA + Mario Brothers (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Advance Super Mario USA Mario Brothers",
+		"matched": false
+	},
+	"{\"0\":[\"Super Mario Advance (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Advance",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart - Super Circuit (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Patrick Star in Mario Kart Super Circuit",
+		"matched": true
+	},
+	"{\"0\":[\"Mario & Luigi - Superstar Saga (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Superstar Saga",
+		"matched": true
+	},
+	"{\"0\":[\"Mario DX (USA) (Unl)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Land DX",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - The Minish Cap (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: The Minish Cap",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - A Link to the Past & Four Swords (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: A Link to the Past & Four Swords",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Strikers Charged",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda Skyward Sword HD [01002DA013484000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Skyward Sword HD",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda Link’s Awakening [01006BB00C6F0000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Link's Awakening",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Bros. Wonder[010015100B514000]+[v1.0.1][US](SuperXCI)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Bros. Wonder",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario 3D All-Stars [010049900F546000]+[v1.1.1][US](SuperXCI)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario 3D All-Stars",
+		"matched": true
+	},
+	"{\"0\":[\"Paper Mario The Origami King [0100A3900C3E2000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: The Origami King",
+		"matched": true
+	},
+	"{\"0\":[\"Mario and Luigi Brothership [01006D0017F7A000][v0][US](Dumped)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Brothership",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart 8 Deluxe [0100152000022800][v1376256][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart 8 Deluxe",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda Skyward Sword HD [01002DA013484000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Skyward Sword HD",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda Link’s Awakening [01006BB00C6F0000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Link's Awakening",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Bros. Wonder[010015100B514000]+[v1.0.1][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Bros. Wonder",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario 3D World + Bowser's Fury [010028600EBDA000]+[v1.1.0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario 3D World + Bowser’s Fury",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario 3D All-Stars [010049900F546000]+[v1.1.1][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario 3D All-Stars",
+		"matched": true
+	},
+	"{\"0\":[\"Paper Mario The Origami King [0100A3900C3E2000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: The Origami King",
+		"matched": true
+	},
+	"{\"0\":[\"Mario and Luigi Brothership [01006D0017F7A000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Brothership",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart 8 Deluxe [0100152000022800][v1376256][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart 8 Deluxe",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario All-Stars + Super Mario World (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario All-Stars + Super Mario World",
+		"matched": true
+	},
+	"{\"0\":[\"Super Donkey (Japan) (En) (Proto 1) (Zelda no Densetsu - Kamigami no Triforce leftover data)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Donkey",
+		"matched": false
+	},
+	"{\"0\":[\"Legend of Zelda, The (World) (Digital) (REV-G) (Aftermarket) (Pirate)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda",
+		"matched": true
+	},
+	"{\"0\":[\"Grandia (En v0.8.5) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Grandia",
+		"matched": true
+	},
+	"{\"0\":[\"Grandia (En v0.8.5) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Grandia",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - Four Swords Adventures (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Four Swords Adventures",
+		"matched": true
+	},
+	"{\"0\":[\"Zelda - The Wand of Gamelon (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Zelda: The Wand of Gamelon",
+		"matched": true
+	},
+	"{\"0\":[\"Link - The Faces of Evil (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Link: The Faces of Evil",
+		"matched": true
+	},
+	"{\"0\":[\"Zelda's Adventure (Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Zelda's Adventure",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario RPG [0100BC0018138000][v0][US](nsw2u.com)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario RPG",
+		"matched": true
+	},
+	"{\"0\":[\"Jak X - Combat Racing (USA) (En,Fr,De,Es,It,Pt,Ru) (v2.00)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Jak X: Combat Racing",
+		"matched": true
+	},
+	"{\"0\":[\"Stella Deus - The Gate of Eternity (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Stella Deus: The Gate of Eternity",
+		"matched": true
+	},
+	"{\"0\":[\"Chulip (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Chulip",
+		"matched": true
+	},
+	"{\"0\":[\"Gradius III and IV (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gradius III and IV",
+		"matched": true
+	},
+	"{\"0\":[\"NPUB31344\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31344",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31661\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31661",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31082\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31082",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31080\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31080",
+		"matched": false
+	},
+	"{\"0\":[\"Anna - Extended Edition\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Anna - Extended Edition",
+		"matched": true
+	},
+	"{\"0\":[\"Family Guy Back To The Multiverse\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Family Guy: Back to the Multiverse",
+		"matched": true
+	},
+	"{\"0\":[\"Devil May Cry HD Collection\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Devil May Cry HD Collection",
+		"matched": true
+	},
+	"{\"0\":[\"DmC: Devil May Cry\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "DmC: Devil May Cry",
+		"matched": true
+	},
+	"{\"0\":[\"Naughty Bear: Panic in Paradise\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naughty Bear: Panic in Paradise",
+		"matched": true
+	},
+	"{\"0\":[\"Journey\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Journey",
+		"matched": true
+	},
+	"{\"0\":[\"NPUB31094\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31094",
+		"matched": false
+	},
+	"{\"0\":[\"Rain\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "rain",
+		"matched": true
+	},
+	"{\"0\":[\"DuckTales Remastered\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "DuckTales Remastered",
+		"matched": true
+	},
+	"{\"0\":[\"NPUA80079\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80079",
+		"matched": false
+	},
+	"{\"0\":[\"SMT - Persona 2 - Innocent Sin [ULUS10584]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shin Megami Tensei: Persona 2 - Innocent Sin",
+		"matched": true
+	},
+	"{\"0\":[\"Persona [ULUS10432]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Persona 5",
+		"matched": true
+	},
+	"{\"0\":[\"Secret Agent Clank™ [UCUS98697]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Secret Agent Clank",
+		"matched": true
+	},
+	"{\"0\":[\"Mega Man Maverick Hunter X [ULUS10068]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mega Man Maverick Hunter X",
+		"matched": true
+	},
+	"{\"0\":[\"Rayman 2 - The Great Escape (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Rayman 2: The Great Escape",
+		"matched": true
+	},
+	"{\"0\":[\"Rayman (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Rayman",
+		"matched": true
+	},
+	"{\"0\":[\"Crash Bandicoot 2 - Cortex Strikes Back (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Crash Bandicoot 2: Cortex Strikes Back",
+		"matched": true
+	},
+	"{\"0\":[\"Crash Bandicoot - Warped (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Crash Bandicoot 3: Warped",
+		"matched": true
+	},
+	"{\"0\":[\"Crash Bandicoot (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Crash Bandicoot",
+		"matched": true
+	},
+	"{\"0\":[\"Fat Princess: Piece of Cake\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Fat Princess Piece of Cake",
+		"matched": false
+	},
+	"{\"0\":[\"Conception II: Children of the Seven Stars\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Conception II: Children of the Seven Stars",
+		"matched": true
+	},
+	"{\"0\":[\"Toro's Friend Network\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Toros Friend Network",
+		"matched": false
+	},
+	"{\"0\":[\"GoldenEye_007_XBLA_Retail\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "GoldenEye 007 XBLA Retail",
+		"matched": false
+	},
+	"{\"0\":[\"Legend of Zelda, The - Breath of the Wild (USA) (En,Fr,Es)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Breath of the Wild",
+		"matched": true
+	},
+	"{\"0\":[\"Spider-Man 2 (World).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "SpiderMan 2 xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Spider-Man (USA).xiso\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "SpiderMan xiso",
+		"matched": false
+	},
+	"{\"0\":[\"Banjo-Pilot (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Pilot",
+		"matched": true
+	},
+	"{\"0\":[\"Banjo-Kazooie - Grunty's Revenge (USA, Europe)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Banjo-Kazooie: Grunty's Revenge",
+		"matched": true
+	},
+	"{\"0\":[\"Spider-Man (USA) (1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Spider-Man",
+		"matched": true
+	},
+	"{\"0\":[\"Sonic and the Secret Rings (USA) (En,Ja,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic and the Secret Rings",
+		"matched": true
+	},
+	"{\"0\":[\"Sonic and the Black Knight (USA) (En,Ja,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic and the Black Knight",
+		"matched": true
+	},
+	"{\"0\":[\"Sonic Riders - Zero Gravity (USA) (En,Ja,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic Riders: Zero Gravity",
+		"matched": true
+	},
+	"{\"0\":[\"Dragon Quest VIII - Journey of the Cursed King (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dragon Quest VIII: Journey of the Cursed King",
+		"matched": true
+	},
+	"{\"0\":[\"Dark Cloud 2 (USA) (v2.00)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dark Cloud 2",
+		"matched": true
+	},
+	"{\"0\":[\"Dark Cloud (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dark Cloud",
+		"matched": true
+	},
+	"{\"0\":[\"Rogue Galaxy (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Rogue Galaxy",
+		"matched": true
+	},
+	"{\"0\":[\"Valkyria Chronicles II (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Valkyria Chronicles II",
+		"matched": true
+	},
+	"{\"0\":[\"Senjou no Valkyria 3 - Unrecorded Chronicles (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Senjou no Valkyria 3 Unrecorded Chronicles",
+		"matched": false
+	},
+	"{\"0\":[\"Phantasy Star Portable 2 Infinity (Japan)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Phantasy Star Portable 2 Infinity",
+		"matched": true
+	},
+	"{\"0\":[\"Phantasy Star Portable 2 (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Phantasy Star Portable 2",
+		"matched": true
+	},
+	"{\"0\":[\"Phantasy Star Portable (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Phantasy Star Portable",
+		"matched": true
+	},
+	"{\"0\":[\"I Am Alive\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "I Am Alive",
+		"matched": true
+	},
+	"{\"0\":[\"Koudelka (USA) (Disc 4)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Koudelka",
+		"matched": true
+	},
+	"{\"0\":[\"Koudelka (USA) (Disc 3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Koudelka",
+		"matched": true
+	},
+	"{\"0\":[\"Koudelka (USA) (Disc 2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Koudelka",
+		"matched": true
+	},
+	"{\"0\":[\"Koudelka (USA) (Disc 1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Koudelka",
+		"matched": true
+	},
+	"{\"0\":[\"Shining Force III - Scenario 3 - Bulzome Rising (En v23AnotherHotFix)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shining Force III Scenario 3 Bulzome Rising",
+		"matched": false
+	},
+	"{\"0\":[\"Sonic Jam (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sonic Jam",
+		"matched": true
+	},
+	"{\"0\":[\"Shining Force III Premium Disc (En v23AnotherHotFix)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shining Force III Premium Disc",
+		"matched": false
+	},
+	"{\"0\":[\"Shining Force III - Scenario 2 - Target - Child of God (En v23AnotherHotFix)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shining Force III Scenario 2 Target Child of God",
+		"matched": false
+	},
+	"{\"0\":[\"Shining Force III - Scenario 1 - The Titan of Aspia (En v23AnotherHotFix)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shining Force III Scenario 1 The Titan of Aspia",
+		"matched": false
+	},
+	"{\"0\":[\"Shining Force III (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Shining Force III",
+		"matched": true
+	},
+	"{\"0\":[\"NiGHTS into Dreams... (USA) (with 3D Control Pad) (RE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NiGHTS into Dreams...",
+		"matched": true
+	},
+	"{\"0\":[\"Spider Man 3 (BLES00055).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Spider Man 3 ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Exist Archive: The Other Side of the Sky\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Exist Archive The Other Side of the Sky",
+		"matched": false
+	},
+	"{\"0\":[\"PCSEE00359\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSEE00359",
+		"matched": false
+	},
+	"{\"0\":[\"default\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Default Dan",
+		"matched": true
+	},
+	"{\"0\":[\"Wario_Castle\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Wario Castle",
+		"matched": false
+	},
+	"{\"0\":[\"Waluigi\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Psycho Waluigi",
+		"matched": true
+	},
+	"{\"0\":[\"Uncanny_Mansion\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncanny Mansion",
+		"matched": false
+	},
+	"{\"0\":[\"Super_Smash_Bird\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bird",
+		"matched": false
+	},
+	"{\"0\":[\"Smash_Remix_1\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Smash Remix 1",
+		"matched": false
+	},
+	"{\"0\":[\"Bomberman_Battle\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Bomberman Live: Battlefest",
+		"matched": true
+	},
+	"{\"0\":[\"Big_Boos_Haunt_Beta\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Big Boos Haunt Beta",
+		"matched": false
+	},
+	"{\"0\":[\"Beta_Conker\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Beta Conker",
+		"matched": false
+	},
+	"{\"0\":[\"19XX_1.6_Tournament_Edition\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "19XX 16 Tournament Edition",
+		"matched": false
+	},
+	"{\"0\":[\"Bowsers Dark Story\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Bowsers Dark Story",
+		"matched": false
+	},
+	"{\"0\":[\"Twitter\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Twitter (Website)",
+		"matched": true
+	},
+	"{\"0\":[\"Twitch\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Twitch",
+		"matched": true
+	},
+	"{\"0\":[\"Disney+\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Disney+ (Website)",
+		"matched": true
+	},
+	"{\"0\":[\"Amazon Prime Video (2006)\",{\"replaceDiacritics\":true,\"removeCharacters\":false,\"removeBrackets\":true}]}": {
+		"output": "Amazon Prime Video (Website)",
+		"matched": true
+	},
+	"{\"0\":[\"Atelier Violet- The Alchemist of Gramnad 2 - The Memories of Ultramarine\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Atelier Violet The Alchemist of Gramnad 2 The Memories of Ultramarine",
+		"matched": false
+	},
+	"{\"0\":[\"Atelier Judie- The Alchemist of Gramnad - Imprisoned Guardian\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Atelier Judie The Alchemist of Gramnad Imprisoned Guardian",
+		"matched": false
+	},
+	"{\"0\":[\"sudachi\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Sudachi (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"eden\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Eden",
+		"matched": true
+	},
+	"{\"0\":[\"azahar\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Azahar (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda - Twilight Princess HD (USA) (v81)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Twilight Princess HD",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda - The Wind Waker HD (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: The Wind Waker HD",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda - Hyrule Historia (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Hyrule Historia",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda - Breath of the Wild (USA) (DLC) (v208)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Breath of the Wild",
+		"matched": true
+	},
+	"{\"0\":[\"Star Fox Zero (USA) (v16)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Star Fox Zero",
+		"matched": true
+	},
+	"{\"0\":[\"Star Fox Guard (USA) (v16)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Star Fox Guard",
+		"matched": true
+	},
+	"{\"0\":[\"PAPER MARIO Color Splash (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Paper Mario: Color Splash",
+		"matched": true
+	},
+	"{\"0\":[\"Nintendo Land (USA) (v32)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Nintendo Land",
+		"matched": true
+	},
+	"{\"0\":[\"New SUPER MARIO BROS. U + New SUPER LUIGI U (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "New Super Mario Bros. U + New Super Luigi U",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Tennis Ultra Smash (USA) (v32)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Tennis: Ultra Smash",
+		"matched": true
+	},
+	"{\"0\":[\"NPUB31443\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31443",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31354\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31354",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31136\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31136",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31251\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31251",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB30988\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB30988",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB30886\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB30886",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB30830\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB30830",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB30828\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB30828",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB30383\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB30383",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA81049\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA81049",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80275\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80275",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80019\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80019",
+		"matched": false
+	},
+	"{\"0\":[\"NPEA00394\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPEA00394",
+		"matched": false
+	},
+	"{\"0\":[\"NPUB31126\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUB31126",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80316\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80316",
+		"matched": false
+	},
+	"{\"0\":[\"PCSG00895\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSG00895",
+		"matched": false
+	},
+	"{\"0\":[\"PCSG00215\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSG00215",
+		"matched": false
+	},
+	"{\"0\":[\"PCSE00883\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSE00883",
+		"matched": false
+	},
+	"{\"0\":[\"PCSE00376\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSE00376",
+		"matched": false
+	},
+	"{\"0\":[\"PCSA00029\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSA00029",
+		"matched": false
+	},
+	"{\"0\":[\"PCSA00156\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSA00156",
+		"matched": false
+	},
+	"{\"0\":[\"PCSA00112\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PCSA00112",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80858\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80858",
+		"matched": false
+	},
+	"{\"0\":[\"Uncharted 2: Among Thieves\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted 2: Among Thieves",
+		"matched": true
+	},
+	"{\"0\":[\"Uncharted: Drake's Fortune\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted: Drake's Fortune",
+		"matched": true
+	},
+	"{\"0\":[\"NPUA80382\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80382",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80234_UNCHARTED2EOIALL\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80234 UNCHARTED2EOIALL",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80234_UNCHARTED2EOI003\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80234 UNCHARTED2EOI003",
+		"matched": false
+	},
+	"{\"0\":[\"NPUA80234_UNCHARTED2EOI002\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "NPUA80234 UNCHARTED2EOI002",
+		"matched": false
+	},
+	"{\"0\":[\"Uncharted™: The Nathan Drake Collection\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted: The Nathan Drake Collection",
+		"matched": true
+	},
+	"{\"0\":[\"Gravity Rush™ Remastered\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gravity Rush Remastered",
+		"matched": true
+	},
+	"{\"0\":[\"GRAVITY RUSH™ 2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Gravity Rush 2",
+		"matched": true
+	},
+	"{\"0\":[\"inFAMOUS™ Second Son\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "inFAMOUS Second Son",
+		"matched": true
+	},
+	"{\"0\":[\"inFAMOUS First Light™\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Infamous: First Light",
+		"matched": true
+	},
+	"{\"0\":[\"Uncharted: The Nathan Drake Collection™\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted: The Nathan Drake Collection",
+		"matched": true
+	},
+	"{\"0\":[\"Bloodborne™\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Bloodborne",
+		"matched": true
+	},
+	"{\"0\":[\"13 Sentinels: Aegis Rim\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "13 Sentinels: Aegis Rim",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto Shippuden - Ultimate Ninja 4 (USA) (En,Fr)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto Shippuden: Ultimate Ninja 4",
+		"matched": true
+	},
+	"{\"0\":[\"Naruto Shippuden - Ultimate Ninja 5 (Europe) (En,Fr,De,Es,It)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Naruto Shippuden: Ultimate Ninja 5",
+		"matched": true
+	},
+	"{\"0\":[\"Uncharted The Nathan Drake Collection™\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Uncharted: The Nathan Drake Collection",
+		"matched": true
+	},
+	"{\"0\":[\"13 Sentinels Aegis Rim\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "13 Sentinels: Aegis Rim",
+		"matched": true
+	},
+	"{\"0\":[\"PoPoRoGue (Japan) (Rev 1) (patched)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PoPoRoGue",
+		"matched": true
+	},
+	"{\"0\":[\"PoPoLoCrois Monogatari (Japan) (Rev 1) (patched)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PoPoLoCrois Monogatari",
+		"matched": true
+	},
+	"{\"0\":[\"PoPoLoCrois Monogatari II (Japan, Asia) (Disc 3) (patched)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PoPoLoCrois Monogatari II",
+		"matched": true
+	},
+	"{\"0\":[\"PoPoLoCrois Monogatari II (Japan, Asia) (Disc 2) (patched)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PoPoLoCrois Monogatari II",
+		"matched": true
+	},
+	"{\"0\":[\"PoPoLoCrois Monogatari II (Japan, Asia) (Disc 1) (patched)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PoPoLoCrois Monogatari II",
+		"matched": true
+	},
+	"{\"0\":[\"Blue_Dragon_(USA)_(Disk_3)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Blue_Dragon_(USA)_(Disk_2)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"Blue_Dragon_(USA)_(Disk_1)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Blue Dragon",
+		"matched": true
+	},
+	"{\"0\":[\"xenia-native\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "xenianative",
+		"matched": false
+	},
+	"{\"0\":[\"citron\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Citron (Emulator)",
+		"matched": true
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"fuzzyMatcher": {
+		"timestamps": {
+			"check": 1759795377476,
+			"download": 1759795377476
+		},
+		"verbose": false,
+		"filterProviders": true
+	},
+	"environmentVariables": {
+		"steamDirectory": "/home/zany130/.steam/steam",
+		"romsDirectory": "/home/zany130/Emulation/roms",
+		"retroarchPath": "/home/zany130/Emulation/tools/launchers/retroarch.sh",
+		"raCoresDirectory": "",
+		"localImagesDirectory": "",
+		"userAccounts": [
+			"zany130"
+		]
+	},
+	"previewSettings": {
+		"imageLoadStrategy": "loadLazy",
+		"retrieveCurrentSteamImages": true,
+		"disableCategories": false,
+		"deleteDisabledShortcuts": false,
+		"imageZoomPercentage": 30,
+		"hideUserAccount": false
+	},
+	"enabledProviders": [
+		"sgdb",
+		"steamCDN"
+	],
+	"language": "en-US",
+	"offlineMode": false,
+	"navigationWidth": 358,
+	"clearLogOnTest": false,
+	"version": 10,
+	"theme": "Deck",
+	"dnsServers": [],
+	"batchDownloadSize": 50,
+	"emudeckInstall": false,
+	"autoUpdate": true,
+	"autoKillSteam": false,
+	"autoRestartSteam": false
+}
