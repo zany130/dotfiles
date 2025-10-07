@@ -30,6 +30,7 @@
 - /home/zany130/.config/steamtinkerlaunch/proton/
 - /home/zany130/.config/steamtinkerlaunch/vortex/
 - /home/zany130/.config/steamtinkerlaunch/wine/
+- /home/zany130/.config/steam-rom-manager/userData/
 - /home/zany130/.config/syncthing/
 + /home/zany130/.config/syncthing/config.xml
 - /home/zany130/.dart*
