@@ -63,7 +63,7 @@ writable_code_segments = false                    	# Enables a program to write 
 
 
 [Config]
-defaults_date = 2024092309                        	# Do not modify - internal version of the default values in the config, for seamless updates if default value of any option is changed.
+defaults_date = 2024083120                        	# Do not modify - internal version of the default values in the config, for seamless updates if default value of any option is changed.
 
 
 [Content]
@@ -197,9 +197,10 @@ primitive_processor_cache_min_indices = 4096      	# Smallest number of guest in
                                                   	# Setting this to a very high value may result in excessive CPU processing, while a very low value may result in excessive locking and lookups.
                                                   	# Negative values disable caching.
 
-query_occlusion_fake_sample_count = 100           	# If set to -1 no sample counts are written, games may hang. Else, the sample count of every tile will be incremented on every EVENT_WRITE_ZPD by this number. Setting this to 0 means everything is reported as occluded.
-readback_memexport = false                        	# [D3D12 Only] Read data written by memory export in shaders on the CPU. This may be needed in some games (but many only access exported data on the GPU, and this flag isn't needed to handle such behavior), but causes mid-frame synchronization, so it has a huge performance impact.
-readback_resolve = false                          	# [D3D12 Only] Read render-to-texture results on the CPU. This may be needed in some games, for instance, for screenshots in saved games, but causes mid-frame synchronization, so it has a huge performance impact.
+query_occlusion_sample_lower_threshold = 80       	# If set to -1 no sample counts are written, games may hang. Else, the sample count of every tile will be incremented on every EVENT_WRITE_ZPD by this number. Setting this to 0 means everything is reported as occluded.
+query_occlusion_sample_upper_threshold = 100      	# Set to higher number than query_occlusion_sample_lower_threshold. This value is ignored if query_occlusion_sample_lower_threshold is set to -1.
+readback_memexport = false                        	# Read data written by memory export in shaders on the CPU. This may be needed in some games (but many only access exported data on the GPU, and this flag isn't needed to handle such behavior), but causes mid-frame synchronization, so it has a huge performance impact.
+readback_resolve = false                          	# Read render-to-texture results on the CPU. This may be needed in some games, for instance, for screenshots in saved games, but causes mid-frame synchronization, so it has a huge performance impact.
 render_target_path_vulkan = ""                    	# Render target emulation path to use on Vulkan.
                                                   	# Use: [any, fbo, fsi]
                                                   	#  fbo:
@@ -253,11 +254,15 @@ vibration = true                                  	# Toggle controller vibration
 
 
 [Kernel]
-Allow_nui_initialization = false                  	# Enable NUI initialization
+allow_avatar_initialization = false               	# Enable Avatar Initialization
+                                                  	#  Only set true when testing Avatar games. Certain games may
+                                                  	#  require kinect implementation.
+
+allow_incompatible_title_update = true            	# Allow title updates with mismatched signatures to be applied.
+allow_nui_initialization = false                  	# Enable NUI initialization
                                                   	#  Only set true when testing kinect games. Certain games may
                                                   	#  require avatar implementation.
 
-allow_incompatible_title_update = true            	# Allow title updates with mismatched signatures to be applied.
 apply_title_update = true                         	# Apply title updates.
 cl = ""                                           	# Specify additional command-line provided to guest.
 default_achievements_backend = "GPD"              	# Defines which achievements backend should be used as an default. Possible options: GPD.
@@ -277,7 +282,7 @@ staging_mode = false                              	# Enables preview mode in das
 flush_log = true                                  	# Flush log file after each log line batch.
 log_file = ""                                     	# Logs are written to the given file
 log_level = 2                                     	# Maximum level to be logged. (0=error, 1=warning, 2=info, 3=debug)
-log_mask = 0                                      	# Disables specific categorizes for more granular debug logging. Kernel = 1, Apu = 2, Cpu = 4.
+log_mask = 0                                      	# Disables specific categorizes for more granular debug logging. Kernel = 1, Apu = 2, Cpu = 4, Gpu = 8.
 log_string_format_kernel_calls = false            	# Log kernel calls with the kHighFrequency tag.
 log_to_debugprint = false                         	# Dump the log to DebugPrint.
 log_to_stdout = true                              	# Write log output to stdout
@@ -305,6 +310,7 @@ mappings_file = "gamecontrollerdb.txt"            	# Filename of a database with
 [Storage]
 cache_root = ""                                   	# Root path for files used to speed up certain parts of the emulator or the game. These files may be persistent, but they can be deleted without major side effects such as progress loss. If empty, the cache folder under the storage root, or, if available, the cache directory preferred for the OS, will be used.
 content_root = ""                                 	# Root path for guest content storage (saves, etc.), or empty to use the content folder under the storage root.
+force_mount_devkit = false                        	# Force devkit mount
 mount_cache = true                                	# Enable cache mount
 mount_scratch = false                             	# Enable scratch mount
 storage_root = ""                                 	# Root path for persistent internal data storage (config, etc.), or empty to use the path preferred for the OS, such as the documents folder, or the emulator executable directory if portable.txt is present in it.
@@ -333,6 +339,7 @@ avpack = 8                                        	# Video modes
                                                   	#  7 = TV PAL-60
                                                   	#  8 = HDMI (default)
 
+enable_3d_mode = false                            	# Enables usage of stereoscopic mode in titles.
 interlaced = false                                	# Toggles interlaced mode.
 internal_display_resolution = 8                   	# Allow games that support different resolutions to render in a specific resolution.
                                                   	# This is not guaranteed to work with all games or improve performance.
@@ -371,12 +378,10 @@ widescreen = true                                 	# Toggles between 16:9 and 4:
 vulkan_allow_present_mode_fifo_relaxed = true     	# When available, allow the relaxed first-in-first-out presentation mode (3rd priority), which causes waiting for host display vertical sync, but may present with tearing if frames don't meet the host display refresh rate.
 vulkan_allow_present_mode_immediate = true        	# When available, allow the immediate presentation mode (1st priority), offering the lowest latency with the possibility of tearing in certain cases, and, depending on the configuration, variable refresh rate.
 vulkan_allow_present_mode_mailbox = true          	# When available, allow the mailbox presentation mode (2nd priority), offering low latency without the possibility of tearing.
-vulkan_debug_utils_messenger = false              	# Enable writing Vulkan debug messages via VK_EXT_debug_utils to the Xenia log.
-vulkan_debug_utils_messenger_severity = 2         	# Maximum severity of messages to log via the Vulkan debug messenger: 0 - error, 1 - warning, 2 - info, 3 - verbose.
-vulkan_debug_utils_names = false                  	# Enable naming Vulkan objects via VK_EXT_debug_utils.
-vulkan_device = -1                                	# Index of the physical device to use, or -1 for any compatible device.
+vulkan_device = -1                                	# Index of the preferred Vulkan physical device, or -1 to use any compatible device.
+vulkan_log_debug_messages = true                  	# Write Vulkan VK_EXT_debug_utils messages to the Xenia log, as opposed to the OS debug output.
 vulkan_sparse_shared_memory = true                	# Enable sparse binding for shared memory emulation. Disabling it increases video memory usage - a 512 MB buffer is created - but allows graphics debuggers that don't support sparse binding to work.
-vulkan_validation = false                         	# Enable Vulkan validation (VK_LAYER_KHRONOS_validation). Messages will be written to the OS debug log without vulkan_debug_messenger or to the Xenia log with it.
+vulkan_validation = false                         	# Enable the Vulkan validation layer (VK_LAYER_KHRONOS_validation). Messages will be written to the Xenia log if 'vulkan_log_debug_messages' is enabled, or to the OS debug output otherwise.
 
 
 [XConfig]

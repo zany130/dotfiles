@@ -1,21 +1,19 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "requirements": {
     "bypassRequirements": false,
     "avx": true,
     "openGL": true
   },
   "games": {
-    "Jak 1": {
+    "jak1": {
       "isInstalled": true,
-      "version": "v0.2.27",
-      "features": {
-        "texturePacks": [
-          "Jak1_ESRGAN_Edition_v1.0.2"
-        ]
-      },
+      "version": "v0.2.30",
+      "texturePacks": [
+        "Jak1_ESRGAN_Edition_v1.0.2"
+      ],
       "secondsPlayed": 71,
-      "modsInstalledVersion": {
+      "mods": {
         "JakMods": {
           "patched": "1.1.3",
           "forgotten-lands": "0.3.5",
@@ -23,32 +21,26 @@
         }
       }
     },
-    "Jak 3": {
+    "jakx": {
       "isInstalled": false,
       "version": null,
-      "features": {
-        "texturePacks": []
-      },
+      "texturePacks": [],
       "secondsPlayed": 0,
-      "modsInstalledVersion": {}
+      "mods": {}
     },
-    "Jak X": {
+    "jak3": {
       "isInstalled": false,
       "version": null,
-      "features": {
-        "texturePacks": []
-      },
+      "texturePacks": [],
       "secondsPlayed": 0,
-      "modsInstalledVersion": {}
+      "mods": {}
     },
-    "Jak 2": {
+    "jak2": {
       "isInstalled": true,
-      "version": "v0.2.27",
-      "features": {
-        "texturePacks": []
-      },
+      "version": "v0.2.30",
+      "texturePacks": [],
       "secondsPlayed": 57,
-      "modsInstalledVersion": {
+      "mods": {
         "JakMods": {
           "heromode-plus": "0.0.7"
         }
@@ -56,7 +48,7 @@
     }
   },
   "installationDir": "/var/home/zany130/.var/app/dev.opengoal.OpenGOAL/data/OpenGOAL-Launcher",
-  "activeVersion": "v0.2.27",
+  "activeVersion": "v0.2.30",
   "locale": "en-US",
   "modSources": [
     "https://jakmods.dev/mods.json"

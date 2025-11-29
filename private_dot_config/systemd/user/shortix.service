@@ -9,4 +9,4 @@ RestartSec=1800s
 ExecStart=/bin/bash %h/Shortix/shortix.sh
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target

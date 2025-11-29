@@ -1,1 +1,76 @@
-{"Q1NTTG9hZGVyIERlc2t0b3A=": {"b64name": "Q1NTTG9hZGVyIERlc2t0b3A=", "website": "https://github.com/DeckThemes/CSSLoader-Desktop/", "name": "CSSLoader Desktop", "update_url": "https://github.com/DeckThemes/CSSLoader-Desktop/releases/download/v*/CSSLoader.Desktop_*.AppImage", "update_url_manager": "GithubUpdater"}, "TW9vbkRlY2tCdWRkeQ==": {"b64name": "TW9vbkRlY2tCdWRkeQ==", "website": "https://github.com/FrogTheFrog/moondeck-buddy", "name": "MoonDeckBuddy", "update_url": "https://github.com/FrogTheFrog/moondeck-buddy/releases/download/*/MoonDeckBuddy-*-x86_64.AppImage", "update_url_manager": "GithubUpdater"}, "c2RsMi1nYW1lcGFkLW1hcHBlcg==": {"b64name": "c2RsMi1nYW1lcGFkLW1hcHBlcg==", "website": "https://gitlab.com/ryochan7/sdl2-gamepad-mapper", "name": "sdl2-gamepad-mapper"}, "SW1tZXJzZWQ=": {"b64name": "SW1tZXJzZWQ=", "website": "https://www.immersed.com", "name": "Immersed", "update_url": "https://static.immersed.com/dl/Immersed-x86_64.AppImage", "update_url_manager": "StaticFileUpdater"}, "TGludXhQb3dlclRveXM=": {"b64name": "TGludXhQb3dlclRveXM=", "update_url": "https://github.com/domferr/Linux-PowerToys/releases/download/v*-preview/LinuxPowerToys-*-x86_64.AppImage", "update_url_manager": "GithubUpdater", "name": "LinuxPowerToys", "website": "https://github.com/domferr/Linux-PowerToys/"}, "Q3JlYW1saW51eA==": {"b64name": "Q3JlYW1saW51eA==", "update_url": "https://github.com/Novattz/creamlinux-installer/releases/download/v*-beta/Creamlinux_*_amd64.AppImage", "update_url_manager": "GithubUpdater", "name": "Creamlinux", "website": "https://github.com/Novattz/creamlinux-installer"}, "Q3J1bmNoeXJvbGw=": {"b64name": "Q3J1bmNoeXJvbGw=", "website": "https://github.com/aarron-lee/crunchyroll-linux", "name": "Crunchyroll", "update_url": "https://github.com/aarron-lee/crunchyroll-linux/releases/download/v*/Crunchyroll_v*_linux.AppImage", "update_url_manager": "GithubUpdater"}, "RW11RGVjaw==": {"b64name": "RW11RGVjaw==", "update_url": "https://github.com/EmuDeck/emudeck-electron-early/releases/download/v*/EmuDeck-*.AppImage", "update_url_manager": "GithubUpdater", "name": "EmuDeck", "website": "https://www.emudeck.com"}, "T3BlblJHQg==": {"b64name": "T3BlblJHQg==", "website": "https://openrgb.org", "name": "OpenRGB", "update_url": "https://openrgb.org/releases/release_0.9/OpenRGB_0.9_x86_64_b5f46e3.AppImage", "update_url_manager": "StaticFileUpdater"}, "cGNsb3Vk": {"b64name": "cGNsb3Vk", "website": "https://www.pcloud.com", "name": "pcloud"}, "VW5kZXJUYWtlcjE0MQ==": {"b64name": "VW5kZXJUYWtlcjE0MQ==", "update_url": "https://github.com/AbdelrhmanNile/UnderTaker141/releases/download/latest/UnderTaker141.AppImage", "update_url_manager": "GithubUpdater", "name": "UnderTaker141", "website": "https://github.com/AbdelrhmanNile/UnderTaker141"}, "U291bHNlZWtRdA==": {"b64name": "U291bHNlZWtRdA==", "website": "https://www.slsknet.org", "name": "SoulseekQt", "update_url": "https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-2024-6-30.AppImage", "update_url_manager": "StaticFileUpdater"}}
+{
+    "Q1NTTG9hZGVyIERlc2t0b3A=": {
+        "b64name": "Q1NTTG9hZGVyIERlc2t0b3A=",
+        "website": "https://github.com/DeckThemes/CSSLoader-Desktop/",
+        "name": "CSSLoader Desktop",
+        "update_url": "https://github.com/DeckThemes/CSSLoader-Desktop/releases/download/v*/CSSLoader.Desktop_*.AppImage",
+        "update_url_manager": "GithubUpdater"
+    },
+    "TW9vbkRlY2tCdWRkeQ==": {
+        "b64name": "TW9vbkRlY2tCdWRkeQ==",
+        "website": "https://github.com/FrogTheFrog/moondeck-buddy",
+        "name": "MoonDeckBuddy",
+        "update_url": "https://github.com/FrogTheFrog/moondeck-buddy/releases/download/*/MoonDeckBuddy-*-x86_64.AppImage",
+        "update_url_manager": "GithubUpdater"
+    },
+    "c2RsMi1nYW1lcGFkLW1hcHBlcg==": {
+        "b64name": "c2RsMi1nYW1lcGFkLW1hcHBlcg==",
+        "website": "https://gitlab.com/ryochan7/sdl2-gamepad-mapper",
+        "name": "sdl2-gamepad-mapper"
+    },
+    "SW1tZXJzZWQ=": {
+        "b64name": "SW1tZXJzZWQ=",
+        "website": "https://www.immersed.com",
+        "name": "Immersed",
+        "update_url": "https://static.immersed.com/dl/Immersed-x86_64.AppImage",
+        "update_url_manager": "StaticFileUpdater"
+    },
+    "TGludXhQb3dlclRveXM=": {
+        "b64name": "TGludXhQb3dlclRveXM=",
+        "update_url": "https://github.com/domferr/Linux-PowerToys/releases/download/v*-preview/LinuxPowerToys-*-x86_64.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "name": "LinuxPowerToys",
+        "website": "https://github.com/domferr/Linux-PowerToys/"
+    },
+    "Q3JlYW1saW51eA==": {
+        "b64name": "Q3JlYW1saW51eA==",
+        "update_url": "https://github.com/Novattz/creamlinux-installer/releases/download/*/Creamlinux_*_amd64.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "name": "Creamlinux",
+        "website": "https://github.com/Novattz/creamlinux-installer",
+        "update_manager_config": {
+            "allow_prereleases": false
+        }
+    },
+    "Q3J1bmNoeXJvbGw=": {
+        "b64name": "Q3J1bmNoeXJvbGw=",
+        "website": "https://github.com/aarron-lee/crunchyroll-linux",
+        "name": "Crunchyroll",
+        "update_url": "https://github.com/aarron-lee/crunchyroll-linux/releases/download/v*/Crunchyroll_v*_linux.AppImage",
+        "update_url_manager": "GithubUpdater"
+    },
+    "RW11RGVjaw==": {
+        "b64name": "RW11RGVjaw==",
+        "update_url": "https://github.com/EmuDeck/emudeck-electron-early/releases/download/*/EmuDeck-*.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "name": "EmuDeck",
+        "website": "https://www.emudeck.com",
+        "update_manager_config": {
+            "allow_prereleases": true
+        }
+    },
+    "U291bHNlZWtRdA==": {
+        "b64name": "U291bHNlZWtRdA==",
+        "website": "https://www.slsknet.org",
+        "name": "SoulseekQt",
+        "update_url": "https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-2024-6-30.AppImage",
+        "update_url_manager": "StaticFileUpdater"
+    },
+    "U3RlYW0gQXJ0IE1hbmFnZXI=": {
+        "b64name": "U3RlYW0gQXJ0IE1hbmFnZXI=",
+        "update_url": "https://github.com/Tormak9970/Steam-Art-Manager/releases/download/v*/steam-art-manager.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "name": "Steam Art Manager",
+        "website": "https://github.com/Tormak9970/Steam-Art-Manager"
+    }
+}

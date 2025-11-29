@@ -1,6 +1,174 @@
 {
 	"exceptionsVersion": 2,
 	"titles": {
+		"Beta_Conker ${id:3729686276}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:33624}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750548070472
+		},
+		"Big_Boos_Haunt_Beta ${id:2712178290}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:33624}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750547041341
+		},
+		"boot-windows ${id:2376236089}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5288620}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759976577198
+		},
+		"default ${id:3165552526}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1759978426207,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"default ${id:4257069081}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1759885318326,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"disney-plus ${id:4261813674}": {
+			"newTitle": "Disney+ (Website)",
+			"searchTitle": "${gameid:5260961}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759976785560
+		},
+		"Dolphin ${id:3423722024}": {
+			"newTitle": "Dolphin (Program)",
+			"searchTitle": "${gameid:5321127}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759812882777
+		},
+		"dot hack Link(English Patch) ${id:3953905159}": {
+			"newTitle": ".hack//Link",
+			"searchTitle": "${gameid:5258714}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759889437564
+		},
+		"dot hack Versus (English Patch) (BLJS93008).ps3 ${id:2150213559}": {
+			"newTitle": ".hack//Versus",
+			"searchTitle": "${gameid:5262752}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750473810567
+		},
+		"Earthlock [01006E50042EA000][v0][Base] ${id:2455350252}": {
+			"newTitle": "Earthlock: Festival of Magic",
+			"searchTitle": "${gameid:3242}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750875206932
+		},
+		"eden ${id:3777790198}": {
+			"newTitle": "Eden (Emulator)",
+			"searchTitle": "${gameid:5488518}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1751089816116
+		},
+		"Equibop ${id:3830423783}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5446446}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759812645797
+		},
+		"Faster Project Plus ${id:3574232893}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5262769}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759976889392
+		},
+		"FlashPoint ${id:4141253795}": {
+			"newTitle": "BlueMaxima's Flashpoint",
+			"searchTitle": "${gameid:5258030}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759976939412
+		},
+		"Flips ${id:3792603167}": {
+			"newTitle": "Floating IPS (Flips)",
+			"searchTitle": "${gameid:5246945}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759815304413
+		},
+		"GoldenEye 007 - Reloaded (USA, Europe) (En,Fr,De,Es,It) ${id:2421275046}": {
+			"newTitle": "GoldenEye 007: Reloaded",
+			"searchTitle": "${gameid:37089}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1748137576514
+		},
+		"KHUx ${id:2557960921}": {
+			"newTitle": "Kingdom Hearts Union χ Dark Road",
+			"searchTitle": "${gameid:5430172}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977169866
+		},
+		"Kotatogram ${id:3725831863}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:37021}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977198383
+		},
+		"LACT ${id:2656310369}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:17733}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759815880753
+		},
+		"Limo ${id:2483095472}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5461720}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759815948334
+		},
+		"Maniatic Launcher ${id:4151267237}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5276523}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977234788
+		},
 		"Mario Kart - Super Circuit (USA) ${id:3125155555}": {
 			"newTitle": "Mario Kart: Super Circuit",
 			"searchTitle": "${gameid:35520}",
@@ -9,21 +177,53 @@
 			"exclude": false,
 			"timeStamp": 1758319057931
 		},
-		"Parsec ${id:2619200008}": {
-			"newTitle": "Parsec (Program)",
-			"searchTitle": "${gameid:5247908}",
+		"MegaManKeitaiWorld ${id:3226836272}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:36337}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1758318974807
+			"timeStamp": 1759798957343
 		},
-		"Toro's Friend Network ${id:2565038756}": {
-			"newTitle": "Toro's Friend Network",
-			"searchTitle": "${gameid:5494010}",
+		"Multiplex ${id:3107810073}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5482123}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1758318948862
+			"timeStamp": 1759977318622
+		},
+		"NPIA00025 ${id:4119542741}": {
+			"newTitle": "PlayStation Store",
+			"searchTitle": "",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750547851143
+		},
+		"NPS_browser ${id:2322531572}": {
+			"newTitle": "NoPayStation (Website)",
+			"searchTitle": "${gameid:5442034}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759816355813
+		},
+		"NPUA80079 ${id:3302343086}": {
+			"newTitle": "Twisted Metal",
+			"searchTitle": "${gameid:5246667}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750547800650
+		},
+		"NPUA80234_UNCHARTED2EOI002 ${id:3084192589}": {
+			"newTitle": "Uncharted: Eye of Indra (Program)",
+			"searchTitle": "${gameid:5450272}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1751421437019
 		},
 		"NPUA80234_UNCHARTED2EOI003 ${id:3206258760}": {
 			"newTitle": "Uncharted: Eye of Indra (Program)",
@@ -41,14 +241,6 @@
 			"exclude": false,
 			"timeStamp": 1751421469012
 		},
-		"NPUA80234_UNCHARTED2EOI002 ${id:3084192589}": {
-			"newTitle": "Uncharted: Eye of Indra (Program)",
-			"searchTitle": "${gameid:5450272}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1751421437019
-		},
 		"NPUA80382 ${id:3279002164}": {
 			"newTitle": "Uncharted: Eye of Indra (Program)",
 			"searchTitle": "${gameid:5450272}",
@@ -57,77 +249,13 @@
 			"exclude": false,
 			"timeStamp": 1751421272247
 		},
-		"NPUA80858 ${id:3809385406}": {
-			"newTitle": "Uncharted 3: Drake's Deception",
-			"searchTitle": "${gameid:5245366}",
+		"NPUA80619 ${id:3104842316}": {
+			"newTitle": "PlayStation Move Heroes",
+			"searchTitle": "${gameid:5246731}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1751421222958
-		},
-		"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0] ${id:3834520091}": {
-			"newTitle": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru",
-			"searchTitle": "${gameid:5376653}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1751091477228
-		},
-		"eden ${id:3777790198}": {
-			"newTitle": "Eden (Emulator)",
-			"searchTitle": "${gameid:5488518}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1751089816116
-		},
-		"Earthlock [01006E50042EA000][v0][Base] ${id:2455350252}": {
-			"newTitle": "Earthlock: Festival of Magic",
-			"searchTitle": "${gameid:3242}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750875206932
-		},
-		"Earthlock [01006E50042EA000][v0][Base] ${id:3636813718}": {
-			"newTitle": "Earthlock: Festival of Magic",
-			"searchTitle": "${gameid:3242}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750874407712
-		},
-		"Wario_Castle ${id:4056462782}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:33624}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750548242798
-		},
-		"Beta_Conker ${id:3729686276}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:33624}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750548070472
-		},
-		"NPIA00025 ${id:4119542741}": {
-			"newTitle": "PlayStation Store",
-			"searchTitle": "",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750547851143
-		},
-		"NPUA80079 ${id:3302343086}": {
-			"newTitle": "Twisted Metal",
-			"searchTitle": "${gameid:5246667}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750547800650
+			"timeStamp": 1750547673887
 		},
 		"NPUA80823 ${id:2238436103}": {
 			"newTitle": "PlayStation Move Fitness",
@@ -137,13 +265,13 @@
 			"exclude": false,
 			"timeStamp": 1750547752163
 		},
-		"NPUA80619 ${id:3104842316}": {
-			"newTitle": "PlayStation Move Heroes",
-			"searchTitle": "${gameid:5246731}",
+		"NPUA80858 ${id:3809385406}": {
+			"newTitle": "Uncharted 3: Drake's Deception",
+			"searchTitle": "${gameid:5245366}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750547673887
+			"timeStamp": 1751421222958
 		},
 		"NPUB31080 ${id:2554866844}": {
 			"newTitle": "Remember Me",
@@ -177,14 +305,6 @@
 			"exclude": false,
 			"timeStamp": 1750547480619
 		},
-		"NPUB31661 ${id:2166534853}": {
-			"newTitle": "XBlaze Lost: Memories",
-			"searchTitle": "${gameid:10573}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750547445585
-		},
 		"NPUB31563 ${id:3092113035}": {
 			"newTitle": "Persona 4 Arena Ultimax",
 			"searchTitle": "${gameid:34618}",
@@ -193,21 +313,37 @@
 			"exclude": false,
 			"timeStamp": 1750547414348
 		},
-		"SGGG - Segagaga (Japan) (Rev A) ${id:2742748305}": {
-			"newTitle": "Segagaga",
-			"searchTitle": "${gameid:35462}",
+		"NPUB31661 ${id:2166534853}": {
+			"newTitle": "XBlaze Lost: Memories",
+			"searchTitle": "${gameid:10573}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750547205702
+			"timeStamp": 1750547445585
 		},
-		"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0] ${id:2324340877}": {
-			"newTitle": "",
+		"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0] ${id:4042395843}": {
+			"newTitle": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru",
 			"searchTitle": "${gameid:5376653}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750547175614
+			"timeStamp": 1759885529052
+		},
+		"paramount-plus ${id:3185031290}": {
+			"newTitle": "Paramount+",
+			"searchTitle": "${gameid:5353900}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977447776
+		},
+		"Parsec ${id:3552768184}": {
+			"newTitle": "Parsec (Program)",
+			"searchTitle": "${gameid:5247908}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759885736665
 		},
 		"PMMQ_Jr._1 ${id:3215646895}": {
 			"newTitle": "Paper Mario: Master Quest",
@@ -217,45 +353,93 @@
 			"exclude": false,
 			"timeStamp": 1750547079991
 		},
-		"Big_Boos_Haunt_Beta ${id:2712178290}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:33624}",
+		"PREY ${id:2981264108}": {
+			"newTitle": "Prey",
+			"searchTitle": "${gameid:12133}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750547041341
+			"timeStamp": 1759816574396
 		},
-		"Uncanny_Mansion ${id:3950573081}": {
+		"PS3 Disc Dumper (on arch) ${id:2822974008}": {
 			"newTitle": "",
-			"searchTitle": "${gameid:33624}",
+			"searchTitle": "${gameid:5327253}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": true,
+			"timeStamp": 1759979696035
+		},
+		"RommBrowser ${id:4272368115}": {
+			"newTitle": "RomM (Program)",
+			"searchTitle": "${gameid:5437484}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750546972985
+			"timeStamp": 1759978787672
 		},
-		"xenia-Native ${id:4271399345}": {
+		"Rusty PSN (GUI) (on arch) ${id:3896426098}": {
 			"newTitle": "",
-			"searchTitle": "${gameid:5245877}",
+			"searchTitle": "${gameid:5327253}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": true,
+			"timeStamp": 1759887029317
+		},
+		"Saints Row ${id:3801622540}": {
+			"newTitle": "Saints Row",
+			"searchTitle": "${gameid:5294518}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750546867170
+			"timeStamp": 1759816921459
 		},
-		"xenia ${id:2922491590}": {
-			"newTitle": "Xenia (Emulator)",
-			"searchTitle": "${gameid:5245877}",
+		"samira ${id:4197529127}": {
+			"newTitle": "Steam Achievement Manager (Program)",
+			"searchTitle": "${gameid:5246949}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750546792401
+			"timeStamp": 1759816978841
 		},
-		"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0] ${id:2778606031}": {
+		"SGGG - Segagaga (Japan) (Rev A) ${id:2742748305}": {
+			"newTitle": "Segagaga",
+			"searchTitle": "${gameid:35462}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750547205702
+		},
+		"shadPS4Plus ${id:2597755850}": {
 			"newTitle": "",
-			"searchTitle": "${gameid:5376653}",
+			"searchTitle": "${gameid:5458313}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1750545683902
+			"timeStamp": 1759977621527
+		},
+		"sling-tv ${id:3131673051}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5285509}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759817143394
+		},
+		"SMB1R (on arch) ${id:3925967412}": {
+			"newTitle": "Super Mario Bros. Remastered",
+			"searchTitle": "${gameid:5502073}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759813094628
+		},
+		"SOH ${id:4242482600}": {
+			"newTitle": "Ship of Harkinian",
+			"searchTitle": "${gameid:5335518}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977707107
 		},
 		"Sonic the Hedgehog (USA, Europe) (En,Ja,Fr,De,Es,It) ${id:2399517383}": {
 			"newTitle": "Sonic the Hedgehog",
@@ -265,62 +449,6 @@
 			"exclude": false,
 			"timeStamp": 1750475767709
 		},
-		"default ${id:4257069081}": {
-			"newTitle": "",
-			"searchTitle": "",
-			"timeStamp": 1750475361439,
-			"commandLineArguments": "",
-			"exclude": true,
-			"excludeArtwork": false
-		},
-		"Conception II: Children of the Seven Stars ${id:2999766718}": {
-			"newTitle": "",
-			"searchTitle": "",
-			"timeStamp": 1750475329698,
-			"commandLineArguments": "",
-			"exclude": true,
-			"excludeArtwork": false
-		},
-		"Beta_Conker ${id:3406117081}": {
-			"newTitle": "Super Smash Bros.",
-			"searchTitle": "${gameid:33624}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750474982647
-		},
-		"Big_Boos_Haunt_Beta ${id:2757853128}": {
-			"newTitle": "Super Smash Bros.",
-			"searchTitle": "${gameid:33624}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750474083930
-		},
-		"dot hack Versus (English Patch) (BLJS93008).ps3 ${id:2150213559}": {
-			"newTitle": ".hack//Versus",
-			"searchTitle": "${gameid:5262752}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750473810567
-		},
-		"dot hack Link(English Patch) ${id:3953905159}": {
-			"newTitle": ".hack//Link",
-			"searchTitle": "${gameid:5258714}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1750473790556
-		},
-		"GoldenEye 007 - Reloaded (USA, Europe) (En,Fr,De,Es,It) ${id:2421275046}": {
-			"newTitle": "GoldenEye 007: Reloaded",
-			"searchTitle": "${gameid:37089}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1748137576514
-		},
 		"Sonic the Hedgehog (USA, Europe) (En,Ja,Fr,De,Es,It) ${id:2701659690}": {
 			"newTitle": "Sonic the Hedgehog",
 			"searchTitle": "${gameid:5249681}",
@@ -329,261 +457,133 @@
 			"exclude": false,
 			"timeStamp": 1746340695280
 		},
-		"Lost Odyssey ${id:3351522357}": {
-			"newTitle": "Lost Odyssey",
-			"searchTitle": "${gameid:36456}",
+		"Sonic the Hedgehog (USA, Europe) (En,Ja,Fr,De,Es,It) ${id:3801696317}": {
+			"newTitle": "Sonic the Hedgehog",
+			"searchTitle": "${gameid:5249681}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1746340059960
+			"timeStamp": 1759978262886
 		},
-		"Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Kan [010066801A138000][v0][US](nsw2u.com) ${id:2214188805}": {
-			"newTitle": "Yahari Game demo Ore no Seishun Love-Come wa Machigatteiru. Kan (やはりゲームでも俺の青春ラブコメはまちがっている。完)",
-			"searchTitle": "${gameid:5447643}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1745905565898
-		},
-		"Oregairu My Youth Romantic Comedy Is Wrong, As I Expected [0100E0D0154BC000][v0] ${id:3092229162}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5376653}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1745905538714
-		},
-		"Dot Hack Link (English patched v1.0.2) ${id:4054145382}": {
-			"newTitle": ".hack//Link",
-			"searchTitle": "${gameid:5258714}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1745898466934
-		},
-		"xenia-native ${id:4054578756}": {
-			"newTitle": "Xenia (Emulator)",
-			"searchTitle": "${gameid:5245877}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759722294484
-		},
-		"Dolphin ${id:4145859924}": {
-			"newTitle": "Dolphin (Program)",
-			"searchTitle": "${gameid:5321127}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759797283232
-		},
-		"Equibop ${id:3988557447}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5446446}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759797462210
-		},
-		"Faster Project Plus ${id:3173982210}": {
-			"newTitle": "Faster Project Plus",
-			"searchTitle": "${gameid:5362982}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759797704311
-		},
-		"FlashPoint ${id:2552092269}": {
-			"newTitle": "FlashPoint",
-			"searchTitle": "${gameid:5258030}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759797770226
-		},
-		"KHUx ${id:3762211263}": {
-			"newTitle": "Kingdom Hearts Union χ Dark Road",
-			"searchTitle": "${gameid:5430172}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798269548
-		},
-		"Kotatogram ${id:2308898789}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:37021}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798335081
-		},
-		"LACT ${id:2432206054}": {
-			"newTitle": "LACT",
-			"searchTitle": "${gameid:17733}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798422687
-		},
-		"Limo ${id:4124555959}": {
-			"newTitle": "Limo",
-			"searchTitle": "${gameid:5461720}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798506577
-		},
-		"Maniatic Launcher ${id:2588942808}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5276523}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798655289
-		},
-		"MegaManKeitaiWorld ${id:3226836272}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:36337}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759798957343
-		},
-		"Multiplex ${id:2487632417}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5482123}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799078309
-		},
-		"mymc-gui ${id:4158828449}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5327252}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799145176
-		},
-		"paramount-plus ${id:3171195657}": {
-			"newTitle": "Paramount+",
-			"searchTitle": "${gameid:5353900}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799288638
-		},
-		"PS3 Disc Dumper (on arch) ${id:3852249484}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5327253}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799689871
-		},
-		"Rusty PSN (GUI) (on arch) ${id:2929287725}": {
-			"newTitle": "Rusty PSN (GUI) (on arch)",
-			"searchTitle": "${gameid:5442034}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799843580
-		},
-		"samira ${id:4156873390}": {
-			"newTitle": "Steam Achievement Manager (Program)",
-			"searchTitle": "${gameid:5246949}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759799965435
-		},
-		"shadPS4Plus ${id:4185386672}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5458313}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800032530
-		},
-		"sling-tv ${id:3741284040}": {
-			"newTitle": "",
-			"searchTitle": "${gameid:5285509}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800148608
-		},
-		"SMB1R (on arch) ${id:3908627698}": {
-			"newTitle": "Super Mario Bros. Remastered",
-			"searchTitle": "${gameid:5502073}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800196435
-		},
-		"SOH ${id:4030641569}": {
-			"newTitle": "Ship of Harkinian",
-			"searchTitle": "${gameid:5335518}",
-			"commandLineArguments": "",
-			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800234048
-		},
-		"Super Mario 64 (on arch) ${id:3854183288}": {
+		"Super Mario 64 (on arch) ${id:3566758238}": {
 			"newTitle": "Super Mario 64 PC",
 			"searchTitle": "${gameid:5275846}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1759800562384
+			"timeStamp": 1759977776472
 		},
-		"Switch-Library-Manager ${id:3311560060}": {
+		"Switch-Library-Manager ${id:3875038266}": {
 			"newTitle": "",
 			"searchTitle": "${gameid:5271314}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800664201
+			"exclude": true,
+			"timeStamp": 1759888619762
 		},
-		"SwitchEmuModDownloader ${id:4278901710}": {
+		"SwitchEmuModDownloader ${id:3774620050}": {
 			"newTitle": "",
 			"searchTitle": "${gameid:5271314}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
-			"exclude": false,
-			"timeStamp": 1759800693321
+			"exclude": true,
+			"timeStamp": 1759888646230
 		},
-		"Warp ${id:3043459071}": {
-			"newTitle": "Warp",
+		"Terminal ${id:2459158372}": {
+			"newTitle": "",
 			"searchTitle": "${gameid:5321125}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1759800953018
+			"timeStamp": 1759817659847
 		},
-		"WiiUDownloader ${id:2431833701}": {
+		"Toro's Friend Network ${id:2565038756}": {
+			"newTitle": "Toro's Friend Network",
+			"searchTitle": "${gameid:5494010}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1758318948862
+		},
+		"Uncanny_Mansion ${id:3950573081}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:33624}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750546972985
+		},
+		"Wario_Castle ${id:4056462782}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:33624}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1750548242798
+		},
+		"Warp ${id:2732343850}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5321125}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759888735906
+		},
+		"WhatSie ${id:2913123489}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5340032}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759888706801
+		},
+		"WiiUDownloader ${id:2795785527}": {
 			"newTitle": "Wii U Downloader (Program)",
 			"searchTitle": "${gameid:5455591}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1759801005601
+			"timeStamp": 1759812492296
 		},
-		"winboat ${id:2838272004}": {
+		"winboat ${id:3136820255}": {
 			"newTitle": "",
 			"searchTitle": "${gameid:5288620}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1759801965710
+			"timeStamp": 1759812513248
 		},
-		"Zelda3 ${id:2867456762}": {
-			"newTitle": "Zelda3",
-			"searchTitle": "${gameid:5368217}",
+		"xenia ${id:2922491590}": {
+			"newTitle": "Xenia (Emulator)",
+			"searchTitle": "${gameid:5245877}",
 			"commandLineArguments": "",
 			"excludeArtwork": false,
 			"exclude": false,
-			"timeStamp": 1759802079163
+			"timeStamp": 1759889682414
+		},
+		"xenia-native ${id:4054578756}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:5245877}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759889788482
+		},
+		"Zelda3 ${id:2148872976}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:38124}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759818020206
+		},
+		"Zelda3 ${id:4164461360}": {
+			"newTitle": "",
+			"searchTitle": "${gameid:38124}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1759977913333
 		}
 	}
 }

@@ -1,6 +1,6 @@
-duckstation_Display.AspectRatio = "16:9"
+duckstation_Display.AspectRatio = "auto"
 duckstation_GPU.ResolutionScale = "3"
-duckstation_GPU.WidescreenHack = "true"
+duckstation_GPU.WidescreenHack = "false"
 swanstation_Audio_FastHook = "true"
 swanstation_BIOS_PatchFastBoot = "false"
 swanstation_BIOS_PathNTSCJ = "scph5500.bin"

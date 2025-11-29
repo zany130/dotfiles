@@ -153,6 +153,7 @@ customGames:
       - ~/Emulation/saves
     registry: []
     installDir: []
+    winePrefix: []
   - name: Persona 3 Reload
     integration: extend
     files:
@@ -163,6 +164,7 @@ customGames:
       - "<base>/P3R/Binaries/Win64/"
     registry: []
     installDir: []
+    winePrefix: []
   - name: Ryujinx Saves
     integration: override
     files:
@@ -170,6 +172,7 @@ customGames:
       - ~/.config/Ryujinx/bis/user/save/
     registry: []
     installDir: []
+    winePrefix: []
   - name: "The Legend of Heroes: Trails into Reverie"
     integration: extend
     files:
@@ -178,6 +181,7 @@ customGames:
       - "<base>/bin/Win64/"
     registry: []
     installDir: []
+    winePrefix: []
   - name: "The Legend of Heroes: Trails of Cold Steel III"
     integration: extend
     files:
@@ -186,6 +190,7 @@ customGames:
       - "<base>/bin/x64/"
     registry: []
     installDir: []
+    winePrefix: []
   - name: "The Legend of Heroes: Trails of Cold Steel IV"
     integration: extend
     files:
@@ -194,6 +199,7 @@ customGames:
       - "<base>/bin/Win64/"
     registry: []
     installDir: []
+    winePrefix: []
   - name: "The Legend of Heroes: Trails through Daybreak"
     integration: extend
     files:
@@ -203,6 +209,7 @@ customGames:
       - "<base>/*.ini"
     registry: []
     installDir: []
+    winePrefix: []
   - name: "The Legend of Heroes: Trails through Daybreak II"
     integration: extend
     files:
@@ -210,3 +217,4 @@ customGames:
       - "<base>/*.ini"
     registry: []
     installDir: []
+    winePrefix: []

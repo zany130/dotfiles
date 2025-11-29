@@ -1,4 +1,13 @@
-(15:01:03) [INFO]:    GOG REDIST:: GOGDL_CONFIG_PATH=/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gogdlConfig /app/bin/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gog_store/auth.json redist --ids ISI,DirectX,MSVC2008,UE4REDIST,MSVC2010,dotNet472 --path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/redist/gog 
+(22:43:56) [INFO]:    GOG REDIST:: GOGDL_CONFIG_PATH=/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gogdlConfig /app/bin/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/gog_store/auth.json redist --ids ISI,DirectX,MSVC2008,UE4REDIST,MSVC2010,dotNet472,MSVC2012_x64,MSVC2012 --path /home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/redist/gog 
 
 [API] INFO: Getting Dependencies repository
-[REDIST] INFO: Nothing to do
+(12.726892471313477, 'MB') 13345114
+(13.10498046875, 'MB') 13741568
+[PROGRESS] INFO: = Progress: 0.00 0/13741568, Running for: 00:00:00, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 0.00 MiB, Written: 0.00 MiB
+[PROGRESS] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[PROGRESS] INFO: = Progress: 100.00 13741568/13741568, Running for: 00:00:01, ETA: 00:00:00
+[PROGRESS] INFO: = Downloaded: 12.73 MiB, Written: 13.10 MiB
+[PROGRESS] INFO:  + Download	- 5.90 MiB/s (raw) / 6.19 MiB/s (decompressed)
+[PROGRESS] INFO:  + Disk	- 10.31 MiB/s (write) / 0.00 MiB/s (read)

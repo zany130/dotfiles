@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Utility;
-Comment[en_US]=OpenRGB 0.9, for controlling RGB lighting.
-Comment=OpenRGB 0.9, for controlling RGB lighting.
-Exec=/var/home/zany130/AppImages/openrgb.appimage --startminimized --profile MyRGB
+Comment[en_US]=OpenRGB 0.9+ (1.0rc2), for controlling RGB lighting.
+Comment=OpenRGB 0.9+ (1.0rc2), for controlling RGB lighting.
+Exec=/home/zany130/.local/bin/openrgb --client localhost:6742 --startminimized --profile MyRGB --server
 GenericName[en_US]=
 GenericName=
 Icon=OpenRGB

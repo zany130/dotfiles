@@ -104,6 +104,12 @@
 - /home/zany130/.stremio-server/
 - /home/zany130/.shiv/
 - /home/zany130/.var/app/com.usebottles.bottles/data/
+- /home/zany130/.var/app/dev.opengoal.OpenGOAL/data/
+- /home/zany130/.var/app/io.github.hedge_dev.unleashedrecomp/
+- /home/zany130/.var/app/io.github.vikdevelop.SaveDesktop/
+- /home/zany130/.var/app/io.github.fastrizwaan.WineZGUI/
+- /home/zany130/.var/app/moe.nyarchlinux.assistant/
+- /home/zany130/.var/app/space.gaiasky.GaiaSky/
 - /home/zany130/.vcpkg/
 - /home/zany130/.vpython*
 - /home/zany130/.vscode-oss/

@@ -6,6 +6,6 @@
     "msecUpdateIntervalTime": 30000,
     "notificationBatteryFull": true,
     "notificationBatteryLow": true,
-    "runOnStartup": true,
+    "runOnStartup": false,
     "styleName": "Default"
 }

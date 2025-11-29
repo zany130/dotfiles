@@ -2,7 +2,7 @@
 Description=
 
 [Service]
-ExecStart=/bin/bash /home/zany130/.config/EmuDeck/backend/tools/cloudSync/cloud_sync_watcher.sh
+ExecStart=/bin/bash /home/zany130/.config/EmuDeck/backend//tools/cloudSync/cloud_sync_watcher.sh
 
 [Install]
 WantedBy=default.target

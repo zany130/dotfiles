@@ -122,8 +122,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "Pegasus Frontend",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -208,7 +206,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -227,7 +224,8 @@
             "icon": ""
         },
         "parserId": "164824496516097459",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -241,8 +239,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -327,7 +323,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -346,7 +341,8 @@
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/emus/**/${title}_ico.@(png|jpg|ico)"
         },
         "parserId": "164824333516097458",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -360,8 +356,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "${romsdirglobal}/cloud",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -426,7 +420,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -445,7 +438,8 @@
             "icon": ""
         },
         "parserId": "164785598905497513",
-        "version": 25
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -459,8 +453,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "${romsdirglobal}/remoteplay",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -525,7 +517,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -544,7 +535,8 @@
             "icon": ""
         },
         "parserId": "164785598905497514",
-        "version": 25
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -1973,7 +1965,8 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -2877,8 +2870,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb"
@@ -2938,7 +2929,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -2957,7 +2947,8 @@
             "icon": ""
         },
         "parserId": "135113607715086732",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -2971,8 +2962,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3033,7 +3022,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3052,7 +3040,8 @@
             "icon": ""
         },
         "parserId": "167851246183635366",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -3066,8 +3055,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3128,7 +3115,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3147,7 +3133,8 @@
             "icon": ""
         },
         "parserId": "165103607715056732",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -3517,8 +3504,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3579,7 +3564,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3613,8 +3597,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3699,7 +3681,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3718,7 +3699,8 @@
             "icon": ""
         },
         "parserId": "16478559884003904",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -3732,8 +3714,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3794,7 +3774,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3828,8 +3807,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -3890,7 +3867,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -3909,7 +3885,8 @@
             "icon": ""
         },
         "parserId": "167184642099963041",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -3923,8 +3900,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4009,7 +3984,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4028,7 +4002,8 @@
             "icon": ""
         },
         "parserId": "164823604520657524",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -4042,8 +4017,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4104,7 +4077,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4138,8 +4110,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4200,7 +4170,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4344,8 +4313,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4406,7 +4373,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4440,8 +4406,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4526,7 +4490,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4545,7 +4508,8 @@
             "icon": ""
         },
         "parserId": "164785621855061661",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -4559,8 +4523,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -4621,7 +4583,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -4646,18 +4607,25 @@
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Game Boy Color - RetroArch SameBoy",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Game Boy Color - SameBoy"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}sameboy_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}sameboy_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4665,6 +4633,21 @@
         },
         "parserInputs": {
             "glob": "{gbc/**/!(homebrew),gbc}/${title}@(.7z|.7Z|.gb|.GB|.gbc|.GBC|.zip|.ZIP)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -4679,74 +4662,63 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785590985613234",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Game Boy Color - SameBoy"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785590985613234",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Game Boy - mGBA (Standalone)",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Game Boy - mGBA (Standalone)"
+        ],
+        "executableArgs": "-f \"'${filePath}'\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-f \"'${filePath}'\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4755,34 +4727,22 @@
         "parserInputs": {
             "glob": "{gb/**/!(homebrew),gb}/${title}@(.7z|.7Z|.gb|.GB|.dmg|.DMG|.zip|.ZIP)"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/mgba.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/mgba.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
-        "parserId": "164385421865061350",
-        "version": 25,
         "controllers": {
-            "switch_pro": {
-                "title": "EmuDeck - Switch Pro",
-                "mappingId": "emudeck_controller_switch_pro.vdf",
-                "profileType": "template"
-            },
-            "neptune": {
-                "title": "EmuDeck - Steam Deck",
-                "mappingId": "emudeck_controller_steamdeck.vdf",
-                "profileType": "template"
-            },
             "ps4": {
                 "title": "EmuDeck - Dual Shock 4",
                 "mappingId": "emudeck_controller_ps4.vdf",
@@ -4793,6 +4753,7 @@
                 "mappingId": "emudeck_controller_ps5.vdf",
                 "profileType": "template"
             },
+            "ps5_edge": null,
             "xbox360": {
                 "title": "EmuDeck - Xbox 360",
                 "mappingId": "emudeck_controller_xbox360.vdf",
@@ -4803,60 +4764,78 @@
                 "mappingId": "emudeck_controller_xboxone.vdf",
                 "profileType": "template"
             },
+            "xboxelite": null,
             "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "switch_joycon_right": null,
+            "switch_pro": {
+                "title": "EmuDeck - Switch Pro",
+                "mappingId": "emudeck_controller_switch_pro.vdf",
+                "profileType": "template"
+            },
+            "neptune": {
+                "title": "EmuDeck - Steam Deck",
+                "mappingId": "emudeck_controller_steamdeck.vdf",
+                "profileType": "template"
+            },
+            "steamcontroller_gordon": null
         },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Game Boy - mGBA (Standalone)"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164385421865061350",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Game Boy - RetroArch Gambatte",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Game Boy"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}gambatte_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}gambatte_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4864,6 +4843,21 @@
         },
         "parserInputs": {
             "glob": "{gb/**/!(homebrew),gb}/${title}@(.7z|.7Z|.gb|.GB|.dmg|.DMG|.zip|.ZIP)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -4878,78 +4872,85 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785598952083233",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Game Boy"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785598952083233",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Game Boy - RetroArch SameBoy",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Game Boy - SameBoy"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}sameboy_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}sameboy_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "{gb/**/!(homebrew),gb}/${title}@(.7z|.7Z|.gb|.GB|.dmg|.DMG|.zip|.ZIP)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -4964,93 +4965,80 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "parserInputs": {
-            "glob": "{gb/**/!(homebrew),gb}/${title}@(.7z|.7Z|.gb|.GB|.dmg|.DMG|.zip|.ZIP)"
-        },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785590985613233",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Game Boy - SameBoy"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785590985613233",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo GameCube - Dolphin",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}/gc",
+        "steamCategories": [
+            "Nintendo GameCube"
+        ],
         "executableArgs": "vblank_mode=0 %command% -b -e \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.ciso|.CISO|.dol|.DOL|.elf|.ELF|.gcm|.GCM|.gcz|.GCZ|.iso|.ISO|.json|.JSON|.nkit.iso|.NKIT.ISO|.nkit.gcz|.NKIT.GCZ|.rvz|.RVZ|.wad|.WAD|.wia|.WIA|.m3u|.M3U)"
         },
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/dolphin-emu.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": false
         },
-        "parserInputs": {
-            "glob": "**/${title}@(.ciso|.CISO|.dol|.DOL|.elf|.ELF|.gcm|.GCM|.gcz|.GCZ|.iso|.ISO|.json|.JSON|.nkit.iso|.NKIT.ISO|.nkit.gcz|.NKIT.GCZ|.rvz|.RVZ|.wad|.WAD|.wia|.WIA|.m3u|.M3U)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
@@ -5060,24 +5048,31 @@
         "controllers": {
             "ps4": null,
             "ps5": null,
+            "ps5_edge": null,
             "xbox360": null,
             "xboxone": null,
+            "xboxelite": null,
             "switch_joycon_left": null,
             "switch_joycon_right": null,
             "switch_pro": null,
-            "neptune": null
+            "neptune": null,
+            "steamcontroller_gordon": null
         },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
                 "stylesIcon": [],
                 "imageMotionTypes": [
-                    "static"
-                ]
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
@@ -5096,30 +5091,30 @@
         },
         "parserId": "164770728884890304",
         "version": 25,
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo GameCube"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Entertainment System - RetroArch Mesen",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Entertainment System"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mesen_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mesen_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5128,6 +5123,21 @@
         "parserInputs": {
             "glob": "{nes/**/!(homebrew),nes,famicom/**}/${title}@(.7z|.7Z|.nes|.NES|.fds|.FDS|.unf|.UNF|.unif|.UNIF|.zip|.ZIP)"
         },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -5141,160 +5151,156 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785621824841888",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Entertainment System"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785621824841888",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Metroid Prime Trilogy - PrimeHack",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}/primehacks",
+        "steamCategories": [
+            "Nintendo Wii"
+        ],
         "executableArgs": "vblank_mode=0 %command% run io.github.shiiion.primehack -b -e \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.ciso|.CISO|.dol|.DOL|.elf|.ELF|.gcm|.GCM|.gcz|.GCZ|.iso|.ISO|.json|.JSON|.nkit.iso|.NKIT.ISO|.rvz|.RVZ|.wad|.WAD|.wia|.WIA|.wbfs|.WBFS)"
         },
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/primehack.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": false
         },
-        "parserInputs": {
-            "glob": "**/${title}@(.ciso|.CISO|.dol|.DOL|.elf|.ELF|.gcm|.GCM|.gcz|.GCZ|.iso|.ISO|.json|.JSON|.nkit.iso|.NKIT.ISO|.rvz|.RVZ|.wad|.WAD|.wia|.WIA|.wbfs|.WBFS)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
                 "stylesIcon": [],
                 "imageMotionTypes": [
-                    "static"
-                ]
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
-        "parserId": "164770728884890305",
-        "version": 25,
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164770728884890305",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Super Game Boy - RetroArch Mesen S",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo Super Game Boy"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mesen-s_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mesen-s_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5303,6 +5309,21 @@
         "parserInputs": {
             "glob": "{sgb/**/!(homebrew),gb}/${title}@(.7z|.7Z|.gb|.GB|.gbc|.GBC|.sgb|.SGB|.dmg|.DMG|.zip|.ZIP)"
         },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -5316,74 +5337,63 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "16472550495204231",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Super Game Boy"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "16472550495204231",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo SNES (Super Nintendo) HD - RetroArch bsnes-hd",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/sneshd",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/sneshd",
+        "steamCategories": [
+            "Nintendo SNES (Super Nintendo) HD - bsnes-hd"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}bsnes_hd_beta_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}bsnes_hd_beta_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5392,6 +5402,21 @@
         "parserInputs": {
             "glob": "**/${title}@(.7z|.7Z|.bs|.BS|.fig|.FIG|.sfc|.SFC|.smc|.SMC|.swc|.SWC|.zip|.ZIP)"
         },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -5405,74 +5430,63 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "166785621840217949",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo SNES (Super Nintendo) HD - bsnes-hd"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166785621840217949",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo SNES (Super Nintendo) - RetroArch Snes9x",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Nintendo SNES (Super Nintendo)"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}snes9x_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}snes9x_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5481,6 +5495,21 @@
         "parserInputs": {
             "glob": "{snes/**/!(homebrew),snes,snesna/**}/${title}@(.7z|.7Z|.bs|.BS|.fig|.FIG|.sfc|.SFC|.smc|.SMC|.swc|.SWC|.zip|.ZIP)"
         },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -5494,58 +5523,40 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785621840217949",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo SNES (Super Nintendo)"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785621840217949",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5559,8 +5570,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle} (Ryujinx)",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -5621,7 +5630,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -5640,7 +5648,8 @@
             "icon": ""
         },
         "parserId": "164788906872922785",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -5654,8 +5663,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -5716,7 +5723,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -5735,23 +5741,31 @@
             "icon": ""
         },
         "parserId": "164785621855061650",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Virtual Boy - RetroArch Beetle VB",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/virtualboy",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/virtualboy",
+        "steamCategories": [
+            "Nintendo Virtual Boy"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mednafen_vb_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}mednafen_vb_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5759,6 +5773,21 @@
         },
         "parserInputs": {
             "glob": "**/${title}@(.vb|.VB|.vboy|.VBOY|.bin|.BIN|.7z|.7Z|.zip|.ZIP)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -5773,79 +5802,63 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164789998905398115",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Virtual Boy"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164789998905398115",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Wii - Dolphin",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/wii",
+        "steamCategories": [
+            "Nintendo Wii"
+        ],
         "executableArgs": "vblank_mode=0 %command% -b -e \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/wii",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle}",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/dolphin-emu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5854,10 +5867,15 @@
         "parserInputs": {
             "glob": "**/${title}@(.ciso|.CISO|.dol|.DOL|.elf|.ELF|.gcm|.GCM|.gcz|.GCZ|.iso|.ISO|.nkit.iso|.NKIT.ISO|.rvz|.RVZ|.wad|.WAD|.wia|.WIA|.wbfs|.m3u|.M3U|.json|.JSON)"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/dolphin-emu.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
@@ -5865,77 +5883,79 @@
             "removeBrackets": true
         },
         "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
             "switch_pro": null,
             "neptune": {
                 "title": "Gamepad with Mouse Trackpad",
                 "mappingId": "controller_neptune_gamepad+mouse.vdf",
                 "profileType": "template"
             },
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "steamcontroller_gordon": null
         },
-        "parserId": "164770823452964732",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164770823452964732",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Wii U - Cemu Native (.rpx)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/wiiu/roms/",
+        "steamCategories": [
+            "Nintendo Wii U - Cemu Native"
+        ],
         "executableArgs": "vblank_mode=0 %command% -f -g \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/wiiu/roms/",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle}",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -5944,17 +5964,22 @@
         "parserInputs": {
             "glob": "${title}/**/*.rpx"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
-            "switch_pro": {
-                "title": "EmuDeck - Switch Pro",
-                "mappingId": "emudeck_controller_switch_pro.vdf",
-                "profileType": "template"
-            },
-            "neptune": {
-                "title": "EmuDeck - Steam Deck",
-                "mappingId": "emudeck_controller_steamdeck.vdf",
-                "profileType": "template"
-            },
             "ps4": {
                 "title": "EmuDeck - Dual Shock 4",
                 "mappingId": "emudeck_controller_ps4.vdf",
@@ -5965,6 +5990,7 @@
                 "mappingId": "emudeck_controller_ps5.vdf",
                 "profileType": "template"
             },
+            "ps5_edge": null,
             "xbox360": {
                 "title": "EmuDeck - Xbox 360",
                 "mappingId": "emudeck_controller_xbox360.vdf",
@@ -5975,77 +6001,78 @@
                 "mappingId": "emudeck_controller_xboxone.vdf",
                 "profileType": "template"
             },
+            "xboxelite": null,
             "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "switch_joycon_right": null,
+            "switch_pro": {
+                "title": "EmuDeck - Switch Pro",
+                "mappingId": "emudeck_controller_switch_pro.vdf",
+                "profileType": "template"
+            },
+            "neptune": {
+                "title": "EmuDeck - Steam Deck",
+                "mappingId": "emudeck_controller_steamdeck.vdf",
+                "profileType": "template"
+            },
+            "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "parserId": "166758881839575782",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/systems/grid/wiiu.jpg",
             "tall": "",
+            "long": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/systems/grid/wiiu.jpg",
             "hero": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/hero.png",
             "logo": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/logo.png",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii U - Cemu Native"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166758881839575782",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Wii U - Cemu Native (.wud, .wux, .wua)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/wiiu/roms/",
+        "steamCategories": [
+            "Nintendo Wii U - Cemu Native"
+        ],
         "executableArgs": "vblank_mode=0 %command% -f -g \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/wiiu/roms/",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle}",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6054,17 +6081,22 @@
         "parserInputs": {
             "glob": "${title}@(.wux|.WUX|.wud|.WUD|.wua|.WUA)"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
         "controllers": {
-            "switch_pro": {
-                "title": "EmuDeck - Switch Pro",
-                "mappingId": "emudeck_controller_switch_pro.vdf",
-                "profileType": "template"
-            },
-            "neptune": {
-                "title": "EmuDeck - Steam Deck",
-                "mappingId": "emudeck_controller_steamdeck.vdf",
-                "profileType": "template"
-            },
             "ps4": {
                 "title": "EmuDeck - Dual Shock 4",
                 "mappingId": "emudeck_controller_ps4.vdf",
@@ -6075,6 +6107,7 @@
                 "mappingId": "emudeck_controller_ps5.vdf",
                 "profileType": "template"
             },
+            "ps5_edge": null,
             "xbox360": {
                 "title": "EmuDeck - Xbox 360",
                 "mappingId": "emudeck_controller_xbox360.vdf",
@@ -6085,77 +6118,78 @@
                 "mappingId": "emudeck_controller_xboxone.vdf",
                 "profileType": "template"
             },
+            "xboxelite": null,
             "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "switch_joycon_right": null,
+            "switch_pro": {
+                "title": "EmuDeck - Switch Pro",
+                "mappingId": "emudeck_controller_switch_pro.vdf",
+                "profileType": "template"
+            },
+            "neptune": {
+                "title": "EmuDeck - Steam Deck",
+                "mappingId": "emudeck_controller_steamdeck.vdf",
+                "profileType": "template"
+            },
+            "steamcontroller_gordon": null
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "parserId": "166758882107057128",
-        "version": 25,
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/systems/grid/wiiu.jpg",
             "tall": "",
+            "long": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/systems/grid/wiiu.jpg",
             "hero": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/hero.png",
             "logo": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/logo.png",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii U - Cemu Native"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166758882107057128",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Wii U - Cemu Proton (.rpx)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/wiiu/roms/",
+        "steamCategories": [
+            "Nintendo Wii U - Cemu Proton"
+        ],
         "executableArgs": "vblank_mode=0 %command% -w -f -g \"Z:${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/wiiu/roms/",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle} (Proton)",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle} (Proton)",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6164,29 +6198,22 @@
         "parserInputs": {
             "glob": "${title}/**/*.rpx"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
-        "parserId": "164824416516097458",
-        "version": 25,
         "controllers": {
-            "switch_pro": {
-                "title": "EmuDeck - Switch Pro",
-                "mappingId": "emudeck_controller_switch_pro.vdf",
-                "profileType": "template"
-            },
-            "neptune": {
-                "title": "EmuDeck - Steam Deck",
-                "mappingId": "emudeck_controller_steamdeck.vdf",
-                "profileType": "template"
-            },
             "ps4": {
                 "title": "EmuDeck - Dual Shock 4",
                 "mappingId": "emudeck_controller_ps4.vdf",
@@ -6197,6 +6224,7 @@
                 "mappingId": "emudeck_controller_ps5.vdf",
                 "profileType": "template"
             },
+            "ps5_edge": null,
             "xbox360": {
                 "title": "EmuDeck - Xbox 360",
                 "mappingId": "emudeck_controller_xbox360.vdf",
@@ -6207,65 +6235,78 @@
                 "mappingId": "emudeck_controller_xboxone.vdf",
                 "profileType": "template"
             },
+            "xboxelite": null,
             "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "switch_joycon_right": null,
+            "switch_pro": {
+                "title": "EmuDeck - Switch Pro",
+                "mappingId": "emudeck_controller_switch_pro.vdf",
+                "profileType": "template"
+            },
+            "neptune": {
+                "title": "EmuDeck - Steam Deck",
+                "mappingId": "emudeck_controller_steamdeck.vdf",
+                "profileType": "template"
+            },
+            "steamcontroller_gordon": null
         },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii U - Cemu Proton"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164824416516097458",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
         "configTitle": "Nintendo Wii U - Cemu Proton (.wud, .wux, .wua)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/wiiu/roms/",
+        "steamCategories": [
+            "Nintendo Wii U - Cemu Proton"
+        ],
         "executableArgs": "vblank_mode=0 %command% -w -f -g \"Z:${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/wiiu/roms/",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle} (Proton)",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle} (Proton)",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": false
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6274,29 +6315,22 @@
         "parserInputs": {
             "glob": "${title}@(.wux|.WUX|.wud|.WUD|.wua|.WUA)"
         },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/cemu.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": false
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
-        "parserId": "164824416518097458",
-        "version": 25,
         "controllers": {
-            "switch_pro": {
-                "title": "EmuDeck - Switch Pro",
-                "mappingId": "emudeck_controller_switch_pro.vdf",
-                "profileType": "template"
-            },
-            "neptune": {
-                "title": "EmuDeck - Steam Deck",
-                "mappingId": "emudeck_controller_steamdeck.vdf",
-                "profileType": "template"
-            },
             "ps4": {
                 "title": "EmuDeck - Dual Shock 4",
                 "mappingId": "emudeck_controller_ps4.vdf",
@@ -6307,6 +6341,7 @@
                 "mappingId": "emudeck_controller_ps5.vdf",
                 "profileType": "template"
             },
+            "ps5_edge": null,
             "xbox360": {
                 "title": "EmuDeck - Xbox 360",
                 "mappingId": "emudeck_controller_xbox360.vdf",
@@ -6317,44 +6352,55 @@
                 "mappingId": "emudeck_controller_xboxone.vdf",
                 "profileType": "template"
             },
+            "xboxelite": null,
             "switch_joycon_left": null,
-            "switch_joycon_right": null
+            "switch_joycon_right": null,
+            "switch_pro": {
+                "title": "EmuDeck - Switch Pro",
+                "mappingId": "emudeck_controller_switch_pro.vdf",
+                "profileType": "template"
+            },
+            "neptune": {
+                "title": "EmuDeck - Steam Deck",
+                "mappingId": "emudeck_controller_steamdeck.vdf",
+                "profileType": "template"
+            },
+            "steamcontroller_gordon": null
         },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
-                "stylesIcon": []
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Nintendo Wii U - Cemu Proton"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164824416518097458",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -7076,18 +7122,25 @@
     {
         "parserType": "Glob",
         "configTitle": "Sega Dreamcast - Flycast (Standalone)",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/dreamcast",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/dreamcast",
+        "steamCategories": [
+            "Sega Dreamcast - Flycast (Standalone)"
+        ],
+        "executableArgs": "\"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "\"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7095,122 +7148,21 @@
         },
         "parserInputs": {
             "glob": "**/${title}@(.7z|.7Z|.cdi|.CDI|.chd|.CHD|.cue|.CUE|.gdi|.GDI|.m3u|.M3U)"
-        },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
         },
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/flycast.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": false
         },
-        "parserId": "163584525855031650",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
-        },
-        "defaultImage": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Dreamcast - Flycast (Standalone)"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
-    },
-    {
-        "parserType": "Glob",
-        "configTitle": "Sega Dreamcast - RetroArch Flycast",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/dreamcast",
-        "steamDirectory": "${steamdirglobal}",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}flycast_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
-        "imageProviders": [
-            "sgdb",
-            "steamCDN"
-        ],
-        "disabled": true,
-        "userAccounts": {
-            "specifiedAccounts": [
-                "Global"
-            ]
-        },
-        "parserInputs": {
-            "glob": "**/${title}@(.7z|.7Z|.cdi|.CDI|.chd|.CHD|.cue|.CUE|.gdi|.GDI|.m3u|.M3U)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785622173694320",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
         },
         "controllers": {
             "ps4": null,
@@ -7225,44 +7177,156 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Dreamcast"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "163584525855031650",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
-        "configTitle": "Sega Game Gear - RetroArch Genesis Plus GX",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
+        "configTitle": "Sega Dreamcast - RetroArch Flycast",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/dreamcast",
+        "steamCategories": [
+            "Sega Dreamcast"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}flycast_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}genesis_plus_gx_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
+        "userAccounts": {
+            "specifiedAccounts": [
+                "Global"
+            ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.7z|.7Z|.cdi|.CDI|.chd|.CHD|.cue|.CUE|.gdi|.GDI|.m3u|.M3U)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "164785622173694320",
+        "version": 25,
+        "disabled": true
+    },
+    {
+        "parserType": "Glob",
+        "configTitle": "Sega Game Gear - RetroArch Genesis Plus GX",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Sega Game Gear"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}genesis_plus_gx_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
+        "imageProviders": [
+            "sgdb",
+            "steamCDN"
+        ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7271,35 +7335,20 @@
         "parserInputs": {
             "glob": "{gamegear/**/!(homebrew),gamegear}/${title}@(.7z|.7Z|.gg|.GG|.zip|.ZIP)"
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserId": "164785645224239563",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -7314,49 +7363,63 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Game Gear"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785645224239563",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Sega Genesis/Mega Drive - RetroArch Genesis Plus GX",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Sega Genesis/Mega Drive"
+        ],
         "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}genesis_plus_gx_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
-        "steamDirectory": "${steamdirglobal}",
         "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "titleModifier": "${fuzzyTitle}",
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7365,30 +7428,20 @@
         "parserInputs": {
             "glob": "{genesis/**/!(homebrew),genesis,megadrive/**}/${title}@(.7z|.7Z|.bin|.BIN|.gen|.GEN|.md|.MD|.smd|.SMD|.zip|.ZIP|.cue|.CUE)"
         },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
-        },
-        "parserId": "164806160364417694",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
         },
         "controllers": {
             "ps4": null,
@@ -7403,28 +7456,40 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Genesis/Mega Drive"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164806160364417694",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -7440,7 +7505,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -7518,18 +7583,25 @@
     {
         "parserType": "Glob",
         "configTitle": "Sega Master System - RetroArch Genesis Plus GX",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Sega Master System"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}genesis_plus_gx_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}genesis_plus_gx_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7538,35 +7610,20 @@
         "parserInputs": {
             "glob": "{mastersystem/**/!(homebrew),mastersystem}/${title}@(.7z|.7Z|.sms|.SMS|.zip|.ZIP)"
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserId": "16478564523883851",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
         },
         "controllers": {
             "ps4": null,
@@ -7581,28 +7638,40 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": false,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Master System"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "16478564523883851",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -7882,54 +7951,46 @@
         "configTitle": "Sega Saturn - RetroArch Beetle",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}",
+        "steamCategories": [
+            "Sega Saturn"
+        ],
         "executableArgs": "-L /mednafen_saturn_libretro.so \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "@(saturn|saturnjp)/**/${title}@(.7z|.7Z|.cue|.CUE|.iso|.ISO|.zip|.ZIP|.chd|.CHD|.m3u|.M3U)"
         },
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserInputs": {
-            "glob": "@(saturn|saturnjp)/**/${title}@(.7z|.7Z|.cue|.CUE|.iso|.ISO|.zip|.ZIP|.chd|.CHD|.m3u|.M3U)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": [],
-                "imageMotionTypes": [
-                    "static"
-                ]
-            }
-        },
-        "parserId": "166502992463815988",
-        "version": 25,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -7943,28 +8004,40 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sega Saturn"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166502992463815988",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -8338,7 +8411,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -8598,102 +8671,116 @@
         "configTitle": "Sony PlayStation 2 - PCSX2",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}/ps2",
+        "steamCategories": [
+            "Sony PlayStation 2"
+        ],
         "executableArgs": "-batch -fullscreen \"'${filePath}'\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.bin|.BIN|.chd|.CHD|.cso|.CSO|.dump|.DUMP|.gz|.GZ|.img|.IMG|.iso|.ISO|.mdf|.MDF|.nrg|.NRG)"
         },
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/pcsx2-qt.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": false
         },
-        "parserInputs": {
-            "glob": "**/${title}@(.bin|.BIN|.chd|.CHD|.cso|.CSO|.dump|.DUMP|.gz|.GZ|.img|.IMG|.iso|.ISO|.mdf|.MDF|.nrg|.NRG)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
                 "stylesIcon": [],
                 "imageMotionTypes": [
-                    "static"
-                ]
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
-        "parserId": "164785208872922785",
-        "version": 25,
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation 2"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785208872922785",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/ps3",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/ps3",
+        "steamCategories": [
+            "Sony PlayStation 3"
+        ],
+        "executableArgs": "--no-gui \"'${filePath}'\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "--no-gui \"'${filePath}'\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8702,297 +8789,22 @@
         "parserInputs": {
             "glob": "**/${title}/PS3_GAME/USRDIR/@(eboot.bin|EBOOT.BIN|ISO.BIN.EDAT|iso.bin.edat)"
         },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/rpcs3.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
         },
         "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
             "limitToGroups": [
                 "PS3"
-            ]
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/rpcs3.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785645271669680",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
-        },
-        "defaultImage": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation 3"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
-    },
-    {
-        "parserType": "Glob-regex",
-        "configTitle": "Sony PlayStation 3 - RPCS3 (Installed PKG)",
-        "steamDirectory": "${steamdirglobal}",
-        "romDirectory": "/home/zany130/Emulation/storage/rpcs3/dev_hdd0/game",
-        "executableArgs": "--no-gui \"'${filePath}'\"",
-        "executableModifier": "\"${exePath}\"",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "imageProviders": [
-            "sgdb",
-            "steamCDN"
-        ],
-        "imagePool": "${fuzzyTitle}",
-        "disabled": false,
-        "userAccounts": {
-            "specifiedAccounts": [
-                "Global"
-            ]
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/rpcs3.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserInputs": {
-            "glob-regex": "${/(^[NP].+)/}/USRDIR/@(eboot.bin|EBOOT.BIN)"
-        },
-        "titleFromVariable": {
+            ],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": [
-                "PSN"
-            ]
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
-        },
-        "parserId": "165182011334544893",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
-        },
-        "defaultImage": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation 3"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
-    },
-    {
-        "parserType": "Glob",
-        "configTitle": "Sony PlayStation Portable - PPSSPP (Standalone)",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/psp",
-        "steamDirectory": "${steamdirglobal}",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-f -g \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
-        "imageProviders": [
-            "sgdb",
-            "steamCDN"
-        ],
-        "disabled": false,
-        "userAccounts": {
-            "specifiedAccounts": [
-                "Global"
-            ]
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "parserInputs": {
-            "glob": "**/${title}@(.7z|.7Z|.elf|.ELF|.chd|.CHD|.cso|.CSO|.iso|.ISO|.pbp|.PBP|.prx|.PRX)"
-        },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "/home/zany130/Emulation/tools/launchers/ppsspp.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785656634747068",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
-        },
-        "defaultImage": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation Portable"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
-    },
-    {
-        "parserType": "Glob",
-        "configTitle": "Sony PlayStation Portable - RetroArch PPSSPP",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/psp",
-        "steamDirectory": "${steamdirglobal}",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}ppsspp_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
-        "imageProviders": [
-            "sgdb",
-            "steamCDN"
-        ],
-        "disabled": true,
-        "userAccounts": {
-            "specifiedAccounts": [
-                "Global"
-            ]
-        },
-        "parserInputs": {
-            "glob": "**/${title}@(.7z|.7Z|.elf|.ELF|.chd|.CHD|.cso|.CSO|.iso|.ISO|.pbp|.PBP|.prx|.PRX)"
-        },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserId": "164785656684747068",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
         },
         "controllers": {
             "ps4": null,
@@ -9007,132 +8819,439 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation Portable - RetroArch PPSSPP"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "164785645271669680",
+        "version": 25,
+        "disabled": false
     },
     {
-        "parserType": "Glob",
-        "configTitle": "Sony PlayStation Vita - Vita3k (Installed PKG)",
+        "parserType": "Glob-regex",
+        "configTitle": "Sony PlayStation 3 - RPCS3 (Installed PKG)",
         "steamDirectory": "${steamdirglobal}",
-        "romDirectory": "${romsdirglobal}${/}psvita",
-        "executableArgs": "-Fr \"${/.*[/\\\\]([^/\\\\]+)[/\\\\]/|${filePath}}\"",
+        "romDirectory": "/home/zany130/Emulation/storage/rpcs3/dev_hdd0/game",
+        "steamCategories": [
+            "Sony PlayStation 3"
+        ],
+        "executableArgs": "--no-gui \"'${filePath}'\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
         },
+        "parserInputs": {
+            "glob-regex": "${/(^[NP].+)/}/USRDIR/@(eboot.bin|EBOOT.BIN)"
+        },
         "executable": {
-            "path": "/home/zany130/Applications/Vita3K/Vita3K",
+            "path": "/home/zany130/Emulation/tools/launchers/rpcs3.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserInputs": {
-            "glob": "**/${title}/@(eboot.bin|EBOOT.BIN)"
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
         "titleFromVariable": {
-            "caseInsensitiveVariables": true,
-            "skipFileIfVariableWasNotFound": false,
             "limitToGroups": [
-                "PSV"
-            ]
+                "PSN"
+            ],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
         "imageProviderAPIs": {
             "sgdb": {
-                "nsfw": false,
-                "humor": false,
+                "nsfw": true,
+                "humor": true,
                 "styles": [],
                 "stylesHero": [],
                 "stylesLogo": [],
                 "stylesIcon": [],
                 "imageMotionTypes": [
-                    "static"
-                ]
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
             }
         },
-        "parserId": "166409089761171238",
-        "version": 25,
-        "disabled": false,
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "165182011334544893",
+        "version": 25,
+        "disabled": false
+    },
+    {
+        "parserType": "Glob",
+        "configTitle": "Sony PlayStation Portable - PPSSPP (Standalone)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/psp",
+        "steamCategories": [
+            "Sony PlayStation Portable"
+        ],
+        "executableArgs": "-f -g \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
+        "imageProviders": [
+            "sgdb",
+            "steamCDN"
+        ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
+        "userAccounts": {
+            "specifiedAccounts": [
+                "Global"
+            ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.7z|.7Z|.elf|.ELF|.chd|.CHD|.cso|.CSO|.iso|.ISO|.pbp|.PBP|.prx|.PRX)"
+        },
+        "executable": {
+            "path": "/home/zany130/Emulation/tools/launchers/ppsspp.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "164785656634747068",
+        "version": 25,
+        "disabled": false
+    },
+    {
+        "parserType": "Glob",
+        "configTitle": "Sony PlayStation Portable - RetroArch PPSSPP",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/psp",
+        "steamCategories": [
+            "Sony PlayStation Portable - RetroArch PPSSPP"
+        ],
+        "executableArgs": "-L ${os:win|cores|${os:mac|${racores}|${os:linux|${racores}}}}${/}ppsspp_libretro.${os:win|dll|${os:mac|dylib|${os:linux|so}}} \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
+        "imageProviders": [
+            "sgdb",
+            "steamCDN"
+        ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
+        "userAccounts": {
+            "specifiedAccounts": [
+                "Global"
+            ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.7z|.7Z|.elf|.ELF|.chd|.CHD|.cso|.CSO|.iso|.ISO|.pbp|.PBP|.prx|.PRX)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "164785656684747068",
+        "version": 25,
+        "disabled": true
+    },
+    {
+        "parserType": "Glob",
+        "configTitle": "Sony PlayStation Vita - Vita3k (Installed PKG)",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}${/}psvita",
+        "steamCategories": [
+            "Sony PlayStation Vita"
+        ],
+        "executableArgs": "-Fr \"${/.*[/\\\\]([^/\\\\]+)[/\\\\]/|${filePath}}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
+        "imageProviders": [
+            "sgdb",
+            "steamCDN"
+        ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
+        "userAccounts": {
+            "specifiedAccounts": [
+                "Global"
+            ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}/@(eboot.bin|EBOOT.BIN)"
+        },
+        "executable": {
+            "path": "/var/home/zany130/.local/bin/vita3k",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [
+                "PSV"
+            ],
+            "caseInsensitiveVariables": true,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation Vita"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166409089761171238",
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
         "configTitle": "Sony PlayStation - DuckStation",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/psx",
         "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/psx",
+        "steamCategories": [
+            "Sony PlayStation"
+        ],
+        "executableArgs": "-batch -fullscreen \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "executableArgs": "-batch -fullscreen \"${filePath}\"",
-        "imagePool": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -9141,121 +9260,20 @@
         "parserInputs": {
             "glob": "**/${title}@(.cue|.CUE|.img|.IMG|.chd|.CHD|.ecm|.ECM|.iso|.ISO|.m3u|.M3U|.mds|.MDS|.pbp|.PBP)"
         },
-        "titleFromVariable": {
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
         "executable": {
             "path": "/home/zany130/Emulation/tools/launchers/duckstation.sh",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserId": "164785656699856393",
-        "version": 25,
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
-        },
-        "defaultImage": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "long": "",
-            "tall": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
-    },
-    {
-        "parserType": "Glob",
-        "configTitle": "Sony PlayStation - RetroArch Beetle PSX HW",
-        "executableArgs": "-L /mednafen_psx_hw_libretro.so \"${filePath}\"",
-        "executableModifier": "\"${exePath}\"",
-        "romDirectory": "${romsdirglobal}/psx",
-        "steamDirectory": "${steamdirglobal}",
-        "startInDirectory": "",
-        "imageProviders": [
-            "sgdb",
-            "steamCDN"
-        ],
-        "titleModifier": "${fuzzyTitle}",
-        "imagePool": "${fuzzyTitle}",
-        "disabled": true,
-        "executable": {
-            "path": "${retroarchpath}",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "userAccounts": {
-            "specifiedAccounts": [
-                "Global"
-            ]
-        },
-        "parserInputs": {
-            "glob": "**/${title}@(.ccd|.CCD|.chd|.CHD|.cue|.CUE|.m3u|.M3U|.pbp|.PBP|.toc|.TOC)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
-        },
-        "parserId": "165153198040340580",
-        "version": 25,
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "imageMotionTypes": [
-                    "static"
-                ],
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": []
-            }
         },
         "controllers": {
             "ps4": null,
@@ -9270,82 +9288,179 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
+        "parserId": "164785656699856393",
+        "version": 25,
+        "disabled": false
+    },
+    {
+        "parserType": "Glob",
+        "configTitle": "Sony PlayStation - RetroArch Beetle PSX HW",
+        "steamDirectory": "${steamdirglobal}",
+        "romDirectory": "${romsdirglobal}/psx",
         "steamCategories": [
             "Sony PlayStation - Beetle PSX HW"
         ],
+        "executableArgs": "-L /mednafen_psx_hw_libretro.so \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
+        "imageProviders": [
+            "sgdb",
+            "steamCDN"
+        ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "imagePool": "${fuzzyTitle}",
+        "drmProtect": false,
+        "userAccounts": {
+            "specifiedAccounts": [
+                "Global"
+            ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.ccd|.CCD|.chd|.CHD|.cue|.CUE|.m3u|.M3U|.pbp|.PBP|.toc|.TOC)"
+        },
+        "executable": {
+            "path": "${retroarchpath}",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "titleFromVariable": {
+            "limitToGroups": [],
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "ps5_edge": null,
+            "xbox360": null,
+            "xboxone": null,
+            "xboxelite": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null,
+            "steamcontroller_gordon": null
+        },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "165153198040340580",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
         "configTitle": "Sony PlayStation - RetroArch SwanStation",
         "steamDirectory": "${steamdirglobal}",
         "romDirectory": "${romsdirglobal}/psx",
+        "steamCategories": [
+            "Sony PlayStation - SwanStation"
+        ],
         "executableArgs": "-L /swanstation_libretro.so \"${filePath}\"",
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
+        "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
             "steamCDN"
         ],
+        "onlineImageQueries": [
+            "${fuzzyTitle}"
+        ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "drmProtect": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
             ]
+        },
+        "parserInputs": {
+            "glob": "**/${title}@(.ccd|.CCD|.chd|.CHD|.cue|.CUE|.m3u|.M3U|.pbp|.PBP|.toc|.TOC)"
         },
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
             "appendArgsToExecutable": true
         },
-        "parserInputs": {
-            "glob": "**/${title}@(.ccd|.CCD|.chd|.CHD|.cue|.CUE|.m3u|.M3U|.pbp|.PBP|.toc|.TOC)"
-        },
         "titleFromVariable": {
+            "limitToGroups": [],
             "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "limitToGroups": []
+            "skipFileIfVariableWasNotFound": false
         },
         "fuzzyMatch": {
             "replaceDiacritics": true,
             "removeCharacters": true,
             "removeBrackets": true
         },
-        "imageProviderAPIs": {
-            "sgdb": {
-                "nsfw": false,
-                "humor": false,
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": [],
-                "imageMotionTypes": [
-                    "static"
-                ]
-            }
-        },
-        "parserId": "166001743996365855",
-        "version": 25,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -9359,28 +9474,40 @@
             "neptune": null,
             "steamcontroller_gordon": null
         },
+        "imageProviderAPIs": {
+            "sgdb": {
+                "nsfw": true,
+                "humor": true,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static",
+                    "animated"
+                ],
+                "sizes": [],
+                "sizesHero": [],
+                "sizesIcon": []
+            }
+        },
         "defaultImage": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
         },
         "localImages": {
-            "long": "",
             "tall": "",
+            "long": "",
             "hero": "",
             "logo": "",
             "icon": ""
         },
-        "steamInputEnabled": "1",
-        "drmProtect": false,
-        "steamCategories": [
-            "Sony PlayStation - SwanStation"
-        ],
-        "onlineImageQueries": [
-            "${fuzzyTitle}"
-        ]
+        "parserId": "166001743996365855",
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -9665,8 +9792,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -9727,7 +9852,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -9746,7 +9870,8 @@
             "icon": ""
         },
         "parserId": "164785621855061651",
-        "version": 25
+        "version": 25,
+        "disabled": true
     },
     {
         "parserType": "Non-SRM Shortcuts",
@@ -9758,8 +9883,6 @@
         "executableModifier": "",
         "startInDirectory": "",
         "titleModifier": "",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "steamCDN",
@@ -9818,7 +9941,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -9837,7 +9959,8 @@
             "icon": ""
         },
         "parserId": "175980966852986386",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -9851,8 +9974,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -9913,7 +10034,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -9932,7 +10052,8 @@
             "icon": ""
         },
         "parserId": "175980994522995146",
-        "version": 25
+        "version": 25,
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -9946,8 +10067,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb"
@@ -10007,7 +10126,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -10027,7 +10145,7 @@
         },
         "parserId": "17598100503283811",
         "version": 25,
-        "disabled": true
+        "disabled": false
     },
     {
         "parserType": "Glob",
@@ -10041,8 +10159,6 @@
         "executableModifier": "\"${exePath}\"",
         "startInDirectory": "",
         "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
         "steamInputEnabled": "1",
         "imageProviders": [
             "sgdb",
@@ -10103,7 +10219,6 @@
                 ],
                 "sizes": [],
                 "sizesHero": [],
-                "sizesTall": null,
                 "sizesIcon": []
             }
         },
@@ -10123,6 +10238,6 @@
         },
         "parserId": "175981005281573675",
         "version": 25,
-        "disabled": true
+        "disabled": false
     }
 ]
