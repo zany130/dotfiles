@@ -1,0 +1,12 @@
+[Unit]
+Description=Controls LG WebOS TV at wake-up
+After=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=false
+ExecStart=/usr/bin/timeout 15s /usr/bin/bash -lc '/home/zany130/Scripts/wolTV.sh'
+
+[Install]
+Alias=LG_wake_sleep.service
+WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target

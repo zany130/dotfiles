@@ -1,0 +1,14 @@
+[Unit]
+Description=Controls LG WebOS TV at Startup and Shutdown
+After=network-online.target
+StartLimitIntervalSec=30
+StartLimitBurst=5
+
+[Service]
+Type=simple
+RemainAfterExit=false
+ExecStart=/usr/bin/timeout 15s /usr/bin/bash -lc '/home/zany130/Scripts/wolTV.sh'
+
+[Install]
+Alias=LG_wake.service
+WantedBy=default.target
