@@ -1,0 +1,15 @@
+[Containments][1]
+ItemGeometries-1264x511=Applet-2:464,112,336,288,0;
+ItemGeometries-640x480=Applet-2:150,100,336,288,0;
+ItemGeometriesHorizontal=Applet-2:464,112,336,288,0;
+activityId=
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][1][Applets][2]
+immutability=1
+plugin=de.agundur.kcast

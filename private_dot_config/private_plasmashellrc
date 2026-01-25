@@ -1,0 +1,209 @@
+[Applets][275]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Applets][275][Configuration]
+PreloadWeight=0
+
+[Applets][275][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Applets][275][Configuration][Units]
+pressureUnit=5028
+speedUnit=9002
+temperatureUnit=6002
+visibilityUnit=2024
+
+[Applets][275][Configuration][WeatherStation]
+source=noaa|weather|Miami, Kendall-Tamiami Executive Airport, FL
+
+[FileDialogSize]
+2 screens: Height=591
+2 screens: Width=837
+3 screens: Height=591
+3 screens: Width=943
+
+[PlasmaViews][Panel 112]
+floating=1
+panelLengthMode=0
+
+[PlasmaViews][Panel 112][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 131]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 131][Defaults]
+offset=0
+thickness=60
+
+[PlasmaViews][Panel 133]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 133][Defaults]
+thickness=60
+
+[PlasmaViews][Panel 148]
+floating=1
+panelVisibility=2
+
+[PlasmaViews][Panel 148][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 180]
+floating=1
+
+[PlasmaViews][Panel 180][Defaults]
+offset=0
+thickness=34
+
+[PlasmaViews][Panel 181]
+floating=1
+
+[PlasmaViews][Panel 181][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 212]
+floating=1
+
+[PlasmaViews][Panel 212][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 224]
+floating=1
+
+[PlasmaViews][Panel 224][Defaults]
+offset=0
+thickness=34
+
+[PlasmaViews][Panel 237]
+floating=1
+panelLengthMode=1
+panelVisibility=1
+
+[PlasmaViews][Panel 237][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 273]
+alignment=132
+floating=1
+floatingApplets=1
+panelLengthMode=1
+panelVisibility=1
+
+[PlasmaViews][Panel 273][Defaults]
+offset=0
+thickness=600
+
+[PlasmaViews][Panel 273][Vertical1080]
+offset=0
+
+[PlasmaViews][Panel 299]
+floating=1
+
+[PlasmaViews][Panel 299][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 3]
+floating=1
+
+[PlasmaViews][Panel 3][Defaults]
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 31]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 31][Defaults]
+offset=0
+thickness=60
+
+[PlasmaViews][Panel 32]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 32][Defaults]
+maxLength=2017
+minLength=2017
+offset=0
+thickness=60
+
+[PlasmaViews][Panel 32][Horizontal2048]
+maxLength=2017
+minLength=2017
+
+[PlasmaViews][Panel 324]
+floating=1
+
+[PlasmaViews][Panel 324][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 331]
+floating=1
+panelLengthMode=1
+panelVisibility=1
+
+[PlasmaViews][Panel 331][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 4]
+floating=1
+
+[PlasmaViews][Panel 4][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 42]
+floating=1
+
+[PlasmaViews][Panel 42][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 44]
+floating=1
+
+[PlasmaViews][Panel 44][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 60]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 60][Defaults]
+maxLength=2017
+minLength=2017
+thickness=50
+
+[PlasmaViews][Panel 60][Horizontal2048]
+maxLength=2017
+minLength=2017
+
+[PlasmaViews][Panel 87]
+floating=1
+
+[PlasmaViews][Panel 87][Defaults]
+maxLength=2017
+minLength=2017
+thickness=50
+
+[PlasmaViews][Panel 87][Horizontal2048]
+maxLength=2017
+minLength=2017
+
+[PlasmaViews][Panel 93]
+floating=1
+
+[PlasmaViews][Panel 93][Defaults]
+offset=0
+thickness=34
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/taskmanager_configUpdate_wheelEnabled.js
