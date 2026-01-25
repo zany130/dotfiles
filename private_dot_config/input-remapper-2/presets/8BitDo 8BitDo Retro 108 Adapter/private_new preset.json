@@ -1,0 +1,61 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            },
+            {
+                "type": 1,
+                "code": 125,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            },
+            {
+                "type": 1,
+                "code": 50,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "  XF86AudioMicMute",
+        "name": "Mic Mute",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 125,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            },
+            {
+                "type": 1,
+                "code": 38,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_SCREENLOCK",
+        "name": "Lock Screen",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            },
+            {
+                "type": 1,
+                "code": 99,
+                "origin_hash": "51a5f6e67f790d8e6c58fc39e06e3d3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA + KEY_PRINT",
+        "name": "Screenshot",
+        "mapping_type": "key_macro"
+    }
+]
