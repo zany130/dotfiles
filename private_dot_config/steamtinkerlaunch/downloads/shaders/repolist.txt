@@ -1,28 +1,72 @@
+"https://blueskydefender.github.io/AstrayFX/";AstrayFX;BlueSkyDefender;Various anti-aliasing shaders and more (used to be part of Depth3D). Home of Smart Sharp, Temporal AA, NFAA, BloomingHDR and others.
+"https://github.com/akgunter/crt-royale-reshade";crt-royale-reshade;akgunter;Repository of crt-royale-reshade, an effect with multiple uses in the CRT emulation scene.
 "https://github.com/AlexTuduran/FGFX";FGFX;AlexTuduran;Collection of ReShade shaders.
+"https://github.com/AlexTuduran/FGFX";FGFX;AlexTuduran;FGFX: A collection of shaders for ReShade
+"https://github.com/AlucardDH/dh-reshade-shaders";dh-reshade-shaders;AlucardDH;Abstract shaders and some utility aswell like unditter and uniformity correction.
+"https://github.com/AnastasiaGals/Ann-ReShade";Ann-ReShade;AnastasiaGals;A set of shaders made by AnastasiaGals
 "https://github.com/aston89/Smart-vibrance-for-reshade";smart-variance;aston89;Smart vibrance shader This reshade shader is designed to enhance the vibrance of an image selectively
 "https://github.com/BarbatosBachiko/Reshade-Shaders";baba-reshade;barbatos;Home of UFakeHDR and other neat shaders by Barbatos
+"https://github.com/BarbatosBachiko/Reshade-Shaders";BB Shaders;Barbatos;ReShade shaders for visual enhancements, including anti-aliasing, ambient occlusion, global illumination, bloom, color grading, and other post-processing effects.
 "https://github.com/bituq/ZealShaders";ZealShaders;bituq;A bundle of HLSL shaders written for Reshade.
+"https://github.com/BlueSkyDefender/Depth3D";Depth3D;BlueSkyDefender;Lots of great utility shaders. Home of SuperDepth3D (adds 3D support on almost any game)
+"https://github.com/brussell1/Shaders";Shaders (brussell1);brussell1;Home of Eye Adaptation and UI Detect shaders.
+"https://github.com/CeeJayDK/SweetFX";SweetFX;CeeJay.dk;The original shader suite that ReShade was created to support. Home of many useful effects like SMAA, FXAA, LumaSharpen and CAS, as well as many ports of effects from the SweetFX injector.
+"https://github.com/ConstantineRudenko/Shaders";Shaders by MadCake;MadCake;Contains alternative implementation of Ambient Occlusion and Tonemapping.
+"https://github.com/crosire/reshade-shaders";reshade-shaders;crosire + community;Official shader repository. Required for most shaders, should be installed automatically by the setup tool.
+"https://github.com/Daodan317081/reshade-shaders";reshade-shaders (Daodan);Daodan;Home of the Comic, ColorIsolation, AspectRatioComposition, HotsamplingHelper and other shaders.
 "https://github.com/dddfault/NativeEnhancer-FE";NativeEnhancer-FE;dddfault;A simple and basic film emulation shader for ReShade.
 "https://github.com/EndlesslyFlowering/ReShade_HDR_shaders/";ReShade_HDR_shaders;EndlesslyFlowering;ReShade shaders focused on HDR analysis, (post) processing and (inverse) tone mapping.
+"https://github.com/EndlesslyFlowering/ReShade_HDR_shaders";ReShade_HDR_shaders;Lilium/EndlesslyFlowering;ReShade shaders focused on HDR analysis, (post) processing and (inverse) tone mapping.
+"https://github.com/Filoppi/PumboAutoHDR";PumboAutoHDR;Filoppi;Advanced ReShade AutoHDR
 "https://github.com/Filoppi/PumboAutoHDR/";PumboAutoHDR;Filoppi;Advanced ReShade AutoHDR
+"https://github.com/FransBouma/OtisFX";OtisFX;Otis_Inf;Home of Cinematic DOF and other utility shaders.
+"https://github.com/Fubaxiusz/fubax-shaders";fubax-shaders;Fubax;Home of Perfect Perspective (fov correction/distortion), Chromakey, Filmic Anamorphic Sharpen, Reflection (matcap), VR and other filmic shaders like Prism and Letterbox.
+"https://github.com/garamond13/ReShade-shaders";Garamond's ReShade Shaders;Garamond;ReShade effects, addons and GraphicalUpgrades for games.
 "https://github.com/GimleLarpes/potatoFX";potatoFX;GimleLarpes;A collection of HDR compatible reshade shaders.
 "https://github.com/guestrr/ReshadeShaders";guestrrShaders;guestrr;guestrrShaders
+"https://github.com/Heathen/Pirate-Shaders";Pirate-Shaders;Heathen;Really neat lesser known shader repository.
+"https://github.com/IAmTreyM/SHADERDECK";SHADERDECK;TreyM;Various Shaders by TreyM for ReShade
 "https://github.com/JakobPCoder/ReshadeBUR";ReshadeBUR;JakobPCoder;Enhance spatial upscaling quality in games using ReShade with BUR (Bad Upscaling Replacer).
 "https://github.com/JakobPCoder/ReshadeMotionEstimation";ReshadeMotionEstimation;JakobPCoder;Optical Flow for games in realtime
+"https://github.com/JakobPCoder/ReshadeTFAA";ReShadeTFAA;JakobPCoder;This is a work in progress Reshade shader, which acts as an addon to other, non temporal, anti aliasing methods.
 "https://github.com/JakobPCoder/ReshadeTFAA";ReshadeTFAA;JakobPCoder;This is a work in progress Reshade shader, which acts as an addon to other, non temporal, anti aliasing methods. Only works dx10+ maybe
+"https://github.com/LeonAquitaine/as-stagefx";as-stagefx;LeonAquitaine;AS-StageFX: Dynamic stage lighting &amp; atmospheric effects for ReShade. Features audio reactivity, spotlights, light walls and other effects.
+"https://github.com/liuxd17thu/BX-Shade";BX-Shade;BarricadeMKXX;Some ReShade Shaders made by BarricadeMKXX
 "https://github.com/liuxd17thu/BX-Shade";BX-Shade;liuxd17thu;Some ReShade Shaders made by BarricadeMKXX
+"https://github.com/LordKobra/CobraFX";CobraFX;SirCobra;Shaders designed for in-game photography.
+"https://github.com/LordOfLunacy/Insane-Shaders";Insane-Shaders;Lord of Lunacy;Home of some utility shaders such as Fog Removal.
+"https://github.com/luluco250/FXShaders";FXShaders;luluco250;Home of a few bloom shaders like NeoBloom, MagicHDR and other utility shaders like AspectRatioSuite, ArtisticVignette, FlexibleCA, MinimalColorGrading and NormalMap.
 "https://github.com/MajorPainTheCactus/AutoHDR-ReShade";AutoHDR;MajorPainTheCactus;AutoHDR addon and effect for ReShade
+"https://github.com/martymcmodding/iMMERSE";iMMERSE;Marty McFly;Marty McFly's new repository to be replacing qUINT soon. Hosts effects such as Launchpad, MXAO, Sharpen, and SMAA. All these shaders have been worked from the ground up and provide staggering performance and visuals in comparison to their qUINT counterparts.
+"https://github.com/martymcmodding/METEOR";METEOR;Marty McFly;Marty's Extra Effects for ReShade
 "https://github.com/martymcmodding/METEOR";METEOR;martymcmodding;Marty's Extra Effects for ReShade
+"https://github.com/martymcmodding/qUINT";qUINT;Marty McFly;The Marty McFly qUINT repository. Home of MXAO (ambient occlusion), Lightroom, Advanced DOF, DELCS (sharpening), Bloom and other utility shaders.
 "https://github.com/martymcmodding/ReShade-Optical-Flow";ReShade-Optical-Flow;martymcmodding;ReShade-Optical-Flow
 "https://github.com/Matsilagi/RSJankShaders";RSJankShaders;Matsilagi;Shaders that doesn't fit any other's criteria or looks, or that has better versions on main repos.
+"https://github.com/Matsilagi/RSRetroArch";RSRetroArch;Matsilagi, luluco250, Marty McFly;Shaders ported from RetroArch to ReShade, home of many CRT shaders.
 "https://github.com/Matsilagi/RSUnityShaders";RSUnityShaders;Matsilagi;A Repo of mostly grey-area shaders ported from Unity assets. No harm intended to the original authors.
 "https://github.com/MaxG2D/ReshadeSimpleHDRShaders";ReshadeSimpleHDRShaders;MaxG2D;Reshade HDR-Compatible shaders that focus on eye-candy effects and basic adjustments
 "https://github.com/mj-ehsan/eLITE_Shaders";eLITE_Shaders;mj-ehsan;Freemium High-Performance Mostion Estimation shaders for ReShade by NiceGuy.
+"https://github.com/mj-ehsan/NiceGuy-Shaders";NiceGuy-Shaders;mj-ehsan;A repository of shaders such as NiceGuy-Lighting, NiceGuy-Lamps, and HoleFiller.
 "https://github.com/murchalloo/murchFX";murchFX;murchalloo;some kind of reshade shaders
 "https://github.com/nullfrctl/reshade-shaders";Anagrama;nullfrctl;The Anagrama shader collection of Programs for the ReShade project by Crosire.
+"https://github.com/nullfrctl/reshade-shaders";The Anagrama collection;nullfrctl;Effects for ReShade with a focus on cinematic style
+"https://github.com/originalnicodr/CorgiFX";CorgiFX;Originalnicodr;Home of a few "enhanced" versions of known shaders.
+"https://github.com/papadanku/CShade";CShade;papadanku;Previously known as BrimsonFX, a repository that hosts shaders such as cMotionBlur, cAutoExposure, cGaussianBlur, and cBloom.
+"https://github.com/prod80/prod80-ReShade-Repository";prod80-ReShade-Repository;prod80;Home of many advanced color grading shaders + many photoshop-like ones.
+"https://github.com/PthoEastCoast/Ptho-FX";Ptho-FX;PthoEastCoast;A collection of shaders for ReShade by PthoEastCoast
+"https://github.com/Radegast-FFXIV/reshade-shaders";Warp-FX;Radegast;Fun and abstract effects like Swirl, Wave, Slit Scan, etc.
+"https://github.com/retroluxfilm/reshade-vrtoolkit";VRToolkit;VRToolkit;The VRToolkit is a modular shader created for ReShade to enhance the clarity &amp; sharpness in VR to get most out of your HMD while keeping the performance impact minimal.
+"https://github.com/rj200/Glamarye_Fast_Effects_for_ReShade";Glamayre Fast Effects;rj200;Faster versions of common post-processing (FXAA, AO, sharpen) plus Fake GI - a fast global illumination-like effect. For people who want some ReShade but haven't got the fastest machine.
+"https://github.com/smolbbsoop/smolbbsoopshaders";smolbbsoopshaders;smolbbsoop;A collection of ReShade shaders, mostly made for personal use but maybe somebody can get some use out of them!
 "https://github.com/thatshaman/ReShadeShaders";shaman's-ReShade;thatshaman;that_shaman's ReShade Shaders
+"https://github.com/TheGordinho/MLUT";MLUT;TheGordinho;A big collection of multi-LUT shaders.
 "https://github.com/TreyM/SHADERDECK";SHADERDECK;TreyM;Various Shaders by TreyM for ReShade
+"https://github.com/vortigern11/vort_Shaders";vort_Shaders;vortigen11;Repository of vort_HDR and vort_MotionBlur.
 "https://github.com/WhiteMagicRaven/fakebilinear2";fakebilinear2;WhiteMagicRaven;An improvement of previous fakebilinear , code is still unoptimized, it produces less graphical glitches
+"https://github.com/yplebedev/UjelFX-ReShade-Effect-Pack-by-BFB";UjelFX-ReShade-Effect-Pack;BFB;Effects that took way too long to make. Made for and around HL2.
 "https://github.com/yplebedev/UjelFX-ReShade-Effect-Pack-by-BFB";Ujel HDR;yplebedev;efects that took way too long to make. Made for and around HL2.
 "https://github.com/Zackin5/Misc-ReShade-Shaders";Misc-ReShade-Shaders;Zackin5;Various ReShade shaders I've made
+"https://github.com/Zenteon/QuarkFX";QuarkFX;Zenteon;Quark is a repository of efficient and high quality shaders meant to adhere closely to physical methods while maintaining a consistent artistic vision, and ignoring the restricting limitations of DirectX9.
 "https://github.com/Zenteon/QuarkFX";QuarkFX;Zenteon;Quark Shaders for ReShade, Quark is a repository of efficient and high quality shaders meant to adhere closely to physical methods.
+"https://github.com/Zenteon/ZN_FX";ZN_FX;Zenteon;Repository of ZN_FX, featuring the Depth-Aware Mipmapped Ray Tracing (DAMP_RT) shader.

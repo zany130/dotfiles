@@ -2210,10 +2210,7 @@
                 "name": "OpenRGB Visual Map Plugin"
             }
         ],
-        "plugins_remove": [
-            "/home/zany130/.config/OpenRGB/plugins/libOpenRGBEffectsPlugin.so.1.0.0",
-            "/home/zany130/.config/OpenRGB/plugins/libOpenRGBVisualMapPlugin.so.1.0.0"
-        ]
+        "plugins_remove": []
     },
     "Server": {
         "legacy_workaround": false
@@ -2242,12 +2239,12 @@
             "set_on_exit": false
         },
         "geometry": {
-            "height": 1031,
+            "height": 1033,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 942,
-            "x": 967,
-            "y": 42
+            "width": 2538,
+            "x": 1931,
+            "y": 40
         },
         "greyscale_tray_icon": false,
         "language": "default",

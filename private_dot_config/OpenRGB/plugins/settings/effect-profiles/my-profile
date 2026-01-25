@@ -6,48 +6,17 @@
             "Brightness": 100,
             "ControllerZones": [
                 {
-                    "description": "Logitech Keyboard Device",
+                    "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "",
-                    "name": "Logitech G512 RGB",
+                    "location": "HID: /dev/hidraw1",
+                    "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
                     "self_brightness": 100,
-                    "serial": "0A77307A3336",
-                    "vendor": "Logitech",
-                    "version": "",
-                    "zone_idx": 0
-                }
-            ],
-            "CustomName": "",
-            "CustomSettings": {
-                "saturation": 255
-            },
-            "EffectClassName": "Bloom",
-            "FPS": 60,
-            "RandomColors": false,
-            "Slider2Val": 1,
-            "Speed": 79,
-            "Temperature": 0,
-            "Tint": 0
-        },
-        {
-            "AllowOnlyFirst": false,
-            "AutoStart": true,
-            "Brightness": 100,
-            "ControllerZones": [
-                {
-                    "description": "Corsair Lighting Node Device",
-                    "is_segment": false,
-                    "location": "HID: /dev/hidraw6",
-                    "name": "Corsair Commander Pro",
-                    "reverse": false,
-                    "segment_idx": -1,
-                    "self_brightness": 100,
-                    "serial": "0E0500637329041A",
-                    "vendor": "Corsair",
-                    "version": "0.9.212",
-                    "zone_idx": 0
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 1
                 }
             ],
             "CustomName": "",
@@ -60,7 +29,7 @@
                 "speed_mult": 12
             },
             "EffectClassName": "Bubbles",
-            "FPS": 10,
+            "FPS": 60,
             "RandomColors": false,
             "Slider2Val": 1,
             "Speed": 1,
@@ -80,22 +49,50 @@
             "Brightness": 100,
             "ControllerZones": [
                 {
-                    "description": "Corsair Lighting Node Device",
+                    "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw6",
-                    "name": "Corsair Commander Pro",
+                    "location": "HID: /dev/hidraw1",
+                    "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
                     "self_brightness": 100,
-                    "serial": "0E0500637329041A",
-                    "vendor": "Corsair",
-                    "version": "0.9.212",
-                    "zone_idx": 1
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 8
                 }
             ],
             "CustomName": "",
+            "CustomSettings": {
+                "backColorBrightness": 50,
+                "backgroundColors": 0,
+                "fadeInSpeed": 50,
+                "fadeOutSpeed": 50,
+                "starColors": [
+                    16711808,
+                    16744448,
+                    65535,
+                    8453888,
+                    16777079
+                ],
+                "starDensity": 50,
+                "starOnTime": 50
+            },
             "EffectClassName": "StarryNight",
-            "FPS": 10,
+            "FPS": 60,
             "RandomColors": true,
             "Slider2Val": 37,
             "Speed": 50,
@@ -107,6 +104,40 @@
                 9765119,
                 65518,
                 65310
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 7
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "direction": 0
+            },
+            "EffectClassName": "Stack",
+            "FPS": 60,
+            "RandomColors": true,
+            "Slider2Val": 1,
+            "Speed": 10,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                16711731
             ]
         }
     ],
