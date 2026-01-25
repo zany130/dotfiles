@@ -1,0 +1,77 @@
+[
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [
+            "obs-va-vah264enc",
+            "obs-va-vaav1enc",
+            "obs-va-vah265enc"
+        ],
+        "id": "",
+        "module_name": "obs-vaapi",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [
+            "gstreamer-encoder-h264",
+            "gstreamer-encoder-h265"
+        ],
+        "id": "",
+        "module_name": "obs-gstreamer",
+        "outputs": [
+            "gstreamer-output"
+        ],
+        "services": [],
+        "sources": [
+            "gstreamer-source",
+            "gstreamer-filter-video",
+            "gstreamer-filter-audio"
+        ],
+        "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "obs-backgroundremoval",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "background_removal",
+            "enhanceportrait"
+        ],
+        "version": ""
+    },
+    {
+        "display_name": "linux-vkcapture",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "linux-vkcapture",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "vkcapture-source"
+        ],
+        "version": ""
+    },
+    {
+        "display_name": "DroidCam",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "droidcam-obs",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "droidcam_obs"
+        ],
+        "version": ""
+    }
+]

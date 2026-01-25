@@ -1,0 +1,157 @@
+12:31:37.932: [Safe Mode] Unclean shutdown detected!
+12:32:40.452: [Safe Mode] User elected to launch normally.
+12:32:40.452: Command Line Arguments: --minimize-to-tray
+12:32:40.452: Platform: Wayland
+12:32:40.453: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+12:32:40.453: CPU Speed: 3698.287MHz
+12:32:40.453: Physical Cores: 6, Logical Cores: 12
+12:32:40.453: Physical Memory: 32001MB Total, 16518MB Free
+12:32:40.453: Kernel Version: Linux 6.9.8-202.fsync.fc40.x86_64
+12:32:40.453: Flatpak Branch: stable
+12:32:40.453: Flatpak Arch: x86_64
+12:32:40.453: Flatpak Runtime: runtime/org.kde.Platform/x86_64/6.6
+12:32:40.453: App Extensions:
+12:32:40.453:  - com.obsproject.Studio.Plugin.DroidCam
+12:32:40.453:  - com.obsproject.Studio.Plugin.GStreamerVaapi
+12:32:40.453:  - com.obsproject.Studio.Plugin.Gstreamer
+12:32:40.453:  - com.obsproject.Studio.Plugin.OBSVkCapture
+12:32:40.453:  - org.freedesktop.LinuxAudio.Plugins.TAP
+12:32:40.453:  - org.freedesktop.LinuxAudio.Plugins.swh
+12:32:40.453:  - com.obsproject.Studio.Locale
+12:32:40.453: Runtime Extensions:
+12:32:40.453:  - org.freedesktop.Platform.GL.default
+12:32:40.453:  - org.freedesktop.Platform.openh264
+12:32:40.453:  - org.freedesktop.Platform.VulkanLayer.MangoHud
+12:32:40.453:  - org.freedesktop.Platform.VulkanLayer.OBSVkCapture
+12:32:40.453:  - org.freedesktop.Platform.VulkanLayer.gamescope
+12:32:40.453:  - org.freedesktop.Platform.VulkanLayer.vkBasalt
+12:32:40.453:  - org.gtk.Gtk3theme.adw-gtk3
+12:32:40.453:  - org.gtk.Gtk3theme.adw-gtk3-dark
+12:32:40.453:  - org.kde.KStyle.Adwaita
+12:32:40.453:  - org.kde.Platform.Locale
+12:32:40.453:  - org.freedesktop.Platform.GL.default
+12:32:40.453: Flatpak Framework Version: 1.15.8
+12:32:40.453: Desktop Environment: KDE (KDE)
+12:32:40.453: Session Type: wayland
+12:32:40.479: Qt Version: 6.6.3 (runtime), 6.6.3 (compiled)
+12:32:40.479: Portable mode: false
+12:32:40.508: OBS 30.2.0 (linux)
+12:32:40.508: ---------------------------------
+12:32:40.508: ---------------------------------
+12:32:40.508: audio settings reset:
+12:32:40.508: 	samples per sec: 48000
+12:32:40.508: 	speakers:        2
+12:32:40.508: 	max buffering:   960 milliseconds
+12:32:40.508: 	buffering type:  dynamically increasing
+12:32:40.510: ---------------------------------
+12:32:40.510: Initializing OpenGL...
+12:32:40.510: Using EGL/Wayland
+12:32:40.525: Initialized EGL 1.5
+12:32:40.535: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 17.0.6, DRM 3.57, 6.9.8-202.fsync.fc40.x86_64)
+12:32:40.535: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.3 (git-0c49f54c76), shading language 4.60
+12:32:40.570: ---------------------------------
+12:32:40.570: video settings reset:
+12:32:40.570: 	base resolution:   1920x1080
+12:32:40.570: 	output resolution: 1920x1080
+12:32:40.570: 	downscale filter:  Bicubic
+12:32:40.570: 	fps:               60/1
+12:32:40.570: 	format:            NV12
+12:32:40.570: 	YUV mode:          Rec. 709/Partial
+12:32:40.570: NV12 texture support enabled
+12:32:40.570: P010 texture support not available
+12:32:40.573: Audio monitoring device:
+12:32:40.573: 	name: Default
+12:32:40.573: 	id: default
+12:32:40.573: ---------------------------------
+12:32:40.593: No AJA devices found, skipping loading AJA UI plugin
+12:32:40.593: Failed to initialize module 'aja-output-ui.so'
+12:32:40.608: No AJA devices found, skipping loading AJA plugin
+12:32:40.608: Failed to initialize module 'aja.so'
+12:32:40.811: [pipewire] Available capture sources:
+12:32:40.811: [pipewire]     - Monitor source
+12:32:40.811: [pipewire]     - Window source
+12:32:40.835: [obs-browser]: Version 2.23.5
+12:32:40.835: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+12:32:40.861: VAAPI: API version 1.19
+12:32:40.863: FFmpeg VAAPI H264 encoding supported
+12:32:40.869: FFmpeg VAAPI AV1 encoding not supported
+12:32:40.875: FFmpeg VAAPI HEVC encoding supported
+12:32:40.969: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.1 | RPC Version: 1)
+12:32:40.969: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.3 | Qt version (run-time): 6.6.3
+12:32:40.969: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+12:32:40.974: [obs-websocket] [obs_module_load] Module loaded.
+12:32:41.011: os_dlopen(/app/plugins/lib/obs-plugins/linux-vkcapture.so->/app/plugins/lib/obs-plugins/linux-vkcapture.so): libobs.so.0: cannot open shared object file: No such file or directory
+12:32:41.011: 
+12:32:41.014: os_dlopen(/app/plugins/lib/obs-plugins/linux-vkcapture.so->/app/plugins/lib/obs-plugins/linux-vkcapture.so): libobs.so.0: cannot open shared object file: No such file or directory
+12:32:41.014: 
+12:32:41.014: Module '/app/plugins/lib/obs-plugins/linux-vkcapture.so' not loaded
+12:32:41.018: os_dlopen(/app/plugins/lib/obs-plugins/obs-gstreamer.so->/app/plugins/lib/obs-plugins/obs-gstreamer.so): libobs.so.0: cannot open shared object file: No such file or directory
+12:32:41.018: 
+12:32:41.020: os_dlopen(/app/plugins/lib/obs-plugins/obs-gstreamer.so->/app/plugins/lib/obs-plugins/obs-gstreamer.so): libobs.so.0: cannot open shared object file: No such file or directory
+12:32:41.020: 
+12:32:41.020: Module '/app/plugins/lib/obs-plugins/obs-gstreamer.so' not loaded
+12:32:41.038: [obs-vaapi] version: 0.4.1, gst-runtime: 1.22.12
+12:32:41.141: [obs-vaapi] found vah264enc
+12:32:41.141: [obs-vaapi] found vah265enc
+12:32:41.142: ---------------------------------
+12:32:41.142:   Loaded Modules:
+12:32:41.142:     obs-vaapi.so
+12:32:41.142:     droidcam-obs.so
+12:32:41.142:     text-freetype2.so
+12:32:41.142:     rtmp-services.so
+12:32:41.142:     obs-x264.so
+12:32:41.142:     obs-websocket.so
+12:32:41.142:     obs-webrtc.so
+12:32:41.142:     obs-vst.so
+12:32:41.142:     obs-transitions.so
+12:32:41.142:     obs-qsv11.so
+12:32:41.142:     obs-outputs.so
+12:32:41.142:     obs-libfdk.so
+12:32:41.142:     obs-filters.so
+12:32:41.142:     obs-ffmpeg.so
+12:32:41.142:     obs-browser.so
+12:32:41.142:     linux-v4l2.so
+12:32:41.142:     linux-pulseaudio.so
+12:32:41.142:     linux-pipewire.so
+12:32:41.142:     linux-jack.so
+12:32:41.142:     linux-capture.so
+12:32:41.142:     image-source.so
+12:32:41.142:     frontend-tools.so
+12:32:41.142: ---------------------------------
+12:32:41.142: ---------------------------------
+12:32:41.142: Available Encoders:
+12:32:41.142:   Video Encoders:
+12:32:41.142: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:32:41.142: 	- ffmpeg_aom_av1 (AOM AV1)
+12:32:41.142: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+12:32:41.142: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+12:32:41.142: 	- obs_x264 (x264)
+12:32:41.148: 	- obs-va-vah264enc (VAAPI H.264 on Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT])
+12:32:41.152: 	- obs-va-vah265enc (VAAPI H.265 on Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT])
+12:32:41.152:   Audio Encoders:
+12:32:41.152: 	- ffmpeg_aac (FFmpeg AAC)
+12:32:41.152: 	- ffmpeg_opus (FFmpeg Opus)
+12:32:41.152: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:32:41.152: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:32:41.152: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:32:41.152: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:32:41.152: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:32:41.152: 	- libfdk_aac (libfdk AAC)
+12:32:41.152: ==== Startup complete ===============================================
+12:32:41.191: All scene data cleared
+12:32:41.191: ------------------------------------------------
+12:32:41.196: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+12:32:41.196: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:32:41.196: pulse-input: Started recording from 'alsa_output.usb-Sony_INZONE_H9___INZONE_H7-00.HiFi__hw_H7_0__sink.monitor' (default)
+12:32:41.196: [Loaded global audio device]: 'Desktop Audio'
+12:32:41.196: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+12:32:41.196: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+12:32:41.196: pulse-input: Started recording from 'alsa_input.usb-Sony_INZONE_H9___INZONE_H7-00.HiFi__hw_H7_0__source' (default)
+12:32:41.197: [Loaded global audio device]: 'Mic/Aux'
+12:32:41.198: Switched to scene 'Scene'
+12:32:41.198: ------------------------------------------------
+12:32:41.198: Loaded scenes:
+12:32:41.198: - scene 'Scene':
+12:32:41.198: ------------------------------------------------
+12:32:41.746: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:32:41.746: 
