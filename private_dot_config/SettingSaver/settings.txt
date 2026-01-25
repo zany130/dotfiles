@@ -1,0 +1,6 @@
+{"desktop":"7f9a3080-631e-4489-afb0-4abfb3a112b5","activity":"f577afb5-1dac-4cd8-932c-770f8518f05f","output":"DP-1"}
+{"engineType":0,"insertionPoint":0,"rotateLayout":false,"engineSettings":{}}
+{"desktop":"7f9a3080-631e-4489-afb0-4abfb3a112b5","activity":"ba3b1a17-4ea8-4002-91c3-ed494409356a","output":"HDMI-A-2"}
+{"engineType":0,"insertionPoint":0,"rotateLayout":false,"engineSettings":{}}
+{"desktop":"7f9a3080-631e-4489-afb0-4abfb3a112b5","activity":"ba3b1a17-4ea8-4002-91c3-ed494409356a","output":"DP-1"}
+{"engineType":0,"insertionPoint":0,"rotateLayout":false,"engineSettings":{}}
