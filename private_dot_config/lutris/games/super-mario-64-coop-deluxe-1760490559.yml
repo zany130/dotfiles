@@ -1,0 +1,20 @@
+game:
+  exe: /home/zany130/Games/super-mario-64-coop-deluxe/sm64coopdx
+game_slug: super-mario-64-coop-deluxe
+name: Super Mario 64 Coop Deluxe
+script:
+  files:
+  - cdx: https://github.com/coop-deluxe/sm64coopdx/releases/latest/download/sm64coopdx_Linux.zip
+  - rom: N/A:Select SM64 ROM (Must be .z64 format)
+  game:
+    exe: $GAMEDIR/sm64coopdx
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: cdx
+  - merge:
+      dst: $GAMEDIR
+      src: rom
+  - chmodx: $GAMEDIR/sm64coopdx
+slug: super-mario-64-coop-deluxe
+year: 2023

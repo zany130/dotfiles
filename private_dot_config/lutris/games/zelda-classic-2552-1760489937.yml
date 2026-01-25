@@ -1,0 +1,31 @@
+game:
+  exe: zplayer
+  launch_configs:
+  - exe: /home/zany130/Games/zelda-classic/zlauncher
+    name: Launcher
+  - exe: /home/zany130/Games/zelda-classic/zeditor
+    name: Editor
+game_slug: zelda-classic
+name: Zelda Classic
+script:
+  files:
+  - zeldaclassic:
+      filename: zeldaclassic.tar.gz
+      url: https://github.com/ZQuestClassic/ZQuestClassic/releases/download/2.55.2/2.55.2-linux.tar.gz
+  game:
+    exe: zplayer
+    launch_configs:
+    - exe: $GAMEDIR/zlauncher
+      name: Launcher
+    - exe: $GAMEDIR/zeditor
+      name: Editor
+  installer:
+  - extract:
+      file: zeldaclassic
+  system:
+    disable_runtime: true
+slug: zelda-classic-2552
+system:
+  disable_runtime: true
+version: 2.55.2
+year: 1998

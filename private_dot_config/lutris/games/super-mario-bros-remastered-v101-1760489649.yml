@@ -1,0 +1,17 @@
+game:
+  exe: /home/zany130/Games/super-mario-bros-remastered/SMB1R.x86_64
+game_slug: super-mario-bros-remastered
+name: Super Mario Bros Remastered
+script:
+  files:
+  - smbr: https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases/latest/download/Linux.zip
+  game:
+    exe: $GAMEDIR/SMB1R.x86_64
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: smbr
+  - chmodx: $GAMEDIR/SMB1R.x86_64
+slug: super-mario-bros-remastered-v101
+version: v1.0.1
+year: 2025

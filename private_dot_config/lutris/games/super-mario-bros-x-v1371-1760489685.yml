@@ -1,0 +1,16 @@
+game:
+  exe: smbx
+game_slug: super-mario-bros-x
+name: Super Mario Bros. X
+script:
+  files:
+  - gamedata: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.1/super-mario-bros-x-thextech-v1.3.7.1-linux-generic-u24.04-amd64.tar.gz
+  game:
+    exe: smbx
+  installer:
+  - extract:
+      file: gamedata
+  - chmodx: $GAMEDIR/smbx
+slug: super-mario-bros-x-v1371
+version: v1.3.7.1
+year: 2011
