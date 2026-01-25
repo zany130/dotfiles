@@ -1,0 +1,7 @@
+# settings
+
+(run-mode interactive)
+(string "My Pattern")
+(string-2 "mypattern")
+
+# end of settings
