@@ -1,0 +1,5 @@
+[General]
+height=1015
+lastVisitedPage=processes.page
+pageOrder=overview.page,applications.page,RandR_SystemMonitor_Page.page,GPU_Util.page,processes.page,history.page,IO.page,new_page.page
+width=942
