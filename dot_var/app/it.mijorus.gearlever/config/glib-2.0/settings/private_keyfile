@@ -1,0 +1,5 @@
+[it/mijorus/gearlever]
+is-maximized=false
+fetch-updates-in-background=true
+exec-as-name-for-terminal-apps=true
+manage-files-outside-default-folder=false
