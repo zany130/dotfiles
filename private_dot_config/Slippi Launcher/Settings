@@ -1,0 +1,7 @@
+{
+  "settings": {
+    "isoPath": "/var/mnt/GAMES/Emulation/roms/gc/Super Smash Bros. Melee (USA) (En,Ja) (v1.02).iso",
+    "launchMeleeOnPlay": true,
+    "useNetplayBeta": true
+  }
+}
