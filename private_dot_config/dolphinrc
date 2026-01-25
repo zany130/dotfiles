@@ -1,0 +1,59 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:move-content-display
+
+[ContentDisplay]
+DirectorySizeMode=ContentSize
+
+[ContextMenu]
+ShowSortBy=false
+ShowViewMode=false
+
+[ExtractDialog]
+2 screens: Height=1031
+2 screens: Width=1262
+3 screens: Height=822
+3 screens: Width=1018
+DirHistory[$e]=$HOME/Games/Severed_Chains_Linux/,$HOME/
+
+[FileDialogSize]
+3 screens: Height=832
+3 screens: Width=1536
+
+[FoldersPanel]
+HiddenFilesShown=true
+
+[General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+DoubleClickViewAction=none
+EditableUrl=true
+GlobalViewProps=false
+OpenExternallyCalledFolderInNewTab=true
+ShowFullPath=true
+ShowStatusBar=FullWidth
+ShowToolTips=true
+ShowZoomSlider=true
+Version=202
+ViewPropsTimestamp=2025,6,26,14,2,24.878
+
+[IconsMode]
+PreviewSize=256
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,rom-properties,rawthumbnail,rom-properties-kf6,librsvg,svgthumbnail,textthumbnail,ffmpegthumbs,webp-pixbuf
+
+[VersionControl]
+enabledPlugins=Bazaar
+
+[ViewPropertiesDialog]
+3 screens: Height=738
+3 screens: Width=367
+DP-1 HDMI-A-1 HDMI-A-2 Height 2048x864 DP-1=589
+DP-1 HDMI-A-1 HDMI-A-2 Width 2048x864 DP-1=362
