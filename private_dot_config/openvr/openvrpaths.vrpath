@@ -1,0 +1,17 @@
+{
+	"config" : 
+	[
+		"/var/home/zany130/.local/share/Steam/config"
+	],
+	"external_drivers" : null,
+	"jsonid" : "vrpathreg",
+	"log" : 
+	[
+		"/var/home/zany130/.local/share/Steam/logs"
+	],
+	"runtime" : 
+	[
+		"/var/home/zany130/.local/share/Steam/steamapps/common/SteamVR"
+	],
+	"version" : 1
+}
