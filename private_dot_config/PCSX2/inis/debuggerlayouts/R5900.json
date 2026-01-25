@@ -1,0 +1,627 @@
+{
+    "format": "PCSX2 Debugger User Interface Layout",
+    "versionMajor": 2,
+    "versionMinor": 0,
+    "defaultLayoutHash": 1217645723,
+    "name": "R5900",
+    "target": "EE",
+    "index": 0,
+    "isDefault": true,
+    "nextId": 12,
+    "baseLayout": "R5900",
+    "toolbars": "AAAA/wAAAAD9AAAAAAAAA64AAAO+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAYAHQAbwBvAGwAQgBhAHIARABlAGIAdQBnAQAAAAD/////AAAAAAAAAAAAAAAWAHQAbwBvAGwAQgBhAHIARgBpAGwAZQEAAAGs/////wAAAAAAAAAAAAAAGgB0AG8AbwBsAEIAYQByAFMAeQBzAHQAZQBtAAAAAAD/////AAAAAAAAAAAAAAAWAHQAbwBvAGwAQgBhAHIAVgBpAGUAdwAAAAAA/////wAAAAAAAAAA",
+    "dockWidgets": [
+        {
+            "uniqueName": "BreakpointView-2",
+            "id": 2,
+            "type": "BreakpointView",
+            "customDisplayName": "",
+            "isPrimary": true
+        },
+        {
+            "uniqueName": "DisassemblyView-0",
+            "id": 0,
+            "type": "DisassemblyView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "startAddress": 1317176,
+            "goToPCOnPause": true,
+            "showInstructionBytes": true
+        },
+        {
+            "uniqueName": "FunctionTreeView-10",
+            "id": 10,
+            "type": "FunctionTreeView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "showSizeColumn": false,
+            "groupByModule": false,
+            "groupBySection": false,
+            "groupBySourceFile": false
+        },
+        {
+            "uniqueName": "GlobalVariableTreeView-6",
+            "id": 6,
+            "type": "GlobalVariableTreeView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "showSizeColumn": false,
+            "groupByModule": false,
+            "groupBySection": false,
+            "groupBySourceFile": false,
+            "sortByIfTypeIsKnown": false
+        },
+        {
+            "uniqueName": "LocalVariableTreeView-7",
+            "id": 7,
+            "type": "LocalVariableTreeView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "showSizeColumn": false
+        },
+        {
+            "uniqueName": "MemorySearchView-11",
+            "id": 11,
+            "type": "MemorySearchView",
+            "customDisplayName": "",
+            "isPrimary": true
+        },
+        {
+            "uniqueName": "MemoryView-1",
+            "id": 1,
+            "type": "MemoryView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "startAddress": 1048576,
+            "viewType": 1,
+            "littleEndian": true
+        },
+        {
+            "uniqueName": "ParameterVariableTreeView-8",
+            "id": 8,
+            "type": "ParameterVariableTreeView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "showSizeColumn": false
+        },
+        {
+            "uniqueName": "RegisterView-9",
+            "id": 9,
+            "type": "RegisterView",
+            "customDisplayName": "",
+            "isPrimary": true,
+            "showVU0FFloat": false,
+            "showFPRFloat": false
+        },
+        {
+            "uniqueName": "SavedAddressesView-5",
+            "id": 5,
+            "type": "SavedAddressesView",
+            "customDisplayName": "",
+            "isPrimary": true
+        },
+        {
+            "uniqueName": "StackView-4",
+            "id": 4,
+            "type": "StackView",
+            "customDisplayName": "",
+            "isPrimary": true
+        },
+        {
+            "uniqueName": "ThreadView-3",
+            "id": 3,
+            "type": "ThreadView",
+            "customDisplayName": "",
+            "isPrimary": true
+        }
+    ],
+    "geometry": {
+        "allDockWidgets": [
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 0,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "RegisterView-9"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 0,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "FunctionTreeView-10"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 0,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "MemorySearchView-11"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 1,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "DisassemblyView-0"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "MemoryView-1"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "BreakpointView-2"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "ThreadView-3"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "StackView-4"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "SavedAddressesView-5"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "GlobalVariableTreeView-6"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "LocalVariableTreeView-7"
+            },
+            {
+                "lastCloseReason": 0,
+                "lastPosition": {
+                    "lastFloatingGeometry": {
+                        "height": 0,
+                        "width": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "lastOverlayedGeometries": [],
+                    "placeholders": [
+                        {
+                            "isFloatingWindow": false,
+                            "itemIndex": 2,
+                            "mainWindowUniqueName": "DebuggerWindow"
+                        }
+                    ],
+                    "tabIndex": -1,
+                    "wasFloating": false
+                },
+                "uniqueName": "ParameterVariableTreeView-8"
+            }
+        ],
+        "closedDockWidgets": [
+            "RegisterView-9",
+            "MemorySearchView-11",
+            "MemoryView-1",
+            "BreakpointView-2",
+            "StackView-4",
+            "SavedAddressesView-5",
+            "GlobalVariableTreeView-6",
+            "LocalVariableTreeView-7",
+            "ParameterVariableTreeView-8"
+        ],
+        "floatingWindows": [],
+        "mainWindows": [
+            {
+                "affinities": null,
+                "geometry": {
+                    "height": 1031,
+                    "width": 942,
+                    "x": 0,
+                    "y": 0
+                },
+                "isVisible": true,
+                "multiSplitterLayout": {
+                    "frames": {
+                        "13561": {
+                            "currentTabIndex": 1,
+                            "dockWidgets": [
+                                "RegisterView-9",
+                                "FunctionTreeView-10",
+                                "MemorySearchView-11"
+                            ],
+                            "geometry": {
+                                "height": 473,
+                                "width": 483,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "id": "13561",
+                            "isNull": false,
+                            "mainWindowUniqueName": "DebuggerWindow",
+                            "objectName": "FunctionTreeView-10",
+                            "options": 1
+                        },
+                        "13670": {
+                            "currentTabIndex": 0,
+                            "dockWidgets": [
+                                "DisassemblyView-0"
+                            ],
+                            "geometry": {
+                                "height": 473,
+                                "width": 452,
+                                "x": 488,
+                                "y": 0
+                            },
+                            "id": "13670",
+                            "isNull": false,
+                            "mainWindowUniqueName": "DebuggerWindow",
+                            "objectName": "DisassemblyView-0",
+                            "options": 1
+                        },
+                        "13707": {
+                            "currentTabIndex": 2,
+                            "dockWidgets": [
+                                "MemoryView-1",
+                                "BreakpointView-2",
+                                "ThreadView-3",
+                                "StackView-4",
+                                "SavedAddressesView-5",
+                                "GlobalVariableTreeView-6",
+                                "LocalVariableTreeView-7",
+                                "ParameterVariableTreeView-8"
+                            ],
+                            "geometry": {
+                                "height": 474,
+                                "width": 940,
+                                "x": 0,
+                                "y": 478
+                            },
+                            "id": "13707",
+                            "isNull": false,
+                            "mainWindowUniqueName": "DebuggerWindow",
+                            "objectName": "ThreadView-3",
+                            "options": 1
+                        }
+                    },
+                    "layout": {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "guestId": "13561",
+                                        "isContainer": false,
+                                        "isVisible": true,
+                                        "sizingInfo": {
+                                            "geometry": {
+                                                "height": 473,
+                                                "width": 483,
+                                                "x": 0,
+                                                "y": 0
+                                            },
+                                            "maxSizeHint": {
+                                                "height": 524323,
+                                                "width": 524291
+                                            },
+                                            "minSize": {
+                                                "height": 252,
+                                                "width": 422
+                                            },
+                                            "percentageWithinParent": 0.5165775401069519
+                                        }
+                                    },
+                                    {
+                                        "guestId": "13670",
+                                        "isContainer": false,
+                                        "isVisible": true,
+                                        "sizingInfo": {
+                                            "geometry": {
+                                                "height": 473,
+                                                "width": 452,
+                                                "x": 488,
+                                                "y": 0
+                                            },
+                                            "maxSizeHint": {
+                                                "height": 524287,
+                                                "width": 524334
+                                            },
+                                            "minSize": {
+                                                "height": 90,
+                                                "width": 127
+                                            },
+                                            "percentageWithinParent": 0.4834224598930481
+                                        }
+                                    }
+                                ],
+                                "isContainer": true,
+                                "isVisible": false,
+                                "orientation": 1,
+                                "sizingInfo": {
+                                    "geometry": {
+                                        "height": 473,
+                                        "width": 940,
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "maxSizeHint": {
+                                        "height": 524287,
+                                        "width": 1048630
+                                    },
+                                    "minSize": {
+                                        "height": 252,
+                                        "width": 554
+                                    },
+                                    "percentageWithinParent": 0.49947201689545936
+                                }
+                            },
+                            {
+                                "guestId": "13707",
+                                "isContainer": false,
+                                "isVisible": true,
+                                "sizingInfo": {
+                                    "geometry": {
+                                        "height": 474,
+                                        "width": 940,
+                                        "x": 0,
+                                        "y": 478
+                                    },
+                                    "maxSizeHint": {
+                                        "height": 524323,
+                                        "width": 524291
+                                    },
+                                    "minSize": {
+                                        "height": 132,
+                                        "width": 165
+                                    },
+                                    "percentageWithinParent": 0.5005279831045406
+                                }
+                            }
+                        ],
+                        "isContainer": true,
+                        "isVisible": false,
+                        "orientation": 2,
+                        "sizingInfo": {
+                            "geometry": {
+                                "height": 952,
+                                "width": 940,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "maxSizeHint": {
+                                "height": 16777215,
+                                "width": 16777215
+                            },
+                            "minSize": {
+                                "height": 90,
+                                "width": 80
+                            },
+                            "percentageWithinParent": 0.0
+                        }
+                    }
+                },
+                "normalGeometry": {
+                    "height": 1031,
+                    "width": 942,
+                    "x": 0,
+                    "y": 0
+                },
+                "options": 0,
+                "screenIndex": 1,
+                "screenSize": {
+                    "height": 1080,
+                    "width": 1920
+                },
+                "uniqueName": "DebuggerWindow",
+                "windowState": 0
+            }
+        ],
+        "screenInfo": [
+            {
+                "devicePixelRatio": 1.0,
+                "geometry": {
+                    "height": 1080,
+                    "width": 2560,
+                    "x": 1920,
+                    "y": 0
+                },
+                "index": 0,
+                "name": "DP-1"
+            },
+            {
+                "devicePixelRatio": 1.0,
+                "geometry": {
+                    "height": 1080,
+                    "width": 1920,
+                    "x": 0,
+                    "y": 0
+                },
+                "index": 1,
+                "name": "HDMI-A-1"
+            }
+        ],
+        "serializationVersion": 3
+    }
+}
