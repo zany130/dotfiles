@@ -1,7 +1,0 @@
-[io/github/seadve/Kooha]
-capture-mode='monitor-window'
-record-desktop-audio=false
-show-pointer=true
-selection=(132.0, 414.0, 868.0, 0.0)
-selection-context=((132.0, 0.0, 736.0, 414.0), (1920, 1080))
-screencast-restore-token='1d5ea4d5-dd8d-4c25-aa23-2f63e56d3d49'
