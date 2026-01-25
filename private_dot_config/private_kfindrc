@@ -1,0 +1,7 @@
+[FileDialogSize]
+2 screens: Height=587
+2 screens: Width=1008
+
+[History]
+Directories[$e]=ftp://192.168.4.205/dev_hdd0,file:///var/mnt/emulation/library/roms,/var/home/zany130/B65MPSW3.20.ROM.dumpded,file:$HOME,file:$HOME/B65MPSW3.20.ROM.dump,file:$HOME,file:///,file:///usr,lib,file:///home,file:///etc,file:///var,file:///mnt
+Patterns[$e]=DXE,*,logo,base,header,,*DXE*,*logo*,NPJI0004

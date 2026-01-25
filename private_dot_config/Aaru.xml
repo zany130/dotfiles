@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DicSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnableDecryption>true</EnableDecryption>
+  <GdprCompliance>1</GdprCompliance>
+  <SaveReportsGlobally>true</SaveReportsGlobally>
+  <ShareReports>true</ShareReports>
+  <Stats>
+    <BenchmarkStats>false</BenchmarkStats>
+    <CommandStats>true</CommandStats>
+    <DeviceStats>true</DeviceStats>
+    <FilesystemStats>true</FilesystemStats>
+    <FilterStats>true</FilterStats>
+    <MediaImageStats>true</MediaImageStats>
+    <MediaScanStats>true</MediaScanStats>
+    <MediaStats>true</MediaStats>
+    <PartitionStats>true</PartitionStats>
+    <ShareStats>true</ShareStats>
+    <VerifyStats>true</VerifyStats>
+  </Stats>
+</DicSettings>
