@@ -1,0 +1,53 @@
+2025-11-06T17:04:57 [i] Pegasus 6643332 (2025-03-31)
+2025-11-06T17:04:57 [i] Running on KDE Flatpak runtime (x86_64, xcb)
+2025-11-06T17:04:57 [i] Qt version 5.15.17
+2025-11-06T17:04:57 [i] Program settings loaded (`/home/zany130/.var/app/org.pegasus_frontend.Pegasus/config/pegasus-frontend/settings.txt`)
+2025-11-06T17:04:57 [i] Found locale `ar`
+2025-11-06T17:04:57 [i] Found locale `bs`
+2025-11-06T17:04:57 [i] Found locale `ca`
+2025-11-06T17:04:57 [i] Found locale `de`
+2025-11-06T17:04:57 [i] Found locale `en-GB`
+2025-11-06T17:04:57 [i] Found locale `en`
+2025-11-06T17:04:57 [i] Found locale `es`
+2025-11-06T17:04:57 [i] Found locale `fr`
+2025-11-06T17:04:57 [i] Found locale `hu`
+2025-11-06T17:04:57 [i] Found locale `it`
+2025-11-06T17:04:57 [i] Found locale `ja`
+2025-11-06T17:04:57 [i] Found locale `ko`
+2025-11-06T17:04:57 [i] Found locale `lt`
+2025-11-06T17:04:57 [i] Found locale `nl`
+2025-11-06T17:04:57 [i] Found locale `pt-BR`
+2025-11-06T17:04:57 [i] Found locale `ru`
+2025-11-06T17:04:57 [i] Found locale `sv`
+2025-11-06T17:04:57 [i] Found locale `zh-TW`
+2025-11-06T17:04:57 [i] Found locale `zh`
+2025-11-06T17:04:57 [i] Locale set to `en`
+2025-11-06T17:04:57 [i] Found theme `Pegasus Grid` at `:/themes/pegasus-theme-grid/`
+2025-11-06T17:04:57 [i] SDL version 2.32.10
+2025-11-06T17:04:57 [i] Theme set to `Pegasus Grid` (`:/themes/pegasus-theme-grid/`)
+2025-11-06T17:04:57 [i] Pegasus Metafiles: No metadata files found
+2025-11-06T17:04:57 [i] Pegasus Metafiles: Finished searching in 0ms
+2025-11-06T17:04:57 [i] Pegasus Media: Finished searching in 0ms
+2025-11-06T17:04:57 [i] Steam: Found installation at `/home/zany130/.steam/steam/`
+2025-11-06T17:04:57 [i] Steam: Found `/home/zany130/.steam/steam/config/config.vdf`
+2025-11-06T17:04:57 [i] Steam: Found `/home/zany130/.steam/steam/steamapps/libraryfolders.vdf`
+2025-11-06T17:04:57 [i] Gamepad: Connected device 0x0 (DualSense Edge Wireless Controller)
+2025-11-06T17:04:58 [i] Steam: 164 games found
+2025-11-06T17:04:58 [i] Steam: Finished searching in 1229ms
+2025-11-06T17:04:58 [i] GOG: 0 games found
+2025-11-06T17:04:58 [i] GOG: Finished searching in 0ms
+2025-11-06T17:04:58 [i] EmulationStation: No installation found
+2025-11-06T17:04:58 [i] EmulationStation: Finished searching in 0ms
+2025-11-06T17:04:58 [i] Logiqx: Finished searching in 0ms
+2025-11-06T17:04:58 [i] Lutris: Found data directory: `/home/zany130/.local/share/lutris/`
+2025-11-06T17:04:58 [i] Lutris: Finished searching in 16ms
+2025-11-06T17:04:58 [i] Skraper Assets: 0 assets found
+2025-11-06T17:04:58 [i] Skraper Assets: Finished searching in 0ms
+2025-11-06T17:04:58 [i] Pegasus Favorites: Finished searching in 0ms
+2025-11-06T17:04:58 [i] Pegasus Playtime: Finished searching in 0ms
+2025-11-06T17:04:58 [i] Waiting for online sources...
+2025-11-06T17:05:03 [i] Waiting for online sources took 4569ms
+2025-11-06T17:05:03 [w] The collection 'GOG' has no valid games, ignored
+2025-11-06T17:05:03 [i] Game list post-processing took 0ms
+2025-11-06T17:05:03 [i] 237 games found
+2025-11-06T17:05:03 [w] qrc:/themes/pegasus-theme-grid/layer_platform/PlatformCard.qml:71:5: QML Image: Cannot open: qrc:/themes/pegasus-theme-grid/assets/logos/lutris.svg
