@@ -2,13 +2,13 @@
 count=0
 
 [Session: saved at previous logout]
-clientId1=10abd5df7a000176912519600001601230002
+clientId1=10abd5df7a000176936697500000297920002
 clientId2=10abd5df7a000176912519900001601230005
 count=2
-program1=/tmp/.mount_openrgKbwbQ4/AppRun.wrapped
+program1=/tmp/.mount_openrgjiZseL/AppRun.wrapped
 program2=/usr/bin/megasync
-restartCommand1=/tmp/.mount_openrgKbwbQ4/AppRun.wrapped,-session,10abd5df7a000176912519600001601230002_1769128296_518906,-name,AppRun.wrapped
-restartCommand2=/usr/bin/megasync,-session,10abd5df7a000176912519900001601230005_1769128296_518132
+restartCommand1=/tmp/.mount_openrgjiZseL/AppRun.wrapped,-session,10abd5df7a000176936697500000297920002_1769384179_508192,-name,AppRun.wrapped
+restartCommand2=/usr/bin/megasync,-session,10abd5df7a000176912519900001601230005_1769384179_508407
 restartStyleHint1=0
 restartStyleHint2=0
 userId1=zany130

@@ -1,7 +1,7 @@
 {
-  "main": {
-    "width": 2608,
-    "height": 1102,
+  "splash": {
+    "width": 600,
+    "height": 250,
     "x": 0,
     "y": 0,
     "prev_x": 0,
@@ -11,9 +11,9 @@
     "decorated": true,
     "fullscreen": false
   },
-  "splash": {
-    "width": 660,
-    "height": 310,
+  "main": {
+    "width": 2608,
+    "height": 1102,
     "x": 0,
     "y": 0,
     "prev_x": 0,
