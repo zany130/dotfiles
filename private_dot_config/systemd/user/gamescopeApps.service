@@ -1,0 +1,42 @@
+# Purpose: Launch background apps headlessly in Gamescope session
+# Stops automatically when switching to Plasma to avoid duplicates
+# Apps are relaunched normally by Plasma's autostart
+# 
+# To disable: touch ~/.config/gamescope/disable-apps
+# To enable:  rm ~/.config/gamescope/disable-apps
+
+[Unit]
+Description=Headless apps for Gamescope session (fail-soft)
+ConditionPathExists=!%h/.config/gamescope/disable-apps
+
+# Conflict with Plasma session - force stop when Plasma starts
+Conflicts=plasma-workspace.target
+
+# Wait for graphical session and gamescope
+After=graphical-session.target
+After=gamescope-session-plus@steam.service
+BindsTo=gamescope-session-plus@steam.service
+
+StopWhenUnneeded=yes
+
+[Service]
+Type=exec
+KillMode=control-group
+
+ExecStart=%h/Scripts/startGamescopeApps.sh
+ExecStopPost=/bin/sh -c 'echo "Gamescope apps stopped and cleaned up" >&2'
+
+TimeoutStartSec=15
+TimeoutStopSec=10
+
+# Restart on crash (but not on manual stop)
+Restart=on-failure
+RestartSec=5
+StartLimitBurst=3
+StartLimitIntervalSec=60
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=graphical-session.target
