@@ -8,7 +8,7 @@
                 {
                     "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw1",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
@@ -26,7 +26,7 @@
                 "max_bubbles": 10,
                 "max_expansion": 100,
                 "rarity": 50,
-                "speed_mult": 12
+                "speed_mult": 3
             },
             "EffectClassName": "Bubbles",
             "FPS": 60,
@@ -51,7 +51,7 @@
                 {
                     "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw1",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
@@ -64,7 +64,7 @@
                 {
                     "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw1",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
@@ -114,7 +114,7 @@
                 {
                     "description": "DRGB Controller Device",
                     "is_segment": false,
-                    "location": "HID: /dev/hidraw1",
+                    "location": "HID: /dev/hidraw7",
                     "name": "Airgoo AG-DRGB16",
                     "reverse": false,
                     "segment_idx": -1,
@@ -133,7 +133,7 @@
             "FPS": 60,
             "RandomColors": true,
             "Slider2Val": 1,
-            "Speed": 10,
+            "Speed": 8,
             "Temperature": 0,
             "Tint": 0,
             "UserColors": [
