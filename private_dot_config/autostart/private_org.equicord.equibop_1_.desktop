@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;Chat;
+Comment[en_US]=
+Comment=
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=startequibop --file-forwarding org.equicord.equibop --ozone-platform-hint=auto --enable-wayland-ime --start-minimized @@u %U @@
+GenericName[en_US]=Internet Messenger
+GenericName=Internet Messenger
+Icon=org.equicord.equibop
+Keywords=discord;vencord;electron;chatequibop;
+MimeType=
+Name[en_US]=Equibop
+Name=Equibop
+Path=
+StartupNotify=true
+StartupWMClass=equibop
+Terminal=false
+TerminalOptions=
+Type=Application
+X-Desktop-File-Install-Version=0.28
+X-Flatpak=org.equicord.equibop
+X-KDE-SubstituteUID=false
+X-KDE-Username=

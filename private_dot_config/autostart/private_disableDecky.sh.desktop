@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/zany130/.config/plasma-workspace/env/disableDecky.sh
+Icon=application-x-shellscript
+Name=disableDecky.sh
+Type=Application
+X-KDE-AutostartScript=true

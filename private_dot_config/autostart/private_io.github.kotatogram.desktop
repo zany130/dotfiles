@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=flatpak run --command=kotatogram-desktop io.github.kotatogram -autostart
+Name=io.github.kotatogram
+Type=Application
+X-Flatpak=io.github.kotatogram
