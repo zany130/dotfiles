@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=re.sonny.Eloquent
-X-XDP-Autostart=re.sonny.Eloquent
-Exec=flatpak run --command=re.sonny.Eloquent re.sonny.Eloquent --gapplication-service
-X-Flatpak=re.sonny.Eloquent
