@@ -469,9 +469,6 @@ _launch=Meta+Space
 [services][org.gnome.Ptyxis.desktop]
 new-window=none
 
-[services][org.kde.konsole.desktop]
-_launch=none
-
 [services][org.kde.plasma-systemmonitor.desktop]
 _launch=Ctrl+Shift+Esc
 
@@ -503,7 +500,7 @@ _launch=Meta+Ctrl+B
 _launch=Meta+Shift+Esc
 
 [services][warp-terminal-AM.desktop]
-_launch=Ctrl+Alt+T
+_launch=none
 
 [services][warp.desktop]
 _launch=Ctrl+Alt+T
