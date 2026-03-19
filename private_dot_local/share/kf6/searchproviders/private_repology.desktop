@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=repology,repo,pkg
+Name=Repology
+Query=https://repology.org/projects/?search=\\{@}
+Type=Service

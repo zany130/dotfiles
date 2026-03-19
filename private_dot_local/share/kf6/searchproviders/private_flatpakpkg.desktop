@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=flatpak,flatpakpkg
+Name=Flathub
+Query=https://flathub.org/en/apps/search?q=\\{@}
+Type=Service

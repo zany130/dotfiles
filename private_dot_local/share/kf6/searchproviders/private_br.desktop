@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=br,brave
+Name=Brave Search
+Query=https://search.brave.com/search?q=\\{@}&t=kde
+Type=Service

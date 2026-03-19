@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=fedora,fedpkg,fedorapackages,dnf
+Name=Fedora
+Query=https://packages.fedoraproject.org/search?query=\\{@}
+Type=Service

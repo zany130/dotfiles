@@ -5,10 +5,11 @@
   <mlc_path>/var/mnt/emulation/retrodeck//var/mnt/emulation/library/bios/cemu</mlc_path>
   <permanent_storage>true</permanent_storage>
   <language>0</language>
-  <use_discord_presence>true</use_discord_presence>
+  <use_discord_presence>false</use_discord_presence>
   <fullscreen_menubar>false</fullscreen_menubar>
   <feral_gamemode>false</feral_gamemode>
   <check_update>false</check_update>
+  <receive_untested_updates>false</receive_untested_updates>
   <save_screenshot>true</save_screenshot>
   <vk_warning>false</vk_warning>
   <gp_download>true</gp_download>
@@ -16,6 +17,7 @@
   <fullscreen>true</fullscreen>
   <proxy_server/>
   <disable_screensaver>true</disable_screensaver>
+  <play_boot_sound>true</play_boot_sound>
   <console_language>1</console_language>
   <window_position>
     <x>-1</x>
@@ -36,6 +38,7 @@
     <y>-1</y>
   </pad_size>
   <pad_maximized>false</pad_maximized>
+  <show_icon_column>true</show_icon_column>
   <GameList>
     <style>0</style>
     <order/>
@@ -45,6 +48,7 @@
     <game_time_width>140</game_time_width>
     <game_started_width>160</game_started_width>
     <region_width>306</region_width>
+    <title_id>500</title_id>
   </GameList>
   <RecentLaunchFiles/>
   <RecentNFCFiles/>
@@ -54,14 +58,14 @@
   <GameCache/>
   <GraphicPack/>
   <Graphic>
-    <api>0</api>
+    <api>1</api>
     <device>00000000000000000000000000000000</device>
     <VSync>0</VSync>
     <GX2DrawdoneSync>true</GX2DrawdoneSync>
     <UpscaleFilter>1</UpscaleFilter>
     <DownscaleFilter>0</DownscaleFilter>
     <FullscreenScaling>0</FullscreenScaling>
-    <AsyncCompile>false</AsyncCompile>
+    <AsyncCompile>true</AsyncCompile>
     <vkAccurateBarriers>true</vkAccurateBarriers>
     <Overlay>
       <Position>0</Position>
@@ -103,6 +107,7 @@
     <OnlineEnabled>false</OnlineEnabled>
     <ActiveService>1</ActiveService>
   </Account>
+  <AccountService/>
   <Debug>
     <CrashDumpUnix>1</CrashDumpUnix>
     <GDBPort>1337</GDBPort>
@@ -110,4 +115,9 @@
   <Input>
     <DSUC host="127.0.0.1" port="26760"/>
   </Input>
+  <EmulatedUsbDevices>
+    <EmulateSkylanderPortal>false</EmulateSkylanderPortal>
+    <EmulateInfinityBase>false</EmulateInfinityBase>
+    <EmulateDimensionsToypad>false</EmulateDimensionsToypad>
+  </EmulatedUsbDevices>
 </content>

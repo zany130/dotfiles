@@ -19,21 +19,21 @@ Core:
   MFC Debug: false
   Preferred SPU Threads: 0
   SPU delay penalty: 3
-  SPU loop detection: false
+  SPU loop detection: true
   Max SPURS Threads: 6
-  SPU Block Size: Safe
+  SPU Block Size: Mega
   Accurate SPU DMA: false
   Accurate SPU Reservations: true
   Accurate Cache Line Stores: false
   Accurate RSX reservation access: false
-  RSX FIFO Accuracy: Fast
+  RSX FIFO Fetch Accuracy: Atomic
   SPU Verification: true
   SPU Cache: true
   SPU Profiler: false
+  PPU Profiler: false
   MFC Commands Shuffling Limit: 0
   MFC Commands Timeout: 0
   MFC Commands Shuffling In Steps: false
-  Enable TSX: Disabled
   XFloat Accuracy: Approximate
   Accurate PPU 128-byte Reservation Op Max Length: 0
   Stub PPU Traps: 0
@@ -52,8 +52,6 @@ Core:
   HLE lwmutex: false
   SPU LLVM Lower Bound: 0
   SPU LLVM Upper Bound: 18446744073709551615
-  TSX Transaction First Limit: 800
-  TSX Transaction Second Limit: 2000
   Clocks scale: 100
   SPU Wake-Up Delay: 0
   SPU Wake-Up Delay Thread Mask: 63
@@ -74,7 +72,7 @@ Video:
   Renderer: Vulkan
   Resolution: 1280x720
   Aspect ratio: 16:9
-  Frame limit: Infinite
+  Frame limit: Auto
   Second Frame Limit: 0
   MSAA: Auto
   Shader Mode: Async Shader Recompiler
@@ -106,6 +104,7 @@ Video:
   Multithreaded RSX: true
   Relaxed ZCULL Sync: false
   Force Hardware MSAA Resolve: false
+  3D Display Enabled: false
   3D Display Mode: Disabled
   Debug Program Analyser: false
   Accurate ZCULL stats: true
@@ -117,14 +116,15 @@ Video:
   Minimum Scalable Dimension: 16
   Shader Compiler Threads: 0
   Driver Recovery Timeout: 1000000
-  Driver Wake-Up Delay: 1
+  Driver Wake-Up Delay: 0
   Vblank Rate: 60
   Vblank NTSC Fixup: false
   DECR memory layout: false
   Allow Host GPU Labels: false
   Disable MSL Fast Math: false
   Disable Asynchronous Memory Manager: false
-  Output Scaling Mode: Bilinear
+  Output Scaling Mode: FidelityFX Super Resolution
+  Record With Overlays: true
   Vulkan:
     Adapter: AMD Radeon RX 7900 GRE (RADV NAVI31)
     Force FIFO present mode: false
@@ -134,6 +134,7 @@ Video:
     FidelityFX CAS Sharpening Intensity: 50
     Asynchronous Queue Scheduler: Safe
     VRAM allocation limit (MB): 65536
+    Use Re-BAR for GPU uploads: true
   Performance Overlay:
     Enabled: false
     Enable Framerate Graph: false
@@ -167,7 +168,7 @@ Audio:
   Dump to file: false
   Convert to 16 bit: false
   Audio Format: Automatic
-  Audio Formats: 0
+  Audio Formats: 15
   Audio Channel Layout: Automatic
   Audio Device: "@@@default@@@"
   Master Volume: 100
@@ -185,12 +186,13 @@ Input/Output:
   Camera: "Null"
   Camera type: Unknown
   Camera flip: None
-  Camera ID: Default
+  Camera ID: /dev/video0
+  SDL Camera ID: Default
   Move: "Null"
   Buzz emulated controller: "Null"
   Turntable emulated controller: "Null"
   GHLtar emulated controller: "Null"
-  Pad handler mode: Single-threaded
+  Pad handler mode: Multi-threaded
   Keep pads connected: false
   Pad handler sleep (microseconds): 1000
   Background input enabled: true
@@ -201,6 +203,7 @@ Input/Output:
   Emulated Midi devices: Keyboardßßß@@@Keyboardßßß@@@Keyboardßßß@@@
   Load SDL GameController Mappings: true
   IO Debug overlay: false
+  Mouse Debug overlay: false
   Fake Move Rotation Cone: 10
   Fake Move Rotation Cone (Vertical): 10
 System:
@@ -208,10 +211,11 @@ System:
   Language: English (US)
   Keyboard Type: English keyboard (US standard)
   Enter button assignment: Enter with cross
+  Date Format: ddmmyyyy
+  Time Format: clock12
   Console time offset (s): 0
-  System Name: RPCS3-731
-  PSID high: 0
-  PSID low: 0
+  System Name: RPCS3-794
+  Console PSID: 0x87F2A3384C5C28C0D36C461F5C12D8AC
   HDD Model Name: ""
   HDD Serial Number: ""
   Process ARGV: {}
@@ -224,16 +228,19 @@ Net:
   UPNP Enabled: true
   PSN status: RPCN
   PSN Country: us
+  Clans Enabled: true
 Savestate:
   Start Paused: false
   Suspend Emulation Savestate Mode: false
   Compatible Savestate Mode: false
   Inspection Mode Savestates: false
   Save Disc Game Data: false
+  Maximum SaveState Files: 4
+  Maximum SaveState Files Space (MiB): 4096
 Miscellaneous:
   Automatically start games after boot: true
-  Exit RPCS3 when process finishes: false
-  Pause emulation on RPCS3 focus loss: false
+  Exit RPCS3 when process finishes: true
+  Pause emulation on RPCS3 focus loss: true
   Start games in fullscreen mode: true
   Prevent display sleep while running games: true
   Show trophy popups: true
@@ -244,9 +251,11 @@ Miscellaneous:
   Show pressure intensity toggle hint: true
   Show analog limiter toggle hint: true
   Show mouse and keyboard toggle hint: true
+  Show capture hints: true
   Use native user interface: true
   GDB Server: 127.0.0.1:2345
   Silence All Logs: false
   Window Title Format: "FPS: %F | %R | %V | %T [%t]"
   Pause Emulation During Home Menu: false
-Log: {}Resolution Scale: = 100
+  Enable GameMode: false
+Log: {}

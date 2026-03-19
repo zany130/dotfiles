@@ -4,6 +4,7 @@ embed-application/octet-stream=false
 embed-application/pdf=false
 embed-application/vnd.flatpak=false
 embed-application/vnd.flatpak.ref=false
+embed-application/vnd.openxmlformats-officedocument.wordprocessingml.document=false
 embed-application/x-cd-image=false
 embed-application/x-docbook+xml=false
 embed-application/x-kdeuser1=false

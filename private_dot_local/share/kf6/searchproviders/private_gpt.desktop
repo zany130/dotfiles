@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=gpt
+Name=ChatGPT
+Query=https://chatgpt.com/?model=gpt-4o&prompt=\\{@}
+Type=Service

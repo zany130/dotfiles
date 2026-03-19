@@ -1,8 +1,11 @@
 [Desktop Entry]
 Type=Application
-Version=1.0
-Name=pcloud
-Comment=pcloudstartup script
-Exec=/var/home/zany130/Applications/pcloud/pcloud
-StartupNotify=false
+Name=pCloud Drive
+Comment=Cloud storage service for your files
+Exec="/var/home/zany130/Applications/pcloud/pCloud.AppImage"
+Icon=appimagekit-pcloud
+StartupWMClass=pcloud
 Terminal=false
+Categories=Network;FileTransfer;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

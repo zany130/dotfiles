@@ -2550,5 +2550,13 @@
 	"{\"0\":[\"citron\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
 		"output": "Citron (Emulator)",
 		"matched": true
+	},
+	"{\"0\":[\"Spider-Man Edge of Time (BLUS30760).ps3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "SpiderMan Edge of Time ps3",
+		"matched": false
+	},
+	"{\"0\":[\"Spider-Man Edge of Time (BLUS30760)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Spider-Man: Edge of Time",
+		"matched": true
 	}
 }

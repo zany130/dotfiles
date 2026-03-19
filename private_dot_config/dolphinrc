@@ -43,9 +43,6 @@ PreviewSize=256
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
-[MainWindow]
-MenuBar=Disabled
-
 [PreviewSettings]
 Plugins=audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,rom-properties,rawthumbnail,rom-properties-kf6,librsvg,svgthumbnail,textthumbnail,ffmpegthumbs,webp-pixbuf
 

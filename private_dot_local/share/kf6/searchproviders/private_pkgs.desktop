@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=pkgs
+Name=Pkgs.org
+Query=https://pkgs.org/search/?q=\\{@}
+Type=Service

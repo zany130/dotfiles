@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=ubuntu,apt
+Name=Ubuntu Package Search
+Query=https://packages.ubuntu.com/\\{@}
+Type=Service

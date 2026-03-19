@@ -100,7 +100,7 @@
         },
         "parserId": "164824496516097458",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
         "steamCategories": [
@@ -225,7 +225,7 @@
         },
         "parserId": "164824496516097459",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -342,7 +342,7 @@
         },
         "parserId": "164824333516097458",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -552,7 +552,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -641,7 +641,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -730,7 +730,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -819,7 +819,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -908,7 +908,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -1061,7 +1061,7 @@
         },
         "parserId": "164785622173694321",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
         "steamCategories": [
@@ -1085,7 +1085,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -1240,7 +1240,7 @@
         },
         "parserId": "164785622173694322",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
         "steamCategories": [
@@ -1264,7 +1264,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -1807,7 +1807,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -1966,7 +1966,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -2071,7 +2071,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2160,7 +2160,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2249,7 +2249,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2338,7 +2338,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2427,7 +2427,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2516,7 +2516,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2605,7 +2605,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2694,7 +2694,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -2783,7 +2783,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2948,7 +2948,7 @@
         },
         "parserId": "135113607715086732",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -3041,7 +3041,7 @@
         },
         "parserId": "167851246183635366",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -3134,7 +3134,7 @@
         },
         "parserId": "165103607715056732",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -3150,7 +3150,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3239,7 +3239,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3328,7 +3328,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3417,7 +3417,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3700,7 +3700,7 @@
         },
         "parserId": "16478559884003904",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -3886,7 +3886,7 @@
         },
         "parserId": "167184642099963041",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -4003,7 +4003,7 @@
         },
         "parserId": "164823604520657524",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -4205,7 +4205,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -4509,7 +4509,7 @@
         },
         "parserId": "164785621855061661",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -4812,7 +4812,7 @@
         },
         "parserId": "164385421865061350",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5091,7 +5091,7 @@
         },
         "parserId": "164770728884890304",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5277,7 +5277,7 @@
         },
         "parserId": "164770728884890305",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5370,7 +5370,7 @@
         },
         "parserId": "16472550495204231",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5463,7 +5463,7 @@
         },
         "parserId": "166785621840217949",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5649,7 +5649,7 @@
         },
         "parserId": "164788906872922785",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5742,7 +5742,7 @@
         },
         "parserId": "164785621855061650",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5835,7 +5835,7 @@
         },
         "parserId": "164789998905398115",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5932,7 +5932,7 @@
         },
         "parserId": "164770823452964732",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -6049,7 +6049,7 @@
         },
         "parserId": "166758881839575782",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -6166,7 +6166,7 @@
         },
         "parserId": "166758882107057128",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -6416,7 +6416,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6507,7 +6507,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6687,7 +6687,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6814,7 +6814,7 @@
         },
         "parserId": "167174183584229566",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -6865,7 +6865,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -6955,7 +6955,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7044,7 +7044,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7210,7 +7210,7 @@
         },
         "parserId": "163584525855031650",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -7396,7 +7396,7 @@
         },
         "parserId": "164785645224239563",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -7489,7 +7489,7 @@
         },
         "parserId": "164806160364417694",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -7505,7 +7505,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -7671,7 +7671,7 @@
         },
         "parserId": "16478564523883851",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -7755,7 +7755,7 @@
         },
         "parserId": "169890088467987948",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
         "steamCategories": [
@@ -7779,7 +7779,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8037,7 +8037,7 @@
         },
         "parserId": "166502992463815988",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -8142,7 +8142,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8269,7 +8269,7 @@
         },
         "parserId": "164785583010740300",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -8320,7 +8320,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8411,7 +8411,7 @@
         ],
         "titleModifier": "${fuzzyTitle}",
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "${retroarchpath}",
             "shortcutPassthrough": false,
@@ -8502,7 +8502,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8591,7 +8591,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -8757,7 +8757,7 @@
         },
         "parserId": "164785208872922785",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -8852,7 +8852,7 @@
         },
         "parserId": "164785645271669680",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob-regex",
@@ -8947,7 +8947,7 @@
         },
         "parserId": "165182011334544893",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -9040,7 +9040,7 @@
         },
         "parserId": "164785656634747068",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -9228,7 +9228,7 @@
         },
         "parserId": "166409089761171238",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -9321,7 +9321,7 @@
         },
         "parserId": "164785656699856393",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -9523,7 +9523,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -9612,7 +9612,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -9703,7 +9703,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -9960,7 +9960,7 @@
         },
         "parserId": "175980966852986386",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -10053,7 +10053,7 @@
         },
         "parserId": "175980994522995146",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -10145,7 +10145,7 @@
         },
         "parserId": "17598100503283811",
         "version": 25,
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -10238,6 +10238,6 @@
         },
         "parserId": "175981005281573675",
         "version": 25,
-        "disabled": false
+        "disabled": true
     }
 ]

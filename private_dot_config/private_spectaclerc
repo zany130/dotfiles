@@ -1,11 +1,6 @@
 [Annotations]
 annotationToolType=2
-
-[FileDialogSize]
-2 screens: Height=600
-2 screens: Width=960
-3 screens: Height=815
-3 screens: Width=752
+freehandStrokeWidth=18
 
 [GuiConfig]
 captureDelay=6
@@ -13,8 +8,12 @@ captureMode=4
 
 [ImageSave]
 lastImageSaveAsLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20250612_234809.png
-lastImageSaveLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20260120_201535.png
+lastImageSaveLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20260222_192902.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
 translatedScreencastsFolder=Screencasts
+
+[ViewerWindow]
+2 screens: Height=570
+2 screens: Width=814
