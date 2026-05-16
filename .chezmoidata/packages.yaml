@@ -50,6 +50,7 @@ packages:
     - 'fd'
     - 'fisher'
     - 'gcc'
+    - 'git-lfs'
     - 'gh'
     - 'glab'
     - 'imagemagick'
