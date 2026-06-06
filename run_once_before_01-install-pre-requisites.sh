@@ -1,4 +1,6 @@
 #!/bin/sh
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+
 # Install homebrew and bundle if it's not already installed
 if ! command -v brew >/dev/null; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -12,5 +14,7 @@ fi
 
 # Install AppMan if it's not already installed
 if ! command -v appman >/dev/null; then
-	/bin/bash -c "$(wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER)"
+	install -m 755 "$SCRIPT_DIR/vendor/AM-INSTALLER" ./AM-INSTALLER
+	/bin/bash ./AM-INSTALLER
+	rm -f ./AM-INSTALLER
 fi
