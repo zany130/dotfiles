@@ -1,0 +1,2 @@
+{AMD/AMD Radeon RX 7900 GRE (radeonsi, navi31, ACO, DRM 3.64, 6.17.7-ba25.fc43.x86_64)/4.6 (Core Profile) Mesa 25.3.3 (git-a9c6420d8c)}=SUPPORTED
+{Mesa/llvmpipe (LLVM 19.1.7, 256 bits)/4.5 (Core Profile) Mesa 25.3.3 (git-a9c6420d8c)}=SUPPORTED
