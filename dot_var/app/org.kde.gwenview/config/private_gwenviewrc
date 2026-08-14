@@ -1,27 +1,39 @@
+[FullScreen]
+FullScreenModeActive=true
+
 [General]
 LastUsedVersion=210800
+SideBarPage=operations
+
+[Print]
+PrintHeight=12.08
 
 [Recent Files]
-File1[$e]=/var/home/zany130/Pictures/Vivaldi Captures/2025-08-25 12.44.44 frontier.com 3e3a85c4049d.png
-File10[$e]=$HOME/Pictures/Screenshots/Screenshot_20260222_192902.png
-File2[$e]=/var/home/zany130/Pictures/Vivaldi Captures/2025-08-25 12.46.36 frontier.com 18ddce888ff3.png
-File3[$e]=/var/home/zany130/Pictures/Vivaldi Captures/2025-08-25 12.47.15 frontier.com ebd51b6264c1.png
-File4[$e]=$HOME/pCloudDrive/Automatic Upload/Samsung SM-S911U/Screenshot_20250916_035336_Photos.jpg
-File5[$e]=$HOME/.cache/io.github.kolunmi.Bazaar/entry/2d7f365bb8c114d09fb9685c15ad1348/screenshot_0.png
-File6[$e]=$HOME/Downloads/ChatGPT Image Oct 6, 2025, 07_40_15 PM.png
-File7[$e]=/var/home/zany130/Downloads/7120d0bc-4d25-4f36-86a7-c2d62c2eb48f.png
-File8[$e]=$HOME/mods/KuroMods/DaybreakMods/SideFemalePreview.jpg
-File9[$e]=sevenz:/home/zany130/mods/Kuro2Mods/DaybreakModsVol2.7z/DaybreakModsVol2/Preview.jpg
-Name1[$e]=2025-08-25 12.44.44 frontier.com 3e3a85c4049d.png
-Name10[$e]=Screenshot_20260222_192902.png
-Name2[$e]=2025-08-25 12.46.36 frontier.com 18ddce888ff3.png
-Name3[$e]=2025-08-25 12.47.15 frontier.com ebd51b6264c1.png
-Name4[$e]=Screenshot_20250916_035336_Photos.jpg
-Name5[$e]=screenshot_0.png
-Name6[$e]=ChatGPT Image Oct 6, 2025, 07_40_15 PM.png
-Name7[$e]=7120d0bc-4d25-4f36-86a7-c2d62c2eb48f.png
-Name8[$e]=SideFemalePreview.jpg
-Name9[$e]=Preview.jpg
+File1[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-444096438 (1).jpg
+File10[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-591664879.jpg
+File2[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-444096438.jpg
+File3[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-475095274.jpg
+File4[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-502324740.jpg
+File5[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-508432954.jpg
+File6[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-529380497.jpg
+File7[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-544604062.jpg
+File8[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964 (1).jpg
+File9[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964.jpg
+Name1[$e]=Snapchat-444096438 (1).jpg
+Name10[$e]=Snapchat-591664879.jpg
+Name2[$e]=Snapchat-444096438.jpg
+Name3[$e]=Snapchat-475095274.jpg
+Name4[$e]=Snapchat-502324740.jpg
+Name5[$e]=Snapchat-508432954.jpg
+Name6[$e]=Snapchat-529380497.jpg
+Name7[$e]=Snapchat-544604062.jpg
+Name8[$e]=Snapchat-566511964 (1).jpg
+Name9[$e]=Snapchat-566511964.jpg
 
 [SideBar]
-InformationSplitterSizes=209,246
+InformationSplitterSizes=218,257
+IsVisible ViewMode=true
+SideBarSplitterSizes=241,1656
+
+[ThumbnailView]
+ThumbnailSize=868

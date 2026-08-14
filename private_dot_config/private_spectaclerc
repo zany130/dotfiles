@@ -1,5 +1,5 @@
 [Annotations]
-annotationToolType=2
+annotationToolType=3
 freehandStrokeWidth=18
 
 [GuiConfig]
@@ -7,13 +7,13 @@ captureDelay=6
 captureMode=4
 
 [ImageSave]
-lastImageSaveAsLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20250612_234809.png
-lastImageSaveLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20260222_192902.png
+lastImageSaveAsLocation=file:///home/zany130/Downloads/Screenshot_20260806_113800.png
+lastImageSaveLocation=file:///home/zany130/Pictures/Screenshots/Screenshot_20260811_210648.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
 translatedScreencastsFolder=Screencasts
 
 [ViewerWindow]
-2 screens: Height=570
-2 screens: Width=814
+2 screens: Height=561
+2 screens: Width=804

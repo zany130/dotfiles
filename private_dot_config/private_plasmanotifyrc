@@ -1,7 +1,13 @@
 [Applications][@other]
 ShowInHistory=true
 
+[Applications][com.discordapp.Discord]
+Seen=true
+
 [Applications][com.github.dynobo.normcap]
+Seen=true
+
+[Applications][com.github.hluk.copyq]
 Seen=true
 
 [Applications][com.github.zocker_160.SyncThingy]
@@ -19,7 +25,19 @@ Seen=true
 [Applications][deckboard]
 Seen=true
 
+[Applications][fr.handbrake.ghb]
+Seen=true
+
+[Applications][io.github.kukuruzka165.materialgram]
+Seen=true
+
 [Applications][io.github.martchus.syncthingtray]
+Seen=true
+
+[Applications][io.github.vikdevelop.SaveDesktop]
+Seen=true
+
+[Applications][it.mijorus.gearlever]
 Seen=true
 
 [Applications][me.kozec.syncthingtk]
@@ -35,6 +53,9 @@ Seen=true
 Seen=true
 ShowPopupsInDndMode=true
 
+[Applications][org.equicord.equibop]
+Seen=true
+
 [Applications][org.fedoraproject.MediaWriter]
 Seen=true
 
@@ -47,10 +68,16 @@ Seen=true
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
+[Applications][org.waywallen.waywallen]
+Seen=true
+
 [Applications][solaar]
 Seen=true
 
 [Applications][vesktop]
+Seen=true
+
+[Applications][waydroid.com.android.vending]
 Seen=true
 
 [Applications][webcatalog]

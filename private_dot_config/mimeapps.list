@@ -178,14 +178,15 @@ x-scheme-handler/hedgemmmusashi=HedgeModManager-steamtinkerlaunch-dl.desktop
 x-scheme-handler/hedgemmrainbow=HedgeModManager-steamtinkerlaunch-dl.desktop
 x-scheme-handler/hedgemmrangers=HedgeModManager-steamtinkerlaunch-dl.desktop
 x-scheme-handler/hedgemmtenpex=HedgeModManager-steamtinkerlaunch-dl.desktop
-x-scheme-handler/http=re.sonny.Junction.desktop;
-x-scheme-handler/https=re.sonny.Junction.desktop;
+x-scheme-handler/http=re.sonny.Junction.desktop
+x-scheme-handler/https=re.sonny.Junction.desktop
 x-scheme-handler/jan=jan-AM.desktop
 x-scheme-handler/jetbrains=jetbrainsd.desktop
 x-scheme-handler/mailto=re.sonny.Junction.desktop;
 x-scheme-handler/msteams=teams_for_linux.desktop
 x-scheme-handler/sidequest=SideQuest.desktop
 x-scheme-handler/webcatalog=webcatalog-AM.desktop
+x-scheme-handler/arctis-asm=ArctisManager.desktop
 
 [Removed Associations]
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop;outlook-o365.desktop;

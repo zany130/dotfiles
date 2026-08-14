@@ -1,6 +1,6 @@
 [Desktop Entry]
-Icon=toolbox
-Exec=/var/home/zany130/.local/share/JetBrains/ToolboxApp/bin/jetbrains-toolbox --minimize
+Icon=jetbrains-toolbox
+Exec=/var/home/linuxbrew/.linuxbrew/Caskroom/jetbrains-toolbox-linux/3.4.3.81140/jetbrains-toolbox-3.4.3.81140/bin/jetbrains-toolbox --minimize
 Version=1.0
 Type=Application
 Categories=Development
@@ -9,7 +9,7 @@ StartupWMClass=jetbrains-toolbox
 Terminal=false
 MimeType=
 X-GNOME-Autostart-enabled=true
-X-Icon-Path=/home/zany130/.local/share/icons/hicolor/scalable/apps/toolbox.svg
+X-Icon-Path=/home/zany130/.local/share/icons/hicolor/scalable/apps/jetbrains-toolbox.svg
 X-Installed-Icon-Cache-Path=/home/zany130/.local/share/icons/hicolor
 StartupNotify=false
 X-GNOME-Autostart-Delay=10

@@ -1,5 +1,5 @@
 [TabBox]
-LayoutName=thumbnail_grid
+LayoutName=org.kde.breeze.desktop
 
 [Windows]
 Placement=Centered
@@ -8,4 +8,4 @@ Placement=Centered
 BorderSize=None
 NoPlugin=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Utterly-Round-Dark
+theme=__aurorae__svg__exposeblue

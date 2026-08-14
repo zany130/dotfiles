@@ -22,10 +22,10 @@
         "lights": -1,
         "mic_mute_led_brightness": 3,
         "mic_volume": 86,
-        "previous_sidetone": 110,
+        "previous_sidetone": 120,
         "product": "Arctis Nova 7",
         "rotate_to_mute": -1,
-        "sidetone": 110,
+        "sidetone": 120,
         "vendor": "SteelSeries",
         "voice_prompts": -1,
         "volume_limiter": 0

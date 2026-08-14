@@ -22,33 +22,22 @@ source=noaa|weather|Miami, Kendall-Tamiami Executive Airport, FL
 floating=1
 panelLengthMode=1
 panelVisibility=2
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 133][Defaults]
 thickness=60
 
 [PlasmaViews][Panel 224]
 floating=1
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 224][Defaults]
 offset=0
 thickness=34
 
-[PlasmaViews][Panel 273]
-alignment=132
-floating=1
-floatingApplets=1
-panelLengthMode=1
-panelVisibility=1
-
-[PlasmaViews][Panel 273][Defaults]
-offset=0
-thickness=600
-
-[PlasmaViews][Panel 273][Vertical1080]
-offset=0
-
 [PlasmaViews][Panel 3]
 floating=1
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 3][Defaults]
 offset=0
@@ -58,6 +47,7 @@ thickness=32
 floating=1
 panelLengthMode=1
 panelVisibility=2
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 31][Defaults]
 offset=0

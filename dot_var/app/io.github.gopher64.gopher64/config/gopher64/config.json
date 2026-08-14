@@ -162,97 +162,116 @@
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 4,
-            "axis": 1
+            "axis": 1,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 2,
-            "axis": 1
+            "axis": 1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 2,
-            "axis": -1
+            "axis": -1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 3,
-            "axis": 1
+            "axis": 1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 3,
-            "axis": -1
+            "axis": -1,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 0,
-            "axis": -1
+            "axis": -1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 0,
-            "axis": 1
+            "axis": 1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 1,
-            "axis": -1
+            "axis": -1,
+            "initial_state": 0
           },
           {
             "enabled": true,
             "id": 1,
-            "axis": 1
+            "axis": 1,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           }
         ],
         "joystick_buttons": [
@@ -434,100 +453,120 @@
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           },
           {
             "enabled": false,
             "id": 0,
-            "axis": 0
+            "axis": 0,
+            "initial_state": 0
           }
         ],
-        "dinput": false
+        "dinput": false,
+        "deadzone": 5
       }
     },
     "input_profile_binding": [
@@ -554,18 +593,35 @@
       false,
       false
     ],
+    "gb_rom_path": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "gb_ram_path": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "emulate_vru": false
   },
   "video": {
-    "upscale": 4,
+    "upscale": 8,
+    "ssaa": false,
     "integer_scaling": false,
     "fullscreen": true,
     "widescreen": true,
+    "vsync": true,
     "crt": false
   },
   "emulation": {
     "overclock": false,
-    "disable_expansion_pak": false
+    "disable_expansion_pak": false,
+    "usb": false,
+    "rewind": true
   },
-  "rom_dir": ""
+  "rom_dir": "",
+  "recent_roms": []
 }

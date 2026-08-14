@@ -66,6 +66,7 @@
    <Filename>RGSX.desktop</Filename>
    <Filename>Jak &amp; Daxter The Precursor Legacy.desktop</Filename>
    <Filename>Jak II.desktop</Filename>
+   <Filename>YGO Omega.desktop</Filename>
   </Include>
   <Menu>
    <Name>Arcade</Name>
@@ -80,6 +81,104 @@
   </Menu>
   <Layout>
    <Merge type="files"/>
+   <Filename>io.github.fastrizwaan.WineZGUI__67D3F197C4B02F5CDC90FA.desktop</Filename>
+   <Filename>AI The Somnium Files.desktop</Filename>
+   <Filename>AI THE SOMNIUM FILES - nirvanA Initiative.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_AltServer.desktop</Filename>
+   <Filename>net.lutris.altstore-398.desktop</Filename>
+   <Filename>ascendara.desktop</Filename>
+   <Filename>Assault Spy.desktop</Filename>
+   <Filename>AUDIOMECH Demo.desktop</Filename>
+   <Filename>Azahar.desktop</Filename>
+   <Filename>io.github.banjorecomp.banjorecomp.desktop</Filename>
+   <Filename>Beholder.desktop</Filename>
+   <Filename>Bendy and the Ink Machine.desktop</Filename>
+   <Filename>com.usebottles.bottles.desktop</Filename>
+   <Filename>CAFE 0 ~The Drowned Mermaid~.desktop</Filename>
+   <Filename>Cave Story+.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_CheatEngine76.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_CRU.desktop</Filename>
+   <Filename>Danganronpa 2 Goodbye Despair.desktop</Filename>
+   <Filename>Danganronpa Another Episode Ultra Despair Girls.desktop</Filename>
+   <Filename>Danganronpa Trigger Happy Havoc.desktop</Filename>
+   <Filename>Death Stranding.desktop</Filename>
+   <Filename>Death Stranding Content.desktop</Filename>
+   <Filename>Dies irae ~Amantes amentes~.desktop</Filename>
+   <Filename>Digimon Survive.desktop</Filename>
+   <Filename>Disgaea 2 PC.desktop</Filename>
+   <Filename>Disgaea 4 Complete+.desktop</Filename>
+   <Filename>Disgaea 5 Complete.desktop</Filename>
+   <Filename>Disgaea 6 Complete.desktop</Filename>
+   <Filename>Disgaea PC.desktop</Filename>
+   <Filename>Doki Doki Literature Club Plus!.desktop</Filename>
+   <Filename>Dragon's Dogma Dark Arisen.desktop</Filename>
+   <Filename>DuckStation.desktop</Filename>
+   <Filename>duckstation-AM.desktop</Filename>
+   <Filename>Escape from Ever After.desktop</Filename>
+   <Filename>appimagekit_5b4c6a1e18974e977313ad3a2fcc1506-ES-DE.desktop</Filename>
+   <Filename>ES-DE.desktop</Filename>
+   <Filename>es-de-AM.desktop</Filename>
+   <Filename>Gone Home.desktop</Filename>
+   <Filename>io.github.benjamimgois.goverlay.desktop</Filename>
+   <Filename>Heavy Rain.desktop</Filename>
+   <Filename>Higurashi When They Cry Hou - Ch.1 Onikakushi.desktop</Filename>
+   <Filename>Hitman Absolution.desktop</Filename>
+   <Filename>Hollow Knight.desktop</Filename>
+   <Filename>Hyperdimension Neptunia Re;Birth1.desktop</Filename>
+   <Filename>Initial Drift Online.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_kurodlc_make_zzz_tables.desktop</Filename>
+   <Filename>Lossless Scaling.desktop</Filename>
+   <Filename>Metro Exodus Enhanced Edition.desktop</Filename>
+   <Filename>NBA 2K25.desktop</Filename>
+   <Filename>No Sleep For Kaname Date - From AI THE SOMNIUM FILES.desktop</Filename>
+   <Filename>net.blumia.pineapple-steam-recording-exporter.desktop</Filename>
+   <Filename>PRICE.desktop</Filename>
+   <Filename>org.prismlauncher.PrismLauncher.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_procexp64a.desktop</Filename>
+   <Filename>org.projectplusgame.project-plus-dolphin.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_ps3dec_gui.desktop</Filename>
+   <Filename>arch-ps3-disc-dumper.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_PS3GameExtractor.desktop</Filename>
+   <Filename>PSStream.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_ReShade_Setup_6.7.3_Addon.desktop</Filename>
+   <Filename>REYNATIS Demo.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_setup.desktop</Filename>
+   <Filename>Sherlock Holmes Nemesis.desktop</Filename>
+   <Filename>Sherlock Holmes The Awakened (2008).desktop</Filename>
+   <Filename>Sherlock Holmes The Devil's Daughter.desktop</Filename>
+   <Filename>Sherlock Holmes The Mystery of The Persian Carpet.desktop</Filename>
+   <Filename>Sherlock Holmes The Secret of the Silver Earring.desktop</Filename>
+   <Filename>Sherlock Holmes versus Jack the Ripper.desktop</Filename>
+   <Filename>Sifu.desktop</Filename>
+   <Filename>arch-slippi-launcher.desktop</Filename>
+   <Filename>Sonic Adventure DX.desktop</Filename>
+   <Filename>STAR WARS Battlefront II.desktop</Filename>
+   <Filename>Sunset Overdrive.desktop</Filename>
+   <Filename>net.lutris.super-mario-63-redux-395.desktop</Filename>
+   <Filename>arch-net.lutris.super-mario-63-redux-395.desktop</Filename>
+   <Filename>net.lutris.super-mario-64-coop-deluxe-397.desktop</Filename>
+   <Filename>arch-net.lutris.super-mario-64-coop-deluxe-397.desktop</Filename>
+   <Filename>net.lutris.super-mario-bros-remastered-393.desktop</Filename>
+   <Filename>arch-net.lutris.super-mario-bros-remastered-393.desktop</Filename>
+   <Filename>net.lutris.super-mario-bros-x-394.desktop</Filename>
+   <Filename>arch-net.lutris.super-mario-bros-x-394.desktop</Filename>
+   <Filename>TheDarkMod.desktop</Filename>
+   <Filename>The Elder Scrolls V Skyrim Special Edition.desktop</Filename>
+   <Filename>The Hundred Line -Last Defense Academy-.desktop</Filename>
+   <Filename>The Legend of Heroes Trails beyond the Horizon.desktop</Filename>
+   <Filename>The Legend of Heroes Trails in the Sky.desktop</Filename>
+   <Filename>The Outer Worlds Spacer's Choice Edition.desktop</Filename>
+   <Filename>The Testament of Sherlock Holmes.desktop</Filename>
+   <Filename>The Witcher 2 Bonus Content.desktop</Filename>
+   <Filename>Trails in the Sky 1st Chapter.desktop</Filename>
+   <Filename>undertaker141-AM.desktop</Filename>
+   <Filename>Untold Story.desktop</Filename>
+   <Filename>Wallpaper Engine.desktop</Filename>
+   <Filename>dev.goats.xivlauncher.desktop</Filename>
+   <Filename>Zanki Zero Last Beginning.desktop</Filename>
+   <Filename>net.lutris.zelda-classic-396.desktop</Filename>
+   <Filename>Zero Escape The Nonary Games.desktop</Filename>
+   <Filename>Zero Escape Zero Time Dilemma.desktop</Filename>
    <Filename>net.lutris.0n-0w-369.desktop</Filename>
    <Filename>2ship-AM.desktop</Filename>
    <Filename>3DMark.desktop</Filename>
@@ -102,7 +201,6 @@
    <Filename>net.lutris.battlenet-390.desktop</Filename>
    <Filename>net.lutris.becalm-370.desktop</Filename>
    <Filename>BigPEmu.desktop</Filename>
-   <Filename>BigPEmu (Proton).desktop</Filename>
    <Filename>BigPEmu_(Proton).desktop</Filename>
    <Filename>Black_Mesa.desktop</Filename>
    <Menuname>Board</Menuname>
@@ -119,7 +217,6 @@
    <Filename>io.github.streetpea.Chiaki4deck.desktop</Filename>
    <Filename>net.lutris.chuusotsu-1st-graduation-time-after-time-389.desktop</Filename>
    <Filename>Citra.desktop</Filename>
-   <Filename>citron-AM.desktop</Filename>
    <Filename>CLANNAD.desktop</Filename>
    <Filename>CLANNAD_Side_Stories.desktop</Filename>
    <Filename>Corpse_Party.desktop</Filename>
@@ -141,7 +238,6 @@
    <Filename>io.github.dosbox-staging.desktop</Filename>
    <Filename>io.github.doukutsu_rs.doukutsu-rs.desktop</Filename>
    <Filename>org.kartkrew.RingRacers.desktop</Filename>
-   <Filename>org.duckstation.DuckStation.desktop</Filename>
    <Filename>net.lutris.ea-app-374.desktop</Filename>
    <Filename>io.github.fastrizwaan.WineZGUI_EBOOT2ISO1_1.desktop</Filename>
    <Filename>eden-AM.desktop</Filename>
@@ -155,7 +251,6 @@
    <Filename>Fable_Anniversary.desktop</Filename>
    <Filename>Fahrenheit_Indigo_Prophecy_Remastered.desktop</Filename>
    <Filename>Fall_Guys.desktop</Filename>
-   <Filename>fpm-AM.desktop</Filename>
    <Filename>io.github.Faugus.faugus-launcher.desktop</Filename>
    <Filename>fault_-_milestone_one.desktop</Filename>
    <Filename>fault_-_milestone_two_side_above.desktop</Filename>
@@ -172,7 +267,6 @@
    <Filename>io.github.klorfmorf.goemon64recomp.desktop</Filename>
    <Filename>Gone_Home.desktop</Filename>
    <Filename>io.github.gopher64.gopher64.desktop</Filename>
-   <Filename>goverlay-AM.desktop</Filename>
    <Filename>Grand_Theft_Auto_V_Enhanced.desktop</Filename>
    <Filename>io.github.unknownskl.greenlight.desktop</Filename>
    <Filename>Half-Life.desktop</Filename>
@@ -288,9 +382,7 @@
    <Filename>RPCS3.desktop</Filename>
    <Filename>rs.ruffle.Ruffle.desktop</Filename>
    <Filename>Rugrats_Adventures_in_Gameland.desktop</Filename>
-   <Filename>arch-rusty-psn-gui.desktop</Filename>
    <Filename>RWBY_Grimm_Eclipse.desktop</Filename>
-   <Filename>ryujinx-AM.desktop</Filename>
    <Filename>io.github.ryubing.Ryujinx.desktop</Filename>
    <Filename>Ryujinx.desktop</Filename>
    <Filename>net.lutris.ryza-roads-386.desktop</Filename>
@@ -300,16 +392,13 @@
    <Filename>net.lutris.seabed-387.desktop</Filename>
    <Filename>net.shadps4.shadPS4.desktop</Filename>
    <Filename>ShadPS4.desktop</Filename>
-   <Filename>shadps4-nightly-AM.desktop</Filename>
    <Filename>shadps4-AM-2.desktop</Filename>
    <Filename>Sherlock_Holmes_Crimes_and_Punishments.desktop</Filename>
    <Filename>SideQuest.desktop</Filename>
-   <Filename>arch-smb1r.desktop</Filename>
    <Filename>com.snes9x.Snes9x.desktop</Filename>
    <Filename>shipwright-AM.desktop</Filename>
    <Filename>Solo_Leveling_ARISE_OVERDRIVE_Demo.desktop</Filename>
    <Filename>org.sonic3air.Sonic3AIR.desktop</Filename>
-   <Filename>arch-soniccd.desktop</Filename>
    <Filename>org.srb2.SRB2.desktop</Filename>
    <Filename>Soulstice.desktop</Filename>
    <Filename>net.lutris.spectres-of-the-cold-388.desktop</Filename>
@@ -329,11 +418,9 @@
    <Filename>STEINS;GATE_ELITE.desktop</Filename>
    <Filename>STEINS;GATE_Linear_Bounded_Phenogram.desktop</Filename>
    <Filename>Stellar_Blade_Demo.desktop</Filename>
-   <Filename>sudachi-AM.desktop</Filename>
    <Filename>Sunrider_Liberation_Day_-_Captain's_Edition.desktop</Filename>
    <Filename>Sunrider_Mask_of_Arcadius.desktop</Filename>
    <Filename>arch-sm64ex.desktop</Filename>
-   <Filename>arch-sm64coopdx.desktop</Filename>
    <Filename>arch-SuperMarioWorld.desktop</Filename>
    <Filename>SUPERHOT_MIND_CONTROL_DELETE.desktop</Filename>
    <Filename>Switch-Library-Manager.desktop</Filename>
@@ -380,7 +467,6 @@
    <Filename>net.lutris.ubisoft-connect-201.desktop</Filename>
    <Filename>Umineko_When_They_Cry_-_Answer_Arcs.desktop</Filename>
    <Filename>Umineko_When_They_Cry_-_Question_Arcs.desktop</Filename>
-   <Filename>undertaker141.desktop</Filename>
    <Filename>Undertale.desktop</Filename>
    <Filename>io.github.hedge_dev.unleashedrecomp.desktop</Filename>
    <Filename>UNO.desktop</Filename>
@@ -405,6 +491,7 @@
    <Filename>Yooka-Replaylee_Demo.desktop</Filename>
    <Filename>Your_Only_Move_Is_HUSTLE.desktop</Filename>
    <Filename>Yu-Gi-Oh!__Master_Duel.desktop</Filename>
+   <Filename>YGO Omega.desktop</Filename>
    <Filename>Yume_Nikki.desktop</Filename>
    <Filename>Zanki_Zero_Last_Beginning.desktop</Filename>
    <Filename>io.github.zelda64recomp.zelda64recomp.desktop</Filename>
@@ -768,6 +855,7 @@
   <Filename>OCCT.desktop</Filename>
   <Filename>Dolphin Wii Menu.desktop</Filename>
   <Filename>Romm.desktop</Filename>
+  <Filename>YGO Omega.desktop</Filename>
  </Exclude>
  <Menu>
   <Name>Education</Name>
@@ -802,26 +890,6 @@
    <Menuname>Tools</Menuname>
   </Layout>
  </Menu>
- <Layout>
-  <Merge type="menus"/>
-  <Menuname>.hidden</Menuname>
-  <Menuname>KDE-Services</Menuname>
-  <Menuname>Development</Menuname>
-  <Menuname>Education</Menuname>
-  <Menuname>Games</Menuname>
-  <Menuname>Graphics</Menuname>
-  <Menuname>Help</Menuname>
-  <Menuname>Internet</Menuname>
-  <Menuname>Multimedia</Menuname>
-  <Menuname>Office</Menuname>
-  <Menuname>Science</Menuname>
-  <Menuname>Settingsmenu</Menuname>
-  <Menuname>System</Menuname>
-  <Menuname>Utilities</Menuname>
-  <Menuname>Waydroid</Menuname>
-  <Menuname>webapps-webapps</Menuname>
-  <Menuname>Applications</Menuname>
- </Layout>
  <Menu>
   <Name>KDE-Services</Name>
   <Menu>
@@ -1324,4 +1392,24 @@
    <Filename>org.gnome.Zenity.desktop</Filename>
   </Layout>
  </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>.hidden</Menuname>
+  <Menuname>KDE-Services</Menuname>
+  <Menuname>Development</Menuname>
+  <Menuname>Education</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Help</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Science</Menuname>
+  <Menuname>Settingsmenu</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>Waydroid</Menuname>
+  <Menuname>webapps-webapps</Menuname>
+  <Menuname>Applications</Menuname>
+ </Layout>
 </Menu>

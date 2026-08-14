@@ -13,35 +13,6 @@
         "update_url": "https://github.com/FrogTheFrog/moondeck-buddy/releases/download/*/MoonDeckBuddy-*-x86_64.AppImage",
         "update_url_manager": "GithubUpdater"
     },
-    "c2RsMi1nYW1lcGFkLW1hcHBlcg==": {
-        "b64name": "c2RsMi1nYW1lcGFkLW1hcHBlcg==",
-        "website": "https://gitlab.com/ryochan7/sdl2-gamepad-mapper",
-        "name": "sdl2-gamepad-mapper"
-    },
-    "SW1tZXJzZWQ=": {
-        "b64name": "SW1tZXJzZWQ=",
-        "website": "https://www.immersed.com",
-        "name": "Immersed",
-        "update_url": "https://static.immersed.com/dl/Immersed-x86_64.AppImage",
-        "update_url_manager": "StaticFileUpdater"
-    },
-    "TGludXhQb3dlclRveXM=": {
-        "b64name": "TGludXhQb3dlclRveXM=",
-        "update_url": "https://github.com/domferr/Linux-PowerToys/releases/download/v*-preview/LinuxPowerToys-*-x86_64.AppImage",
-        "update_url_manager": "GithubUpdater",
-        "name": "LinuxPowerToys",
-        "website": "https://github.com/domferr/Linux-PowerToys/"
-    },
-    "Q3JlYW1saW51eA==": {
-        "b64name": "Q3JlYW1saW51eA==",
-        "update_url": "https://github.com/Novattz/creamlinux-installer/releases/download/*/Creamlinux_*_amd64.AppImage",
-        "update_url_manager": "GithubUpdater",
-        "name": "Creamlinux",
-        "website": "https://github.com/Novattz/creamlinux-installer",
-        "update_manager_config": {
-            "allow_prereleases": false
-        }
-    },
     "Q3J1bmNoeXJvbGw=": {
         "b64name": "Q3J1bmNoeXJvbGw=",
         "website": "https://github.com/aarron-lee/crunchyroll-linux",
@@ -58,13 +29,6 @@
         "update_manager_config": {
             "allow_prereleases": true
         }
-    },
-    "U291bHNlZWtRdA==": {
-        "b64name": "U291bHNlZWtRdA==",
-        "website": "https://www.slsknet.org",
-        "name": "SoulseekQt",
-        "update_url": "https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-2024-6-30.AppImage",
-        "update_url_manager": "StaticFileUpdater"
     },
     "U3RlYW0gQXJ0IE1hbmFnZXI=": {
         "b64name": "U3RlYW0gQXJ0IE1hbmFnZXI=",

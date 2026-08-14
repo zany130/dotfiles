@@ -26,6 +26,7 @@ eval "$(atuin init bash)"
 ### Rust
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
+export LD_LIBRARY_PATH="$(brew --prefix libgit2)/lib:$LD_LIBRARY_PATH"
 ### bling.sh source start
 test -f /usr/share/bazzite-cli/bling.sh && source /usr/share/bazzite-cli/bling.sh
 ### bling.sh source end

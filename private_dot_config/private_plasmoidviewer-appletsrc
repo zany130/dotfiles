@@ -13,3 +13,10 @@ wallpaperplugin=org.kde.image
 [Containments][1][Applets][2]
 immutability=1
 plugin=de.agundur.kcast
+
+[Containments][2]
+activityId=
+formfactor=0
+lastScreen=-1
+location=0
+wallpaperplugin=org.kde.image

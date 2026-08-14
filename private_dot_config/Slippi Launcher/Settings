@@ -1,7 +1,20 @@
 {
   "settings": {
-    "isoPath": "/var/mnt/GAMES/Emulation/roms/gc/Super Smash Bros. Melee (USA) (En,Ja) (v1.02).iso",
+    "isoPath": "/home/zany130/Emulation/roms/gc/Super Smash Bros. Melee/Super Smash Bros. Melee (USA) (En,Ja) (v1.02).iso",
     "launchMeleeOnPlay": true,
     "useNetplayBeta": true
+  },
+  "accounts": {
+    "activeId": "94TCXPvVMOQxRIy9Y3Qcht6X5182",
+    "list": [
+      {
+        "id": "94TCXPvVMOQxRIy9Y3Qcht6X5182",
+        "email": "andresdortiz@gmail.com",
+        "displayName": "zany130",
+        "displayPicture": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHBhdGggZmlsbD0iIzNkNmRiNyIgZD0iTTM3IDEwTDY0IDEwTDY0IDIzLjVaTTkxIDEwTDkxIDM3TDc3LjUgMzdaTTkxIDExOEw2NCAxMThMNjQgMTA0LjVaTTM3IDExOEwzNyA5MUw1MC41IDkxWk0xMCAzN0wzNyAzN0wzNyA1MC41Wk0xMTggMzdMMTE4IDY0TDEwNC41IDY0Wk0xMTggOTFMOTEgOTFMOTEgNzcuNVpNMTAgOTFMMTAgNjRMMjMuNSA2NFoiLz48cGF0aCBmaWxsPSIjODRhNGQ2IiBkPSJNMzcgMzdMMTAgMzdMMTAgMTBaTTkxIDM3TDkxIDEwTDExOCAxMFpNOTEgOTFMMTE4IDkxTDExOCAxMThaTTM3IDkxTDM3IDExOEwxMCAxMThaIi8+PHBhdGggZmlsbD0iI2VhZWFlYSIgZD0iTTM3IDM3TDY0IDM3TDY0IDUwLjVMMzcgNTAuNVpNMzcgNTAuNUw1MC41IDUwLjVMNTAuNSA2NEwzNyA2NFpNNjQgNTAuNUw1MC41IDY0TDUwLjUgNTAuNVpNOTEgMzdMOTEgNjRMNzcuNSA2NEw3Ny41IDM3Wk03Ny41IDM3TDc3LjUgNTAuNUw2NCA1MC41TDY0IDM3Wk03Ny41IDY0TDY0IDUwLjVMNzcuNSA1MC41Wk05MSA5MUw2NCA5MUw2NCA3Ny41TDkxIDc3LjVaTTkxIDc3LjVMNzcuNSA3Ny41TDc3LjUgNjRMOTEgNjRaTTY0IDc3LjVMNzcuNSA2NEw3Ny41IDc3LjVaTTM3IDkxTDM3IDY0TDUwLjUgNjRMNTAuNSA5MVpNNTAuNSA5MUw1MC41IDc3LjVMNjQgNzcuNUw2NCA5MVpNNTAuNSA2NEw2NCA3Ny41TDUwLjUgNzcuNVoiLz48L3N2Zz4=",
+        "lastActive": "2026-03-31T22:12:03.889Z",
+        "useDefaultApp": true
+      }
+    ]
   }
 }
