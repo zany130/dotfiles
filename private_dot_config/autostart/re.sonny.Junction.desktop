@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Junction
-X-XDP-Autostart=re.sonny.Junction
-Exec=flatpak run --command=junction re.sonny.Junction --gapplication-service
-X-Flatpak=re.sonny.Junction
