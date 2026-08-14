@@ -19,7 +19,7 @@
     headset-signature-startup, headset-signature-shutdown, headset-signature-passive, logivoice-nr-state, logivoice-ng-state, logivoice-comp-state, logivoice-deesser-state,
     logivoice-depopper-state, logivoice-limiter-state, logivoice-hpf-state, gesture2-params]
   _battery: 4096
-  _config_cookie: [119, 86]
+  _config_cookie: [119, 87]
   _modelId: B01940690000
   _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, scroll-ratchet: false}
   _serial: 62551F03
