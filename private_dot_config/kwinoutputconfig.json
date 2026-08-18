@@ -22,7 +22,7 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
+                "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
                 "customModes": [
                 ],
@@ -35,6 +35,7 @@
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
+                "maxPeakBrightnessOverride": 1800,
                 "mode": {
                     "flags": 0,
                     "height": 1080,
@@ -74,7 +75,7 @@
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "sRGB",
-                "connectorName": "DP-2",
+                "connectorName": "HDMI-A-1",
                 "customModes": [
                 ],
                 "detectedDdcCi": false,
@@ -124,8 +125,8 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
-                "connectorName": "HDMI-A-1",
+                "colorProfileSource": "EDID",
+                "connectorName": "DP-2",
                 "customModes": [
                 ],
                 "detectedDdcCi": true,

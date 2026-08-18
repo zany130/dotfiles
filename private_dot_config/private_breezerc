@@ -1,4 +1,4 @@
 [Common]
-OutlineEnabled=true
-OutlineIntensity=OutlineMedium
-RoundedCorners=true
+OutlineEnabled=false
+OutlineIntensity=OutlineOff
+RoundedCorners=false
