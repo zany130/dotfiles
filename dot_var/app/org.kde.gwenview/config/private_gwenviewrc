@@ -9,26 +9,26 @@ SideBarPage=operations
 PrintHeight=12.08
 
 [Recent Files]
-File1[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-444096438 (1).jpg
-File10[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-591664879.jpg
-File2[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-444096438.jpg
-File3[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-475095274.jpg
-File4[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-502324740.jpg
-File5[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-508432954.jpg
-File6[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-529380497.jpg
-File7[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-544604062.jpg
-File8[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964 (1).jpg
-File9[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964.jpg
-Name1[$e]=Snapchat-444096438 (1).jpg
-Name10[$e]=Snapchat-591664879.jpg
-Name2[$e]=Snapchat-444096438.jpg
-Name3[$e]=Snapchat-475095274.jpg
-Name4[$e]=Snapchat-502324740.jpg
-Name5[$e]=Snapchat-508432954.jpg
-Name6[$e]=Snapchat-529380497.jpg
-Name7[$e]=Snapchat-544604062.jpg
-Name8[$e]=Snapchat-566511964 (1).jpg
-Name9[$e]=Snapchat-566511964.jpg
+File1[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-444096438.jpg
+File10[$e]=$HOME/Documents/Softee-Freeze/cookies n cream-milkshake.png
+File2[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-475095274.jpg
+File3[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-502324740.jpg
+File4[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-508432954.jpg
+File5[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-529380497.jpg
+File6[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-544604062.jpg
+File7[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964 (1).jpg
+File8[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-566511964.jpg
+File9[$e]=$HOME/pCloudDrive/Crypto Folder/Snapchat-591664879.jpg
+Name1[$e]=Snapchat-444096438.jpg
+Name10[$e]=cookies n cream-milkshake.png
+Name2[$e]=Snapchat-475095274.jpg
+Name3[$e]=Snapchat-502324740.jpg
+Name4[$e]=Snapchat-508432954.jpg
+Name5[$e]=Snapchat-529380497.jpg
+Name6[$e]=Snapchat-544604062.jpg
+Name7[$e]=Snapchat-566511964 (1).jpg
+Name8[$e]=Snapchat-566511964.jpg
+Name9[$e]=Snapchat-591664879.jpg
 
 [SideBar]
 InformationSplitterSizes=218,257
@@ -36,4 +36,4 @@ IsVisible ViewMode=true
 SideBarSplitterSizes=241,1656
 
 [ThumbnailView]
-ThumbnailSize=868
+ThumbnailSize=1024

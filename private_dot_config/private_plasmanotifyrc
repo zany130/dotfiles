@@ -25,6 +25,9 @@ Seen=true
 [Applications][deckboard]
 Seen=true
 
+[Applications][dev.vencord.Vesktop]
+Seen=true
+
 [Applications][fr.handbrake.ghb]
 Seen=true
 
