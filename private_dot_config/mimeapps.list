@@ -77,7 +77,7 @@ x-scheme-handler/geo=google-maps-geo-handler.desktop;openstreetmap-geo-handler.d
 x-scheme-handler/http=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/https=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/mailto=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
-x-scheme-handler/arctis-asm=ArctisManager.desktop
+x-scheme-handler/arctis-asm=ArctisManager.desktop;
 
 [Default Applications]
 application/json=re.sonny.Junction.desktop;

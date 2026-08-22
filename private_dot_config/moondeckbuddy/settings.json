@@ -1,11 +1,9 @@
 {
-    "close_steam_before_sleep": true,
-    "env_capture_regex": "^(?:SUNSHINE|APOLLO).*",
-    "logging_rules": "",
-    "mac_address_override": "",
     "port": 59999,
-    "prefer_hibernation": false,
+    "logging_rules": "",
+    "sunshine_apps_filepath": "",
     "ssl_protocol": "SecureProtocols",
     "steam_exec_override": "",
-    "sunshine_apps_filepath": ""
+    "mac_address_override": "",
+    "env_capture_regex": "^(?:SUNSHINE|APOLLO).*"
 }

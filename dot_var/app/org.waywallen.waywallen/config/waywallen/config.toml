@@ -1,5 +1,5 @@
 [global]
-last_wallpaper = "2862"
+last_wallpaper = "2833"
 queue_mode = "shuffle"
 rotation_secs = 900
 audio_fade_ms = 500
@@ -44,63 +44,63 @@ kind = "none"
 [global.pause_effect.blur]
 radius = 30
 
+[plugin.wescene-renderer]
+custom_extent = "1080"
+volume = "100"
+resolution = "2"
+render_node = ""
+hwdec = "auto"
+fps = "30"
+enable_audio = "true"
+msaa = "1"
+
 [plugin.waywallen-image]
 resolution = "0"
 render_node = ""
 fps = "30"
 
-[plugin.waywallen-video]
-loop_file = "inf"
-render_node = ""
-volume = "100"
-enable_audio = "true"
-hwdec = "auto"
-fps = "30"
-resolution = "0"
-
 [plugin.weweb-renderer]
 volume = "100"
-resolution = "2"
-render_node = ""
-remote_debugging_port = "0"
-enable_audio = "true"
 fps = "60"
 shared_texture_enabled = "true"
-
-[plugin.wescene-renderer]
-custom_extent = "1080"
 resolution = "2"
-fps = "30"
-volume = "100"
-render_node = ""
+remote_debugging_port = "0"
 enable_audio = "true"
+render_node = ""
+
+[plugin.waywallen-video]
 hwdec = "auto"
-msaa = "1"
-
-[display.kde-5cb8173e7b4c410fa1e4c5df4b85d207]
-last_wallpaper = "2838"
-active_playlist_id = 1
-
-[display.bd275c04-c029-4db3-a992-50776b8ce9eb]
-last_wallpaper = "2856"
-active_playlist_id = 2
-
-[display.""]
-last_wallpaper = "2912"
-active_playlist_id = 1
+resolution = "0"
+render_node = ""
+volume = "100"
+fps = "30"
+loop_file = "inf"
+enable_audio = "true"
 
 [display.6b7123e0-46f3-495c-ab1f-8e73e78dedee]
 last_wallpaper = "2868"
 active_playlist_id = 1
 
-[display.kde-61e2f8a5d1c646801b55d3bbda30b7cb]
-last_wallpaper = "2862"
+[display.kde-5cb8173e7b4c410fa1e4c5df4b85d207]
+last_wallpaper = "2838"
 active_playlist_id = 1
 
-[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
-last_wallpaper = "2916"
+[display.""]
+last_wallpaper = "2912"
+active_playlist_id = 1
+
+[display.kde-61e2f8a5d1c646801b55d3bbda30b7cb]
+last_wallpaper = "2893"
+active_playlist_id = 1
 
 [display.kde-a885389b1ec5378c402019d3ccd55f96]
 last_wallpaper = "2902"
+
+[display.bd275c04-c029-4db3-a992-50776b8ce9eb]
+last_wallpaper = "2856"
+active_playlist_id = 2
+
+[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
+last_wallpaper = "2833"
 
 [canvas]
