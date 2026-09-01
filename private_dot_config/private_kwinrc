@@ -58,16 +58,22 @@ wobblywindowsEnabled=true
 DisableRoundTile=false
 
 [Script-customscreenedgeactions]
-BorderActivate=3
+BorderActivate=0,3,6
 bottomRightAction=activate widget 366
 bottomRightComponent=plasmashell
+leftAction=activate widget 458
+leftComponent=plasmashell
+rightAction=activate widget 366
+rightComponent=plasmashell
+topAction=activate widget 464
+topComponent=plasmashell
 
 [Script-krohnkite]
 enableBTreeLayout=true
 enableFloatingLayout=true
 enableQuarterLayout=true
 enableStackedLayout=true
-ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,com.github.hluk.copyq,winboat,xfreerdp
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,com.github.hluk.copyq,winboat,xfreerdp,RAIL
 maximizeSoleTile=true
 screenGapBetween=4
 screenGapBottom=3

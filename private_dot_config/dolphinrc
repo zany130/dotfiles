@@ -4,10 +4,6 @@ update_info=dolphin_detailsmodesettings.upd:move-content-display
 [ContentDisplay]
 DirectorySizeMode=ContentSize
 
-[ContextMenu]
-ShowSortBy=false
-ShowViewMode=false
-
 [ExtractDialog]
 2 screens: Height=480
 2 screens: Width=943
@@ -22,13 +18,8 @@ HiddenFilesShown=true
 AutoExpandFolders=true
 BrowseThroughArchives=true
 DoubleClickViewAction=none
-EditableUrl=true
-GlobalViewProps=false
-OpenExternallyCalledFolderInNewTab=true
-ShowFullPath=true
-ShowStatusBar=FullWidth
+DynamicView=true
 ShowToolTips=true
-ShowZoomSlider=true
 Version=202
 ViewPropsTimestamp=2025,6,26,14,2,24.878
 
@@ -39,17 +30,5 @@ PreviewSize=256
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
-[Notification Messages]
-warnAboutRisksBeforeActingAsAdmin=false
-
 [PreviewSettings]
-Plugins=audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,rom-properties,rawthumbnail,rom-properties-kf6,librsvg,svgthumbnail,textthumbnail,ffmpegthumbs,webp-pixbuf
-
-[VersionControl]
-enabledPlugins=Bazaar
-
-[ViewPropertiesDialog]
-3 screens: Height=738
-3 screens: Width=367
-DP-1 HDMI-A-1 HDMI-A-2 Height 2048x864 DP-1=589
-DP-1 HDMI-A-1 HDMI-A-2 Width 2048x864 DP-1=362
+Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rom-properties,rawthumbnail,RomThumbnailCreator-kf6,svgthumbnail,textthumbnail,ffmpegthumbs,exe-thumbnailer

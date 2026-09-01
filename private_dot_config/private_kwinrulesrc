@@ -2,9 +2,18 @@
 above=true
 aboverule=2
 
+[6951ebc4-c0cf-4c1d-8248-a5df991e2688]
+Description=Settings for RAIL winboat-Adobe Photoshop 2026
+screenrule=2
+size=2560,1080
+sizerule=2
+wmclass=RAIL winboat-Adobe Photoshop 2026
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=2
-rules=fea2aaa6-f233-45cd-b28d-4c63aa9be672,e76d3b5c-b962-4a21-ba1d-7dd22b164890
+count=3
+rules=fea2aaa6-f233-45cd-b28d-4c63aa9be672,e76d3b5c-b962-4a21-ba1d-7dd22b164890,6951ebc4-c0cf-4c1d-8248-a5df991e2688
 
 [e76d3b5c-b962-4a21-ba1d-7dd22b164890]
 Description=fix tilling geometry

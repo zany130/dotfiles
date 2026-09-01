@@ -9,6 +9,7 @@ embed-application/x-cd-image=false
 embed-application/x-docbook+xml=false
 embed-application/x-kdeuser1=false
 embed-application/x-matroska=false
+embed-application/x-rpm=false
 embed-application/x-wine-extension-inf=false
 embed-application/x-yaml=false
 embed-application/x-zerosize=false

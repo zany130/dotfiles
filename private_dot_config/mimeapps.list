@@ -1,13 +1,13 @@
 [Added Associations]
 application/json=re.sonny.Junction.desktop;code.desktop;org.kde.kwrite.desktop;com.visualstudio.code-oss.desktop;
 application/pdf=re.sonny.Junction.desktop;org.kde.okular.desktop;com.microsoft.Edge.desktop;
-application/vnd.flatpak=io.github.flattool.Warehouse.desktop;
+application/vnd.flatpak=io.github.kolunmi.Bazaar.desktop;io.github.flattool.Warehouse.desktop;org.kde.discover.desktop;
 application/vnd.flatpak.ref=io.github.flattool.Warehouse.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=re.sonny.Junction.desktop;com.calibre_ebook.calibre.ebook-viewer.desktop;com.calibre_ebook.calibre.desktop;com.calibre_ebook.calibre.ebook-edit.desktop;org.kde.ark.desktop;sh.ppy.osu.desktop;org.ppsspp.PPSSPP.desktop;org.onlyoffice.desktopeditors.desktop;
 application/x-docbook+xml=re.sonny.Junction.desktop;code.desktop;org.kde.kwrite.desktop;com.visualstudio.code-oss.desktop;
 application/x-matroska=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 application/x-ms-dos-executable=io.github.fastrizwaan.WineZGUI.desktop;org.winehq.Wine.desktop;com.github.Matoking.protontricks-launch.desktop;com.usebottles.bottles.desktop;io.github.Faugus.faugus-launcher.shortcut.desktop;io.github.Faugus.faugus-launcher.desktop;
-application/x-rpm=io.github.dvlv.boxbuddyrs.desktop;org.kde.ark.desktop;org.kde.discover.desktop;
+application/x-rpm=io.github.DenysMb.Kontainer.desktop;io.github.dvlv.boxbuddyrs.desktop;org.kde.ark.desktop;org.kde.discover.desktop;
 application/x-yaml=re.sonny.Junction.desktop;code.desktop;org.kde.kwrite.desktop;com.visualstudio.code-oss.desktop;
 application/xml=com.visualstudio.code-oss.desktop;org.garudalinux.firedragon.desktop;io.gitlab.librewolf-community.desktop;com.vivaldi.Vivaldi.desktop;com.google.Chrome.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;com.calibre_ebook.calibre.desktop;io.github.zyedidia.micro.desktop;org.kde.okular.desktop;com.calibre_ebook.calibre.ebook-viewer.desktop;
 application/yaml=code.desktop;org.kde.kwrite.desktop;org.kde.kate.desktop;org.kde.okular.desktop;com.calibre_ebook.calibre.desktop;com.calibre_ebook.calibre.ebook-viewer.desktop;io.github.nokse22.Exhibit.desktop;org.onlyoffice.desktopeditors.desktop;
@@ -72,23 +72,23 @@ video/x-ogm=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 video/x-ogm+ogg=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 video/x-theora=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 video/x-theora+ogg=re.sonny.Junction.desktop;org.kde.haruna.desktop;
+x-scheme-handler/arctis-asm=ArctisManager.desktop;
 x-scheme-handler/discord=io.github.equicord.equibop.desktop;
 x-scheme-handler/geo=google-maps-geo-handler.desktop;openstreetmap-geo-handler.desktop;
 x-scheme-handler/http=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/https=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/mailto=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
-x-scheme-handler/arctis-asm=ArctisManager.desktop;
 
 [Default Applications]
 application/json=re.sonny.Junction.desktop;
 application/pdf=re.sonny.Junction.desktop;
-application/vnd.flatpak=io.github.flattool.Warehouse.desktop;
+application/vnd.flatpak=io.github.kolunmi.Bazaar.desktop;
 application/vnd.flatpak.ref=io.github.flattool.Warehouse.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=re.sonny.Junction.desktop;
 application/x-docbook+xml=re.sonny.Junction.desktop;
 application/x-matroska=re.sonny.Junction.desktop;
 application/x-ms-dos-executable=io.github.fastrizwaan.WineZGUI.desktop;
-application/x-rpm=io.github.dvlv.boxbuddyrs.desktop;
+application/x-rpm=io.github.DenysMb.Kontainer.desktop;
 application/x-yaml=re.sonny.Junction.desktop;
 application/xml=com.visualstudio.code-oss.desktop;
 application/yaml=code.desktop;
@@ -155,7 +155,9 @@ video/x-ogm+ogg=re.sonny.Junction.desktop;
 video/x-theora=re.sonny.Junction.desktop;
 video/x-theora+ogg=re.sonny.Junction.desktop;
 wifiman-desktop-dl=wi-fiman-desktop-handler.desktop
+x-scheme-handler/arctis-asm=ArctisManager.desktop
 x-scheme-handler/bitwarden=bitwarden-AM.desktop
+x-scheme-handler/codex=fedora-chatgpt.desktop
 x-scheme-handler/discord=io.github.equicord.equibop.desktop;
 x-scheme-handler/discord-1139939140494971051=discord-1139939140494971051.desktop
 x-scheme-handler/discord-1221314350216646828=discord-1221314350216646828.desktop
@@ -187,7 +189,6 @@ x-scheme-handler/mailto=re.sonny.Junction.desktop;
 x-scheme-handler/msteams=teams_for_linux.desktop
 x-scheme-handler/sidequest=SideQuest.desktop
 x-scheme-handler/webcatalog=webcatalog-AM.desktop
-x-scheme-handler/arctis-asm=ArctisManager.desktop
 
 [Removed Associations]
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop;outlook-o365.desktop;

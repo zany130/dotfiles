@@ -10,6 +10,10 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[LinNote]
+Toggle=none,F12,Toggle LinNote
+_k_friendly_name=LinNote
+
 [com.github.hluk.copyq]
 CTRL+SHIFT+C||Copy a Secret=Ctrl+Shift+C,Ctrl+Shift+C,CopyQ - Copy a Secret
 LOGO+ALT+D||Diff Latest Items=Meta+Alt+D,Meta+Alt+D,CopyQ - Diff Latest Items
@@ -384,6 +388,14 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[linnote]
+_k_friendly_name=LinNote
+toggle-window=none,F12,Toggle LinNote window
+
+[linnote.desktop]
+Toggle=F12,none,Toggle LinNote
+_k_friendly_name=LinNote
+
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,none,Media volume down
@@ -441,6 +453,10 @@ activate widget 313=none,none,Activate Window Title Reborn Widget
 activate widget 350=none,none,Activate Weather Report Widget
 activate widget 366=Ctrl+1,none,Activate KBulletin Widget
 activate widget 4=none,none,Activate Simple Application Launcher Widget
+activate widget 458=none,none,Activate KBulletin Widget
+activate widget 460=none,none,Activate Corestrip Widget
+activate widget 464=Ctrl+F6,none,Activate Recents Tracker Widget
+activate widget 467=none,none,Activate Dynamic Island Widget
 activate widget 87=none,none,Activate Application Launcher Widget
 clear history=none,none,Clear Notification History
 clear-history=none,none,Clear Clipboard History
@@ -470,6 +486,9 @@ _launch=
 [services][flatpak.desktop]
 _launch=Meta+Space
 
+[services][io.github.tanaybhomia.Whisp.desktop]
+_launch=F12
+
 [services][net.local.flatpak-2.desktop]
 _launch=Meta+V
 
@@ -483,6 +502,8 @@ new-window=none
 _launch=Ctrl+Shift+Esc
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=none
+OpenWithoutScreenshot=none
 RecordRegion=Meta+Shift+R
 RecordScreen=none
 RecordWindow=none
@@ -519,4 +540,4 @@ _launch=Meta+Esc
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=F12,F12,Open/Retract Yakuake
+toggle-window-state=none,F12,Open/Retract Yakuake
