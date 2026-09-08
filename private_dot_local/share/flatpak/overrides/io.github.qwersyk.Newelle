@@ -1,6 +1,0 @@
-[Context]
-filesystems=home:ro;
-sockets=session-bus;
-
-[Session Bus Policy]
-org.freedesktop.Flatpak=talk

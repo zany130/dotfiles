@@ -1,3 +1,0 @@
-[Context]
-filesystems=xdg-data/applications;/var/home/zany130/Games;/var/mnt/emulation;
-sockets=!pulseaudio;
