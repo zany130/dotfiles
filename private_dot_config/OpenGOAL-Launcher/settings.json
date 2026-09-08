@@ -1,66 +1,44 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "requirements": {
-    "bypassRequirements": true,
+    "bypassRequirements": false,
     "avx": true,
     "openGL": true
   },
   "games": {
-    "Jak 1": {
-      "isInstalled": true,
-      "version": "v0.2.27",
-      "features": {
-        "texturePacks": [
-          "Jak1_ESRGAN_Edition_v1.0.2"
-        ]
-      },
-      "secondsPlayed": 0,
-      "modsInstalledVersion": {
-        "JakMods": {
-          "patched": "1.1.3",
-          "mortin-time": "2.1.9",
-          "forgotten-lands": "0.3.5"
-        }
-      }
-    },
-    "Jak X": {
+    "jakx": {
       "isInstalled": false,
       "version": null,
-      "features": {
-        "texturePacks": []
-      },
+      "texturePacks": [],
       "secondsPlayed": 0,
-      "modsInstalledVersion": {}
+      "mods": {}
     },
-    "Jak 2": {
-      "isInstalled": true,
-      "version": "v0.2.27",
-      "features": {
-        "texturePacks": []
-      },
-      "secondsPlayed": 0,
-      "modsInstalledVersion": {
-        "JakMods": {
-          "heromode-plus": "0.0.7"
-        }
-      }
-    },
-    "Jak 3": {
+    "jak2": {
       "isInstalled": false,
       "version": null,
-      "features": {
-        "texturePacks": []
-      },
+      "texturePacks": [],
       "secondsPlayed": 0,
-      "modsInstalledVersion": {}
+      "mods": {}
+    },
+    "jak1": {
+      "isInstalled": false,
+      "version": null,
+      "texturePacks": [],
+      "secondsPlayed": 0,
+      "mods": {}
+    },
+    "jak3": {
+      "isInstalled": false,
+      "version": null,
+      "texturePacks": [],
+      "secondsPlayed": 0,
+      "mods": {}
     }
   },
-  "installationDir": "/var/home/zany130/Games/OpenGoal",
-  "activeVersion": "v0.2.27",
+  "installationDir": "/var/home/zany130/Games/OpenGOAL",
+  "activeVersion": "v0.3.6",
   "locale": "en-US",
-  "modSources": [
-    "https://jakmods.dev/mods.json"
-  ],
+  "modSources": [],
   "decompilerSettings": {
     "ripLevelsEnabled": false,
     "ripCollisionEnabled": false,
@@ -70,5 +48,10 @@
   "checkForLatestModVersion": true,
   "proceedAfterSuccessfulOperation": true,
   "autoUpdateGames": false,
-  "deletePreviousVersions": false
+  "deletePreviousVersions": false,
+  "ui": {
+    "hideBetaAlerts": false,
+    "hideGamename": false,
+    "hidePlaytime": false
+  }
 }

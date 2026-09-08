@@ -79,7 +79,7 @@
                 "customModes": [
                 ],
                 "detectedDdcCi": false,
-                "edidHash": "6a641b35d4eee8d9267722599b74d84a",
+                "edidHash": "f8f8f14be924be48ab6df28d266c5430",
                 "edidIdentifier": "GSM 49352 16843009 1 2022 0",
                 "edrPolicy": "always",
                 "hdrColorProfileSource": "EDID",

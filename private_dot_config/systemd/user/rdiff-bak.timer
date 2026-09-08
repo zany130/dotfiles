@@ -4,6 +4,8 @@ Wants=rdiff-bak-clean.timer
 Wants=rdiff-bak-tar.timer
 
 [Timer]
+RandomizedDelaySec=5m
+OnBootSec=5m
 OnUnitInactive=rdiff-bak-clean.timer
 OnUnitInactive=rdiff-bak-tar.timer
 OnCalendar=*-*-* 0/2:00:00

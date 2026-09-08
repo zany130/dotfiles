@@ -1,6 +1,6 @@
 [Desktop Entry]
 Icon=jetbrains-toolbox
-Exec=/var/home/linuxbrew/.linuxbrew/Caskroom/jetbrains-toolbox-linux/3.4.3.81140/jetbrains-toolbox-3.4.3.81140/bin/jetbrains-toolbox --minimize
+Exec=/var/home/linuxbrew/.linuxbrew/Caskroom/jetbrains-toolbox-linux/3.7.2.87231/jetbrains-toolbox-3.7.2.87231/bin/jetbrains-toolbox --minimize
 Version=1.0
 Type=Application
 Categories=Development

@@ -4,10 +4,11 @@ historyBehavior=ImmediateCompletion
 
 [Plugins]
 baloosearchEnabled=true
+krunner_appstreamEnabled=false
 krunner_keysEnabled=true
 
 [Plugins][Favorites]
-plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings
+plugins=krunner-yafti,krunner_powerdevil,krunner_sessions,krunner_services,krunner_systemsettings,bazaarrunner,krunner_colors
 
 [Runners][krunner_kill]
 sorting=1

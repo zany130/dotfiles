@@ -1,6 +1,3 @@
-[FullScreen]
-FullScreenModeActive=true
-
 [General]
 LastUsedVersion=210800
 SideBarPage=operations
@@ -9,26 +6,26 @@ SideBarPage=operations
 PrintHeight=12.08
 
 [Recent Files]
-File1[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20220606_140318-286470998_2009438789228584_3842943854976878490_n.jpeg
-File10[$e]=/var/home/zany130/Downloads/948d2a42-fd9e-4198-88b4-bfa4fbe031de (1).png
-File2[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n_v2_enhanced.jpg
-File3[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n.jpeg
-File4[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230301_142235-333985138_619636240175196_8477127851226992709_n.jpeg
-File5[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n_v2_enhanced.jpg
-File6[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n.jpeg
-File7[$e]=$HOME/Downloads/27983541-a8c1-428b-bcaf-29b9c52b9a41.png
-File8[$e]=$HOME/Downloads/chalk-milk-bag.png
-File9[$e]=/var/home/zany130/Downloads/902bdf59-0759-4d55-a840-e38660773f36.png
-Name1[$e]=saltqueenttv-20220606_140318-286470998_2009438789228584_3842943854976878490_n.jpeg
-Name10[$e]=948d2a42-fd9e-4198-88b4-bfa4fbe031de (1).png
-Name2[$e]=saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n_v2_enhanced.jpg
-Name3[$e]=saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n.jpeg
-Name4[$e]=saltqueenttv-20230301_142235-333985138_619636240175196_8477127851226992709_n.jpeg
-Name5[$e]=saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n_v2_enhanced.jpg
-Name6[$e]=saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n.jpeg
-Name7[$e]=27983541-a8c1-428b-bcaf-29b9c52b9a41.png
-Name8[$e]=chalk-milk-bag.png
-Name9[$e]=902bdf59-0759-4d55-a840-e38660773f36.png
+File1[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n_v2_enhanced.jpg
+File10[$e]=$HOME/Documents/Softee-Freeze/softserves.png
+File2[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n.jpeg
+File3[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230301_142235-333985138_619636240175196_8477127851226992709_n.jpeg
+File4[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n_v2_enhanced.jpg
+File5[$e]=$HOME/pCloudDrive/Crypto Folder/saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n.jpeg
+File6[$e]=$HOME/Downloads/27983541-a8c1-428b-bcaf-29b9c52b9a41.png
+File7[$e]=$HOME/Downloads/chalk-milk-bag.png
+File8[$e]=/var/home/zany130/Downloads/902bdf59-0759-4d55-a840-e38660773f36.png
+File9[$e]=/var/home/zany130/Downloads/948d2a42-fd9e-4198-88b4-bfa4fbe031de (1).png
+Name1[$e]=saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n_v2_enhanced.jpg
+Name10[$e]=softserves.png
+Name2[$e]=saltqueenttv-20221015_120111-311590756_799322468019953_2575167320408413398_n.jpeg
+Name3[$e]=saltqueenttv-20230301_142235-333985138_619636240175196_8477127851226992709_n.jpeg
+Name4[$e]=saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n_v2_enhanced.jpg
+Name5[$e]=saltqueenttv-20230322_154237-336947839_930669025030857_6519566797703799010_n.jpeg
+Name6[$e]=27983541-a8c1-428b-bcaf-29b9c52b9a41.png
+Name7[$e]=chalk-milk-bag.png
+Name8[$e]=902bdf59-0759-4d55-a840-e38660773f36.png
+Name9[$e]=948d2a42-fd9e-4198-88b4-bfa4fbe031de (1).png
 
 [SideBar]
 InformationSplitterSizes=218,257

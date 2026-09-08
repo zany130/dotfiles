@@ -392,10 +392,6 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 _k_friendly_name=LinNote
 toggle-window=none,F12,Toggle LinNote window
 
-[linnote.desktop]
-Toggle=F12,none,Toggle LinNote
-_k_friendly_name=LinNote
-
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,none,Media volume down

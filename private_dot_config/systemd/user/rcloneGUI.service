@@ -2,7 +2,7 @@
 Description=rclone webgui
 
 [Service]
-Type=forking
+Type=simple
 ExecStart=rclone rcd --rc-web-gui --rc-web-gui-update --rc-web-gui-no-open-browser
 
 [Install]
