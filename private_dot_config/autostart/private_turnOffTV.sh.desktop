@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/zany130/.config/plasma-workspace/env/turnOffTV.sh
+Icon=application-x-shellscript
+Name=turnOffTV.sh
+Type=Application
+X-KDE-AutostartScript=true

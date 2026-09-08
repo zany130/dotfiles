@@ -1,0 +1,6 @@
+[Desktop Entry]
+Categories=Utility
+Exec=/home/zany130/.local/bin/moondeck-buddy
+Icon=/var/home/zany130/Applications/moondeck-buddy/icons/moondeck-buddy
+Name=MoonDeckBuddy
+Type=Application

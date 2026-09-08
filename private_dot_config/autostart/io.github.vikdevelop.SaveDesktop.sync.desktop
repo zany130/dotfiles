@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=SaveDesktop (Synchronization)
+Type=Application
+Exec=sh /home/zany130/.var/app/io.github.vikdevelop.SaveDesktop/data/savedesktop-synchronization.sh

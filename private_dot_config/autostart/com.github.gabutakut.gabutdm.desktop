@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Gabut Download Manager
+X-XDP-Autostart=com.github.gabutakut.gabutdm
+Exec=flatpak run --command=flatpak com.github.gabutakut.gabutdm run com.github.gabutakut.gabutdm -s
+X-Flatpak=com.github.gabutakut.gabutdm

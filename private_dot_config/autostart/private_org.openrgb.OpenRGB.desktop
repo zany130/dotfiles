@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_US]=Control RGB lighting
+Comment=Control RGB lighting
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=openrgb org.openrgb.OpenRGB --server --gui --startminimized --profile MyRGB
+GenericName[en_US]=
+GenericName=
+Icon=org.openrgb.OpenRGB
+MimeType=
+Name[en_US]=OpenRGB
+Name=OpenRGB
+Path=
+StartupNotify=true
+StartupWMClass=openrgb
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.5
+X-Flatpak=org.openrgb.OpenRGB
+X-KDE-SubstituteUID=false
+X-KDE-Username=
