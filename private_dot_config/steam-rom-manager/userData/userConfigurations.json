@@ -99,7 +99,7 @@
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/emus/**/${title}_ico.@(png|jpg|ico)"
         },
         "parserId": "164824496516097458",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
@@ -108,7 +108,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -224,8 +233,17 @@
             "icon": ""
         },
         "parserId": "164824496516097459",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -341,8 +359,17 @@
             "icon": "/home/zany130/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/emus/**/${title}_ico.@(png|jpg|ico)"
         },
         "parserId": "164824333516097458",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -438,8 +465,17 @@
             "icon": ""
         },
         "parserId": "164785598905497513",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -535,8 +571,17 @@
             "icon": ""
         },
         "parserId": "164785598905497514",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -577,7 +622,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785598905398122",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -625,7 +670,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -666,7 +720,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785598905398121",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -714,7 +768,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -755,7 +818,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785598905398123",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -803,7 +866,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -844,7 +916,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785598905398120",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -892,7 +964,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -946,7 +1027,7 @@
             }
         },
         "parserId": "166486574949993186",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -981,7 +1062,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1060,7 +1150,7 @@
             "icon": ""
         },
         "parserId": "164785622173694321",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
@@ -1069,7 +1159,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1125,7 +1224,7 @@
             }
         },
         "parserId": "165964954316677671",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -1160,7 +1259,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1239,7 +1347,7 @@
             "icon": ""
         },
         "parserId": "164785622173694322",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
@@ -1248,7 +1356,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1301,7 +1418,7 @@
             "appendArgsToExecutable": false
         },
         "parserId": "164285091855061150",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1336,7 +1453,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1392,7 +1518,7 @@
             }
         },
         "parserId": "165768545254166037",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -1427,7 +1553,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1470,7 +1605,7 @@
             "removeBrackets": true
         },
         "parserId": "164824416516097457",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1518,7 +1653,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1561,7 +1705,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785580134372556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1609,7 +1753,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1652,7 +1805,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164585567134532556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1700,7 +1853,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1743,7 +1905,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785567134372556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1791,7 +1953,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1832,7 +2003,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785583010740299",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -1880,7 +2051,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -1957,7 +2137,7 @@
             "icon": ""
         },
         "parserId": "164824416518097459",
-        "version": 25,
+        "version": 29,
         "steamInputEnabled": "1",
         "drmProtect": false,
         "steamCategories": [
@@ -1966,7 +2146,16 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": true
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2007,7 +2196,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "16476758151010299",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2055,7 +2244,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2096,7 +2294,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785590686474494",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2144,7 +2342,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2185,7 +2392,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785595449272606",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2233,7 +2440,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2274,7 +2490,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785595449272607",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2322,7 +2538,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2376,7 +2601,7 @@
             }
         },
         "parserId": "164712598905497531",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -2411,7 +2636,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2465,7 +2699,7 @@
             }
         },
         "parserId": "164785598905497512",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -2500,7 +2734,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2541,7 +2784,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785127820983556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2589,7 +2832,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2630,7 +2882,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785092749272606",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2678,7 +2930,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2719,7 +2980,7 @@
             "removeBrackets": true
         },
         "parserId": "165155371770791847",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2767,7 +3028,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2821,7 +3091,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164789998905398117",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -2856,7 +3126,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -2947,8 +3226,17 @@
             "icon": ""
         },
         "parserId": "135113607715086732",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3040,8 +3328,17 @@
             "icon": ""
         },
         "parserId": "167851246183635366",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3133,8 +3430,17 @@
             "icon": ""
         },
         "parserId": "165103607715056732",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3175,7 +3481,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "1647850989120983556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -3223,7 +3529,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3277,7 +3592,7 @@
             }
         },
         "parserId": "165856080826916450",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -3312,7 +3627,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3366,7 +3690,7 @@
             }
         },
         "parserId": "165855998563219386",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -3401,7 +3725,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3455,7 +3788,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164789998905398116",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -3490,7 +3823,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3582,8 +3924,17 @@
             "icon": ""
         },
         "parserId": "164680998105308116",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3699,8 +4050,17 @@
             "icon": ""
         },
         "parserId": "16478559884003904",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3792,8 +4152,17 @@
             "icon": ""
         },
         "parserId": "164785598905398114",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -3885,8 +4254,17 @@
             "icon": ""
         },
         "parserId": "167184642099963041",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4002,8 +4380,17 @@
             "icon": ""
         },
         "parserId": "164823604520657524",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4095,8 +4482,17 @@
             "icon": ""
         },
         "parserId": "164843694520657522",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4188,8 +4584,17 @@
             "icon": ""
         },
         "parserId": "164823604520657522",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4230,7 +4635,7 @@
             "appendArgsToExecutable": false
         },
         "parserId": "164785621855061652",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "switch_pro": {
                 "title": "EmuDeck - Switch Pro",
@@ -4299,7 +4704,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4391,8 +4805,17 @@
             "icon": ""
         },
         "parserId": "164785598920514822",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4508,8 +4931,17 @@
             "icon": ""
         },
         "parserId": "164785621855061661",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4601,8 +5033,17 @@
             "icon": ""
         },
         "parserId": "164785598936495323",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4694,8 +5135,17 @@
             "icon": ""
         },
         "parserId": "164785590985613234",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4811,8 +5261,17 @@
             "icon": ""
         },
         "parserId": "164385421865061350",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4904,8 +5363,17 @@
             "icon": ""
         },
         "parserId": "164785598952083233",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -4997,8 +5465,17 @@
             "icon": ""
         },
         "parserId": "164785590985613233",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5090,8 +5567,17 @@
             "icon": ""
         },
         "parserId": "164770728884890304",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5183,8 +5669,17 @@
             "icon": ""
         },
         "parserId": "164785621824841888",
-        "version": 25,
-        "disabled": false
+        "version": 29,
+        "disabled": false,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5276,8 +5771,17 @@
             "icon": ""
         },
         "parserId": "164770728884890305",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5369,8 +5873,17 @@
             "icon": ""
         },
         "parserId": "16472550495204231",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5462,8 +5975,17 @@
             "icon": ""
         },
         "parserId": "166785621840217949",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5555,8 +6077,17 @@
             "icon": ""
         },
         "parserId": "164785621840217949",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5648,8 +6179,17 @@
             "icon": ""
         },
         "parserId": "164788906872922785",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5741,8 +6281,17 @@
             "icon": ""
         },
         "parserId": "164785621855061650",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5834,8 +6383,17 @@
             "icon": ""
         },
         "parserId": "164789998905398115",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -5931,8 +6489,17 @@
             "icon": ""
         },
         "parserId": "164770823452964732",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6048,8 +6615,17 @@
             "icon": ""
         },
         "parserId": "166758881839575782",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6165,8 +6741,17 @@
             "icon": ""
         },
         "parserId": "166758882107057128",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6282,8 +6867,17 @@
             "icon": ""
         },
         "parserId": "164824416516097458",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6399,8 +6993,17 @@
             "icon": ""
         },
         "parserId": "164824416518097458",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6443,7 +7046,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785580114332556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -6491,7 +7094,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6547,7 +7159,7 @@
             }
         },
         "parserId": "168541242505111076",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -6582,7 +7194,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6623,7 +7244,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785621902122397",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -6671,7 +7292,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6712,7 +7342,7 @@
             "appendArgsToExecutable": false
         },
         "parserId": "164785621902122396",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -6760,7 +7390,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6813,7 +7452,7 @@
             }
         },
         "parserId": "167174183584229566",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "controllers": {
             "ps4": null,
@@ -6849,7 +7488,16 @@
         ],
         "onlineImageQueries": [
             "${title}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6917,7 +7565,7 @@
             }
         },
         "parserId": "166399570436769358",
-        "version": 25,
+        "version": 29,
         "defaultImage": {
             "long": "",
             "tall": "",
@@ -6939,7 +7587,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -6980,7 +7637,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785621902111196",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -7028,7 +7685,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7069,7 +7735,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785622132332421",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -7117,7 +7783,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7209,8 +7884,17 @@
             "icon": ""
         },
         "parserId": "163584525855031650",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7302,8 +7986,17 @@
             "icon": ""
         },
         "parserId": "164785622173694320",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7395,8 +8088,17 @@
             "icon": ""
         },
         "parserId": "164785645224239563",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7488,8 +8190,17 @@
             "icon": ""
         },
         "parserId": "164806160364417694",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7530,7 +8241,7 @@
             "removeBrackets": true
         },
         "parserId": "164806164364417694",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -7578,7 +8289,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7670,8 +8390,17 @@
             "icon": ""
         },
         "parserId": "16478564523883851",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7754,7 +8483,7 @@
             "icon": ""
         },
         "parserId": "169890088467987948",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "steamInputEnabled": "1",
         "drmProtect": false,
@@ -7763,7 +8492,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7820,7 +8558,7 @@
             "appendArgsToExecutable": false
         },
         "parserId": "163584525855031651",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -7855,7 +8593,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -7896,7 +8643,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785645253672240",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -7944,7 +8691,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8036,8 +8792,17 @@
             "icon": ""
         },
         "parserId": "166502992463815988",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8078,7 +8843,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164795646253672241",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -8126,7 +8891,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8167,7 +8941,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785127823332556",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -8215,7 +8989,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8268,7 +9051,7 @@
             }
         },
         "parserId": "164785583010740300",
-        "version": 25,
+        "version": 29,
         "disabled": true,
         "controllers": {
             "ps4": null,
@@ -8304,7 +9087,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8360,7 +9152,7 @@
             }
         },
         "parserId": "168642641869935597",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -8395,7 +9187,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8438,7 +9239,7 @@
             "removeBrackets": true
         },
         "parserId": "164824417216097457",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -8486,7 +9287,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8527,7 +9337,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785621885441701",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -8575,7 +9385,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8616,7 +9435,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164785621885441702",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -8664,7 +9483,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8756,8 +9584,17 @@
             "icon": ""
         },
         "parserId": "164785208872922785",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -8851,8 +9688,17 @@
             "icon": ""
         },
         "parserId": "164785645271669680",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob-regex",
@@ -8946,8 +9792,17 @@
             "icon": ""
         },
         "parserId": "165182011334544893",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9039,8 +9894,17 @@
             "icon": ""
         },
         "parserId": "164785656634747068",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9132,8 +9996,17 @@
             "icon": ""
         },
         "parserId": "164785656684747068",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9227,8 +10100,17 @@
             "icon": ""
         },
         "parserId": "166409089761171238",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9320,8 +10202,17 @@
             "icon": ""
         },
         "parserId": "164785656699856393",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9413,8 +10304,17 @@
             "icon": ""
         },
         "parserId": "165153198040340580",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9506,8 +10406,17 @@
             "icon": ""
         },
         "parserId": "166001743996365855",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9548,7 +10457,7 @@
             "appendArgsToExecutable": true
         },
         "parserId": "164781111102122397",
-        "version": 25,
+        "version": 29,
         "imageProviderAPIs": {
             "sgdb": {
                 "nsfw": false,
@@ -9596,7 +10505,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9652,7 +10570,7 @@
             }
         },
         "parserId": "168540950876229866",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -9687,7 +10605,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9743,7 +10670,7 @@
             }
         },
         "parserId": "168541420924650278",
-        "version": 25,
+        "version": 29,
         "controllers": {
             "ps4": null,
             "ps5": null,
@@ -9778,7 +10705,16 @@
         ],
         "onlineImageQueries": [
             "${fuzzyTitle}"
-        ]
+        ],
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -9870,8 +10806,17 @@
             "icon": ""
         },
         "parserId": "164785621855061651",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Non-SRM Shortcuts",
@@ -9959,8 +10904,17 @@
             "icon": ""
         },
         "parserId": "175980966852986386",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -10052,8 +11006,17 @@
             "icon": ""
         },
         "parserId": "175980994522995146",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -10144,8 +11107,17 @@
             "icon": ""
         },
         "parserId": "17598100503283811",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     },
     {
         "parserType": "Glob",
@@ -10237,7 +11209,16 @@
             "icon": ""
         },
         "parserId": "175981005281573675",
-        "version": 25,
-        "disabled": true
+        "version": 29,
+        "disabled": true,
+        "group": "",
+        "sortAsFromVariable": {},
+        "overlayImages": {
+            "tall": null,
+            "long": null,
+            "hero": null,
+            "logo": null,
+            "icon": null
+        }
     }
 ]

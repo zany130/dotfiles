@@ -1,8 +1,8 @@
 {
 	"fuzzyMatcher": {
 		"timestamps": {
-			"check": 1771547001536,
-			"download": 1771547001536
+			"check": 1789091539689,
+			"download": 1789091539689
 		},
 		"verbose": false,
 		"filterProviders": true
@@ -33,12 +33,13 @@
 	"offlineMode": false,
 	"navigationWidth": 349,
 	"clearLogOnTest": false,
-	"version": 10,
+	"version": 11,
 	"theme": "Deck",
 	"dnsServers": [],
 	"batchDownloadSize": 50,
 	"emudeckInstall": false,
 	"autoUpdate": true,
 	"autoKillSteam": false,
-	"autoRestartSteam": false
+	"autoRestartSteam": false,
+	"parserGroups": []
 }

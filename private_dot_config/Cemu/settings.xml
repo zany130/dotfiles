@@ -7,7 +7,7 @@
   <language>0</language>
   <use_discord_presence>false</use_discord_presence>
   <fullscreen_menubar>false</fullscreen_menubar>
-  <check_update>false</check_update>
+  <check_update>true</check_update>
   <save_screenshot>true</save_screenshot>
   <vk_warning>false</vk_warning>
   <gp_download>true</gp_download>
@@ -48,6 +48,7 @@
   <RecentLaunchFiles/>
   <RecentNFCFiles/>
   <GamePaths>
+    <Entry>/run/media/mmcblk0p1/Emulation/roms/wiiu/roms</Entry>
     <Entry>/home/zany130/Emulation/roms/wiiu/roms/</Entry>
   </GamePaths>
   <GameCache/>
@@ -96,7 +97,7 @@
     <InputVolume>100</InputVolume>
     <TVDevice>default</TVDevice>
     <PadDevice>default</PadDevice>
-    <InputDevice>default</InputDevice>
+    <InputDevice/>
   </Audio>
   <Account>
     <PersistentId>2147483649</PersistentId>

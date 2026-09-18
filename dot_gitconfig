@@ -25,3 +25,9 @@
 	lowSpeedLimit = 1000
 	lowSpeedTime = 60
 	postBuffer = 524288000
+[credential "https://origin.cursor.com/git"]
+	helper = 
+	helper = !/home/zany130/.local/bin/origin credential-helper
+[credential "https://origin.cursor.com"]
+	helper = 
+	helper = !/home/zany130/.local/bin/origin credential-helper

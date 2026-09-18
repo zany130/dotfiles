@@ -1,4 +1,4 @@
-aspect_ratio_index = "1"
+aspect_ratio_index = "0"
 video_crop_overscan = "false"
 video_shader_enable = "false"
 input_overlay_auto_scale = "false"

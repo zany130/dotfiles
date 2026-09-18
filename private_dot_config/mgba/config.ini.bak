@@ -1,6 +1,52 @@
-[shortcutProfileButton.Microsoft%20X-Box%20360%20pad%200]
+[General]
+audioDriver=1
+cameraDriver=0
+displayDriver=1
+maximized=true
+multiplayerAudio=all
+windowPos=@Point(0 0)
+
+[shader.default.0]
+bias%5B0%5D=0
+bias%5B1%5D=0
+bias%5B2%5D=0
+desaturation%5B0%5D=0
+desaturation%5B1%5D=0
+desaturation%5B2%5D=0
+gamma=1
+scale%5B0%5D=1
+scale%5B1%5D=1
+scale%5B2%5D=1
+
+[shortcutAxis]
+fastForward=@String(\0-1)
+
+[shortcutButton]
 fastForward=-1
 
+[shortcutKey]
+cheatsWindow=End
+fastForward=Home
+fullscreen=PgDown
+loadState=F1
+pause=PgUp
+quickLoad.1=Alt+End
+quickLoad.4=Alt+Del
+quickLoad.6=Alt+PgUp
+quickSave.1=Shift+End
+quit=Alt+F4
+reset=F6
+rewind=Del
+saveState=Shift+F1
+screenshot=Ctrl+P
+settings=F11
+undoLoadState=Alt+Ins
+
+[shortcutProfileAxis.Microsoft%20X-Box%20360%20pad%200]
+fastForward=@String(\0-1)
+
+[shortcutProfileButton.Microsoft%20X-Box%20360%20pad%200]
+fastForward=-1
 [gba.input.SDLB]
 keyRight=-1
 keyDown=-1
@@ -44,12 +90,6 @@ keyLeft=16777234
 keyA=88
 keyStart=16777220
 
-[shortcutAxis]
-fastForward=@String(\0-1)
-
-[shortcutButton]
-fastForward=-1
-
 [gba.input-profile.Microsoft X-Box 360 pad 0]
 keyRight=-1
 keyDown=-1
@@ -74,24 +114,6 @@ keyStart=7
 axisUpAxis=-1
 axisDownAxis=+1
 
-[shortcutKey]
-quickLoad.6=Alt+PgUp
-undoLoadState=Alt+Ins
-fullscreen=PgDown
-loadState=F1
-quit=Alt+F4
-reset=F6
-rewind=Del
-screenshot=Ctrl+P
-settings=F11
-cheatsWindow=End
-pause=PgUp
-quickLoad.4=Alt+Del
-quickSave.1=Shift+End
-quickLoad.1=Alt+End
-saveState=Shift+F1
-fastForward=Home
-
 [gba.input-profile.03000000de280000ff11000001000000]
 tiltAxisY=3
 gyroAxisX=0
@@ -100,27 +122,12 @@ gyroSensitivity=2.2e+09
 tiltAxisX=2
 gyroAxisY=1
 
-[shortcutProfileAxis.Microsoft%20X-Box%20360%20pad%200]
-fastForward=@String(\0-1)
-
-[shader.default.0]
-desaturation%5B0%5D=0
-scale%5B1%5D=1
-bias%5B1%5D=0
-gamma=1
-bias%5B0%5D=0
-desaturation%5B1%5D=0
-desaturation%5B2%5D=0
-scale%5B2%5D=1
-bias%5B2%5D=0
-scale%5B0%5D=1
-
 [ports.qt]
 fullscreen=0
 showOSD=1
 suspendScreensaver=1
 logFile=
-width=942
+width=2560
 skipBios=0
 gb.pal[4]=8953928
 gb.pal[5]=4745264
@@ -138,7 +145,7 @@ logLevel=7
 pauseOnFocusLost=0
 frameskip=0
 hwaccelVideo=1
-height=509
+height=1330
 rewindBufferCapacity=1000
 autofireThreshold=1
 showFilename=0
@@ -204,12 +211,4 @@ saveStateExtdata=31
 useBios=1
 logToFile=0
 gb.pal[3]=1583112
-
-[General]
-maximized=true
-multiplayerAudio=all
-cameraDriver=0
-audioDriver=1
-windowPos=@Point(0 0)
-displayDriver=1
 

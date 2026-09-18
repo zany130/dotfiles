@@ -132,4 +132,4 @@ cheevos_username=zany130
 cheevos_username=zany130
 netPlay=true
 arClassic3d=169
-netplayCMD=-H
+netplayCMD=' '

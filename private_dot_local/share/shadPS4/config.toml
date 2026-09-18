@@ -1,95 +1,68 @@
 [General]
-alwaysShowChangelog = false
-autoUpdate = false
-BGMvolume = 97
-checkCompatibilityOnStartup = true
-chooseHomeTab = "General"
-compatibilityEnabled = true
-enableDiscordRPC = true
-Fullscreen = true
-FullscreenMode = "Borderless"
-isDevKit = false
-isPS4Pro = false
-isPSNSignedIn = false
-isTrophyPopupDisabled = true
-logFilter = ""
 logType = "async"
-playBGM = true
 separateUpdateEnabled = false
-showSplash = true
-sideTrophy = "right"
-trophyNotificationDuration = 5.0
+showSplash = false
+Fullscreen = true
+checkCompatibilityOnStartup = false
 updateChannel = "Nightly"
-userName = "zany130"
+logFilter = ""
+enableDiscordRPC = false
+compatibilityEnabled = true
+autoUpdate = false
+userName = "shadPS4"
+isTrophyPopupDisabled = false
+playBGM = false
+isPS4Pro = false
+BGMvolume = 50
 
 [Input]
-backButtonBehavior = "left"
-cursorHideTimeout = 5
 cursorState = 1
-isMotionControlsEnabled = true
+cursorHideTimeout = 5
+backButtonBehavior = "left"
 specialPadClass = 1
 useSpecialPad = false
-useUnifiedInputConfig = true
 
 [GPU]
-allowHDR = true
-copyGPUBuffers = false
-directMemoryAccess = false
-dumpShaders = false
-Fullscreen = true
-FullscreenMode = "Fullscreen"
+screenWidth = 1280
+screenHeight = 720
 nullGpu = false
-patchShaders = true
-readbacks = false
-screenHeight = 2160
-screenWidth = 3840
+copyGPUBuffers = false
 vblankDivider = 1
+dumpShaders = false
+patchShaders = true
 
 [Vulkan]
-crashDiagnostic = false
-gpuId = 0
-guestMarkers = false
-hostMarkers = false
-rdocEnable = false
-rdocMarkersEnable = false
+gpuId = -1
 validation = false
-validation_gpu = false
+rdocMarkersEnable = false
 validation_sync = false
+validation_gpu = false
+rdocEnable = false
+crashDiagnostic = false
 
 [Debug]
-CollectShader = false
 DebugDump = false
-FPSColor = true
-isSeparateLogFilesEnabled = false
-
-[Keys]
-TrophyKey = ""
+CollectShader = false
 
 [GUI]
-addonInstallDir = "/home/zany130/Emulation/storage/shadps4/dlc"
-backgroundImageOpacity = 50
-elfDirs = []
-emulatorLanguage = "en_US"
 gameTableMode = 0
-geometry_h = 1031
-geometry_w = 2538
-geometry_x = 1920
-geometry_y = 720
+mw_width = 1280
+geometry_x = 0
 iconSize = 36
+emulatorLanguage = "en"
 iconSizeGrid = 69
-installDirs = ["/home/zany130/Emulation/storage/shadps4/games"]
-installDirsEnabled = [true]
-loadGameSizeEnabled = true
-mw_height = 1031
-mw_width = 2538
+elfDirs = []
+mw_height = 718
+addonInstallDir = "/home/zany130/Emulation/storage/shadps4/dlc"
 pkgDirs = []
-recentFiles = ["/home/zany130/Emulation/storage/shadps4/games/CUSA02344/eboot.bin", "/home/zany130/Emulation/storage/shadps4/games/CUSA04943/eboot.bin"]
-saveDataPath = ""
-showBackgroundImage = true
-sliderPos = 0
 sliderPosGrid = 0
+geometry_h = 718
+geometry_y = 28
+recentFiles = []
+sliderPos = 0
+installDirs = ["/home/zany130/Emulation/storage/shadps4/games"]
 theme = 0
+geometry_w = 1280
 
 [Settings]
 consoleLanguage = 1
-

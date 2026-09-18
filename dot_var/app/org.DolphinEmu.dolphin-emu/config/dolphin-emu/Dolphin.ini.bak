@@ -1,5 +1,7 @@
 [Analytics]
 PermissionAsked = True
+ID = 043bad867a982eaaf9baffd5d16889ac
+Enabled = True
 [BluetoothPassthrough]
 Enabled = False
 [Core]
@@ -9,45 +11,82 @@ WiimoteEnableSpeaker = False
 GFXBackend = Vulkan
 AudioStretch = False
 AudioStretchMaxLatency = 80
-DPL2Decoder = False
+DPL2Decoder = True
 DPL2Quality = 2
-DSPHLE = True
+DSPHLE = False
 AutoDiscChange = True
 EmulationSpeed = 1.00000000
 EnableCheats = True
 OverrideRegionSettings = False
 CPUThread = True
-MMU = False
+MMU = True
 SIDevice0 = 6
 SIDevice1 = 0
 SIDevice2 = 0
 SIDevice3 = 0
+FallbackRegion = 1
+EnableWiiLink = True
+SelectedLanguage = 0
+SerialPort1 = 255
+SkipIPL = False
+SlotA = 8
+SlotB = 255
+WiiSDCardAllowWrites = True
+WiiSDCardEnableFolderSync = True
+WiiSDCardFilesize = 0x0000000000000000
+LoadGameIntoMemory = True
 [DSP]
 DSPThread = False
 Backend = Cubeb
-EnableJIT = False
+EnableJIT = True
 [NetPlay]
 TraversalChoice = direct
 [Display]
 Fullscreen = True
 DisableScreenSaver = True
 KeepWindowOnTop = False
+RenderWindowAutoSize = True
 [General]
 RecursiveISOPaths = True
 HotkeysRequireFocus = False
-ISOPath0 = /var/mnt/emulation/emudeck/Emulation//roms/gc
+ISOPath0 = /home/zany130/Emulation/roms/gc
 ISOPaths = 2
-ISOPath1 = /var/mnt/emulation/emudeck/Emulation//roms/wii
-UseGameCovers = False
+ISOPath1 = /home/zany130/Emulation/roms/wii
+UseGameCovers = True
+WirelessMac = 00:17:ab:65:2e:8b
 [Interface]
 ConfirmStop = False
 OnScreenDisplayMessages = True
-PauseOnFocusLost = False
+PauseOnFocusLost = True
 ShowActiveTitle = True
 UseBuiltinTitleDatabase = True
 UsePanicHandlers = False
 LanguageCode = en
-ThemeName = Clean
+ThemeName = Clean Blue
 CursorVisibility = 0
 [Hardware]
 VSync = True
+[AutoHDR-options]
+AUTO_HDR_SHOULDER_POW = 2.5
+AUTO_HDR_SHOULDER_START_ALPHA = 0
+HDR_DISPLAY_MAX_NITS = 792
+[PerceptualHDR-options]
+AMPLIFICATION = 2.5
+[GBA]
+BIOS = /home/zany130/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GBA/gba_bios.bin
+Rom1 = 
+Rom2 = 
+Rom3 = 
+Rom4 = 
+SavesInRomPath = False
+SavesPath = /home/zany130/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GBA/Saves/
+Threads = True
+[Input]
+BackgroundInput = False
+[SDL_Hints]
+SDL_JOYSTICK_DIRECTINPUT = 1
+SDL_JOYSTICK_ENHANCED_REPORTS = 1
+SDL_JOYSTICK_HIDAPI_COMBINE_JOY_CONS = 1
+SDL_JOYSTICK_HIDAPI_PS5_PLAYER_LED = 0
+SDL_JOYSTICK_HIDAPI_VERTICAL_JOY_CONS = 0
+SDL_JOYSTICK_WGI = 0
