@@ -167,6 +167,10 @@
    <Filename>Gone Home.desktop</Filename>
    <Filename>Memory's_Dogma_CODE01.desktop</Filename>
    <Filename>Soulstice.desktop</Filename>
+   <Filename>Banjo 64: Recompiled.desktop</Filename>
+   <Filename>DK64 Rekongpiled.desktop</Filename>
+   <Filename>Perfect Dark Port.desktop</Filename>
+   <Filename>Super Metroid Launcher.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>GameJolt.desktop</Filename>
@@ -179,6 +183,7 @@
    <Filename>RGSX.desktop</Filename>
    <Filename>YGO Omega.desktop</Filename>
    <Filename>goopie_launcher-2.desktop</Filename>
+   <Filename>Github_Launcher.desktop</Filename>
   </Include>
   <Menu>
    <Name>Arcade</Name>
@@ -194,7 +199,53 @@
   </Menu>
   <Layout>
    <Merge type="files"/>
-   <Filename>2ship.desktop</Filename>
+   <Filename>ape_escape_recompiled.desktop</Filename>
+   <Filename>Banjo-Kazooie.desktop</Filename>
+   <Filename>Digimon World.desktop</Filename>
+   <Filename>io.github.dk64recompiled.dk64recompiled.desktop</Filename>
+   <Filename>Donkey Kong 64.desktop</Filename>
+   <Filename>dusklight.desktop</Filename>
+   <Filename>Final Fantasy Tactics.desktop</Filename>
+   <Filename>F-Zero X.desktop</Filename>
+   <Filename>Goemon 64: Recompiled.desktop</Filename>
+   <Filename>Kirby's Return to Dream Land.desktop</Filename>
+   <Filename>Legend of Dragoon.desktop</Filename>
+   <Filename>Mario Kart 64.desktop</Filename>
+   <Filename>Mario Party 4.desktop</Filename>
+   <Filename>metroid_prime_hunters_recomp.desktop</Filename>
+   <Filename>Mystical Ninja Starring Goemon.desktop</Filename>
+   <Filename>Naughty Bear Gold Edition.desktop</Filename>
+   <Filename>Paper Boat - Paper Mario.desktop</Filename>
+   <Filename>Paper Mario.desktop</Filename>
+   <Filename>io.github.fgsfdsfgs.perfect_dark.desktop</Filename>
+   <Filename>Pikmin.desktop</Filename>
+   <Filename>Pokemon Stadium.desktop</Filename>
+   <Filename>Quest 64.desktop</Filename>
+   <Filename>Sly Cooper and the Thievius Raccoonus.desktop</Filename>
+   <Filename>Sonic and the Secret Rings.desktop</Filename>
+   <Filename>Sonic Unleashed.desktop</Filename>
+   <Filename>Star Fox 64.desktop</Filename>
+   <Filename>Super Mario 64 [Co-op DX].desktop</Filename>
+   <Filename>Super Mario 64 [Infinite Mario 64 Ever].desktop</Filename>
+   <Filename>Super Mario 64.desktop</Filename>
+   <Filename>Super Mario Bros. [Remastered].desktop</Filename>
+   <Filename>supermarioworld.desktop</Filename>
+   <Filename>The Legend of Zelda: Link's Awakening DX [HD Updated].desktop</Filename>
+   <Filename>The Legend of Zelda: Majora's Mask and Ocarina of Time.desktop</Filename>
+   <Filename>The Legend of Zelda: Majora's Mask.desktop</Filename>
+   <Filename>The Legend of Zelda: The Minish Cap.desktop</Filename>
+   <Filename>The Simpsons Game.desktop</Filename>
+   <Filename>io.github.coccofresco.TriAevum.desktop</Filename>
+   <Filename>Valkyrie Profile.desktop</Filename>
+   <Filename>Viva Pinata: Trouble In Paradise.desktop</Filename>
+   <Filename>wiicompiled_setup.desktop</Filename>
+   <Filename>io.github.xander_haj.Z3RLauncher.desktop</Filename>
+   <Filename>Zelda 64: Recompiled.desktop</Filename>
+   <Filename>Github_Launcher.desktop</Filename>
+   <Filename>lost_odyssey_recomp.desktop</Filename>
+   <Filename>retro_launcher.desktop</Filename>
+   <Filename>supermariowar-AM.desktop</Filename>
+   <Filename>super_smash_bros._melee.desktop</Filename>
    <Filename>alvr-launcher.desktop</Filename>
    <Filename>io.github.Amethyst.ModManager.desktop</Filename>
    <Filename>io.github.antimicrox.antimicrox.desktop</Filename>
@@ -235,7 +286,6 @@
    <Filename>game-jolt-client.desktop</Filename>
    <Menuname>Kidsgames</Menuname>
    <Filename>io.github.astralvixen.geforce-infinity.desktop</Filename>
-   <Filename>ghostship.desktop</Filename>
    <Filename>io.github.klorfmorf.goemon64recomp.desktop</Filename>
    <Filename>xyz.goopie.launcher.desktop</Filename>
    <Filename>io.github.gopher64.gopher64.desktop</Filename>
@@ -244,7 +294,6 @@
    <Filename>io.github.hedge_dev.hedgemodmanager.desktop</Filename>
    <Filename>com.heroicgameslauncher.hgl.desktop</Filename>
    <Filename>io.itch.itch.desktop</Filename>
-   <Filename>lighthouse.desktop</Filename>
    <Menuname>Logic</Menuname>
    <Filename>com.github.mtkennerly.ludusavi.desktop</Filename>
    <Filename>net.lutris.Lutris.desktop</Filename>
@@ -299,14 +348,11 @@
    <Filename>org.sonic3air.Sonic3AIR.desktop</Filename>
    <Filename>org.srb2.SRB2.desktop</Filename>
    <Filename>org.srb2.SRB2Kart.desktop</Filename>
-   <Filename>spaghettikart.desktop</Filename>
    <Filename>starfox64recomp-AM.desktop</Filename>
    <Filename>steam.desktop</Filename>
    <Filename>com.valvesoftware.SteamLink.desktop</Filename>
-   <Filename>ons-steamtinkerlaunch.desktop</Filename>
    <Filename>Steam_ROM_Manager.desktop</Filename>
    <Filename>io.github.stella_emu.Stella.desktop</Filename>
-   <Filename>arch-SuperMarioWorld.desktop</Filename>
    <Filename>Switch-Library-Manager.desktop</Filename>
    <Filename>SwitchEmuModDownloader.desktop</Filename>
    <Menuname>TacticStrategy</Menuname>
@@ -535,6 +581,10 @@
    <Filename>wi-fiman-desktop-handler.desktop</Filename>
    <Filename>headsetcontrol-gui.desktop</Filename>
    <Filename>wi-fiman-desktop.desktop</Filename>
+   <Filename>Banjo 64: Recompiled.desktop</Filename>
+   <Filename>DK64 Rekongpiled.desktop</Filename>
+   <Filename>Perfect Dark Port.desktop</Filename>
+   <Filename>Super Metroid Launcher.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="files"/>

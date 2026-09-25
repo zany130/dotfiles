@@ -1956,12 +1956,7 @@
             "Z370 AORUS Ultra Gaming-CF"
         ]
     },
-    "LogManager": {
-        "dialog_no_show_hashes": [
-            6856110824172292845,
-            11011923073826078851
-        ]
-    },
+    "LogManager": null,
     "Plugins": {
         "plugins": [
             {
@@ -1983,28 +1978,28 @@
     },
     "ProfileManager": {
         "exit_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         },
         "open_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         },
         "resume_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         },
         "service_shutdown_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         },
         "service_startup_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         },
         "suspend_profile": {
-            "enabled": false,
-            "name": "MyRGB"
+            "enabled": true,
+            "name": "my-profile"
         }
     },
     "Server": {
