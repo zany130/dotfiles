@@ -1,5 +1,5 @@
 [global]
-last_wallpaper = "5124"
+last_wallpaper = "5121"
 queue_mode = "shuffle"
 rotation_secs = 900
 audio_fade_ms = 500
@@ -42,6 +42,7 @@ maximized = "none"
 fullscreen = "pause"
 session_locked = "stop"
 session_inactive = "stop"
+gamemode = "none"
 resume_delay_ms = 250
 
 [global.pause_effect]
@@ -59,50 +60,38 @@ angle = 0
 x = 50
 y = 50
 
-[plugin.wescene-renderer]
-custom_extent = "1080"
-resolution = "2"
-render_node = ""
-msaa = "1"
-enable_audio = "true"
-hwdec = "auto"
-fps = "30"
-volume = "100"
-
 [plugin.waywallen-image]
 fps = "30"
 render_node = ""
 resolution = "0"
 
-[plugin.weweb-renderer]
-remote_debugging_port = "0"
-enable_audio = "true"
-shared_texture_enabled = "true"
-fps = "60"
-volume = "100"
-render_node = ""
-resolution = "2"
-
 [plugin.waywallen-video]
+resolution = "0"
 enable_audio = "true"
+hwdec = "auto"
+loop_file = "inf"
 render_node = ""
 fps = "30"
-resolution = "0"
-loop_file = "inf"
 volume = "100"
+
+[plugin.weweb-renderer]
+enable_audio = "true"
+volume = "100"
+shared_texture_enabled = "true"
+render_node = ""
+resolution = "2"
+fps = "60"
+remote_debugging_port = "0"
+
+[plugin.wescene-renderer]
 hwdec = "auto"
-
-[display.kde-5cb8173e7b4c410fa1e4c5df4b85d207]
-last_wallpaper = "2838"
-active_playlist_id = 1
-
-[display.kde-61e2f8a5d1c646801b55d3bbda30b7cb]
-last_wallpaper = "5124"
-active_playlist_id = 1
-
-[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
-last_wallpaper = "5121"
-active_playlist_id = 2
+msaa = "1"
+volume = "100"
+custom_extent = "1080"
+fps = "30"
+resolution = "2"
+render_node = ""
+enable_audio = "true"
 
 [display.bd275c04-c029-4db3-a992-50776b8ce9eb]
 last_wallpaper = "2856"
@@ -110,6 +99,18 @@ active_playlist_id = 2
 
 [display.kde-a885389b1ec5378c402019d3ccd55f96]
 last_wallpaper = "2902"
+
+[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
+last_wallpaper = "5114"
+active_playlist_id = 2
+
+[display.kde-61e2f8a5d1c646801b55d3bbda30b7cb]
+last_wallpaper = "5121"
+active_playlist_id = 1
+
+[display.kde-5cb8173e7b4c410fa1e4c5df4b85d207]
+last_wallpaper = "2838"
+active_playlist_id = 1
 
 [display.6b7123e0-46f3-495c-ab1f-8e73e78dedee]
 last_wallpaper = "2868"

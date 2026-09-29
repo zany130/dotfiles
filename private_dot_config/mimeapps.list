@@ -76,10 +76,11 @@ x-scheme-handler/arctis-asm=ArctisManager.desktop;
 x-scheme-handler/discord=io.github.equicord.equibop.desktop;
 x-scheme-handler/geo=google-maps-geo-handler.desktop;openstreetmap-geo-handler.desktop;
 x-scheme-handler/githubstore=github-store-deeplink.desktop
-x-scheme-handler/http=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
-x-scheme-handler/https=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
+x-scheme-handler/http=com.vivaldi.Vivaldi.desktop;
+x-scheme-handler/https=com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/mailto=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/sidequest=SideQuest.desktop
+x-scheme-handler/codex=chatgpt.desktop;
 
 [Default Applications]
 application/json=re.sonny.Junction.desktop;
@@ -120,7 +121,7 @@ image/jpeg=re.sonny.Junction.desktop;
 image/png=re.sonny.Junction.desktop;
 image/webp=re.sonny.Junction.desktop;
 image/x-icns=re.sonny.Junction.desktop;
-text/html=org.mozilla.firefox.desktop
+text/html=re.sonny.Junction.desktop
 text/markdown=re.sonny.Junction.desktop;
 text/plain=re.sonny.Junction.desktop;
 text/x-cmake=re.sonny.Junction.desktop;
@@ -192,6 +193,8 @@ x-scheme-handler/mailto=re.sonny.Junction.desktop;
 x-scheme-handler/msteams=teams_for_linux.desktop
 x-scheme-handler/sidequest=SideQuest.desktop
 x-scheme-handler/webcatalog=webcatalog-AM.desktop
+text/xml=re.sonny.Junction.desktop
+application/xhtml+xml=re.sonny.Junction.desktop
 
 [Removed Associations]
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop;outlook-o365.desktop;
