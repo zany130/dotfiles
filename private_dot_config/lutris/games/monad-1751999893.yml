@@ -1,0 +1,29 @@
+game:
+  exe: ''
+game_slug: monad
+name: monad
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+  installer:
+  - task:
+      arch: win64
+      prefix: /var/mnt/DATA/Games/itchio/monad
+      wine_path: /home/zany130/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  - install_or_extract: itchupload
+  - write_json:
+      data:
+        appid: '409885'
+        date: 1751999880
+        runner: wine
+        service: itchio
+        slug: monad
+        upload: '1564794'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '409885'
+slug: monad
+version: itch.io

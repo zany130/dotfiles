@@ -1,0 +1,11 @@
+game:
+  exe: /home/zany130/Games/Sonic Omens (3.2.0)/Sonic Omens.exe
+  prefix: /home/zany130/Games/sonic-omens
+system:
+  gamemode: false
+  gamescope_hdr: true
+wine:
+  autoconf_joypad: true
+  battleye: false
+  eac: false
+  version: ge-proton

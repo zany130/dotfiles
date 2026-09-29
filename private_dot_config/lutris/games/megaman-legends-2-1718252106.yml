@@ -1,0 +1,27 @@
+game:
+  exe: /home/zany130/Games/DASH2/Dash2_PATCHED/DASH2eng.EXE
+  prefix: /home/zany130/Games/megaman-legends
+  working_dir: /home/zany130/Games/DASH2/Dash2_PATCHED
+system:
+  disable_screen_saver: false
+  gamemode: false
+  gamescope: false
+  gamescope_flags: --adaptive-sync --rt
+  gamescope_fps_limiter: '120'
+  mangohud: false
+  sdl_video_fullscreen: '0'
+  xephyr_fullscreen: false
+wine:
+  ShowCrashDialog: false
+  autoconf_joypad: false
+  battleye: false
+  dgvoodoo2: true
+  dxvk: false
+  eac: false
+  esync: false
+  fsr: false
+  fsync: false
+  overrides:
+    d3d8.dll: n,b
+  sandbox: false
+  show_debug: ''

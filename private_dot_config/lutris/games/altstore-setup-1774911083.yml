@@ -1,0 +1,27 @@
+game:
+  exe: /home/zany130/Games/altstore/drive_c/Program Files (x86)/AltServer/AltServer.exe
+  prefix: /home/zany130/Games/altstore
+game_slug: altstore
+name: Altstore
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /home/zany130/Applications/ipadAltstore/setup.exe
+      prefix: /home/zany130/Games/altstore
+      wine_path: /usr/bin/umu-run
+  system:
+    env:
+      LC_ALL: ''
+slug: altstore-setup
+system:
+  env:
+    LC_ALL: ''
+version: Setup file

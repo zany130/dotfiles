@@ -1,0 +1,76 @@
+game:
+  exe: /home/zany130/Games/star-citizen/drive_c/Program Files/Roberts Space Industries/RSI
+    Launcher/RSI Launcher.exe
+  prefix: /home/zany130/Games/star-citizen
+game_slug: star-citizen
+name: Star Citizen
+script:
+  files:
+  - client: https://install.robertsspaceindustries.com/rel/2/RSI%20Launcher-Setup-2.3.1.exe
+  game:
+    exe: $GAMEDIR/drive_c/Program Files/Roberts Space Industries/RSI Launcher/RSI
+      Launcher.exe
+    prefix: $GAMEDIR
+  install_complete_text: "Installation Complete!\r\n\r\nPlease see our Wiki for important\
+    \ news and configuration requirements:\r\n\r\nhttps://starcitizen-lug.github.io"
+  installer:
+  - task:
+      arch: win64
+      prefix: /home/zany130/Games/star-citizen
+      wine_path: /home/zany130/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  - task:
+      app: arial tahoma powershell win10
+      arch: win64
+      prefix: /home/zany130/Games/star-citizen
+      wine_path: /home/zany130/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  - task:
+      arch: win64
+      args: /S
+      env:
+        DXVK_HUD: '0'
+        EOS_USE_ANTICHEATCLIENTNULL: '1'
+        GAMEID: umu-starcitizen
+        MESA_SHADER_CACHE_DIR: /home/zany130/Games/star-citizen
+        MESA_SHADER_CACHE_MAX_SIZE: 10G
+        __GL_SHADER_DISK_CACHE: '1'
+        __GL_SHADER_DISK_CACHE_PATH: /home/zany130/Games/star-citizen
+        __GL_SHADER_DISK_CACHE_SIZE: '10737418240'
+        __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: '1'
+      executable: /home/zany130/.cache/lutris/installer/star-citizen/client/RSI%20Launcher-Setup-2.3.1.exe
+      prefix: /home/zany130/Games/star-citizen
+      wine_path: /home/zany130/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  system:
+    env:
+      DXVK_HUD: 0
+      EOS_USE_ANTICHEATCLIENTNULL: 1
+      GAMEID: umu-starcitizen
+      MESA_SHADER_CACHE_DIR: $GAMEDIR
+      MESA_SHADER_CACHE_MAX_SIZE: 10G
+      __GL_SHADER_DISK_CACHE: 1
+      __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR
+      __GL_SHADER_DISK_CACHE_SIZE: 10737418240
+      __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: 1
+    prefer_system_libs: true
+  wine:
+    overrides:
+      libglesv2: builtin
+slug: star-citizen-liversi20
+system:
+  env:
+    DXVK_HUD: '0'
+    EOS_USE_ANTICHEATCLIENTNULL: '1'
+    GAMEID: umu-starcitizen
+    MESA_SHADER_CACHE_DIR: /home/zany130/Games/star-citizen
+    MESA_SHADER_CACHE_MAX_SIZE: 10G
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/zany130/Games/star-citizen
+    __GL_SHADER_DISK_CACHE_SIZE: '10737418240'
+    __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: '1'
+  gamescope: false
+  prefer_system_libs: true
+version: LIVE/RSI/2.0
+wine:
+  overrides:
+    libglesv2: builtin
+  version: ge-proton
+year: 2016

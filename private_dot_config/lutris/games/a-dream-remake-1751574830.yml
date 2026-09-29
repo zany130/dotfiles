@@ -1,0 +1,30 @@
+game:
+  exe: /var/mnt/DATA/Games/itchio/a-dream-remake/LinuxPlayer_s.debug
+game_slug: a-dream-remake
+name: 'A Dream : Remake'
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_ELF_xXx_
+  installer:
+  - extract:
+      dst: $CACHE
+      file: itchupload
+  - merge:
+      dst: $GAMEDIR
+      src: $CACHE
+  - write_json:
+      data:
+        appid: '591013'
+        date: 1751574825
+        runner: linux
+        service: itchio
+        slug: a-dream-remake
+        upload: '2047997'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '591013'
+slug: a-dream-remake
+version: itch.io Linux

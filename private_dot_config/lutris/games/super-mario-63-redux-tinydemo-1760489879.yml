@@ -1,0 +1,17 @@
+game:
+  exe: Super Mario 63 Redux.x86_64
+game_slug: super-mario-63-redux
+name: Super Mario 63 Redux
+script:
+  files:
+  - gamezip: https://github.com/GTcreyon/SM63Redux/releases/download/v0.1.6/SM63_Redux_Linux_v0.1.6.zip
+  game:
+    exe: Super Mario 63 Redux.x86_64
+  installer:
+  - extract:
+      file: gamezip
+      format: zip
+  - chmodx: Super Mario 63 Redux.x86_64
+slug: super-mario-63-redux-tinydemo
+version: tinydemo
+year: 2023

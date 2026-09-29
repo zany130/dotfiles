@@ -1,0 +1,31 @@
+game:
+  exe: /home/zany130/Games/megaman-legends/drive_c/Program Files (x86)/Capcom/Megaman/MEGAMAN.EXE
+  prefix: /home/zany130/Games/megaman-legends
+game_slug: megaman-legends
+name: MegaMan Legends
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: /run/media/zany130/Megaman/SETUP.EXE
+      prefix: /home/zany130/Games/megaman-legends
+      wine_path: /home/zany130/.local/share/lutris/runners/wine/wine-ge-8-26-x86_64/bin/wine
+  system:
+    env:
+      LC_ALL: ''
+slug: megaman-legends-setup
+system:
+  env:
+    LC_ALL: ''
+  gamescope: false
+  sdl_video_fullscreen: '0'
+version: Setup file
+wine:
+  autoconf_joypad: true

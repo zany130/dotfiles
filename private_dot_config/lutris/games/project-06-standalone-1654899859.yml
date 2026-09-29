@@ -1,0 +1,12 @@
+game:
+  arch: win64
+  exe: /mnt/GAMES/Games/Sonic the Hedgehog (P-06)/Sonic the Hedgehog.exe
+  prefix: /home/zany130/Games/project-06
+system:
+  env:
+    DXVK_HUD: compiler
+    DXVK_STATE_CACHE_PATH: /home/zany130/Games/project-06
+wine:
+  dxvk: true
+  esync: true
+  version: lutris-GE-Proton7-24-x86_64

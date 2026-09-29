@@ -1,0 +1,6 @@
+[MIME Cache]
+application/metalink+xml=com.github.gabutakut.gabutdm.desktop;
+application/x-bittorrent=com.github.gabutakut.gabutdm.desktop;
+x-scheme-handler/heroic=com.heroicgameslauncher.hgl.desktop;
+x-scheme-handler/tg=kotatogramdesktop.desktop;org.telegram.desktop.desktop;
+x-scheme-handler/whatsapp=com.ktechpit.whatsie.desktop;

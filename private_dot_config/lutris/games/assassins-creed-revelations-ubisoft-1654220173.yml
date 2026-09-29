@@ -1,0 +1,12 @@
+game:
+  args: uplay://launch/93d30d80-cd8c-4c11-9e93-4b64b3cd0e80
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /mnt/GAMES/Games/ubisoft-connect
+system: {}
+wine:
+  Audio: alsa
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  version: lutris-fshack-7.2-x86_64

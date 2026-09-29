@@ -1,0 +1,30 @@
+game:
+  exe: /var/mnt/DATA/Games/itchio/nightline/Nightline.x86_64
+game_slug: nightline
+name: Nightline
+script:
+  files:
+  - itchupload: N/A:Select the installer from itch.io
+  game:
+    exe: _xXx_AUTO_ELF_xXx_
+  installer:
+  - extract:
+      dst: $CACHE
+      file: itchupload
+  - merge:
+      dst: $GAMEDIR
+      src: $CACHE
+  - write_json:
+      data:
+        appid: '271787'
+        date: 1751574925
+        runner: linux
+        service: itchio
+        slug: nightline
+        upload: '3005246'
+      file: $GAMEDIR/.lutrisgame.json
+      merge: false
+service: itchio
+service_id: '271787'
+slug: nightline
+version: itch.io Linux

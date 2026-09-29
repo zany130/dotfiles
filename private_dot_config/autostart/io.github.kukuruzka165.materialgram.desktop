@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=io.github.kukuruzka165.materialgram
+X-XDP-Autostart=io.github.kukuruzka165.materialgram
+Exec=flatpak run --command=materialgram io.github.kukuruzka165.materialgram -autostart
+X-Flatpak=io.github.kukuruzka165.materialgram

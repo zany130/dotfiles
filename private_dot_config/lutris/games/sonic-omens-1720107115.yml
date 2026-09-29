@@ -1,0 +1,6 @@
+game:
+  exe: /mnt/DATA/Games/SO_Final/WindowsNoEditor/Sonic Omens.exe
+  prefix: /mnt/DATA/Games/SO_Final/winePrefix
+system:
+  gamemode: false
+  gamescope: false

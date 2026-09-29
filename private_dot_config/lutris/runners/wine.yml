@@ -1,0 +1,4 @@
+system:
+  sdl_video_fullscreen: '2'
+wine:
+  version: ge-proton
