@@ -1,0 +1,70 @@
+Launching "Zwei: The Arges Adventure" (gog)
+Native? No
+Installed in: /home/zany130/Games/Heroic/Zwei The Arges Adventure
+
+System Info:
+CPU: 6x AMD Ryzen 5 7600X 6-Core Processor
+Memory: 33.2 GB (used: 10.4 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 31 [Radeon RX 7900 XT/7900 XTX/7900 GRE/7900M]
+    IDs: D=744c V=1002 SD=5315 SV=1849
+    Driver: amdgpu
+OS: Bazzite 41.20250216.0 (Kinoite) (linux)
+
+The current system is not a Steam Deck
+We are running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallDxvkNvapi": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableMsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"showMangohud": false,
+	"useGameMode": true,
+	"battlEyeRuntime": true,
+	"eacRuntime": true,
+	"language": "",
+	"beforeLaunchScriptPath": "",
+	"afterLaunchScriptPath": "",
+	"gamescope": {
+		"enableUpscaling": false,
+		"enableLimiter": false,
+		"windowType": "fullscreen",
+		"gameWidth": "",
+		"gameHeight": "",
+		"upscaleHeight": "",
+		"upscaleWidth": "",
+		"upscaleMethod": "fsr",
+		"fpsLimiter": "",
+		"fpsLimiterNoFocus": "",
+		"additionalOptions": ""
+	},
+	"wineVersion": {
+		"bin": "",
+		"name": "Default Wine - Not Found",
+		"type": "wine"
+	},
+	"winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/Zwei The Arges Adventure",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Fri Feb 21 2025 18:10:35 GMT-0500 (Eastern Standard Time)
+
+Wine version Default Wine - Not Found is not valid, trying another one.
+============= End of log =============

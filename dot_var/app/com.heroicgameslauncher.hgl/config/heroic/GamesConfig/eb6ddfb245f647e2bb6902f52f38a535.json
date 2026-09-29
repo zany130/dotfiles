@@ -1,0 +1,49 @@
+{
+  "eb6ddfb245f647e2bb6902f52f38a535": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "showMangohud": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": ""
+    },
+    "verboseLogs": false,
+    "advertiseAvxForRosetta": false,
+    "wineVersion": {
+      "bin": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/proton/GE-Proton-latest/proton",
+      "name": "Proton - GE-Proton-latest",
+      "type": "proton"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/Tiny Tinas Wonderlands",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

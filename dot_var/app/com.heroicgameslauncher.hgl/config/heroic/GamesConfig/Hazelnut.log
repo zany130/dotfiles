@@ -1,0 +1,30 @@
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Preparing download for "Limbo" (Hazelnut)...
+[Core] INFO: Parsing game manifest...
+[Core] INFO: Install path: /home/zany130/Games/Heroic/Limbo
+[Core] INFO: Selected CDN: cloudflare.epicgamescdn.com (https)
+[DLM] INFO: Found 0 missing files.
+[cli] INFO: Install size: 98.57 MiB
+[cli] INFO: Download size: 83.78 MiB (Compression savings: 16.2%)
+[cli] INFO: Reusable size: 0.00 MiB (chunks) / 0.00 MiB (unchanged / skipped)
+[cli] INFO: Downloads are resumable, you can interrupt the download with CTRL-C and resume it using the same command later on.
+[DLManager] INFO: Download Manager running with process-id: 504
+[DLManager] INFO: Starting download workers...
+[DLManager] INFO: Starting file writing worker...
+[DLManager] INFO: = Progress: 0.00% (0/142), Running for 00:00:00, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 0.00 MiB, Written: 0.00 MiB
+[DLManager] INFO:  - Cache usage: 24.00 MiB, active tasks: 24
+[DLManager] INFO:  + Download	- 0.00 MiB/s (raw) / 0.00 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 0.00 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: = Progress: 100.00% (142/142), Running for 00:00:01, ETA: 00:00:00
+[DLManager] INFO:  - Downloaded: 83.78 MiB, Written: 98.57 MiB
+[DLManager] INFO:  - Cache usage: 0.00 MiB, active tasks: 0
+[DLManager] INFO:  + Download	- 83.76 MiB/s (raw) / 99.97 MiB/s (decompressed)
+[DLManager] INFO:  + Disk	- 98.54 MiB/s (write) / 0.00 MiB/s (read)
+[DLManager] INFO: Waiting for installation to finish...
+[DLManager] INFO: All done! Download manager quitting...
+[cli] INFO: This game supports cloud saves, syncing is handled by the "sync-saves" command. To download saves for this game run "legendary sync-saves Hazelnut"
+[cli] INFO: Finished installation process in 2.05 seconds.
+
+EOS Overlay update available: 1.3.1++EOSSDK+Release-Overlay-CL-41331449-Windows (Current: 1.2.8++EOSSDK+Release-Overlay-CL-34031348-Windows).
+Run "legendary eos-overlay update" to update to the latest version.

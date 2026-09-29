@@ -1,0 +1,48 @@
+{
+  "Hazelnut": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "showMangohud": false,
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": ""
+    },
+    "verboseLogs": false,
+    "wineVersion": {
+      "bin": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wine",
+      "name": "Wine - Wine-GE-latest",
+      "type": "wine",
+      "lib": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib64",
+      "lib32": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/lib",
+      "wineserver": "/home/zany130/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+    },
+    "winePrefix": "/home/zany130/Games/Heroic/Prefixes/default/Limbo",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}
