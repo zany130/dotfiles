@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=OpenRGB
-X-XDP-Autostart=org.openrgb.OpenRGB
-Exec=flatpak run --command=/app/bin/openrgb org.openrgb.OpenRGB --startminimized 
-X-Flatpak=org.openrgb.OpenRGB
