@@ -48,8 +48,8 @@ backup:
   toggledPaths: {}
   toggledRegistry: {}
   sort:
-    key: size
-    reversed: true
+    key: name
+    reversed: false
   retention:
     full: 5
     differential: 10

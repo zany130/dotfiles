@@ -1,16 +1,16 @@
 [global]
-last_wallpaper = "5114"
+last_wallpaper = "16740"
 queue_mode = "shuffle"
 rotation_secs = 900
 audio_fade_ms = 500
-mute_when_other_audio = false
+mute_when_other_audio = true
 audio_capture_enabled = true
-manual_muted = true
+manual_muted = false
 wallpaper_filter_json = '{"filters":[],"filter_logics":[]}'
-wallpaper_sorts = []
 wallpaper_skip_types = []
 wallpaper_filter_tags = []
 wallpaper_skip_content_ratings = []
+wallpaper_hidden_filter = "exclude"
 plugin_update_notifications = true
 duplicate_renderers_for_same_wallpaper = false
 pointer_forwarding_enabled = true
@@ -34,16 +34,22 @@ y = 50
 [global.auto_replay]
 any_window_scope = "current_display"
 focused_scope = "all_displays"
-maximized_scope = "current_display"
-fullscreen_scope = "current_display"
+maximized_scope = "all_displays"
+fullscreen_scope = "all_displays"
 any_window = "none"
 focused = "mute"
-maximized = "none"
-fullscreen = "pause"
-session_locked = "stop"
-session_inactive = "stop"
-gamemode = "none"
+maximized = "mute"
+fullscreen = "mute"
+session_locked = "none"
+session_inactive = "none"
+gamemode = "pause"
 resume_delay_ms = 250
+
+[global.auto_replay.window_exclusions]
+application_ids = []
+titles = []
+application_id_patterns = []
+title_patterns = []
 
 [global.pause_effect]
 kind = "none"
@@ -60,61 +66,76 @@ angle = 0
 x = 50
 y = 50
 
-[plugin.waywallen-image]
-fps = "30"
+[[global.wallpaper_sorts]]
+key = 1
+direction = 1
+
+[plugin.weweb-renderer]
+fps = "60"
+volume = "100"
+resolution = "2"
+enable_audio = "true"
 render_node = ""
-resolution = "0"
+remote_debugging_port = "0"
+shared_texture_enabled = "true"
 
 [plugin.waywallen-video]
 resolution = "0"
-enable_audio = "true"
+fps = "30"
+render_node = ""
 hwdec = "auto"
 loop_file = "inf"
+volume = "100"
+enable_audio = "true"
+
+[plugin.waywallen-image]
+resolution = "0"
 render_node = ""
 fps = "30"
-volume = "100"
-
-[plugin.weweb-renderer]
-enable_audio = "true"
-volume = "100"
-shared_texture_enabled = "true"
-render_node = ""
-resolution = "2"
-fps = "60"
-remote_debugging_port = "0"
 
 [plugin.wescene-renderer]
+fps = "30"
+volume = "100"
+render_node = ""
 hwdec = "auto"
 msaa = "1"
-volume = "100"
-custom_extent = "1080"
-fps = "30"
-resolution = "2"
-render_node = ""
 enable_audio = "true"
+custom_extent = "1080"
+resolution = "2"
 
 [display.bd275c04-c029-4db3-a992-50776b8ce9eb]
 last_wallpaper = "2856"
 active_playlist_id = 2
 
-[display.kde-a885389b1ec5378c402019d3ccd55f96]
-last_wallpaper = "2902"
+[display.kde-002bae4a3828fac7668c7fb8d701d41b]
+last_wallpaper = "16699"
 
-[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
-last_wallpaper = "5367"
+[display.kde-fb190202cb3eb72252e96ec4652d59f8]
+last_wallpaper = "16724"
 active_playlist_id = 2
 
 [display.kde-61e2f8a5d1c646801b55d3bbda30b7cb]
-last_wallpaper = "5114"
+last_wallpaper = "16760"
+active_playlist_id = 2
+
+[display.6b7123e0-46f3-495c-ab1f-8e73e78dedee]
+last_wallpaper = "2868"
 active_playlist_id = 1
 
 [display.kde-5cb8173e7b4c410fa1e4c5df4b85d207]
 last_wallpaper = "2838"
 active_playlist_id = 1
 
-[display.6b7123e0-46f3-495c-ab1f-8e73e78dedee]
-last_wallpaper = "2868"
+[display.kde-a885389b1ec5378c402019d3ccd55f96]
+last_wallpaper = "2902"
+
+[display.kde-838d2132920f86e85d9c6171883fcafe]
+last_wallpaper = "16740"
 active_playlist_id = 1
+
+[display.kde-977786fec7169d9cf9ab3b07c7f28ae2]
+last_wallpaper = "16760"
+playlist_auto_attach_disabled = true
 
 [display.""]
 last_wallpaper = "2912"

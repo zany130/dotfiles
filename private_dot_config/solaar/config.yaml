@@ -19,7 +19,7 @@
     headset-signature-startup, headset-signature-shutdown, headset-signature-passive, logivoice-nr-state, logivoice-ng-state, logivoice-comp-state, logivoice-deesser-state,
     logivoice-depopper-state, logivoice-limiter-state, logivoice-hpf-state, gesture2-params]
   _battery: 4096
-  _config_cookie: [146, 228]
+  _config_cookie: [104, 124]
   _modelId: B01940690000
   _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, scroll-ratchet: false}
   _serial: 62551F03
@@ -32,7 +32,7 @@
   gesture2-gestures: {45: true, 46: true}
   hires-scroll-mode: false
   hires-smooth-invert: false
-  hires-smooth-resolution: true
+  hires-smooth-resolution: false
   reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86, 195: 195, 196: 196}
   scroll-ratchet: 2
   smart-shift: 16

@@ -1,6 +1,3 @@
-[FullScreen]
-FullScreenModeActive=true
-
 [General]
 LastUsedVersion=210800
 SideBarPage=operations
@@ -9,30 +6,31 @@ SideBarPage=operations
 PrintHeight=20.63
 
 [Recent Files]
-File1[$e]=/var/home/zany130/Pictures/Vivaldi Captures/2026-09-25 19.20.54 github.com da907d68853b.png
-File10[$e]=$HOME/Documents/Softee-Freeze/MilkShakes/cookiesncream-milkshake-nutritionals.png
-File2[$e]=$HOME/Pictures/Vivaldi Captures/2026-09-25 19.20.54 github.com da907d68853b.png
-File3[$e]=$HOME/Documents/Softee-Freeze/SoftServe/04_Ultimate_Cookies_N_Cream_Soft_Serve.psd
-File4[$e]=$HOME/Documents/Softee-Freeze/SoftServe/02_Chocolate_Supreme_Soft_Serve.psd
-File5[$e]=$HOME/Documents/Softee-Freeze/SoftServe/01_Very_Vanilla_Soft_Serve.psd
-File6[$e]=$HOME/Documents/Softee-Freeze/MilkShakes/05_Very_Vanilla_Milkshake.psd
-File7[$e]=$HOME/Documents/Softee-Freeze/MilkShakes/06_Chocolate_Supreme_Milkshake.psd
-File8[$e]=$HOME/Documents/Softee-Freeze/MilkShakes/chocolate-milkshake-nutritionals.png
-File9[$e]=$HOME/Documents/Softee-Freeze/MilkShakes/Strawbery-milkshake-nutritionals.png
-Name1[$e]=2026-09-25 19.20.54 github.com da907d68853b.png
-Name10[$e]=cookiesncream-milkshake-nutritionals.png
-Name2[$e]=2026-09-25 19.20.54 github.com da907d68853b.png
-Name3[$e]=04_Ultimate_Cookies_N_Cream_Soft_Serve.psd
-Name4[$e]=02_Chocolate_Supreme_Soft_Serve.psd
-Name5[$e]=01_Very_Vanilla_Soft_Serve.psd
-Name6[$e]=05_Very_Vanilla_Milkshake.psd
-Name7[$e]=06_Chocolate_Supreme_Milkshake.psd
-Name8[$e]=chocolate-milkshake-nutritionals.png
-Name9[$e]=Strawbery-milkshake-nutritionals.png
+File1[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0144052590.jpg
+File10[$e]=$HOME/Documents/Softee-Freeze/Nutrition/New Folder (2)/Softee Freeze Pack Showcase.png
+File2[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0148106720.jpg
+File3[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0148188720.jpg
+File4[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0222168280.jpg
+File5[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0222305160.jpg
+File6[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0326025210.jpg
+File7[$e]=$HOME/pCloudDrive/Crypto Folder/20260301-0432169710.jpg
+File8[$e]=$HOME/Documents/Softee-Freeze/Nutrition/chocolate-supreme-back-nutrition-Updated.png
+File9[$e]=$HOME/Documents/Softee-Freeze/Nutrition/New Folder (2)/Softee Freeze Frozen Nutrition Collection.png
+Name1[$e]=20260301-0144052590.jpg
+Name10[$e]=Softee Freeze Pack Showcase.png
+Name2[$e]=20260301-0148106720.jpg
+Name3[$e]=20260301-0148188720.jpg
+Name4[$e]=20260301-0222168280.jpg
+Name5[$e]=20260301-0222305160.jpg
+Name6[$e]=20260301-0326025210.jpg
+Name7[$e]=20260301-0432169710.jpg
+Name8[$e]=chocolate-supreme-back-nutrition-Updated.png
+Name9[$e]=Softee Freeze Frozen Nutrition Collection.png
 
 [SideBar]
 InformationSplitterSizes=218,257
-SideBarSplitterSizes=241,710
+IsVisible ViewMode=true
+SideBarSplitterSizes=241,2296
 
 [ThumbnailView]
 ThumbnailSize=1024

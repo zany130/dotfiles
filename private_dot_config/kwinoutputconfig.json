@@ -23,7 +23,7 @@
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
-                "connectorName": "DP-1",
+                "connectorName": "DP-4",
                 "customModes": [
                 ],
                 "detectedDdcCi": true,
@@ -126,7 +126,7 @@
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
-                "connectorName": "DP-2",
+                "connectorName": "HDMI-A-2",
                 "customModes": [
                 ],
                 "detectedDdcCi": true,

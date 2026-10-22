@@ -1,6 +1,7 @@
 [Added Associations]
 application/json=re.sonny.Junction.desktop;code.desktop;org.kde.kwrite.desktop;com.visualstudio.code-oss.desktop;
 application/pdf=re.sonny.Junction.desktop;org.kde.okular.desktop;com.microsoft.Edge.desktop;
+application/vnd.efi.iso=disc-xplorer-AM.desktop;org.kde.ark.desktop;gnome-disk-image-mounter.desktop;cdemu-client.desktop;org.videolan.VLC.desktop;org.ppsspp.PPSSPP.desktop;gnome-disk-image-writer.desktop;org.libretro.RetroArch.desktop;
 application/vnd.flatpak=io.github.kolunmi.Bazaar.desktop;io.github.flattool.Warehouse.desktop;org.kde.discover.desktop;
 application/vnd.flatpak.ref=io.github.flattool.Warehouse.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=re.sonny.Junction.desktop;com.calibre_ebook.calibre.ebook-viewer.desktop;com.calibre_ebook.calibre.desktop;com.calibre_ebook.calibre.ebook-edit.desktop;org.kde.ark.desktop;sh.ppy.osu.desktop;org.ppsspp.PPSSPP.desktop;org.onlyoffice.desktopeditors.desktop;
@@ -73,6 +74,7 @@ video/x-ogm+ogg=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 video/x-theora=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 video/x-theora+ogg=re.sonny.Junction.desktop;org.kde.haruna.desktop;
 x-scheme-handler/arctis-asm=ArctisManager.desktop;
+x-scheme-handler/codex=chatgpt.desktop;
 x-scheme-handler/discord=io.github.equicord.equibop.desktop;
 x-scheme-handler/geo=google-maps-geo-handler.desktop;openstreetmap-geo-handler.desktop;
 x-scheme-handler/githubstore=github-store-deeplink.desktop
@@ -80,11 +82,11 @@ x-scheme-handler/http=com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/https=com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/mailto=re.sonny.Junction.desktop;com.vivaldi.Vivaldi.desktop;
 x-scheme-handler/sidequest=SideQuest.desktop
-x-scheme-handler/codex=chatgpt.desktop;
 
 [Default Applications]
 application/json=re.sonny.Junction.desktop;
 application/pdf=re.sonny.Junction.desktop;
+application/vnd.efi.iso=disc-xplorer-AM.desktop;
 application/vnd.flatpak=io.github.kolunmi.Bazaar.desktop;
 application/vnd.flatpak.ref=io.github.flattool.Warehouse.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=re.sonny.Junction.desktop;
@@ -93,6 +95,7 @@ application/x-matroska=re.sonny.Junction.desktop;
 application/x-ms-dos-executable=io.github.fastrizwaan.WineZGUI.desktop;
 application/x-rpm=io.github.dvlv.boxbuddyrs.desktop;
 application/x-yaml=re.sonny.Junction.desktop;
+application/xhtml+xml=re.sonny.Junction.desktop
 application/xml=com.visualstudio.code-oss.desktop;
 application/yaml=code.desktop;
 audio/aac=re.sonny.Junction.desktop;
@@ -125,6 +128,7 @@ text/html=re.sonny.Junction.desktop
 text/markdown=re.sonny.Junction.desktop;
 text/plain=re.sonny.Junction.desktop;
 text/x-cmake=re.sonny.Junction.desktop;
+text/xml=re.sonny.Junction.desktop
 video/3gp=re.sonny.Junction.desktop;
 video/3gpp=re.sonny.Junction.desktop;
 video/3gpp2=re.sonny.Junction.desktop;
@@ -167,6 +171,7 @@ x-scheme-handler/discord-1221314350216646828=discord-1221314350216646828.desktop
 x-scheme-handler/discord-1222229231367487539=discord-1222229231367487539.desktop
 x-scheme-handler/discord-1223291656732934377=discord-1223291656732934377.desktop
 x-scheme-handler/discord-1397286652128264252=discord-1397286652128264252.desktop
+x-scheme-handler/discord-1522864642953711776=discord-1522864642953711776.desktop
 x-scheme-handler/discord-424004941485572097=discord-424004941485572097.desktop
 x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop
 x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop
@@ -191,10 +196,9 @@ x-scheme-handler/jan=jan-AM.desktop
 x-scheme-handler/jetbrains=jetbrainsd.desktop
 x-scheme-handler/mailto=re.sonny.Junction.desktop;
 x-scheme-handler/msteams=teams_for_linux.desktop
+x-scheme-handler/openremoteplay=openremoteplay-protocol.desktop
 x-scheme-handler/sidequest=SideQuest.desktop
 x-scheme-handler/webcatalog=webcatalog-AM.desktop
-text/xml=re.sonny.Junction.desktop
-application/xhtml+xml=re.sonny.Junction.desktop
 
 [Removed Associations]
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=word-o365.desktop;outlook-o365.desktop;

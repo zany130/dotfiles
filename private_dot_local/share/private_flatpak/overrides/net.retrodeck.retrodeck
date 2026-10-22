@@ -1,2 +1,5 @@
 [Context]
 filesystems=/home/zany130/Emulation;/var/mnt/emulation;
+
+[Session Bus Policy]
+org.freedesktop.Flatpak=talk

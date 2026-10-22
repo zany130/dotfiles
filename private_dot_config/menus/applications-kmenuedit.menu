@@ -171,6 +171,8 @@
    <Filename>DK64 Rekongpiled.desktop</Filename>
    <Filename>Perfect Dark Port.desktop</Filename>
    <Filename>Super Metroid Launcher.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_kurodlc_make_tbls.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_Looseleaf.Mod.Manager.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>GameJolt.desktop</Filename>
@@ -199,6 +201,9 @@
   </Menu>
   <Layout>
    <Merge type="files"/>
+   <Filename>Alundra.desktop</Filename>
+   <Filename>looseleafmodmanager.desktop</Filename>
+   <Filename>Super Smash Bros. Melee.desktop</Filename>
    <Filename>ape_escape_recompiled.desktop</Filename>
    <Filename>Banjo-Kazooie.desktop</Filename>
    <Filename>Digimon World.desktop</Filename>
@@ -585,6 +590,8 @@
    <Filename>DK64 Rekongpiled.desktop</Filename>
    <Filename>Perfect Dark Port.desktop</Filename>
    <Filename>Super Metroid Launcher.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_kurodlc_make_tbls.desktop</Filename>
+   <Filename>io.github.fastrizwaan.WineZGUI_Looseleaf.Mod.Manager.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="files"/>

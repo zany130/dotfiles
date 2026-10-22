@@ -1,5 +1,5 @@
 {
-  "version": "0.10.6b",
+  "version": "0.10.10b",
   "paths": {
     "rd_home_path": "/var/mnt/emulation/retrodeck",
     "roms_path": "/var/mnt/emulation/retrodeck//var/mnt/emulation/library/roms",
@@ -52,15 +52,15 @@
       "duckstation": "true",
       "pcsx2": "true",
       "retroarch": "true",
-      "ppsspp": "true",
-      "dolphin": "true"
+      "ppsspp": "false",
+      "dolphin": "false"
     },
     "cheevos_hardcore": {
       "duckstation": "true",
       "pcsx2": "true",
       "retroarch": "true",
-      "ppsspp": "true",
-      "dolphin": "true"
+      "ppsspp": "false",
+      "dolphin": "false"
     },
     "rewind": {
       "retroarch_cores": {
